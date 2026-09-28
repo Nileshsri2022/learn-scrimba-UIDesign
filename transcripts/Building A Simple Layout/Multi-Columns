@@ -1,0 +1,113 @@
+Transcript
+0:00
+So this is where we left off in the previous lesson.
+0:02
+We basically have two rows right here.
+0:04
+A row that's defined right here and a row that's defined this way.
+0:08
+Now remember, rows are horizontal and columns are vertical.
+0:12
+So what if we wanted to change this up so that we have, uh, two columns?
+0:17
+So basically, let's go over here to our body and place content center that essentially aligns your given container.
+0:26
+In our case, we have a container just single one element right here, the container element.
+0:31
+And that will align this given container element horizontally and vertically.
+0:36
+But we don't want to align it horizontally just because we want to have two columns over here.
+0:42
+So what we'll do is change place content here to align items center.
+0:49
+Okay.
+0:50
+So now we kinda have space now for a second column of some sort.
+0:55
+So what's the issue here though, knowing under knowing what we know in terms of, uh, UI design fundamentals?
+1:02
+We could see right here there's hardly any white space.
+1:04
+So we definitely want to fix that issue.
+1:07
+So I'm going to reference the container class, which remember holds this content in this content as well.
+1:17
+And we're gonna say width forty percent.
+1:21
+Alright.
+1:21
+So we've basically condensed it so that we make more room for this column over here.
+1:27
+And then we'll also say margin left four e m, which gives us that nice white space.
+1:33
+And then height, I'm gonna say fifty viewport heights just to push it up a little bit.
+1:38
+So now we have some space to work with for a second column.
+1:43
+Now if we wanna define that column in terms of taking this element and pushing it over here, we can just revert to our background property.
+1:52
+And I'm going to overwrite that right here.
+1:59
+And there you go.
+2:00
+You could see now we have a two column layout, essentially.
+2:04
+And this works quite well.
+2:05
+As we could see, there's good white space all around.
+2:08
+All of our UI design fundamentals are still solid, good contrast, good color, etcetera.
+2:15
+So one thing that's a little strange here in this case is it's kind of empty.
+2:21
+Uh, this over here, we have this big empty spot.
+2:23
+You kind of expect some content to go inside of there.
+2:26
+So this probably wouldn't be the best way to structure this layout, giving our current content requirements.
+2:32
+So in order to still make this more interesting and still leave this in its place right here, this is where you can really start to think outside of the box.
+2:41
+So let me show you another background property that will allow us to really make it interesting.
+2:47
+So for instance, let's change this right here.
+2:50
+Now this is a much bigger property.
+2:53
+Of course, I used, uh, that color gradient generator for this.
+2:57
+And we can see now this is really interesting.
+3:00
+We have consistent usage of color.
+3:02
+This is the same color code right here as the underlines.
+3:05
+And we also have good white space around everything that you see here.
+3:09
+Now watch what happens though if I bring this in.
+3:14
+All of a sudden at maybe perhaps a mobile viewport, this starts to get way too busy, and this wouldn't be a great idea.
+3:23
+Now, of course, when we proceed throughout this course, we're going to learn more about responsive design, but we're keeping things simple.
+3:30
+But I just wanted to show you that sometimes you can make bad choices that perhaps would work in a bigger viewport or a smaller viewport and vice versa, and maybe they don't work in others.
+3:44
+So what if we wanted to keep this, but we wanted to ensure that it works for every size?
+3:52
+Well, remember, the issue right here is contrast.
+3:55
+There's just not enough contrast.
+3:56
+It's a little bit too busy right here.
+3:59
+So the way we can increase the contrast in this case is simply to change up these colors right here.
+4:08
+So I'm gonna change this.
+4:12
+Alright.
+4:12
+There we go.
+4:13
+So now if they do overlap, it's not such a huge deal because you could still read the type, which is very important.
+4:21
+So in the next lesson, I'm gonna show you how we can use photographs to really take this to the the end level, to really complete, uh, what would be a great layout just with with so few content requirements.

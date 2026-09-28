@@ -1,0 +1,91 @@
+Transcript
+0:00
+Alright.
+0:00
+Welcome to this new chapter and the series of challenges.
+0:04
+And in the previous chapter, we spent a lot of time factoring an existing design.
+0:10
+In this chapter, we're going to be focusing on creating a design from scratch, and it's going to follow that same sort of template where I challenge you throughout most of the chapters to create a design here.
+0:25
+So we already did this in chapter three with an extremely simple example, but for this one, we're gonna step it up a notch.
+0:32
+And it's not gonna be quite as full of an example that we're eventually going to get to later on in the course, but it's it's there, and it's going to be a very simple landing page.
+0:42
+But we do have a few requirements that I want you to follow.
+0:46
+So this right here is a very basic wireframe and this is again, it looks extremely simple, but it's actually going to be quite filled out, and you'll see what I mean in a second.
+0:57
+So I I do want a logo on the upper left and a menu, like a hamburger menu on the upper right.
+1:04
+And the main content, which will consist of a headline and a paragraph, a very short paragraph, and also two call to action buttons, one primary and one secondary, will go somewhere in this section.
+1:15
+Now Now even though this is kind of in a card, that doesn't mean you have to use a card.
+1:19
+I didn't.
+1:20
+But there's a couple more requirements.
+1:23
+So there's also a color scheme that I want you to adhere to.
+1:27
+And it's up to you in terms of how you want to integrate this color scheme.
+1:31
+So for instance, uh, you might choose this color, uh, for the background.
+1:35
+Um, maybe for your type, you might choose black or you might choose white.
+1:39
+It all depends on what you end up using.
+1:41
+I will help you out a little bit though and tell you that the background color that I chose is the lighter one.
+1:47
+Again, you can use whatever you want, but if you wanna try to get as close as possible to what I produced, then you choose this one right here.
+1:54
+These color codes, by the way, will also be in the index dot CSS file.
+1:58
+And so, yeah, you can stick to these three and then plus black and white.
+2:03
+And that's essentially what I came up with.
+2:06
+Next up, there's also going to be two graphic files, an SVG file like this fern, and then also this PNG.
+2:14
+It's a twenty four bit PNG, which means this right here.
+2:18
+I it it the the whole thing is going to be transparent.
+2:22
+So you can use it in creative ways depending on how you structure your design.
+2:26
+And so that's a requirement as well.
+2:28
+So just to to recap real quick, uh, we're gonna focus initially just on mobile design.
+2:34
+We're starting off mobile first.
+2:36
+And then eventually, we will, you know, make it into a full desktop.
+2:41
+But just initially here in a couple lessons, you know, this is what I want you to come up with in terms of the structure of the layout.
+2:48
+Um, I want you to use these colors, and I also want you to use these graphics.
+2:53
+These has these both have to be present.
+2:55
+I will revisit this requirement here in a couple lessons when the first challenge comes up.
+3:01
+But in the next lesson, I'm gonna focus on writing out the HTML just so that we're all on the same page in terms of the HTML structure.
+3:08
+Finally, you should first create a mock up.
+3:11
+Alright?
+3:12
+So don't just jump into the code when we get to that lesson, uh, just blindly uh, without creating a mock up at first of some sort in a different application.
+3:21
+That could be Figma.
+3:22
+It's free, very popular.
+3:23
+Could be Sketch.
+3:24
+It could be Adobe Experience Design, but it helps a lot more, uh, just the process of coding, uh, when you know what you want it to look like.
+3:32
+Alright.
+3:33
+So in the next lesson, we're gonna go ahead and focus on the HTML structure.

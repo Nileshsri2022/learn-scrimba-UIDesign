@@ -1,0 +1,159 @@
+Transcript
+0:00
+Welcome to this lesson where we're going to work on defining the HTML.
+0:03
+All the HTML within this single lesson here for our fictional project, uh, for a company called Teaplace.
+0:10
+Alright?
+0:10
+They sell tea essentially.
+0:12
+Um, so just to get started here, I'm gonna put, uh, a div class of left hyphen call.
+0:17
+Now this class right here, I'm actually not going to be using personally, uh, for mobile.
+0:21
+Alright?
+0:22
+So I'm just gonna give you a clue.
+0:23
+Don't even worry about it when it comes to the next challenge when you're focusing on, uh, your your design for mobile only.
+0:30
+Um, I'm also going to put in div class equals fern.
+0:34
+Now normally, I would use an image tag and just reference the fern dot SVG, but I can't get the fern dot SVG to show up in the Scrumba mini browser.
+0:43
+So I'll just be using CSS, the background property to reference the fern dot SVG.
+0:49
+Um, to give you another hint, this will be positioned absolute in the CSS, And I just, um, position it somewhere in the UI, basically.
+0:57
+Um, now we can focus on the header.
+0:59
+Alright?
+1:00
+And the header will also include a logo.
+1:06
+Alright.
+1:06
+So I'm gonna give it a class of logo.
+1:09
+We'll call it t place just like that.
+1:13
+Header will also include a nav.
+1:16
+All right.
+1:16
+So we're going to use the semantic element of nav.
+1:21
+Alright.
+1:21
+And so these two, uh, this is left aligned, and this is gonna be to the right.
+1:26
+Okay?
+1:27
+And then we're going to have an SVG graphic here for the hamburger icon menu.
+1:33
+So I'm just gonna paste that in.
+1:35
+And we're also going to have an unorder list.
+1:38
+ID, we'll give it of nav, and it has to be id nav, because I do have the index.
+1:44
+Js set up already for the responsive navigation to toggle on and off the class, uh, to make it responsive and make it work.
+1:53
+Um, so we're also gonna have an ally class.
+1:55
+The first one's gonna be a class of exit, and we're given an exit hyphen btn, uh, ID, and that's also required for the JavaScript to find it.
+2:08
+And I'm also going to paste in another SVG element right here.
+2:13
+This element right here is a, uh, just basically a x, you know, for allowing people to close out this menu on mobile when they open it up.
+2:23
+So that's the, uh, first l I element.
+2:26
+Next li element after this is gonna be the first one at which is gonna be class as active.
+2:31
+And then we're gonna say ahref, and this will be home.
+2:37
+By the way, just a side bit in terms of I just a UX tidbit for you.
+2:43
+Studies have shown that you should pretty much always have a home button.
+2:46
+People expect to use that, uh, on your user interfaces.
+2:50
+Alright.
+2:51
+Next up, I'm just gonna hit shift, alt, and down to replicate that a few times.
+2:55
+And I'm just gonna put, like, a browse,
+2:59
+a cart.
+3:00
+Of course, we're not making any of these pages actually work, just for the aesthetic.
+3:05
+Alright.
+3:06
+And after that, we're good with the whole header section.
+3:10
+Now next up, I'm going to have a div of class
+3:17
+content hyphen wrapper.
+3:21
+Inside of here, we'll have a main class, and we'll close that out.
+3:28
+Inside of there further, we'll have our h one, the ultimate t.
+3:33
+So this is our primary headline.
+3:37
+We're also going to have just some lorem ipsum text, and I'll paste that in real quickly
+3:45
+right there.
+3:47
+And then we'll have a div class of btn, as in button, container.
+3:55
+And this will be two links, ahref equals nowhere, and then class is c t a for call to action button, browse r t.
+4:05
+We're almost done, by the way.
+4:10
+Shift, alt, and down to replicate that line.
+4:12
+We're gonna use class CTA as well, and then just put outline here.
+4:16
+Um, the outline class is what I use to signify that this is a secondary call to action, so I can place a different, you know, CSS rule set to style it differently from the primary call to action.
+4:28
+Alright.
+4:29
+Um, and then after the main element, we'll put one more div class equals plant hyphen container.
+4:39
+Also tell you why I added this.
+4:41
+And then we'll have an image source.
+4:42
+This is our final line of plant dot p n g.
+4:46
+This is our, uh, twenty four bit transparent p n g.
+4:50
+It's that picture of, like, a plant in a a cup, essentially.
+4:54
+So class is plant here.
+4:57
+And the reason I have this wrapped in this container is because I decided in my UI design, which you'll eventually see after you do your first challenge, I I decided to to create this wrapper because I wanted to offset this because I didn't wanna see the whole picture.
+5:14
+And so I wanted no scroll bars.
+5:16
+So I offset it using position absolute, this image right here.
+5:21
+And then this container, I'm making it so that there's no scroll bars when we offset it off to the side.
+5:28
+You'll see if that's confusing, don't worry.
+5:30
+I'm gonna explain a little bit more in the next lesson before we get to that challenge in that same lesson.
+5:35
+So this is all the HTML right here.
+5:38
+This is all that we need to get everything up and running working.
+5:41
+As you can see, if we save it and we'll look at the actual result, it's it's yeah.
+5:48
+Of course, it's looking really, really bad.
+5:50
+So it's gonna be up to you in the next lesson to actually make this thing look good.

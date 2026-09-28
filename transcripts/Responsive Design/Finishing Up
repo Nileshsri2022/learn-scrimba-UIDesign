@@ -1,0 +1,237 @@
+Transcript
+0:00
+Alright.
+0:00
+So continuing on, let's go ahead and start from here.
+0:03
+Uh, this is the very smallest viewport where there's no media queries.
+0:08
+Then we change this element here to float left to the or float right rather to the logo.
+0:15
+And then we also have our next one coming up at around six hundred where this changes.
+0:22
+And now we have to ask ourselves, what else should change and at what point should it change?
+0:27
+So me personally, when we get out to around here, we're still kind of in the tablet territory, like, around eight fifty.
+0:34
+We could probably stand to add maybe a little bit more white space, uh, on a wrapper, just to move things away from the edges a little bit.
+0:42
+So I'll do that.
+0:43
+We'll go ahead and reference.
+0:44
+I'm gonna copy this line right here.
+0:46
+And we're just gonna come down here and we're gonna say at,
+0:51
+oops, let's say eight hundred and fifty pixels.
+0:56
+We're gonna change something here.
+0:58
+So the outer white space is defined by the wrapper class.
+1:04
+So let's go ahead and put wrapper.
+1:06
+We'll say padding two m units.
+1:11
+Alright.
+1:11
+So now that's kinda bring brought things in a little bit more.
+1:16
+Uh, and everything here is still good though.
+1:17
+In terms of design, I don't see any problem with this.
+1:20
+Um, sticking three here side by side at this point is probably it'll look a little bit too crammed, I would think.
+1:26
+Still, you could experiment by doing that just to see instead of making assumptions.
+1:31
+But, uh, still, I think things are looking pretty good here.
+1:34
+So we can continue on out, and now we get to a certain point, probably around thousand or so, where we can start to think about a two column layout.
+1:46
+Uh, we have a lot of space here, and it would probably make sense right at around thousand to get to a point where we have this content left aligned over here.
+1:57
+And then we could take this image over here and right aligned it inside of its own sort of right column container.
+2:05
+Alright.
+2:05
+So we'll use the grid to help us out a little bit here, um, and make this all work up.
+2:12
+Actually, we may not even have to use the grid.
+2:14
+We'll see how it goes.
+2:15
+Alright.
+2:16
+So what we're gonna do is create yet another media query here.
+2:20
+And we're going to put this probably around.
+2:23
+Yeah.
+2:23
+We'll just stick with a a thousand or so right here.
+2:27
+And the first thing I'll do is make this hero section, which is in a hero left class.
+2:34
+Uh, we're gonna take the text align center, which is what it is by default, and we're gonna left align it and also add, uh, a couple other properties to it.
+2:41
+So we'll say hero left.
+2:45
+Let me open that up.
+2:46
+And we're going to say text hyphen align left.
+2:51
+This is the result of that.
+2:52
+And these are off center because we need to adjust the width.
+2:56
+So let's go ahead and do that.
+2:57
+So we're gonna say width will be about thirty percent.
+3:02
+Alright.
+3:03
+And then also, we're going to put in margin left four e m.
+3:09
+Alright.
+3:09
+So there's also an issue with this alignment here that will fix.
+3:14
+There was a couple areas where we had the width that was affecting these areas and not this.
+3:19
+This is why they're kind of not correct.
+3:22
+So we're going to reference here the h one and hero hyphen left p with one hundred percent.
+3:32
+That now fixes that.
+3:34
+So now we have a nice kind of area and then a a good a good amount of section over here, maybe around fifty percent of the width here where this image can come into play.
+3:46
+Alright.
+3:46
+So we're gonna do let's see here.
+3:49
+We're going to say image.
+3:52
+We'll say top zero, because remember it's position absolute, right zero, and we'll say width is fifty percent.
+4:00
+Now I just wanted to show you real quickly.
+4:02
+I'm gonna take that width off.
+4:04
+You know, this actually could work right here, but it because of the quality and the image size right now, it's it's quite large.
+4:11
+Uh, so I'm gonna choose just to confine it here by making the width fifty percent right here.
+4:20
+Right now this is not working correctly simply because we have that clip path property, so we want to change that as well.
+4:27
+So we're gonna say clip path, none.
+4:31
+Alright.
+4:32
+So now now it has a nice defined sort of two column view.
+4:39
+Alright.
+4:40
+So next up, we do have this this background.
+4:43
+Uh, the the the navigation elements have this little bat pill container background, but it's gray, and it doesn't really work well with this background.
+4:51
+So I'm just gonna opt to remove those.
+4:53
+So what we'll say is nav ul l I a background, none.
+5:02
+Alright.
+5:02
+So now that looks good.
+5:03
+There's a lot of contrast here because it's just a light gray sort of section in the in the background picture.
+5:09
+So that works completely fine.
+5:11
+So again, we go from here and then we transition the layout.
+5:16
+We're still not good though.
+5:17
+Um, I think we can also increase the font size here to three m units.
+5:23
+So we're gonna say font size oops.
+5:26
+We have to get our selector first, obviously.
+5:27
+H one.
+5:28
+We'll say font size, three rem units.
+5:33
+So it just makes it a tiny bit bigger.
+5:35
+Um, we're also going to reference this part.
+5:38
+So this really doesn't make sense.
+5:40
+We have a lot of space now to where we can show, uh, three columns side by side for each of the testimonials.
+5:48
+So what we'll say is ul testimonials.
+5:52
+Alright.
+5:53
+We're gonna say this time we're just gonna use flex.
+5:55
+So we're gonna say display flex, and that by default will get them all aligned to each other, but we need some white space in between of them.
+6:05
+So we'll say, u l testimonials.
+6:09
+Let me spell that right.
+6:14
+And we'll say l I.
+6:16
+That is gonna be margin right, one m unit.
+6:21
+There we go.
+6:22
+Now we can really see, uh, the whole purpose of having that shadow was so that because these are white, these cards are white, and also this section is white, the shadows, the soft shadows will really help kind of define the fact that these are in cards.
+6:38
+So we're also going to put in here one more rule set, u l testimonials.
+6:44
+Gonna say l I nth of type three.
+6:48
+Gonna get rid of that margin.
+6:50
+Right?
+6:51
+Alright.
+6:53
+And then finally, let's see here.
+6:55
+Yeah.
+6:55
+Everything's looking good.
+6:57
+Yeah.
+6:58
+So let's take a look at this.
+7:00
+We're gonna come in again.
+7:02
+This is the smallest viewport.
+7:05
+We increase.
+7:07
+We switch and we transition this section here from being all stacked to just having a two row, uh, two column except this third one is all the way to one row spanning.
+7:22
+And then we increase the wrapper white space just a bit by changing the padding and increasing the size from, I believe it was one to two.
+7:31
+And then finally, we switch into a vastly different type of layout where we really fill out all this white space here and confine things to the left here.
+7:42
+And then that way we can move this photograph here up to the right to really fill out the space more.
+7:48
+And then also transition these elements from this layout here to this layout.
+7:57
+Okay.
+7:57
+So hopefully, you learned a lot there.
+8:00
+I know we covered a lot.
+8:01
+We're gonna do one more challenge here in this chapter where I challenge you to take a design and really work on it in terms of responsive design with media queries.

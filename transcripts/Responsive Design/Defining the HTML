@@ -1,0 +1,191 @@
+Transcript
+0:00
+Okay.
+0:00
+So what we have here is referred to as a wireframe or a low fidelity mock up.
+0:05
+And it's basically purpose is just to tell you where certain things should go.
+0:09
+Go.
+0:09
+We have a logo in the upper left.
+0:11
+We have a navigation.
+0:12
+We have a headline, sub headline, call to action, and three testimonials.
+0:16
+And this is a very simple and very standard pattern for setting up websites.
+0:22
+And you can also see it's in the mobile perspective.
+0:25
+Alright?
+0:25
+And so I figured we would include that just because, uh, if you're becoming a UI designer, you may receive something like this.
+0:32
+And also for the first time in this course, we're gonna focus in this lesson on the HTML because this is a more or the most full example that we've had in terms of the user interface.
+0:42
+And it really makes sense to understand what's happening in the HTML so that you understand what's happening when we go to the CSS section and, you know, what why properties are adjusting certain areas of the element.
+0:55
+So it ties in with UI design.
+0:57
+So we're gonna put her on our front end developer hat right now and just focus on writing the HTML necessary to make all of this a possibility.
+1:05
+Alright?
+1:05
+So the first thing we're gonna focus on here is the uh, header section.
+1:10
+And you can see we have a logo and a navigation that's aligned to the right.
+1:13
+Alright.
+1:13
+So for the navigation, we're only gonna have three links, and they're not large words.
+1:19
+So a lot of people are familiar with, you know, the little hamburger icon menu, but that's unnecessary if you don't need it.
+1:27
+So, for example, if you have only two or three links, then just show those links without having to require an extra click from the user because otherwise, that's bad user experience and it's unnecessary.
+1:40
+Alright?
+1:40
+So what we're gonna do is we're gonna take I and define a header class here, and that's gonna be a wrapper for those two elements.
+1:48
+And that will also allow us once we get to, uh, the response to design section to have these right aligned to each other.
+1:59
+Alright.
+1:59
+So for initially, you're gonna see they're actually going to stack on top of each other on real, you know, small viewport widths, like on smaller mobile phones.
+2:11
+So let's go ahead and specify.
+2:13
+Uh, we'll just use an Ahref for this.
+2:16
+So this will be a type based logo.
+2:19
+And we'll put in a class of logo.
+2:25
+Alright.
+2:26
+And we will also say tasty bites.
+2:28
+We'll say that's the name of this fictional company.
+2:31
+And then we'll have a nav element,
+2:35
+and that will wrap an unordered list.
+2:40
+And we'll also have inside of there a list item right here with an ahref of home.
+2:50
+And also we'll close those two out.
+2:52
+We'll hit shift alt and down just to replicate that a few times.
+2:57
+We'll change this to about and this one to contact.
+3:01
+Alright.
+3:01
+And that's all the HTML that's necessary just to achieve this part of the design.
+3:07
+So now we'll focus on the headline, sub headline, and call to action.
+3:12
+Now right now, it's not entirely necessary to see the mini browser, uh, to get a reference point for that.
+3:18
+So I probably won't be reverting to this too much.
+3:22
+So next up, we're gonna have a another div class.
+3:26
+And this is usually referred to as the hero section right here, where where you have a headline, sub headline, call to action, maybe an illustration that's put to the right or, uh, some sort of, uh, photograph or whatever.
+3:38
+So we're gonna call this hero, and I'm gonna put hero hyphen left because it's my intention once we get to the responsive design section in bigger view ports or bigger device, like, browsers in terms of, like, desktops to have this left aligned.
+3:53
+Alright.
+3:54
+So I'm also going to add a div class of wrapper around that.
+3:59
+And before I be I forget, we need to add that div class of wrapper on here as well.
+4:05
+So I'm just going to copy this real quick on the header element and get rid of hero left.
+4:11
+And this wrapper class is going to allow us to apply padding, uh, and basically making sure that the design, uh, is consistent in terms of white space all around.
+4:22
+So right here, we'll just have an h one element.
+4:24
+We'll say absolutely tasty bites.
+4:29
+Close that out.
+4:30
+We'll have a paragraph element.
+4:32
+And I'm just going to paste in real quickly the copy for that.
+4:38
+And then we'll go ahead and put a call to action button.
+4:41
+And we'll say class is c t a hyphen b t n for button.
+4:46
+Download app.
+4:49
+Close that out.
+4:50
+Alright.
+4:51
+And that's good.
+4:52
+We'll also have an image.
+4:54
+So this will be kind of, uh, like on the desktop version, it will be right aligned.
+4:58
+It's called healthy food dot j p g.
+4:59
+But for initially, it's gonna everything's gonna stack on top of each other here.
+5:03
+Alright?
+5:05
+So we'll put in an image,
+5:09
+and we'll say healthy food dot jpeg.
+5:12
+I'm not gonna add a class to this because we're only having one image in this entire design.
+5:17
+And then finally, we have a section down here for three testimonials.
+5:22
+So we're gonna add that in a section tag, again, with a class of wrapper.
+5:29
+And then inside of it, we're gonna have because this is a list of three different testimonials, we'll say ul class equals testimonials.
+5:40
+So it's gonna be an unordered list.
+5:43
+And then also a list item.
+5:46
+And we'll close that list item.
+5:50
+And inside of here, we're gonna use a block quote because it'll be kind of like, uh, testimonial quotes.
+5:57
+And then inside of here, we'll have a paragraph.
+6:00
+Again, I'll just go ahead and paste that stuff in right here, just a fictional paragraph.
+6:06
+And then also, we'll use the footer element and the block quote element to say the name.
+6:11
+We'll just say John Doe.
+6:14
+We'll take these three or this rather and just replicate it so we have three of them.
+6:20
+Alright.
+6:21
+And that is it.
+6:23
+Alright.
+6:24
+So we'll save that.
+6:25
+And you're gonna see here, oh, healthy food dot g p g is not.
+6:29
+Alright.
+6:29
+I gave it that a misspelling.
+6:31
+There we go.
+6:32
+So now this is what our design looks like without any CSS really that's applied to it.
+6:36
+Of course, it's really ugly.
+6:37
+So in the next lesson, we're going to go ahead and start making this work and look good on mobile.

@@ -1,0 +1,129 @@
+Transcript
+0:00
+Alright.
+0:00
+So welcome to this lesson where we're going to finish up making everything look as good as possible here on mobile before we get to the responsive design challenges for this project.
+0:11
+So this time, we're going to be focusing on fixing the white space.
+0:14
+And if you recall, white space is simply the empty space around elements.
+0:19
+Sometimes we may have too much white space, maybe sometimes there's not enough, such as the case in these links, for instance, and inside of this, uh, container right here as well as inside of this container.
+0:30
+We can see these elements are just right up against them.
+0:33
+And so, really, that's what I want you to focus on just for this challenge.
+0:37
+So white fate
+0:40
+so white space as it's defined in CSS is primarily, uh, established through padding and margin.
+0:47
+Although you can use, uh, you know, other properties to establish white space, this is really these are the two properties I really want you to focus on.
+0:55
+And and for us, it's really just crossed about four different rule sets just to give you a a general idea of, um, what you need to adjust.
+1:04
+Alright.
+1:04
+So I'm gonna go ahead and ask you to pause, and then come back, and I'll show you what I would have done.
+1:15
+Alright.
+1:16
+So, hopefully, you came up with something that worked well.
+1:18
+So I'm gonna go ahead and jump over to our index CSS.
+1:22
+And the first thing that I'm going to do is we're going to add uh, just some padding inside of our inner wrapper.
+1:32
+So our inner wrapper class is actually right here.
+1:36
+So, um, there is no white space with this nav element.
+1:39
+Right?
+1:40
+I mean, this element this element is right up against there.
+1:43
+So we wanna fix that.
+1:45
+So I'm going to specify our inner wrapper, and I'm going to say padding just one m unit.
+1:52
+So what that does immediately is gets those elements right away from the edge of the mini browser or in a real browser, um, if this were a real project.
+2:01
+And it just gives things a room to breathe, and it's easier to see and to read.
+2:06
+Next up, these elements right here, when you're using a a menu like this that's on a mobile device and you have large fingers, for instance, it's gonna be hard to to specify or to to like, if you wanted to hit profile, for instance, sometimes you might hit reset access by accident or the one above it.
+2:24
+So you wanna give these things a lot of room to breathe.
+2:28
+So that's what we'll do here.
+2:29
+So we'll specify our nav URL l I a.
+2:32
+It's already defined.
+2:33
+And I'm just going to say here, padding point eight e m on the top and then, uh, in bottom and then one e m on the right and left.
+2:43
+So that right away just really makes it look a lot better, but, also, it's it's it's a lot more usable for the users in the end.
+2:50
+So that's it for the actual pullout here.
+2:53
+So we also have some areas that we definitely need to fix up here.
+2:58
+So this right here, this panel is defined with a panel class.
+3:03
+So our panel class, I'll go ahead and specify panel.
+3:06
+And we're gonna say padding on the top and bottom.
+3:08
+We're gonna say point five e m.
+3:11
+Uh, and then on the right left, we'll do one e m as well.
+3:17
+And as we could see, it moves things right away.
+3:21
+Now we also have an issue with a lack of, uh, white space with the label right here, monthly visitors, and the bottom of this.
+3:28
+So we can just push it down margin bottom to m units.
+3:35
+And there we go.
+3:36
+That is looking so much better.
+3:40
+So really, at this viewport, like a really small mobile phone, maybe like an older iPhone, for instance, this is actually looking really solid.
+3:49
+One little thing I want to change, and this is going to go into the realm of subjectivity.
+3:54
+This is my subjective preference.
+3:55
+When you have small button and it's, uh, in this, like, a pill container, I think it's better just to either have it be completely square or maybe just a little bit of border radius.
+4:06
+So I'm going to adjust that.
+4:08
+So right here in my ACTA button, I'm just gonna say border radius point two m units.
+4:15
+And again, this is just my personal preference.
+4:18
+You could have stuck with the pill, you know, shape if you wished.
+4:21
+But, again, this is just, uh, what I personally like.
+4:24
+So there we go.
+4:25
+So let's go ahead and see what this looked like beforehand.
+4:28
+I'm gonna go ahead and move this over into the free form view, and I'm going to delete all the fixes that we made.
+4:37
+So we went from this, which as you can see is so so so so very ugly, uh, to
+4:49
+this, which now as we can see just looks so much better.
+4:56
+So that's why, again, I'm gonna be drilling into these UI design fundamentals so much because all that was was us paying attention to the various UI design fundamentals that we've covered, and we've applied them accordingly to this design in order to refactor it.
+5:13
+So So we're not done yet, though, because if we extend this out into maybe a large phone territory, still not bad.
+5:20
+But once we get out to around the tablet size, you know, this is looking a little bit silly.
+5:25
+There's a lot of unused space.
+5:27
+Alright.
+5:27
+So going forward, we're gonna go ahead and make this really rock when it comes to being responsive.

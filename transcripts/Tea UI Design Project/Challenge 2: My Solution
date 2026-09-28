@@ -1,0 +1,127 @@
+Transcript
+0:00
+Okay.
+0:00
+So hopefully, whatever you came up with, you know, you'd hear to solid UI design fundamentals.
+0:05
+And I'm just gonna show you what I would come up with here for my solution for just around this area right here.
+0:12
+So what you wanna ask yourself, uh, is, you know, at what point do we want to get rid of this menu first and actually show them all up here due to, you know, available space.
+0:21
+And for me, it'd be around five hundred pixels, and that's also the rule set or the break point rather where we're going to also make adjustments here.
+0:29
+The type, you know, getting around here can be a little bit bigger to fill out the area just a bit more for, you know, the headline and the the description right here.
+0:38
+And then also, we could probably collapse these into one row, two columns where we have browser t over here, and then to the right, buy now, uh, would be structured.
+0:48
+I personally didn't even chat touch the, uh, these graphics right here at all because they still work.
+0:54
+They still you know, they serve the purpose.
+0:57
+So for me, I'm gonna put in an, uh, media query right here of min width five hundred pixels.
+1:04
+And inside of here, we're gonna say body font size.
+1:07
+Now default by default, the font size is sixteen pixels.
+1:10
+Uh, we're gonna override that to eighteen pixels.
+1:13
+And if everything has m units on them, like your spacing and such, you can automatically just scale everything up just a little bit, uh, from sixteen to eighteen.
+1:23
+Okay.
+1:24
+After that, go ahead and specify our menu and our exit selectors.
+1:31
+And we display none because we don't need that hamburger anymore.
+1:36
+And we also don't need the little x, um, element.
+1:40
+After that, we're going to put in our unordered list.
+1:43
+And we have to unset and change, um, some various, uh, properties about it.
+1:49
+First thing we'll do is display flex, and you'll see what I mean.
+1:52
+This obviously isn't working.
+1:54
+So what we'll do is take the background.
+1:58
+None.
+1:59
+I will also unset the height.
+2:02
+Uh, we will also change position to unset and text transform.
+2:10
+We'll do upper case.
+2:12
+And that right there is, you know, for at least just for the unordered list is looking good, but now we need to push it over here and get that set up.
+2:22
+So we will also
+2:25
+specify our u l l I a.
+2:27
+We'll say font size will be point nine m units just to scale it down because they were too big.
+2:35
+And then we will also specify here margin left.
+2:41
+We'll unset that.
+2:43
+And then also padding will be zero and point five rem units.
+2:49
+And we can see now what this looks like.
+2:51
+So we're going from here.
+2:53
+And then then we have enough space, you know, between these two elements, the logo and the nav to really differentiate them, um, and establish that, you know, that bit of visual hierarchy as it's called.
+3:06
+Alright.
+3:07
+So next up, we're going to deal with our h one element.
+3:11
+So we'll specify h one, and I'm going to put in just a font size of two point five m units to really bulk that up in terms of size.
+3:22
+And then, also, we'll take our paragraph.
+3:25
+We'll say font size will be one m unit.
+3:29
+And, also,
+3:32
+we will come down here and say, b t n container display flex.
+3:37
+This is for the call to action button.
+3:39
+Justify content will be center.
+3:44
+So we're still not good yet.
+3:46
+What are we lacking right here between these buttons?
+3:49
+Obviously, some white space.
+3:50
+Right?
+3:51
+So we'll take in the CTA class, which is applied to the class onto both buttons.
+3:58
+And we'll say padding will be point seven e m from the top, which is what it currently is, but we'll do one point two e m right there.
+4:08
+And then also outline
+4:11
+is how we'll fix the space between the elements.
+4:15
+And so we'll say outline, and this will simply be margin left one m unit.
+4:23
+Alright.
+4:23
+So, basically, this is what I you know, this was my solution for the tablet version.
+4:29
+So we can clearly, you know, increase the font size a little bit.
+4:32
+We can show the navigation now, and we can also, uh, take our buttons that were collapsed and then put them onto one row, two columns now.
+4:44
+And our our ferns, they still are doing what they're supposed to doing.
+4:47
+You know, they're just a subtle design element, um, down here and also as a watermark over here.
+4:54
+So in the next lesson, we need to start worrying about and figuring out what we'll do when we get out to more of like a desktop resolution.
+5:01
+So we can make some pretty decent adjustments in that regard.

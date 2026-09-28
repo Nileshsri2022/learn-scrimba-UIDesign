@@ -1,0 +1,143 @@
+Transcript
+0:00
+Okay.
+0:00
+So here's where we left off in the previous lesson.
+0:03
+Right now, uh, it doesn't work.
+0:05
+Like, if you click on this and nothing changes when we expand out, so nothing is responsive.
+0:10
+So this is gonna be a design challenge.
+0:12
+But before we get to that and before I outline what I want you to do for the challenge, we're gonna do a little bit of CSS real quick, and it's gonna be responsive CSS.
+0:20
+And we're going to place a media query right here and we're going to say min width around five hundred pixels.
+0:29
+And we're just going to change the open class and the exit class.
+0:34
+We're gonna set that to display none.
+0:37
+So what's gonna happen now is if I get out to around five hundred pixels, this immediately is hidden.
+0:44
+Alright.
+0:44
+So the next thing I wanna change is we want to hot or show rather our nav element because remember, we have visibility set as hidden, but we wanna set that as unset visibility
+1:01
+unset.
+1:02
+So now what'll happen
+1:06
+so now what'll happen is if I drag this out, all of a sudden, we're going to see the navigation.
+1:11
+And then that's exactly what we want.
+1:13
+We wanna hide the hamburger menu, and then we want to see the navigation.
+1:18
+But there's a problem with this navigation.
+1:20
+It needs significantly restructured so that it's not in the way of the user interface like it is here.
+1:27
+When you're on mobile and you see that it's more acceptable, uh, for it to overlay.
+1:33
+But now that we have more space vertically, we can put these links up here in the header, perhaps where they're both left aligned of each other in on the same horizontal axis.
+1:44
+So that's gonna be the challenge.
+1:46
+Go ahead and use your knowledge of your CSS properties in order to make this right here and all of this basically work and fit well within the confines of this header nav bar.
+2:00
+Now if you have
+2:10
+you can go ahead and not participate and just skip forward.
+2:13
+Uh, but if you if you are, you know, aware of some of these, uh, properties and then how to drastically change this up within this media query right here, because this is where you would specify all your properties, then go ahead and give it a shot and see if you can match what I eventually come up with and we'll show you.
+2:31
+So go I'm gonna go ahead and ask you to pause and work within here to make this good, and then come back and I'll show you what I would have done.
+2:42
+Okay.
+2:42
+So hopefully you came up with something good.
+2:44
+Uh, if not, not a big deal.
+2:46
+I'm gonna show you what I would have done and, um, hopefully you can learn from it.
+2:50
+So what we're gonna do first off is we're going to keep working within our nav element, and we're gonna set the background to none.
+2:59
+Alright.
+2:59
+So that's the first thing that happens.
+3:01
+It's really big difference, obviously.
+3:03
+Um, next up, we're going to set, um, our position to unset.
+3:09
+Alright.
+3:09
+So now temporarily, that's going to screw things up because position was set to fixed before.
+3:15
+Um, but we're also gonna change the height to auto.
+3:19
+Right?
+3:19
+Because remember the height before was a hundred viewport height.
+3:23
+Then we'll also change our u l element, and that's going to be let's see here.
+3:28
+A display flex.
+3:30
+So now we can see right away they're, um, on the same horizontal axis.
+3:36
+We're going to set margin top auto because it was at four m units before.
+3:42
+Again, we still have issues with alignment.
+3:44
+As you can see, these are aligned up to the top and this one is down further, more centered in the container.
+3:50
+We want these to be centered as well just for consistency.
+3:53
+We also have issues with contrast.
+3:55
+You can barely it's kinda hard to read these as well.
+3:58
+So we need to change some things up still.
+4:01
+So we'll say, um, our width will be set to auto, and then we'll also say float right.
+4:08
+And right now you can't really tell that, but if I were to have, um, increased this, it would be over here.
+4:13
+So float right just pushes it over there.
+4:15
+Um, we will also set margin to zero.
+4:21
+So that kind of temporarily fixes things, but we're going it threw this off, but we'll get there.
+4:25
+Don't worry.
+4:26
+So next up we're going to reference our LIA, our list item, um, links.
+4:32
+And we're gonna change the color there to something that works better because remember, there's not a lot of contrast right now.
+4:39
+So there we go.
+4:41
+We're also going to set display block here, and we're gonna say padding one m unit.
+4:49
+And now that fixes our issues with alignment and such.
+4:54
+So notice because of our media query, this is being shown, but once we get out to five hundred pixels or larger, it hides it and then shows the nav element right here.
+5:06
+Very very cool.
+5:07
+So let's I one other thing I wanna do is change our active a color.
+5:13
+We're just gonna change that to white instead of the blue just because it was a little bit difficult to see.
+5:20
+So now everything is looking pretty good here on this resolution.
+5:25
+So now that's pretty much most for the most part, the CSS.
+5:29
+We have we're gonna have some others when we work in some transitions in a in a couple lessons.
+5:34
+But in the next lesson, we're going to focus on just a little bit of JavaScript to make this link work.
+5:40
+I or this this button rather to in order to show the actual navigation, um, over here on mobile.

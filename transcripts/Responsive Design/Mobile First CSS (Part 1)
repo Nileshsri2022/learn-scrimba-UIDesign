@@ -1,0 +1,14 @@
+0:00
+In the previous lesson, we created the HTML for this.
+0:02
+And, of course, there's no CSS applied to it, so it doesn't really look good at all.
+0:07
+So what we're gonna go ahead and do now is focus on the CSS, and we're going to use the mobile first approach, which I think is really great.
+0:14
+And, really, what that means is we're going to make sure that when we're creating our CSS rule sets and properties that we use this sort of device width in order to emulate
+0:30
+this sort of device width in order to emulate it being on a phone.
+0:34
+Alright.
+0:34
+And so you'll find that it makes your CSS a lot more simple so that when we go to expand it in order into, say, for example, a tablet sort of viewport width and then a desktop, we can only have to define and progressively enhance our CSS rule sets for making the design look good, you know, and they'll be designated within those CSS media queries that you'll see.

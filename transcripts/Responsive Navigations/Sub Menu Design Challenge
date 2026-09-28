@@ -1,0 +1,215 @@
+Transcript
+0:00
+Alright.
+0:00
+Welcome to this lesson where we're going to add a sub menu, and this is a challenge.
+0:05
+So if I expand this out here, we'll see that we have what looks to be kind of like a broken sort of navigation here.
+0:12
+And we could see that we have our home about services, but inside of here, there's a big gap, and then we have research development execution and this paragraph, which, you know, doesn't contrast hardly at all.
+0:23
+This part is actually the submenu.
+0:25
+So let me show you the HTML that I added.
+0:28
+So we have our li home.
+0:31
+We have our list item of about.
+0:33
+And then we have a new section where I added a list item class of sub, and then we added our regular services link that we had before.
+0:41
+But then I added this submenu right here in the div with an unordered list with three links and then a paragraph as well.
+0:48
+So your challenge here first is to get this looking good, this submenu.
+0:54
+So you can see there's a lot of space here because it's an unordered list, and it's the same it's getting the same properties from this unordered list right here.
+1:02
+So that's why it has this amount of white space at the top.
+1:04
+So you wanna fix that.
+1:06
+And you and, overall, you want to make sure that you have good visual hierarchy between these main list elements and then this sub item list element in this paragraph as well.
+1:16
+So you want them to look like actual sub links.
+1:20
+So you wanna style them differently.
+1:22
+Alright?
+1:22
+And then also, secondary to that, I want you to make it work on tablet or desktop.
+1:29
+So if we hover over this, I added a little bit of CSS here.
+1:32
+And right here, as you could see, there's a lot of issues.
+1:36
+We have issues with scale.
+1:37
+There's not enough, uh, width here in that paragraph.
+1:40
+We have issues with contrast because you can hardly see these at all.
+1:44
+And so I want you to make this look like a good drop down sub menu, uh, here on desktop as well.
+1:51
+So I'm gonna go ahead and show you real quickly the CSS.
+1:54
+And so outside of our media query, I didn't add any other, uh, CSS properties.
+2:00
+However, I did add just these four different rule sets, uh, here for the desktop version.
+2:09
+So header, I have over overflow visible specified simply because if we don't do that, we won't be able to see the drop down menu.
+2:16
+We have our subclass, which is position relative because then when somebody hovers over that subclass, then we target the submenu div, and that's the submenu div.
+2:28
+We have, uh, display flex and position absolute.
+2:31
+Um, and so then we can use our top to position it underneath the main nav bar, and then we right align it.
+2:37
+And we have a background white, padding, and a box shadow to separate it from the background.
+2:42
+So as you can see, uh, I got a little bit of the work out of the way for you, but really we need to do some more to make this really solid.
+2:50
+So, again, just go back to the UI design fundamentals.
+2:53
+And if you use those and you use your CSS properties, you should be able to get along just fine.
+2:58
+So you can add your CSS here for the desktop and tablet version, and then also your CSS here, uh, up in this section under your CSS here for the, uh, mobile version right here.
+3:11
+Alright.
+3:11
+So go ahead and pause and then come back, and I'll show you what I would have done.
+3:18
+Alright.
+3:18
+So hopefully you came up with something good.
+3:20
+I'm gonna go ahead and show you.
+3:21
+We're gonna work first on the mobile portion.
+3:24
+Alright?
+3:25
+So the first thing that we wanna target here is our sub menu, uh, class here.
+3:30
+And so I'm going to add in our submenu with a padding of zero on the top, and then on the right and left, it's gonna push this in just a bit.
+3:39
+Alright?
+3:40
+So now we've created, uh, a little bit of separation or or visual hierarchy, if you will, because we've now indented sort of this stuff right here.
+3:48
+Um, outside of that, we'll take our submenu p.
+3:52
+So we're gonna add margin one e m on the top, zero on the right, and one EM one EM.
+3:59
+And then we're also going to add a color here to separate it a little bit.
+4:05
+And And I'm gonna give it this color code.
+4:08
+And really, this is the paragraph, right?
+4:11
+So we've changed it from black to this color, uh, just the same color as the other links.
+4:16
+Line height, I'm gonna just change the one point four m to separate it out a little bit.
+4:20
+But still, we have some other issues.
+4:22
+So I'm gonna target our segment submenu ul, the second unordered list, which is embedded.
+4:28
+And we're gonna say margin one e m on the top, zero, and one e m, uh, on the bottom here.
+4:34
+So now we have things looking a little bit better, but still there's not a lot of visual separation yet between these links and these links.
+4:40
+You can't really tell hundred percent certainty that these are styled different.
+4:45
+So what I'm gonna do is go ahead and say sub menu a.
+4:50
+Font weight is normal.
+4:52
+And we also give this a specific color code as well, which is the same that we've been using.
+5:00
+And we're going to also say background none, and font weight bold here.
+5:12
+Alright.
+5:12
+Next up after that, we're gonna say say sub menu A Hover.
+5:17
+Background none.
+5:20
+Alright.
+5:21
+So we're separating it more bit by bit.
+5:24
+And then also we're gonna say here we're gonna do an l I a.
+5:29
+Font weight is gonna be bold.
+5:31
+We're gonna change our background
+5:35
+here to this color, and then a margin bottom of two pixels.
+5:43
+So what that does is we've really separated in by giving each of the main list items a certain background color, it separates out these links even more so visually.
+5:55
+Alright.
+5:55
+So that's basically it for the mobile changes.
+5:59
+So I think this is pretty effective here.
+6:01
+But now if we come out here, we could see, well, this some of this did change.
+6:06
+We still need to make a couple adjustments for this as well.
+6:10
+So coming back here, we'll go into our media query.
+6:15
+And at the bottom, I'm going to specify just three rule sets, really.
+6:20
+So we're gonna target our submenu ul element with a display block in a margin of one point five e m on the top.
+6:29
+Alright.
+6:30
+So now we've take taken these from a horizontal sort of list to more of a vertical approach.
+6:36
+Still, there's a lot of issues with, uh, alignment and excessive white space.
+6:42
+And in our sub menu, list item a, uh, I'm just gonna copy a few of these in.
+6:47
+We're gonna change our padding here a bit just to bring them up a little bit closer together.
+6:52
+We're gonna change here, uh, let's see the font weight bold.
+6:57
+We're gonna give them a different color just to separate them out.
+7:00
+And this would be a darker color, I believe.
+7:03
+There we go.
+7:04
+And then also, we're gonna have a font size of a little bit smaller, point seven, and then a text deck, uh, transform of upper case.
+7:14
+Alright.
+7:15
+So still we have an issue with this area.
+7:17
+This is looking way bad.
+7:18
+And then I'm just gonna paste the following rule set in.
+7:22
+And this is in this section, we have a a minimum width of twelve m for, uh, the size, for the width of this section.
+7:30
+Also a padding left and a border left just to add a little line separator between the two.
+7:35
+And there we go.
+7:37
+So going back here, we can see that we have, uh, our submenu working, looking pretty good here.
+7:45
+And there's a lot of different ways you could approach this.
+7:46
+You could put, like, a little down arrow and people can click it in order to access this.
+7:50
+I'm simply choosing to show all of them here.
+7:52
+And then on our desktop version, we also have this variation, um, which works quite well if there was content in the background, and so it's just overlay right on top of it.
+8:06
+Um, I think one thing we could also do real quickly is change up the background color because we don't necessarily need that, uh, to to change on desktop.
+8:16
+So we can come back here to, uh, our
+8:21
+CSS, add l I a background nine, and there we go.

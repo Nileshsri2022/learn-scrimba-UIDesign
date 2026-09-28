@@ -1,0 +1,49 @@
+Transcript
+0:00
+Animations and user interfaces can really add to the user experience or at the same time really take away from that same user experience.
+0:09
+So like many of the other fundamentals in UI design, it's very important that you understand a few principles as it pertains to animation.
+0:17
+So duration.
+0:19
+If you're going to animate a given element in a user interface, it's extremely important to get that duration correct.
+0:25
+Sometimes I see designers integrating animations that simply take too long, and this results in a bad user experience.
+0:32
+The vast majority of animation should take no longer than a second to complete.
+0:36
+Micro interaction should be even quicker.
+0:39
+Easing.
+0:39
+In CSS, you can control the easing of your animations.
+0:42
+There are many easings that can drastically alter the flow and the feel of the animation.
+0:47
+Next up is relevance.
+0:49
+It's important to know when and when not to apply an animation.
+0:53
+Just because you can doesn't mean you should, and this applies to animation.
+0:57
+If a user can interact with a given user interface element, it's likely safe to integrate some type of micro interaction, which is a simple short animation.
+1:04
+If the UI has just loaded, you can integrate some subtle animations to bring various UI elements into focus.
+1:11
+And if a user is clicking on an animation, you can integrate page transition animations.
+1:15
+But some animations, such as looping background animations or looping animations on other UI elements usually don't work well because they can distract the user.
+1:24
+Performance.
+1:25
+Because there are many devices out there, some that aren't so powerful, it's very important that you stick to animating two properties when possible.
+1:33
+So those properties are opacity and transform.
+1:36
+For web browsers, those are the properties that are much more performant than animating any of the other CSS properties.
+1:42
+Fortunately, transform is quite versatile and should handle most of your needs.
+1:46
+Now an entire course could be made on UI animations, but for now, this will do for a quick primer.
+1:51
+So going forward in this chapter, we're going to work on our own animations along with a few challenges.

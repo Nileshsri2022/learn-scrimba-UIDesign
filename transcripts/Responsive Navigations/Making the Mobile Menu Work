@@ -1,0 +1,111 @@
+Transcript
+0:00
+Okay.
+0:00
+So here is our project so far, our little responsive navigation here.
+0:04
+We can see that once we get to just about enough space, we open up the menu here.
+0:09
+And then down here, we have this hamburger menu, which doesn't work yet when you click it.
+0:14
+So we need that other design to come out where it's basically two thirds of the layout.
+0:20
+So what we wanna do first is, uh, if you notice in in our index dot HTML, there's a script source right here.
+0:28
+It's including this, uh, JavaScript file.
+0:31
+So in here we can write our JavaScript.
+0:33
+Alright.
+0:34
+So the first thing I'm going to do is I'm going to specify a function called get where it's basically just gonna save us a little bit of time when we're trying to access all of our dom elements.
+0:46
+Now hopefully you do and you will have a little bit of JavaScript, um, experience so that you can understand this a little bit better than if you were to be an absolute beginner.
+0:59
+So basically all this is now the this this little function will allow us to do is we will create a a property called open, and we need to get, and that's the function that we just created, the ID menu hyphen b t n.
+1:15
+Alright.
+1:16
+So that is in reference to our menu button and the ID as you can see is menu hyphen b t n.
+1:24
+So basically this allows us just to gain access to this SVG or this dom or element as it's referred to as.
+1:32
+Um, we can replicate this with shift alt down two more times.
+1:36
+We're gonna change this one to nav.
+1:38
+The nav is going to actually be the navigation that pulls out.
+1:42
+So this is an ID of nav as we can see over here.
+1:46
+ID is nav.
+1:47
+And then we need to do one more and that is the exit button that we have, the little x SVG graphic.
+1:55
+So it has an ID of exit hyphen b t n.
+1:59
+Now we have access to all of those.
+2:01
+We want to find out when somebody clicks on this button.
+2:05
+And this property is called open.
+2:08
+So we simply say open dot add event listener.
+2:12
+And we want to listen for a click.
+2:14
+Right?
+2:14
+So we're gonna put click in the first parameter.
+2:17
+And then we're going to open up a function here.
+2:20
+And we're going to say, when somebody clicks it, we're going to reference our nav element, and we're going to add through class list method, the add method, a class called open nav.
+2:36
+Alright?
+2:37
+So we haven't yet defined that CSS class, so nothing's gonna happen here.
+2:42
+And so what we wanna do is go back to our index CSS, and we want to add that open nav property.
+2:52
+So at the very bottom, just on top of our media query, we're going to say open hyphen nav, and we will say visibility
+3:04
+unset.
+3:06
+Alright.
+3:07
+So right now it's showing, uh, just because I think I clicked it, uh, a couple times and so that class has been added.
+3:13
+Um, but the x button doesn't work.
+3:15
+So let's get that working real quickly.
+3:18
+So we will simply go back to our JavaScript.
+3:20
+We'll copy this, And this is really simple.
+3:24
+Now what we say is exit.
+3:25
+So we're gonna add event listener of click on the exit button which is this exit button over here.
+3:30
+And then we'll say, uh, class list dot remove.
+3:34
+We're gonna remove that open nav class, which sets the, uh, visibility to, um, unset.
+3:41
+So now we can save this.
+3:43
+We click it.
+3:44
+We see it.
+3:45
+And then we click x, and it goes away.
+3:47
+And so I everything still works just the same.
+3:52
+Alright.
+3:52
+So if we exit and we go back, we'll be exited as well.
+3:56
+Very, very fun stuff.
+3:58
+So now in the next lesson, we'll we'll look into adding maybe some transitions so that this this little, um, sidebar maybe slides in and animates.

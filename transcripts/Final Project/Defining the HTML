@@ -1,0 +1,201 @@
+Transcript
+0:00
+Welcome to this lesson where we're going to start on the HTML.
+0:03
+I know this may be a little bit boring, uh, because there's no actual design occurring here, but it's important that we understand what exactly is happening structurally in terms of the HTML and the markup.
+0:12
+So I at the top, we're gonna have a navigation just like we've had in most of the other ones.
+0:18
+Um, but I'm gonna first start with an overall wrapper, um, just for the hero section, which is usually the part that shows up, you know, traditionally above the folder.
+0:26
+So just underneath the nav bar, and it's going to be for a background image and and and the position or the property of cover so that it covers the whole width of the screen is going to be like a forest background picture.
+0:39
+So I'm gonna create div class equals forest hyphen hero.
+0:46
+And then inside of here, we're gonna have our, uh, wrapper.
+0:49
+So div class equals wrapper.
+0:52
+And we'll also say no hyphen padding for this one up here.
+0:55
+Um, you'll see how that comes into play when we get to the CSS.
+0:59
+We're also gonna have our header.
+1:00
+So this is where the actual nav bar is gonna begin.
+1:04
+And then we're gonna have left aligned to that will be the uh, logo, and we're gonna give that a class of logo.
+1:13
+And we'll say scenic dot forests, Just a very simple types type based logo.
+1:18
+And then inside of here, as usually, you know, we're gonna have a nav.
+1:23
+Inside of the nav, we're gonna have a, uh, let's see here.
+1:27
+Image source equals images menu dot SVG with a class of menu, an ID of menu hyphen button for, uh, the JavaScript to hook that up, and then alt will say open menu.
+1:42
+And by the way, I am referencing an image, uh, in the images folder.
+1:45
+So we have a bunch of images here that we're gonna actually use, uh, throughout this project.
+1:50
+So, uh, outside or just after the image, which is the menu button, the hamburger menu, we're gonna have our unordered list with a class of nav and an ID of nav as well.
+2:02
+And inside of here, we're gonna have a list item of class of exit and ID of exit b t n.
+2:15
+And then also an ahref, this is gonna go nowhere.
+2:19
+And then we're going to have an image source, and this is gonna go to images exit dot SVG.
+2:26
+And then we'll go ahead and close that out in this
+2:32
+and that right there.
+2:33
+So let me go ahead and just get this a little bit better organized here.
+2:37
+Alright.
+2:37
+There we go.
+2:38
+And then we're gonna go ahead and have our list item and next one.
+2:43
+Um, we're this this one we're gonna change to active.
+2:45
+This is gonna actually be the first link that shows up, um, and that will be, um, a home link.
+2:52
+And, also, we'll close that.
+2:54
+Shift, Alt, and Down just to replicate that a few times.
+2:58
+So these won't have classes.
+3:02
+I I actually lied.
+3:03
+This one will have a class.
+3:04
+Um, this is gonna be like a reservations.
+3:07
+I want to style that differently because it's a call to action of sorts that we wanna emphasize in the, uh, the, um, the actual nav.
+3:15
+We're gonna say this is FAC and then this is cabins dot h t m oh, sorry.
+3:20
+That's the wrong area.
+3:21
+This is gonna be cabins, and we're going to actually make this a link here.
+3:26
+Oh, by the way, these should have been links here as well.
+3:28
+So let me just tie this up real quickly.
+3:33
+Here we go.
+3:34
+Kinda lost my spot there.
+3:36
+There we go.
+3:36
+Alright.
+3:36
+So for this one, we're gonna actually have a cabinsaw HTML, um, a little bit later after we do the actual page.
+3:43
+We could probably change this to index HTML as well.
+3:46
+Alright.
+3:47
+And that's looking yeah.
+3:48
+All solid right here.
+3:50
+Okay.
+3:51
+So now after this closing div just after the header, we're gonna go ahead and have, um, another div class of wrapper.
+4:04
+And we're gonna also give it a class of hero.
+4:07
+So this is gonna be where our main headline goes.
+4:10
+Um, we're gonna have three photograph based pre images of, um, the cabins that people can rent.
+4:17
+Um, I'm gonna put a div class of flex here because I'm going to, on desktop, have two columns.
+4:24
+And, um, and of course, this will get ignored on mobile first.
+4:28
+Um, so then we're gonna have a div class of left.
+4:30
+This is where our copy is gonna go in.
+4:32
+So left, we're gonna say main hyphen copy.
+4:37
+Then inside of here, we're gonna have a paragraph paragraph rather of subtitle
+4:44
+forest vacations.
+4:48
+Yes.
+4:48
+So it'll be kind of like a real small subtitle.
+4:50
+And then our main h one or heading element is is gonna be started a little bit differently.
+4:57
+We're gonna have a span for a few words.
+4:59
+So scenic,
+5:02
+and we're gonna replicate that three times, duties,
+5:07
+and then await you.
+5:08
+The reason we're gonna add a span is because we're gonna actually animate these with GSAP in a very cool sort of revealing effect.
+5:15
+Alright.
+5:16
+Then we're gonna finally have a href here.
+5:20
+Um, this can go to cabins dot HTML.
+5:22
+Actually, Um, we're gonna give it a class of CTA for call to action, all rentals right here.
+5:31
+After this, which is this closing tag of left, we're gonna have a unordered list because we're gonna have a list of, uh, featured cabins.
+5:45
+Alright.
+5:45
+And then a list item here,
+5:49
+and there'll be some markup in the list list items that we need to get.
+5:54
+So, um, each list item, uh, for the feature cabins is going to have first, we're gonna put in a link, and we're gonna have an image source of images forward slash cabin dot cabin one at j p g, and then a class of hyphen or cabin hyphen image I m g.
+6:12
+Alright.
+6:13
+And then close out that link.
+6:16
+Underneath that, we're gonna have a paragraph, a class of cabin hyphen title.
+6:21
+And we'll just call this whispering willows.
+6:25
+They all sort of have those interesting names.
+6:27
+Another paragraph, which will be a very short description, so we'll put b e s e there.
+6:32
+And then we'll I'll go ahead off screen.
+6:34
+Just copy a little bit, maybe a sentence of lorem ipsum text.
+6:40
+Right?
+6:40
+And then finally, we're gonna have an ahref for a call to action, all this cabin hyphen c t a.
+6:48
+Inside of it, we're gonna have two elements.
+6:50
+One will be a span element that says cabin info, and the other one will be an image source of images forward slash arrows dot SVG.
+7:00
+It's just basically a little triangle arrow.
+7:03
+Alright.
+7:03
+So if I save this now, see what we're are left with.
+7:09
+Now this isn't all of it.
+7:10
+We still have, um, probably a one more video where we finish out the HTML markup.
+7:16
+This is probably about, you know, half of it.
+7:20
+Uh, so we have a good deal more to write before we can actually, you know, get in here and start making it look great.

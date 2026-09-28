@@ -1,0 +1,183 @@
+Transcript
+0:00
+Welcome to this lesson where we're going to start using CSS to make this look a lot better than what it currently looks like.
+0:06
+Alright.
+0:06
+So we're starting with mobile first CSS as always and or in other words, we wanna make sure that this looks good on mobile first.
+0:13
+Alright.
+0:14
+So let's go ahead and get started.
+0:16
+We can see we have a div class of wrapper with an h one element.
+0:22
+So we'll just tackle things as they come.
+0:22
+Alright.
+0:22
+So going back to our index CSS, I'm gonna use the font of Nunito, um, that we've used here previously.
+0:29
+It's a nice rounded out sans serif font.
+0:32
+And we're going to say body, and I'm gonna say font family here, Unito, and sans serif.
+0:41
+We're also going to say color.
+0:43
+I'm gonna give this a very light gray color, right, for the background and
+0:52
+rather not the color, but the background.
+0:54
+There we go.
+0:55
+Um, and we're gonna change this to that color.
+1:00
+Right?
+1:01
+So this is our very light gray, and then the color is going to be this color code specifically.
+1:09
+Here we go.
+1:10
+So it's the color is actually just a dark sort of purple color.
+1:15
+So that's gonna be one of our primary colors.
+1:17
+Alright.
+1:18
+So next up after that, let's define some padding because what is this thing lacking right here?
+1:24
+Everything's up against the edge.
+1:25
+It's lacking white space.
+1:27
+So we're gonna take everything that's inside of that wrapper there, and we're gonna give it some padding.
+1:31
+So padding of just on around point five.
+1:35
+And on a small device, you probably don't wanna go too much more than that because then you have an unnecessary amount of, uh, white space, uh, when there's already not much space available on a small device.
+1:45
+Um, we're also going to text align center on these small devices as well.
+1:50
+So, of course, it still looks quite ugly, um, but so we have a lot of work to do here.
+1:56
+Um, so now I'm going to thrust upon you a surprise challenge.
+2:02
+Alright.
+2:03
+So the challenge that I want you to focus on right here is this section, um, the unordered list where we have our little progress.
+2:12
+Looking back at the markup for this, it's a U of class progress, It has three different list items.
+2:18
+We have one that has current to indicate the current step that they're on.
+2:23
+So you're gonna wanna target that in order to style it.
+2:26
+And there's also a link that's wrapped around so that you can click on them.
+2:30
+And also there's a div class of circles.
+2:32
+So I want a circle that contains each of these, um, with the number inside of it, and then also a label that should show up near as well.
+2:41
+And so your goal is to take this one, two, and three and make this a nice just sort of progress area where it has one, two, and three, and style it uh, in such a way that makes it look good.
+2:57
+Even though we don't have a lot of design right now, make it work with this design.
+3:02
+Alright.
+3:02
+So go ahead and pause, and then I'll show you what I would have come up with.
+3:09
+Alright.
+3:10
+So I'm gonna go ahead and show you what I've decided to come up with.
+3:14
+On a small device like this, we still have enough room to put these one, two, and three next to each other.
+3:21
+So that's what we're gonna do.
+3:22
+We're also gonna get rid of these bullet points.
+3:24
+So we're gonna say ul.
+3:29
+We're gonna say list style is none.
+3:32
+Let's go ahead and get this out in the free form area.
+3:36
+There we go.
+3:36
+Just so we could see what's happening here.
+3:39
+And then we're going to put padding of zero, um, on the ul and one e m on the right and left.
+3:46
+We're gonna display flex this.
+3:48
+Now that gets them all next to each other on the same row.
+3:51
+We're gonna give it a width of three hundred pixels.
+3:54
+It will fix the width.
+3:56
+And then margin is going to be zero and auto.
+4:00
+And then also, we'll do justify content space between.
+4:05
+Right.
+4:06
+Because we're using flex and we can use that property.
+4:08
+You l l I a.
+4:10
+We're going to text decoration.
+4:13
+None.
+4:14
+Right.
+4:14
+So we're starting to get somewhere, but it's still not good at all.
+4:17
+Now we're gonna target the circle.
+4:19
+The circle is gonna have a width of three m units and a height of three m units.
+4:25
+And then we're also gonna give it a background of white and a border radius of fifty percent.
+4:32
+Next up, we'll also have a margin of top of zero.
+4:36
+Right and left will be auto, and then point five e m here on the bottom.
+4:41
+And then we also will put a display grid inside of the circle
+4:51
+color.
+4:52
+They use seven nine seven nine seven nine.
+4:56
+Make them a gray and then also font weight bold.
+5:02
+We're not done yet.
+5:05
+We're also going to have, uh, we're gonna target the current class in the circle.
+5:10
+So whichever is current, we'll target the circle specifically, and we're gonna denote the current, uh, step as a color, a background color of one a and zero zero four e.
+5:22
+And then the color needs to change to white so we have maximum contrast.
+5:26
+And then we're going to say span, and you give that a color of seven nine seven nine seven nine and font weight bold.
+5:37
+Alright.
+5:37
+And that is almost it.
+5:41
+We also have to target the current span.
+5:44
+So the current label where it says account right now, that's gonna make we're gonna make that color also the
+5:53
+more saturated, a higher contrast color.
+5:57
+And that's the solution that I've been able to come up with.
+6:00
+Alright?
+6:00
+So this top part is done.
+6:02
+Of course, we have a lot more to do on this section down beneath.
+6:06
+So we'll go ahead and continue that in the next lesson.

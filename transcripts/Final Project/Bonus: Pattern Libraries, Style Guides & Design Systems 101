@@ -1,0 +1,53 @@
+Transcript
+0:00
+Wanted to dedicate a lesson towards talking about pattern libraries, style guides, and design systems.
+0:05
+Now when you're dealing with the real world projects that are larger than a simple project with a couple pages, it's worth establishing at least a pattern library.
+0:13
+Now pattern library is simply a collection of user interface elements.
+0:17
+The buttons you use, the navigation, the footer, the carousels, etcetera.
+0:21
+So anything that might be used more than once on a site should be included in a pattern library.
+0:26
+The usefulness of a pattern library is to ensure consistency in design across a project.
+0:31
+Remember all of the UI design fundamentals we've covered?
+0:34
+You want all of those applied consistently, and each type of user interface element that occurs in multiple areas of the design should be applied consistently as well.
+0:41
+For instance, take the cabin project that we just finished.
+0:45
+What are some elements that occur multiple times or have the potential to repeat multiple times in this project?
+0:51
+Well, we have the navigation, which will appear on every page.
+0:55
+We have a button design that will show up on certain pages, perhaps those with forms.
+1:00
+We have the cabin listing cards that show up on multiple pages.
+1:04
+We have a breadcrumb navigation that will show up on multiple pages and so forth.
+1:09
+Now, you would include these in your pattern library, and you could also include code snippets for the front end developers that feature HTML, CSS, and any necessary JavaScript.
+1:19
+So as a project grows, you can use this as a reference point, and that's essentially what a pattern library is.
+1:24
+Now a style guide involves designating which colors to use and when, topography, icons, white space in terms of spacing and alignment, and grids, and so on.
+1:35
+So in a sense, you could think of a pattern library as the unpainted pieces of a model airplane.
+1:40
+The style guide would involve determining what to paint each of these pieces.
+1:44
+In a design system, however, would be the actual instruction manual on how to piece the whole thing together.
+1:50
+Now a design system is an umbrella term that incorporates both the pattern library, the style guide, as well as other considerations.
+1:59
+Those other considerations could include information architecture, which is how to organize the content on a project, accessibility concerns, combinations between user interface elements in a pattern library, and much, much more.
+2:12
+So because this course is focused specifically on UI design and not the broader scope required to define and create design systems, we're not going to explore this topic any further.
+2:21
+Creating a design system requires many stakeholders from UX experts to marketing and much more.
+2:26
+But hopefully, after this quick explanation, you have a fairly solid understanding of what these terms mean.
+2:32
+And as a UI designer who might perhaps be working on his or her own small project, at least establishing a pattern library definitely makes sense.

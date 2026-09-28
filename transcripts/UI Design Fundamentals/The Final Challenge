@@ -1,0 +1,125 @@
+Transcript
+0:02
+Welcome to the final lesson that's a part of the UI design fundamentals chapter, and this is a coding challenge or a design challenge, really.
+0:11
+And in front of you in the mini browser, we can see we have this layout.
+0:15
+It's just part of a dashboard layout, and it is lacking obviously in a few UI design fundamentals.
+0:22
+So there's an issue with visual hierarchy, our white space, color, and alignment.
+0:28
+So we're not using all of them, uh, but those four are what we want to address.
+0:35
+So let me show you first real quickly just the HTML that we're dealing with.
+0:38
+Very simple.
+0:39
+The body is actually a CSS grid container with a sidebar and a main element and then all of our other information is inside of here.
+0:47
+Now if we go to the index.
+0:49
+Css we can see all the regular rule sets used to achieve what we see here.
+0:55
+And then at the bottom we have your fixes below.
+0:58
+Please keep the same background color, so that's in relation to this color right here, and also the sidebar color.
+1:05
+We want I want you to keep those the same.
+1:08
+Uh, that way we can at least end up in roughly the same result, uh, basically when you get finished making your adjustments versus when I show you mine.
+1:18
+Um, so this time, I'm actually gonna make it slightly easier on you.
+1:22
+I I have the selectors here that I want you to use.
+1:24
+There's only three.
+1:26
+And then I also have the properties that I want you to use for each of these, uh, rule sets essentially.
+1:33
+So right here, use grid gap to improve the white space on the body container.
+1:39
+Use the Background property to improve the color and contrast here of the Content container which is right here.
+1:46
+So you need to come up with your own color that will work well based on the background that it's sitting on.
+1:52
+And Padding, as well as H one, we have Margin Left and Font Size that I want you to improve these UI design fundamentals.
+2:01
+So at this point, I want you to go ahead and just pause, and then adjust these rule sets.
+2:07
+And when you're done and you're satisfied with what the result looks like in the browser and you think you've really done well, go ahead and hit play and you can see what I would have done.
+2:20
+Okay.
+2:21
+So what what we're gonna do now, I'm gonna show you what I would have done.
+2:25
+So the grid gap property is what separates the CSS grid columns, and that's in relation to this area right here.
+2:34
+So the grid gap was specified up here as point five e m.
+2:38
+So we wanna increase that amount.
+2:41
+So I'm just gonna take this and we're gonna push it to two EM units.
+2:45
+We can see right away that gives us a lot of room from this left bar.
+2:50
+Alright.
+2:50
+So we're not done yet.
+2:52
+Uh, the Content Background is these are not good color combinations right here.
+2:58
+Um, in these type of contexts is when we have these containers, uh, that are sitting on top of a background that have content, like tape type based content inside of them.
+3:07
+I personally and you really can't go wrong doing this, I like taking the same background color and then either slightly making it darker or slightly making it lighter.
+3:17
+So in this case, I'm going to use a color code here in order to fix that.
+3:23
+And we can see I just slightly went darker.
+3:25
+I mean, it's really not much of a difference, but it still helps us, you know, define this container.
+3:31
+Again, it doesn't have to have a lot of contrast.
+3:34
+Alright.
+3:34
+So next up, I want to increase or improve the white space inside of the container, this content container as well.
+3:42
+I mean these are right up against the edges and it really just throws off the flow of the the layout.
+3:47
+So the padding, I'm gonna put to one point five e m.
+3:53
+And we can see the result now already looks a lot, lot better.
+3:57
+And then finally, the h one element.
+3:58
+This is an issue with visual hierarchy.
+4:00
+We're not sure where we should look first.
+4:02
+Well, the dashboard label is probably the most important element to inform the user and the visitor, you know, what this section or what this page is, you know, at a glance.
+4:11
+So we wanna take our font size down here, increase that to around two point three EM units, or EM units.
+4:19
+That's looking a lot better.
+4:20
+And then finally, we have an issue with alignment.
+4:23
+It doesn't really make sense to have this kind of it's not even centered within this container, uh, it's kinda pushed to the left.
+4:29
+What would make most sense is to make it start on this column right here.
+4:33
+So I'm going to simply change our margin left of one am to zero.
+4:41
+And finally, this is the result that I came up with.
+4:44
+So hopefully you were able to come up with something similar.
+4:47
+If not, you know, perhaps you got the background color different.
+4:50
+Again, you don't have to be exactly what you know, or exactly where I was.
+4:54
+You could be, uh, maybe perhaps a lot different, but as long as you're adhering to good UI design fundamentals and your contrast there's and your colors work together, your visual hierarchy and all the other UI design fundamentals are there, then you have done well.
+5:08
+So I we'll do a before and after.
+5:10
+So we went from this to this here, and I will show you in the free form editor here the same thing just so you can see the real before and after from that, which looks really bad, and to this.

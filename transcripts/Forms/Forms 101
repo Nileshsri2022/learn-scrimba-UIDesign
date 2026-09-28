@@ -1,0 +1,56 @@
+Transcript
+0:00
+Designing forms for user interfaces requires an understanding of both solid design fundamentals and user experience fundamentals as they pertain to forms.
+0:09
+Now because forms require interaction on behalf of the user, it's vitally important that you know what you should do and what you shouldn't do.
+0:17
+So the following are a list of UI and UX principles that will help guide you through, uh, going forward in dealing with forms.
+0:25
+So number one, I would say is and these are in no particular order.
+0:29
+Form design consistency.
+0:30
+All of the fundamentals we've been discussing throughout this course apply to your form elements in and of themselves and also the entire form presentation as well.
+0:39
+You wanna make sure that all of your form elements, whether they're text fields, check boxes, radio buttons, select menus, etcetera, are styled consistently in the same manner.
+0:48
+Otherwise, it will become difficult for the user to navigate through your form.
+0:53
+Number two, avoid placeholder values.
+0:56
+One thing I see often are designers who decide to omit the label field and instead use the placeholder value as the label.
+1:04
+And this is bad practice for a number of reasons.
+1:07
+First, a user may forget what the field is about after they select or focus on the text field because the placeholder is usually automatically hidden.
+1:16
+Second, it it can be inaccessible to some users with screen readers that don't render the placeholder value.
+1:22
+So instead, you should always use a label instead of relying on the placeholder value.
+1:27
+Also, avoid unnecessarily long forms.
+1:31
+Whenever you have to collect a decent amount of information, it's always best to split up the form into multi step, multi screen processes with either a progress bar or a simple navigation between the steps in the form process.
+1:44
+If the user is presented with a bunch of form fields on a single page, they're less likely to complete that form.
+1:51
+Next up is inline form validation.
+1:53
+First, you always want form validation, and how you integrate that form validation also matters.
+2:00
+I've seen forms in the past where all the form errors are specified at the top or bottom in a central location, and it's best just to position errors next to each form element where the error occurred because this makes it easier to understand where the error is actually happening.
+2:15
+Now make sure custom form elements are accessible.
+2:19
+It's possible to create custom radio buttons and check boxes, which we will, along with select menus and more.
+2:26
+And when you create these custom elements and abandon the native form elements, you need to make sure that those elements are still accessible to those with screen readers.
+2:35
+So there are several plugins that you can choose from.
+2:38
+ChromeVox is a free plugin for Chrome, for instance, that will help you determine if your form is accessible.
+2:44
+So in the next lessons, we are going to build out our own robust form that satisfies all these requirements and more.
+2:50
+We'll make a responsive, accessible form with custom form elements.
+2:54

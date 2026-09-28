@@ -1,0 +1,149 @@
+Transcript
+0:00
+Alright.
+0:00
+Welcome to this very first challenge of the animation chapter.
+0:04
+Finally, it's taken us this long.
+0:06
+Uh, but now we know exactly what we're dealing with with the HTML and the CSS, and so now we can begin to animate it.
+0:12
+Now I know initially, I talked a little bit about animation, you know, fundamentals in the very first lesson of this chapter, um, but I am throwing you into the deep end with a very simple challenge, and that is to animate this button when somebody hovers over it.
+0:29
+Alright?
+0:29
+So this is a really simple example.
+0:32
+It's it's one of these examples where, you know, you will probably walk away, um, with a newfound understanding of just animation in general, especially if you've never really considered or researched this type of thing before.
+0:46
+So the goal is that when somebody hovers over this, you want, uh, you want to inform them that there's been a state change of some sort.
+0:55
+Um, so, you know, it's up to you with how you wanna change that state.
+1:00
+So this could be in the form of making it grow, like transforming it with the transform property.
+1:07
+This could be moving it.
+1:08
+This could be changing the background color.
+1:10
+Now you might be wondering, I did mention in the very first lesson that we need to just try to stick to opacity and transform when it comes to animations and CSS as much as possible.
+1:22
+Uh, but, usually, you can break that rule if we're dealing with simple elements or small elements that are a part of the UI.
+1:29
+So this is a small button, so it's it's not going to be very resource intensive.
+1:34
+When you start trying to animate things like, you know, anything other other than opacity and and transform, then it can become resource, a big resource hog, uh, for the the performance issues.
+1:47
+Uh, so, like, for instance, if we were to try to animate this little, you know, cell phone sort of, uh, graphic, it may take a lot more resources.
+1:58
+It would if you were compared to just this.
+2:01
+Alright.
+2:01
+So what we'll do is right here at the bottom, CTA hover.
+2:06
+You can go ahead and apply some sort of change to this element right here.
+2:13
+It doesn't have to be, uh, uh, in fact, I would prefer it not to even be, um, with the use of transition property.
+2:19
+So it's gonna be an immediate change.
+2:22
+Alright?
+2:22
+That's all I want you to do.
+2:24
+And, again, it could be background.
+2:26
+It could be color.
+2:26
+It could be, you know, transform or whatever.
+2:28
+So go ahead, and I'm gonna ask you to pause.
+2:31
+And then go ahead and do your solution and come back.
+2:37
+Alright.
+2:38
+So hopefully, you came up with something that you thought was good.
+2:41
+Maybe you didn't.
+2:42
+Maybe you didn't even do anything.
+2:43
+You just, you know, skip forward.
+2:44
+Not a big deal.
+2:46
+So what I'm going to suggest we do for this, now some of you may have done something like this.
+2:50
+Maybe that you went background and you said black.
+2:54
+The problem with this, if you do something like this, is it is way too much of a jolt.
+3:02
+You're changing too much of the the the button itself, and it's just completely unnecessary.
+3:09
+So if you wanted to change, like, the background, for instance, then you would wanna choose a color that's kinda close to the current color that it that it's already existing at.
+3:19
+So, um, that way it's not a huge jolt to the huge user.
+3:23
+Um, so what I would do is I would get out, like, for instance, if I was working within the browser, I would get out the dev tools and I I would look at the background, you know, the color picker, and then just slightly drag maybe the brightness down just a tad bit.
+3:40
+So what we could do, we if we did that, we would end up with with a color right around here.
+3:47
+See, it's a subtle change.
+3:48
+It's not this immediate shift.
+3:50
+Now some of you may have done something, for instance, like this.
+3:56
+So maybe you did a
+4:01
+a transform scale.
+4:04
+Maybe you you set it to one point two.
+4:08
+And in order for that to work, we need to boot to put display inline block.
+4:13
+It needs to be a block or inline block element for transform to work.
+4:17
+And maybe you were tempted to do something like this.
+4:21
+Now, of course, when you do something like this, then this ends up sometimes pushing out other elements.
+4:28
+I've, you know, in the UI, which you don't really want.
+4:31
+This is a very big jolt, so I wouldn't even suggest changing the size in this context with a button when you're hovering over it.
+4:38
+So I would devise against that.
+4:41
+And we could also, perhaps, if we wanted to integrate a an actual transition, which is, you know, the animation from one state to another, then we could do CTA.
+4:52
+We'll say transition.
+4:55
+And the transition property allows you to specify, you know, like a single property if you're going to, you know, just animate one property or you could say all, which in this case would be all properties that end up changing.
+5:07
+And we'll say, let's say, uh, we'll just do the background property.
+5:16
+We're going to transition that from its original color to the new color.
+5:20
+And we'll say one second
+5:24
+and end it there.
+5:25
+We can also put easings optionally at the end in a third parameter.
+5:30
+So if I go back here,
+5:33
+let me first get rid of that.
+5:38
+Right.
+5:38
+So now this is a really smooth transition, and it's almost becoming unnoticeable that anything's even happened.
+5:46
+So in this case, a transition like this wouldn't make sense unless perhaps you put it down to point three or point two.
+5:54
+It's a little bit quicker.
+5:56
+But still, I personally feel that if we just remove that entirely, this right here gives us the instant feedback when we're hovering over it.
+6:05
+So hopefully this give you a very quick idea that more is or less is more rather when it comes to animation.

@@ -1,0 +1,149 @@
+Transcript
+0:00
+Alright.
+0:00
+Welcome to this new challenge where I'm going to ask you to make this responsive.
+0:05
+And, again, I when we come out, we can see I have the little width indicator that shows up there temporarily.
+0:12
+And you need to determine, you know, at what point do you want to alter this layout in some way, shape, or or form?
+0:19
+Um, so the areas that I would pay attention to personally would be inside of this container where we have these list items.
+0:26
+And you can see as we get out further, we have all this empty space that we haven't properly utilized.
+0:33
+Same thing for this list down here.
+0:36
+And so I'm not asking you to do everything or all media queries.
+0:40
+And really, I'm just gonna ask you to do just probably out to right around here somewhere.
+0:45
+And I'm going to ask you to do at least one, but you can also do two media queries probably coming out to right around this area.
+0:53
+So going from, you know, around here to here maybe and then to here.
+0:58
+And then I'll show you, uh, what I would come up with.
+1:01
+So in the CSS, we can see we're really just targeting kinda large phones or really small tablets.
+1:08
+And it's gonna be up to you to specify, you know, which what what minimum width do you want to target in order to change things up about this UI design.
+1:17
+So you can do two here, but you don't have to.
+1:20
+But that's what my solution contains.
+1:22
+And, again, it's it's right up to around the area of around five hundred twenty pixels for the second one.
+1:29
+And so, again, mind your UI design fundamentals.
+1:33
+You know, make sure everything is still adhering here.
+1:36
+Um, you don't have to change the color because we already did that, uh, or the contrast, um, but you can mine these other elements, you know, when you're making your adjustments.
+1:45
+So I'm gonna go ahead and ask you to pause.
+1:47
+You can come up with your solution, and then I will show you what I came up with.
+1:54
+Alright.
+1:55
+So, hopefully, you came up with something good.
+1:57
+So I'm gonna show you what I would come up with.
+1:59
+So when we get out to around, you know, around four hundred and twenty or so, um, I wanna go ahead and make a change so that we can take these list items and, you know, put a couple next to each other.
+2:12
+Same thing with the situation down here.
+2:15
+So in order to do that, I'm gonna go ahead and specify just around four hundred and twenty pixels, And I'm going to specify first the body.
+2:23
+I'm gonna put the padding at one m.
+2:25
+Now before, it was at a point five m units.
+2:28
+And if we look at this, it's now increased.
+2:31
+So if we go from here, you can see how the padding on the edges will increase just slightly.
+2:36
+It gives us a little bit more breathing room because we're on a on a larger device essentially.
+2:41
+And then I'm also going to specify text align left.
+2:44
+And that's gonna left align everything as well, um, just because we're gonna have, uh, a couple elements that are floating to the right of each other.
+2:52
+And when you're when you're aligning things to the center, that usually doesn't look good.
+2:56
+So when you have you know, your content starts to to flip to the right or left of each other, it just looks better when it's right aligned or so or or the text is left aligned rather.
+3:05
+Alright.
+3:05
+So now I'm gonna go ahead and specify ul data and then display flex and then flex wrap, and then wrap.
+3:15
+Okay.
+3:16
+So we could see that there's not much white space.
+3:18
+There's hardly any white space between these elements.
+3:21
+So we definitely need to fix that up.
+3:23
+And the way we can do that is simply to say, u l data, target the list item.
+3:29
+We're gonna say flex zero, zero, and then fifty percent.
+3:33
+So now each of these list items are gonna have fifty percent width.
+3:39
+And anything that extends beyond that, like this third element, uh, it will automatically wrap down here.
+3:45
+And so now everything's looking a lot better, specifically at this viewport width.
+3:50
+Now if we come out wider than this to say, you know, around five twenty or maybe a little bit larger, we can be able we're gonna be able to fit in this third element right here.
+4:03
+And then that way, we can have just one row with three columns, and that will make better use of our space in the UI.
+4:10
+So So let's go ahead and do that.
+4:12
+Initially, I'm gonna try putting around five fifty, and then we can make adjustments if we need to.
+4:17
+So we're gonna say ul data, justify content, and then we're going to specify center.
+4:24
+Now I know that throws it off, but it's necessary, um, for the following changes to work.
+4:29
+So I'm going to target, um, our URL, uh, our panel, URL data list item, and that's the one at the bottom essential oh, no.
+4:38
+That's the one at the top right here.
+4:40
+So we're just start we're targeting that one specifically.
+4:42
+We're gonna say flex zero zero and thirty three percent.
+4:46
+Alright?
+4:47
+Now if we're looking at our UI design fundamentals, we have all the space down here.
+4:51
+It's not a consistent application of our white space.
+4:54
+So we wanted to get it matched up a lot better than what it looks like here.
+4:58
+So we're gonna say our panel, ul data, list item paragraph.
+5:05
+And so it's the paragraphs, these large paragraph elements, that's what these values are in or the the monetary values has, uh, weights or has a padding at the bottom of them or margin rather.
+5:16
+And by the way, again, if you forgot whatever, um, you can use the dev tools, uh, depending on you if you're using Chrome or Firefox in order to see, uh, and target these elements to see what's what's creating issues in terms of your white space.
+5:33
+In this case, it's it's a margin.
+5:34
+So we're gonna say margin bottom zero.
+5:38
+So now there we go.
+5:40
+So we've made two adjustments here.
+5:42
+So we first, this is, you know, the very default CSS with no media queries.
+5:46
+Then we're gonna come out, and we're going to left align these with each other as well as the ones at the bottom.
+5:53
+And then right around five fifty or so, we're gonna come out and make sure everything's condensed here.
+6:00
+So that's a good part to stop.
+6:01
+We're going to continue on working with our media queries as we get out even further because as you can see, it starts to look a little bit difficult to scan because we have so much white space between these elements in other areas.

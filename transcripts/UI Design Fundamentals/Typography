@@ -1,0 +1,151 @@
+Transcript
+0:01
+Good typography requires the understanding of other fundamentals along with a few special considerations that are specific to typography itself.
+0:10
+So those considerations are font choices.
+0:13
+So generally speaking, when it comes to UI design and your font choices, you don't wanna use more than two font families.
+0:21
+In fact, most of the time, you can get away with just one.
+0:24
+And also visual hierarchy.
+0:26
+Now this is one of the UI design fundamentals that we haven't yet covered, but we will very shortly.
+0:31
+But in short, it's a way to establish the order of importance in terms of typography.
+0:37
+So if you have multiple type based elements like an h one element or a paragraph element, then you use all these other fundamentals in terms of your font size, your color and contrast, your font weights to establish that visual hierarchy.
+0:53
+And you'll see what I mean here in a second when we improve an example.
+0:57
+Also, your font size, alignment, letter spacing and line height, your font styles and color contrast, all of those works ultimately to create good typography if you understand how to apply them.
+1:10
+So let's go ahead and take a look at an example here.
+1:13
+I'm going to show the mini browser and we're going to get centered up here.
+1:17
+And we could see we have this sort of testimonial section where we have three cards.
+1:22
+And there's a lot going wrong here in terms of the topography.
+1:26
+First, we have three different typefaces that are used in our testimonials, and we have this regular sans serif font here and here.
+1:35
+And then we have a third typeface here where it says the author's name.
+1:39
+There's also other issues in terms of the overall visual hierarchy.
+1:45
+You're not really sure where you should be looking first because there's not one element that really stands out too much or at least not enough.
+1:53
+So let's go ahead and work with this and improve the topography as much as possible.
+1:58
+So just a quick look at the index dot HTML.
+2:01
+We have a container with our testimonial section here and a subheading here.
+2:06
+Then we have a section container, which serves as a CSS grid for a three column layout using these, uh, different cards right here.
+2:15
+So in our index.
+2:16
+Css, here's all the regular CSS up top.
+2:19
+We're importing three different fonts.
+2:22
+And we're gonna come down here to the bottom, and we're gonna go ahead and make our fixes down here.
+2:29
+So what we're going to do is first I want to address the typefaces or the fonts that we're choosing.
+2:36
+Like I said before, three in this type of context, three different fonts is simply too much.
+2:43
+We're going to really stick to the basics and just use one, and you'll see how much better that will look.
+2:49
+So I'm going to target our h one, our paragraph, block quote and site elements.
+2:58
+And we're gonna simply say font family
+3:01
+Montserrat.
+3:04
+Alright.
+3:04
+So I've imported that font up here as well.
+3:07
+So if we save this, we can see now we're all using the same font family, and it looks so much better.
+3:14
+Now the next thing we're gonna talk about is visual hierarchy.
+3:18
+So right now, one of the elements that really stands out is the John Doe, but we'll fix that in a little bit.
+3:24
+But, really, we have to ask ourself, what's what is the most important element that's a part of this user interface?
+3:29
+And I would say it's the part right here where it's the h one element, our testimonials, because it's it's allowing it's informing people rather, you know, exactly what this section's about.
+3:40
+So we're going to head and increase that font size quite a bit.
+3:44
+So we're gonna say font size two e m.
+3:48
+Alright.
+3:48
+So now we've really established a little bit more visual hierarchy, a more effective visual hierarchy.
+3:54
+Now, also, we do have something here.
+3:56
+Uh, in the next section, I'm gonna say that our block quote paragraph section, we want to work with that just a little bit.
+4:06
+It looks like the text here could be improved in terms of the line height.
+4:12
+So we can make this a little bit more easier to read based on the current font size.
+4:16
+So I'm gonna say block quote or Yep.
+4:19
+Block quote p.
+4:22
+We're going to say line height one point five em.
+4:28
+There we go.
+4:29
+So it's been moved down a little bit and it's just easier to read.
+4:33
+Now, also, we have to deal with the unnecessarily large site section right here.
+4:38
+So we're going to use our site selector font size.
+4:43
+We're We're gonna make it significantly smaller because it's unnecessarily large.
+4:47
+It's not a very important element.
+4:49
+People, in this case, are just interested in what a person has to say about a given service and not about necessarily who they are.
+4:57
+So that right there looks pretty solid in and of itself, but it is pretty small.
+5:02
+So one way that you can kind of correct that, we could say font weight bold.
+5:09
+So let's see what that does.
+5:11
+Alright.
+5:12
+Now it kinda sticks out a little bit too much.
+5:14
+So we can use color and contrast to help maybe de emphasize it and put it a little bit lower on the ladder of visual hierarchy.
+5:22
+So what we can do is say color, and a color code will be three seven three seven three seven.
+5:30
+And there we go.
+5:31
+That looks pretty solid.
+5:33
+So I'm gonna show you a before and after.
+5:36
+And this is just to show you, you know, how important
+5:40
+our fixes have been when it comes to topography.
+5:43
+So this is the before, and here is the after.
+5:49
+And once again, we'll go to the freeform mode.
+5:52
+And I will show you what this looks like with the before and after.
+5:56
+So hopefully, you can see this fairly decently.
+5:59
+So I'm going to get rid of it.
+6:03
+Just it looks very ugly in terms of the type, and then here are fixes, and it looks just so much better.

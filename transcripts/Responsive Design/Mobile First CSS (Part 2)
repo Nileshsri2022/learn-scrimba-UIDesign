@@ -1,0 +1,147 @@
+Transcript
+0:00
+Okay.
+0:00
+So this is where we left off in the previous lesson.
+0:02
+And I just wanna do a real quick review on what we did here in in the previous lesson in terms of UI design fundamentals.
+0:09
+So I'm gonna go ahead and we're going to highlight this section right here and just focus on it while I turn this to the free form editor.
+0:17
+And we just quickly take a look at the various UI design fundamentals that we've covered and how they relate to what we did up here.
+0:25
+So basically, we have the header with a logo and a navigation.
+0:29
+And let's take a look at the white space.
+0:30
+So the white space in relation to these elements both outside and inside in between these elements here looks pretty solid.
+0:38
+So there's not an issue with white space.
+0:41
+Now there's if you're considering the amount of white space, uh, for instance, on a large desktop resolution, this may not be very much.
+0:51
+But right now, we're only concerned with a small mobile view port, in which case you have less room to work with.
+0:57
+So therefore, you're going to have less white space naturally because you just simply don't have enough room to really put in a lot of white space.
+1:05
+Now color and contrast, that's all looking solid.
+1:08
+We have, uh, a nice vibrant primary color here that contrast well with the background.
+1:13
+Um, and also the contrast here inside the buttons is also quite good.
+1:18
+We have scale.
+1:20
+All the scale here seems pretty good.
+1:22
+The text isn't too small to read.
+1:24
+It's not too large.
+1:25
+Uh, alignment, uh, we have a left aligned menu right here.
+1:29
+And you could also use the place or the justify content property for the flex box and use the space between to separate these out all evenly.
+1:39
+Uh, but there still, this works just fine.
+1:42
+Uh, typography is good.
+1:43
+We have a simple font that we're using here.
+1:45
+Um, visual hierarchy, we're really distinguishing, uh, the logo versus the menu.
+1:52
+Uh, and so in that way, you can't get them too confused, and so everything's working well.
+1:57
+So now we're gonna focus or shift our focus here to the hero section, which is the headline, uh, this sub headline, and then the call to action.
+2:06
+Now, actually, it's not too bad in and of itself if we're just looking at these two elements.
+2:11
+But the download app button, real close to this section down here.
+2:15
+And because it's a call to action, we really want it to stand out as an actual button, and we'll make some other adjustments as well.
+2:21
+So the first thing I wanted to adjust is right here, if we take a look at the, uh, index dot HTML, we'll see that this is all inside of a hero left container, all these three elements.
+2:33
+And this is a personal preference.
+2:36
+Again, this is subjectivity, uh, but I think I want to make these elements center aligned for the mobile view at least.
+2:44
+Alright.
+2:44
+So we're gonna go back to index dot CSS.
+2:46
+We're going to say hero hyphen left text hyphen align center.
+2:52
+Alright.
+2:52
+So now that just centers everything up.
+2:55
+Um, I'm also going to reference our h one element, and I wanna change the font size to two point five m units just to make it a little bit bigger.
+3:04
+And I'm also gonna set a width of eighty percent here, And also margin, one point five EM units on the top.
+3:13
+We're going to say auto here on the right and left, and then zero m units on the bottom.
+3:18
+So what that did was just center aligned it, and we kind of shrunk in the width to eighty percent here on the h one element just so we have a little bit more white space on the right and left.
+3:29
+Alright.
+3:29
+So next up, we're gonna have our hero left paragraph here, selector.
+3:35
+And we'll say font size, one point two m units just to get a little bit bigger.
+3:39
+We'll say width on this, eighty percent as well.
+3:43
+In margin, one m on the top and bottom and auto on the right and left.
+3:47
+Alright.
+3:48
+So it just kinda makes a little bit larger and gets it away from the edges just a little bit more.
+3:53
+Next up, we're gonna have our a cta btn class right there.
+3:58
+And we're gonna say color white.
+4:00
+And this time, we're gonna turn it into an actual button.
+4:02
+So background, we're gonna use the same color that we used in the logo.
+4:07
+So background right here.
+4:09
+That's looking good.
+4:10
+We're gonna say padding is point eight e m and one point five m units just to give it a nice amount of white space inside of the button in relation to the text.
+4:20
+Border radius, we're gonna make this completely a pill shaped button if I can spell.
+4:25
+There we go.
+4:26
+So that's gonna be two m units.
+4:28
+And also, you can see right now there's not much white space outside of the container so we need to adjust that.
+4:34
+So we're going to say before we do that, we'll say font weight bold.
+4:39
+Really make that text stick out.
+4:42
+And we're also do margin one m and then zero and then three m units.
+4:48
+And in order for that to work, we have to take this link, which is not an a element, and say display inline block.
+4:56
+There we go.
+4:57
+So now the margin works, and we really pushed it away.
+5:01
+So now that's looking really solid just if we're only looking actually right here, the entire screen from what we see is looking quite solid.
+5:10
+Now of course, when we expand it out, it still looks pretty good, but we're gonna make quite a bit of adjustments when we get to that section.
+5:17
+But right here, this is looking pretty solid.
+5:20
+And next, what we wanna do is focus on the testimonial section right here.
+5:24
+And just having this large image, I mean, it's not a bad idea, but we still wanna get our important content up here on top of this image and then also style it a little bit differently.
+5:36
+It's lacking visual hierarchy, especially between the quote and the person's name, and it kinda just runs into it together.
+5:43
+So we're gonna create little card layouts for each of those.

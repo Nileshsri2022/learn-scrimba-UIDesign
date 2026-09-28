@@ -1,0 +1,23 @@
+Transcript
+0:00
+Welcome to a new chapter where we're going to, for the very first time in this course, get our hands dirty with creating a layout from scratch.
+0:07
+See, in the previous chapter where we covered UI design fundamentals, we only redesigned or refactored existing designs.
+0:14
+Now in this course, my goal isn't only to help you refactor, but also to be able to create your own UIs UIs from scratch.
+0:20
+And I'm sure you've heard it before.
+0:21
+You can't run before you can walk, and you can't walk before you can crawl.
+0:27
+Now that mantra holds true for UI design, which is why in this chapter, we're going to keep things absolutely dead simple.
+0:35
+See, throughout this entire chapter, we're going to only work with these HTML elements you see here along with these rule sets of body, paragraph, heading one, and span.
+0:45
+You're probably thinking I'm crazy, but you would be surprised how much you can do with so little.
+0:51
+You're going to see how we can really transform these few really boring elements into something that's actually quite impressive.
+0:58
+Now remember, we must consider all of the UI design fundamentals when we are constructing the layout with each element.
+1:06
+So if you can get to the point to where you can confidently build a nice looking layout with just a couple elements from there, you can progress with even more elements, which you certainly will if you keep on watching this course, and I'm sure you're going to.

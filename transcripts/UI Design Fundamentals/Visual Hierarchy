@@ -1,0 +1,191 @@
+Transcript
+0:01
+So every element on a user interface has a level of importance, and clearly, some elements are more important than others.
+0:08
+So visual hierarchy is how we establish this importance, and we do it by utilizing the other UI design fundamentals that we covered previously.
+0:20
+So I'm going to run through a few examples just to demonstrate how each of the other UI design fundamentals will help establish visual hierarchy in this example.
+0:31
+So let's take a look at the first example.
+0:32
+We can see there's no sense of visual hierarchy between these five different squares.
+0:36
+They're all styled exactly the same, so they have equal importance.
+0:41
+So if we take a look at the next slide, we could see now the eye is naturally gravitating towards this square as opposed to the other ones.
+0:52
+So we've established some form of visual hierarchy through white space and alignment.
+0:58
+Now going back to our original example,
+1:02
+This example, we're using contrast in order to signify importance on this particular square
+1:11
+Now in this example, we're using color to establish a visual hierarchy on this particular square.
+1:21
+And here we're using scale to establish importance on this particular square as well.
+1:29
+And finally, we can use multiple UI design fundamentals such as color, contrast, and scale together to really establish that this particular element is much more important than the others.
+1:42
+And that is essentially what visual hierarchy is in terms of a abstract presentation.
+1:48
+So let's get ourselves, um, familiar with a real world example of how visual hierarchy plays out in an actual example.
+1:56
+So I'm gonna go ahead and show the mini browser with a project example here.
+2:01
+And here's just a submit form, basically, uh, joining an email list.
+2:05
+We see this commonly on different user interfaces.
+2:08
+And this right here lacks good visual hierarchy because you're not exactly sure, uh, which text element you should be looking at.
+2:15
+Uh, the call to action button doesn't really stick out very well.
+2:19
+So this is lacking in good visual hierarchy.
+2:21
+Although, in other areas of UI design fundamentals, it's pretty solid.
+2:26
+So let's use some of the fundamentals that we learned in terms of design to establish a good visual hierarchy here.
+2:33
+So just to take a look at the HTML, nothing, uh, exciting is happening here.
+2:37
+Just an h one.
+2:38
+We have a container, our form, along with a label, our input, uh, paragraph, and finally, the button.
+2:46
+So here's the regular CSS rule sets and properties that we use to create this.
+2:52
+And now I'm going to use these rule sets, or these selectors, in order to improve this overall.
+2:58
+So the first thing I wanna do is this h one element, which is join the mailing list, this is a quite important piece of content in terms of, uh, informing the user about what this section here is underneath it.
+3:13
+So we need to make that larger to really make it stand out the most.
+3:17
+So we're saying that's the most important element.
+3:19
+We're gonna make this big.
+3:20
+I'm gonna say font size three em units.
+3:24
+All right.
+3:24
+So now that's really sticking out.
+3:26
+And so now we've kind of really improved the visual hierarchy of this design, but we're not just there and done yet.
+3:34
+So our form container element, This right here, there's a form containing element that houses all of these HTML elements right here.
+3:43
+And you can see it's kinda has some padding inside of it, But really to encase in and direct the eye to this area and establish visual hierarchy, I wanna give it a little bit of a background.
+3:54
+So what we'll do is just take a background, a color code that's just slightly lighter than the background it's sitting on.
+4:02
+So it's in the same hue, it's just slightly lighter.
+4:05
+Alright.
+4:05
+Now that's looking really solid so far.
+4:09
+Now the label the label and this piece of text are pretty much styled exactly the same.
+4:15
+Uh, but, really, in terms of importance, the email address is much more important than this this label right here.
+4:22
+So, you know, notifying the user that they're not gonna share the email.
+4:26
+So we wanna enforce that this is more important.
+4:29
+And again, we can do that through all those other UI design fundamentals.
+4:32
+We could do it through making it bold, making it larger in terms of scale, changing the color, all that good stuff.
+4:39
+So you don't have to use them all.
+4:41
+Maybe you could just use one.
+4:43
+So it's up to you.
+4:44
+There's a lot of subjectivity.
+4:46
+So what I'm gonna choose to do on the label is to make the font weight bold, and then we'll go ahead and make the font size one point two e m.
+4:59
+Alright.
+4:59
+There we go.
+5:00
+Much, much better.
+5:01
+So next, I want to change up this call to action button design.
+5:06
+It's just not sticking out to very much.
+5:08
+When it comes to UI design and you have a a single call to action, like a button, you want it to really stand out.
+5:16
+And this just doesn't do the job really.
+5:18
+So we're gonna use color and a few other properties to really help reinforce the importance of that button.
+5:26
+So first, font size.
+5:27
+We're gonna increase it just, uh, slightly to one e m.
+5:31
+Alright.
+5:31
+So it's bigger there.
+5:33
+Alright.
+5:33
+We're also gonna take the background.
+5:35
+We're gonna give it, uh, not a really a bright yellow, but kind of like it's a saturated yellow.
+5:42
+So that's f f e d eight c here.
+5:46
+There we go.
+5:47
+Of course, now we have an issue with contrast because you can we really cannot see, uh, the important label inside.
+5:55
+So we're gonna make the color of that text the same color of the background.
+6:02
+Let's save that.
+6:04
+We're looking good so far.
+6:05
+There is a slight white border.
+6:06
+We wanna get rid of that as well.
+6:08
+So we'll take border none.
+6:14
+Alright.
+6:15
+And, really, this submit email, I text, it's not really sticking out enough.
+6:20
+I'd like to make that bold because it is very important.
+6:24
+So finally, font weight
+6:29
+bold.
+6:29
+There we go.
+6:30
+So that's looking much, much better.
+6:33
+Now still, I think we can further reinforce the visual hierarchy by making one other small change, and that is to this piece of text right here.
+6:41
+I still think that if we were to compare this paragraph and this label element right here, there's still not a big difference.
+6:50
+So I'm going to target the paragraph specifically and just give it a color that is not as much contrast as just using white.
+7:01
+There we go.
+7:03
+So let's take a look at the before and the after so you can see just how big of a difference utilizing effective visual hierarchy can make.
+7:11
+So I'm gonna take this, all these selectors here and just delete those.
+7:17
+So that's what we were before,
+7:21
+and that's where we came to now.
+7:23
+And then finally, I'll show you an example with the free form editor here on the side where this is the before.
+7:31
+Again, you really when you look at it, you're not really exactly sure where you should be looking, and then here's the after.
+7:39
+So much better.

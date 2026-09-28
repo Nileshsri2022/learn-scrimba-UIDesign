@@ -1,0 +1,199 @@
+Transcript
+0:00
+Alright.
+0:00
+Welcome to the very first challenge, and I want you to visit in a new tab, perhaps a new browser window, CSS gradient dot I o.
+0:09
+There are other gradient generators out there.
+0:10
+You can use Google to find them.
+0:12
+This one's pretty good here, and this one I'm gonna be using, um, to help me generate the gradient values.
+0:18
+It's sorta hard just to type them in just based on RGBA values, uh, when you're constructing the actual gradient.
+0:25
+Um, so before we actually get to the challenge part, it's important, as always, that we're on the same page in terms of what's happening with the HTML.
+0:33
+So I'm just gonna go ahead and let me close or get this minimized.
+0:37
+And write out the HTML real quick, and don't worry, there's not a lot at all, so we can pretty much breeze through this.
+0:44
+Um, we're just gonna have a div class of container here.
+0:51
+And then I can't type today.
+0:53
+There we go.
+0:54
+And inside of here, um, we're also going to have a h one
+1:02
+with a we're just gonna say some gradients or something like that.
+1:06
+And then we'll have a paragraph with some lorem ipsum text, which I will copy off the screen and simply paste in.
+1:14
+Um, we'll also have a href here, um, and we'll just say learn more.
+1:22
+And then we will have, um, an image here.
+1:25
+I'm just gonna give, uh, an have a zig dot SVG.
+1:30
+It's just kind of like a a random design element just to kind of fill out the design and make it a little bit more realistic, essentially, um, like in a real world scenario.
+1:40
+So I'm gonna save this, and this is what we have so far.
+1:42
+So, of course, we're gonna wanna go ahead and fix that with the CSS real fast.
+1:47
+Um, so I'm just going to we're gonna put in a rule set here for body.
+1:53
+Alright.
+1:53
+So we're just gonna say height, hundred viewport height.
+1:57
+Um, our container is actually gonna be the element that has the, um, the background gradient in it, Four AM and then two AM.
+2:06
+We're also gonna have height.
+2:07
+We're just gonna make it fifty viewport height.
+2:10
+Um, we'll do color white for this.
+2:13
+For now, we're just gonna do background black, um, but we're gonna change that.
+2:18
+Don't worry.
+2:18
+And then we'll do position relative and z index one, and that's gonna be for the image graphic that we're gonna position absolute.
+2:27
+Um, h one, we're gonna do margin top of two m units.
+2:33
+We'll also do our paragraph, and I'm just gonna give it a line height here of one point four m units.
+2:41
+And, uh, also we'll have our image.
+2:44
+This is gonna be the SVG graphic.
+2:46
+So position is gonna be absolute here.
+2:50
+Left will be negative twenty pixels.
+2:54
+Top will be three m units.
+2:56
+Z index will be negative one here.
+3:00
+And then finally, I'm just yeah.
+3:03
+We have our, um, call to action button right here.
+3:06
+So
+3:08
+we're gonna do a color white.
+3:12
+Hex decoration will be none.
+3:15
+By the way, we can just get this up, get ourselves into kinda like the free form editor portion.
+3:23
+Let me click that.
+3:24
+There we go.
+3:25
+And then I'll just right align this so we can see what's happening as we work here.
+3:30
+And then we're also going to put in padding point six m units and one m units there.
+3:36
+Margin top, one m units.
+3:39
+Um, we're gonna do display inline block.
+3:42
+Alright.
+3:43
+Right there.
+3:44
+Background, we're gonna make it white here and then also color black.
+3:50
+Weight will be bold.
+3:51
+We're almost done.
+3:53
+And then border radius will be just like point three m units.
+3:57
+Alright.
+3:58
+So this is our design that we have.
+4:01
+It's black.
+4:02
+Now I'm gonna start us off with a ugly gradient.
+4:06
+Okay?
+4:07
+So what I'm gonna do is just paste from the side of their screen.
+4:10
+I'm gonna copy it, and we're gonna replace, um, background black with this.
+4:16
+Okay.
+4:17
+This, of course, is dead ugly.
+4:19
+I mean, clearly, you can look at this and say, wow, we have issues with contrast here.
+4:24
+Um, and the main issue for looking at the gradient, it's going from something that's a completely different hue, um, and also something that where in the middle here, it has, like, this ugly gray ness to it.
+4:38
+And also, again, has contrast issues.
+4:41
+So what I want you to do is to use CSS gradient dot I o or any other color gradient generator tool to come up with a a a new color gradient for the background that you think would work for this element right here.
+4:55
+Now what you could do also is to get your, um, your your browsers if you're on desktop, um, the dev tools out, be that for, you know, Chrome or Firefox.
+5:05
+And you can target this element specifically, this container element, and then you can change the background and, like, the the values if you wish there.
+5:13
+Um, so what, um, I want you to do is go ahead and pause, come up with something you think just looks good here, and then, um, I'll show you my solution.
+5:25
+Alright.
+5:25
+So hopefully you came up with something that worked well.
+5:28
+Um, I'm gonna show you what I came up with.
+5:30
+And I'm just gonna paste this in.
+5:33
+I right after this one, that way it'll override.
+5:36
+Alright, so this would be an example that makes a lot more sense.
+5:41
+Um, this element is supposed to be like a watermark, but in this case, we probably need to take the opacity down to point five or point four m unit or sorry, not m units, but just rather point four.
+5:53
+I and this would work well.
+5:55
+I this right here is just a a a, uh, a blue color.
+6:00
+It's almost the same exact hue in the slider.
+6:03
+Um, so there's not much difference.
+6:05
+It's a little bit darker, but not too much.
+6:08
+And that's the point.
+6:09
+When you're creating gradients, you don't want the different colors that are a part of that gradient to be too far away from each other in terms of lightness and darkness and also hue.
+6:21
+Now this is pretty much a, you know, the same hue, just a little bit darker.
+6:26
+Now what if we wanted to make a a granite that had two different hues in it?
+6:33
+Alright, well, I'm going to show you one such example.
+6:37
+I'm going to paste in a third example.
+6:40
+And here we go.
+6:41
+So if I were to revert back to the slides, this is the difference based on the current right here, based on the current gradient that I have.
+6:50
+In the back, we can get rid of this opacity by the way.
+6:53
+And between this color and this color, and this is only the difference.
+6:57
+So we have, like, this this bluish color here, and then we get into more of like the purple.
+7:03
+And so when you're creating a gradient, generally speaking, and and if it's it has multiple hues in it in terms of the color stops, you don't wanna extend too far outside the the the original or wherever your starting point is.
+7:17
+Like, you don't want them to stray too far in this area.
+7:21
+Otherwise, you can almost always guarantee that it's not going to work very well.

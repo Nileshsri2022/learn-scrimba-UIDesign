@@ -1,0 +1,43 @@
+Transcript
+0:00
+Now I know what some of you were probably thinking.
+0:02
+How on earth am I going to learn how to design user interfaces without working in an actual design app like Figma, Adobe Experience Design, or Sketch?
+0:11
+Well, that's a great question.
+0:12
+But when you think about it, HTML and CSS are tools too.
+0:16
+They're tools to achieve a UI design.
+0:18
+But it is difficult to write HTML and CSS from scratch and create a beautiful user interface without having any type of mock up or prototype to guide your code.
+0:28
+So that's why whenever I propose to you certain design challenges, I recommend you use an app like Figma, Adobe XD, or Sketch, or any of the other competitors out there to first create a mock up.
+0:39
+This is going to help you tremendously because these design tools allow you to quickly iterate, which means to make changes, over a design.
+0:46
+That's why I always recommend the first creating a mock up before you write HTML and CSS.
+0:51
+And this is just about how every professional team handles the process of creating a product.
+0:57
+What's great about the Skrimba platform is that because it's browser based, you can use your browser's dev tools, which you could find in both Chrome and Firefox.
+1:05
+In the dev tools, you could target a selector and gain access to the CSS in the mini browser.
+1:12
+This allows you to quickly experiment and find colors, adjust for white space in other CSS properties.
+1:18
+We will also discuss gradients, and a great tool for helping you create gradients is located at CSS gradient dot I o.
+1:25
+There are plenty of other tools like this as well for gradients that you can use.
+1:29
+Along with gradients, we will also discuss box shadows.
+1:32
+There are also a lot of box shadow generators to help with that as well, such as c s s matic dot com forward slash box hyphen shadow.
+1:41
+A few times throughout this course, we will also use the CSS clip path property.
+1:45
+And a great tool for generating clip path values is located at the URL shown here.
+1:51
+And that's it for this video.
+1:52
+In the next video, we'll discuss how to learn with the Scrima interface, as well as how to share your work.

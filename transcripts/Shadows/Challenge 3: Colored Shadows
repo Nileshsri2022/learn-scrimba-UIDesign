@@ -1,0 +1,105 @@
+Transcript
+0:00
+Alright.
+0:00
+Welcome to this new lesson and brief challenge at the beginning where we're going to try to integrate colored drop shadows as ridiculous as that sounds.
+0:08
+Um, you can actually make it work though, and it's a trend that I've been seeing over the past year or so, um, using, uh, colored based drop shadows.
+0:15
+So that's what I'm going to challenge you to do here at the beginning.
+0:19
+Uh, what I want you to do is to adjust the in the card property or the card rule set rather, the box shadow property.
+0:26
+This is your r value for red, green, and then blue right here, and then your your alpha here or your opacity.
+0:32
+Work with mainly those three in order to create a a color drop shadow that works well while adhering to all the other, you know, the the shadow based principles that I've been talking about.
+0:45
+Um, so go ahead and pause and then come back, and I'll show you what I would have done along in a a few other different scenarios.
+0:55
+Alright.
+0:55
+So hopefully, you were able to come up with something that worked well.
+0:58
+So let me just show you what I would do in this context.
+1:01
+When it comes to color drop shadows, the way they work best is by pulling out from the existing user interface the colors that exist.
+1:09
+So usually, most user interfaces, they have a primary color and then maybe a secondary color.
+1:14
+So I would go with the primary color just because that color exists in other areas of the user interface, and it will create more natural harmony if you're going to use a colored drop shadow of some sort.
+1:26
+So for me, what I would do is pull out the blue because that's what we have to work with.
+1:31
+Alright.
+1:32
+So for the blue, we don't just stick with the the the blue value right here for RGB.
+1:39
+The way I came up with this color actually, um, is to use the inspector for the dev tools for Chrome or Firefox.
+1:47
+Control shift I will get you there.
+1:48
+Even within the script Scrumba editor open right now, you can you can open that up.
+1:52
+Obviously, I can't show you because it it doesn't record those actions.
+1:56
+But you can open it up, and then you can select this card element right here, and then it will show you on the right side or at the bottom, depending on where you have it situated, the, uh, box shadow property that we have added.
+2:07
+And then if you'd click on the color for the RGVBA value, um, you can use the color picker to quickly see exactly what changes would look like.
+2:15
+So what I came up with and what with the help of the editor was, uh, the values of one zero nine in green and then one seventy five, uh, there And then for blue, and then point two for the alpha.
+2:29
+And so this is what you could use for a color drop shadow that actually looks, you know, real soft.
+2:36
+It pulls out color from here and it works pretty well.
+2:40
+Now what if, for instance, the background was its own color as well?
+2:44
+So what would you do then?
+2:45
+So let's say, for instance, the background color is this specific color code, which also happens to be like a a desaturated blue.
+2:53
+For now, I'm gonna take this before we show you I show you it, and we'll just make a a basic, um, drop shadow of just being grayscale.
+3:02
+So this is a a a blue color.
+3:04
+It's actually a little bit between blue and green and teal, basically.
+3:08
+So it's not full on blue.
+3:10
+And like I was mentioning in the previous challenge, and I showed an example of this, having a colored background with a grayscale drop shadow doesn't look the best.
+3:19
+It's great.
+3:20
+It's it's best to kinda pull out the color and then integrate that into the box shadow itself as a property.
+3:26
+So roughly right around the same exact property right here, um, from as the last example because it's already blue.
+3:36
+If we do that, it just looks a little bit more natural.
+3:39
+It is a color drop shadow, but it works better with this color here.
+3:43
+Now as a final example, what if the background were like dark or like a real dark desaturated, you know, almost like a dark gray?
+3:52
+So let me show you what happens in this case.
+3:55
+Leaving our current shadow right here, we can't really see it, so let's bump this up maybe to thirty percent.
+4:01
+And now we can kinda see it.
+4:03
+Maybe we can go even higher.
+4:06
+This just doesn't look good.
+4:08
+And so what I advise is if you're working on a container or button or whatever element that you want to place the drop shadow on, if the background is dark like this, stay away from colored shadows.
+4:22
+That's that's my that's my two cents on.
+4:25
+There's no way to make it look good.
+4:26
+It just doesn't look good.
+4:28
+So what you can do if you still wanted, you know, a a a shadow here, um, what you could do is just make sure this is is all grayscale.
+4:39
+And then you can still have a shadow that kind of makes more sense um, on this type of background.
+4:46
+Ultimately, I would probably in nine time or maybe ninety nine of a hundred times, just advise to take it off because we can clearly see this container already.

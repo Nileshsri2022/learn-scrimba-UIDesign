@@ -1,0 +1,111 @@
+Transcript
+0:00
+Alright.
+0:00
+Welcome to this lesson where we're going to focus on continuing the CSS, uh, for our project.
+0:06
+And we can see right here, this is where we wanna focus on.
+0:08
+We have this very overly large, uh, icons here and here, and we just wanna get this part from here to here looking good.
+0:18
+And, yes, this will be a challenge.
+0:21
+Alright?
+0:22
+So before I present that challenge, I do want to add in one rule set just so we can be on the same page here because I do want that section to have a specific background color.
+0:33
+So have feature container and show let's just check out the HTML for where this is at.
+0:39
+Um, the feature container is the overall wrapper for this section.
+0:43
+And I did that because I did wanna give this whole section its own background color.
+0:47
+So the background color is actually gonna be quite dark and so it's gonna be background.
+0:52
+I'm gonna paste in off screen a specific color code of one a one a one a.
+0:58
+So we kinda like this real dark earthy green for this section, and that's all I'm going to do.
+1:05
+Alright?
+1:05
+So I want you to make all this stuff in here look good.
+1:11
+Now referring back to the HTML, all we have is a UL class of features.
+1:16
+We have a list item.
+1:18
+Inside of each list item, we have an image.
+1:20
+We have an h two element, and we have a paragraph element.
+1:23
+So that's what you have to work with and style this so that it works a lot better than what it does now.
+1:36
+Alright.
+1:36
+So hopefully, you came up with something that worked well.
+1:39
+So the first thing that we really need to deal with is the text.
+1:42
+Um, it's it's black on almost black.
+1:45
+Hardly any contrast.
+1:46
+So we need to get that fixed right away.
+1:49
+So we're gonna take our index CSS.
+1:52
+We're gonna come in this container and say color white.
+1:55
+Already a huge improvement.
+1:58
+Now these are way too big, aren't they?
+2:01
+I mean, they are just massive.
+2:03
+So we're gonna say, u l features, l I I m g, width of forty pixels.
+2:09
+Look how much better that looks already.
+2:12
+Right?
+2:13
+Now what else is the issue here?
+2:17
+We have very little white space between the top of the icon, alright, and this container.
+2:23
+Right?
+2:23
+So we need to increase that white space.
+2:26
+So what we're gonna say is you all features.
+2:28
+We're gonna take the unordered list itself.
+2:30
+We're gonna do a margin, and let's get this back over here.
+2:33
+I keep on forgetting to click that button instead.
+2:36
+Alright.
+2:36
+We're gonna have a margin of three m units on the top and bottom and then auto on the right and left.
+2:42
+And the reason we're gonna do that is because we're also gonna take the width from hundred percent default to seventy.
+2:49
+And that's really gonna just frame everything a lot better and give us more white space in this middle section.
+2:55
+Alright?
+2:56
+And then finally, because we have white here and all white here, I think we can separate and, you know, establish the visual hierarchy, sorry, more so by making this just slightly less contrast.
+3:10
+Alright?
+3:11
+So let's move this over here, and I'm going to say you all you all features, l I paragraph, and we're gonna say color c c c c six c's essentially.
+3:23
+So it's just very slightly toning down the section right here, uh, in in establishing a good hierarchy between the two.
+3:34
+Alright.
+3:34
+So in the next lesson, we're gonna go ahead and focus on this area down here.
+3:40
+It looks like there's a lot, but there's really not.
+3:42
+We should be able to get through the rest of this just in the next lesson, and then we can start getting into responsive design.

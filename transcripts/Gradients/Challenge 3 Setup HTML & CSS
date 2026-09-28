@@ -1,0 +1,203 @@
+Transcript
+0:00
+Hello.
+0:00
+Welcome to this new challenge where we're going to apply a gradients onto a background and to on cards in a few different scenarios.
+0:09
+First, uh, there's a little bit of HTML, a little bit of CSS setup work.
+0:13
+Um, again, I think it's important just that we understand everything that's happening, um, in terms of the the front end development aspect, um, so that you know what to apply to and all that.
+0:22
+So we're gonna do a div class of container, and simply gonna have three cards inside of it.
+0:26
+So we're gonna have a div class of card.
+0:30
+Right?
+0:30
+And then after we're done with this HTML, we'll just replicate it two more times.
+0:34
+So we're gonna have a span for just like a fake sort of avatar placeholder.
+0:39
+We'll also have a paragraph, which, um, lorem ipsum text just for, like, a little description, um, right here.
+0:46
+And then we will also have our final element, a call to action of some sort.
+0:53
+Maybe it'll say want more this time.
+0:55
+Okay.
+0:55
+So that's it.
+0:56
+Now we're just gonna take the div class of card, If I can copy it, there we go.
+1:02
+And we're going to just paste it a few times.
+1:06
+And there we go.
+1:07
+That's all we have for the HTML.
+1:10
+Um, if we look at the HTML over here, you know, obviously, a little bit of setup work here to do.
+1:15
+And we're just gonna focus, uh, kind of on desktop.
+1:17
+I'm gonna show you a really cool trick in terms of front end development and CSS in order to make this responsive without any media queries using the CSS grid.
+1:25
+So let's go over here to our CSS, and I'm just going to put in body, and we're gonna say display grid.
+1:35
+Now this is very cool.
+1:37
+I'm gonna show you this little trick here, uh, if you didn't know about it already.
+1:41
+Um, first, let me just get this out real quick.
+1:44
+We're gonna do justify content, center just to center things up here.
+1:49
+And then we're gonna say container, and we're going to say display grid.
+1:55
+And then we're going to do grid template columns, repeat.
+2:00
+Alright.
+2:00
+So the repeat function just means repeat this amount of what do you whatever the value value is in there.
+2:05
+Autofit.
+2:07
+So instead of putting a number in here, like repeat five times, like five or six or seven, whatever, um, or three in this case, we're just gonna say auto fit.
+2:14
+And then min max, two hundred fifty pixels, and then one fractional unit here.
+2:22
+Now what that's going to do, as you can see here, all your it has this is doesn't look that impressive, but watch what happens when we scale this in.
+2:30
+Automatically, it's going to collapse itself.
+2:34
+And then because we put min max, it won't get larger than two hundred fifty pixels.
+2:39
+If it starts to get, uh, too low in terms of the width, it will auto collapse everything.
+2:47
+Very cool.
+2:47
+But we're not done yet.
+2:48
+Um, we're gonna do margin top, just three m units just to get away from, um, the top a little bit.
+2:54
+We're also going to put in our card.
+2:57
+Now our cards, we're gonna initially just get and give a background here.
+3:01
+Um, we're gonna do background just white.
+3:04
+I forgot.
+3:04
+I wanted to put a, um, a gradient in the body as well.
+3:09
+Alright.
+3:09
+So we have this nice sort of, you know, just this gradient that's going from this way to this way between this purplish, and then it gets more into the blue down here.
+3:19
+Alright.
+3:20
+And then we're also going to have, let's see, a margin.
+3:25
+Give them away from each other.
+3:27
+Also, a padding to this, uh, define the white space inside of the container.
+3:33
+So we got white space inside and outside.
+3:35
+We're also going to have a border radius, one m unit.
+3:40
+I'm deciding just to add border radiuses.
+3:43
+You don't have to.
+3:44
+Completely, entirely subjective uh, preference.
+3:48
+Border up.
+3:49
+I already did that.
+3:50
+Text align.
+3:51
+Alright.
+3:51
+We'll do text align center.
+3:54
+Uh, color.
+3:55
+This is gonna be like a darker hex value here is a very dark, uh, quite dark purple.
+4:02
+Right?
+4:02
+As you can see, it's going to apply to everything in here.
+4:05
+We're also going to have a position of relative because that's going to allow us to position the span element, uh, uniquely.
+4:14
+So our span element, we're gonna go ahead and say position absolute.
+4:22
+And then we'll do a width of about sixty pixels, height of sixty pixels, a background of white.
+4:29
+And real quickly, uh, we'll get out of this view just so you can see sort of what's happening.
+4:36
+Uh, the background is white.
+4:38
+Um, we will also have, um, margin top negative three m units.
+4:43
+Looks like a very ugly situation right now, of course.
+4:46
+Um, border radius will be fifty percent to make it a circle.
+4:50
+And then we will put in just a background of a kind of like a light pinkish purple color.
+4:57
+Um, normally, like, you would have an image of some sort here.
+5:00
+And then we can also center it.
+5:03
+And the next four bits, I'm just gonna paste in.
+5:06
+This will help center it in the middle.
+5:08
+Next up, we have our paragraph, margin top.
+5:13
+I sometimes I I don't teach I the way I want to in terms of describing all the issues.
+5:19
+So let me just real quickly point this out.
+5:24
+What's the issue here in terms of UI design fundamentals?
+5:27
+If we're looking at this element in this element, not enough white space.
+5:31
+Alright.
+5:31
+So you wanna separate things out more.
+5:33
+Alright.
+5:34
+So margin top here is going to be two m units for the paragraph.
+5:39
+Font size will be I'm going to make it a little bit smaller point nine instead of one.
+5:44
+And then line height will be one point five m units.
+5:48
+Right.
+5:48
+So now we're spacing things out more.
+5:51
+And then finally, for our last rule set, we're gonna have a font weight will be bold.
+5:58
+Text decoration is going to be none.
+6:01
+Display will be block, and then margin top will be one m unit.
+6:06
+Alright.
+6:07
+So that's basically what I we have, and it's automatically responsive.
+6:12
+Very cool.
+6:13
+Alright.
+6:13
+So at this point, now that we have this set up, we're gonna go ahead and end this lesson.
+6:20
+And then the very next one is when the actual challenge is gonna take place where I ask you to apply a gradient onto these cards.
+6:26
+And I'll also give you another challenge where we change up the background to a lighter one and see if you could still achieve and make it work in terms of strict UI design fundamentals uh, with a gradient.

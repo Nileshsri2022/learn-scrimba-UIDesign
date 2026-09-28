@@ -1,0 +1,103 @@
+Transcript
+0:00
+Okay.
+0:00
+Welcome to this third challenge here.
+0:02
+In the previous lesson, we set up all the HTML and CSS for this.
+0:05
+You can see we already have a gradient in the back the body, the whole, you know, page background.
+0:11
+And it looks good.
+0:12
+I wouldn't say that this looks dated like web two point o or anything.
+0:15
+This looks pretty solid in my opinion.
+0:18
+And the cards themselves, those look good too.
+0:20
+I mean, you when you're designing something like this and you wanna try to keep it as as minimal as possible and flat as possible, this is the stopping point.
+0:28
+It would be okay.
+0:29
+This is good.
+0:30
+I'm happy with it.
+0:31
+All the fundamentals are there.
+0:33
+Because this is about gradients, though, I'm gonna challenge you to see if you can add a gradient onto these cards and do so in a manner that looks aesthetically pleasing and also adheres to all the UI design fundamentals, mainly color and contrast.
+0:48
+Um, you know, you're dealing with the type that's sitting on top of it.
+0:52
+You're dealing with the card background.
+0:53
+You're dealing with the background of the the page layout that it's sitting on.
+0:58
+So, again, remember what I taught you so far about gradients, you know, more less is more essentially.
+1:05
+You want to to try to pull in colors from the the surrounding environment and ensure that your contrast is really good and don't create multiple color stops that are too far apart in terms of contrast.
+1:19
+So go ahead and pause here.
+1:20
+You can target the card element for the background in order to change the backgrounds of the cards.
+1:27
+So go ahead and pause.
+1:31
+Alright.
+1:31
+So hopefully, you came up with something good.
+1:33
+Uh, I'm gonna go ahead and show you what I would have done.
+1:36
+So basically, again, I'm using CSS grid dot IO to generate these, um, background properties.
+1:42
+So So instead of white, I'm just gonna override that background property right here.
+1:46
+And I'll show you what I one such way of tackling it would be.
+1:50
+So here's what I came up with.
+1:52
+Basically, I took this basically, probably right around here, I took this color and I we are going from white to this color and it's also, as you can see, at a hundred thirty seven degree angle.
+2:07
+So it has more of like a diagonal approach.
+2:09
+And I also moved the white color stopper into around fifty percent.
+2:14
+So you can see this is reflected in the code right here at forty three.
+2:17
+So that means there's gonna be more white, um, than there is this section here.
+2:21
+Uh, if I made this zero percent, for instance, it's gonna spread out everything more gradually, which is fine.
+2:27
+I just kinda wanted to see more white personally.
+2:30
+And this is how I went about doing it essentially.
+2:33
+Um, And I think this works well, and it's it's it's not too heavy in terms of effects, but it it definitely works in my opinion.
+2:42
+We can also, by example, we could also add in drop shadows.
+2:48
+So that this has taken it a little bit far, but I wanted to show you just so you know what what this would look like if we have a drop shadow.
+2:54
+I mean, we don't need one because there's already high contrast around this element, But let's do it just for the fun of it.
+2:59
+I I'm gonna do drop shadow just down here.
+3:04
+Box shadow here.
+3:05
+Ten pixels, ten pixels, thirty pixels for the blur radius, RGBA zero zero zero and then point two perhaps.
+3:13
+Right.
+3:14
+And there we go.
+3:15
+There's our drop shadow.
+3:16
+It doesn't really add much to the design, but it does separate it out a little bit more, and it gives you more of a three d depth if that's something that you're personally looking for.
+3:25
+Alright.
+3:25
+So now in the next lesson, we're gonna change things up.
+3:29
+I'm gonna change things up a little bit, and I'm going to ask you to do this again, except the background is going to be quite different, and we'll see if you can tackle that.

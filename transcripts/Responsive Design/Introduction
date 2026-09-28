@@ -1,0 +1,19 @@
+Transcript
+0:00
+Now that you understand the various UI design fundamentals and have a tad bit of experience under your belt for applying the fundamentals to create a very basic user interface, we need to discuss another very important aspect of UI design, and that is responsive design.
+0:13
+Now back fifteen years ago, ago, us web designers didn't have to worry about designing for every device imaginable.
+0:19
+There were just desktops and laptops, which pretty much shared the same resolutions.
+0:23
+But once the iPhone came out, everything changed.
+0:26
+In the present day, there are so many devices with so many resolutions that it's absolutely necessary that your UI design works well on all of them and looks good on all of them at the same time.
+0:37
+Now, while this may seem daunting, it's really not that difficult.
+0:42
+Because no matter what size you're designing for, as long as you adhere to good UI design fundamentals that you learned earlier, you're going to be golden.
+0:50
+So that's what we're going to focus on in this chapter.
+0:54
+We're going to make a simple layout and ensure it works on all devices by utilizing mobile first responsive design along with good UI design fundamentals.

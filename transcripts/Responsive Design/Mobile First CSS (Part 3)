@@ -1,0 +1,121 @@
+Transcript
+0:00
+Okay.
+0:00
+So welcome to this lesson where we're going to wrap up with the mobile first CSS, just making sure everything looks good here on this mobile viewport.
+0:09
+So if we're looking at this again, uh, we have this large image here.
+0:12
+And my intention with this is to eventually make a two column layout when we get to the larger view view ports.
+0:19
+But for now, we have to ask ourselves, do we just want a picture here like this, a photograph, and then have these testimonials all the way at the bottom?
+0:27
+Or could we perhaps move the testimonials up on top of this area and also make it work?
+0:33
+So I think that's what we wanna do.
+0:35
+That way, just for structuring our content and all that, it will make a lot more sense to have that content right here and not force a person to scroll all the way down just to read testimonials and access the next section of content.
+0:49
+So what we're gonna do now is, uh, we're gonna go back to our, uh, we have our HTML.
+0:54
+This is all the, um, HTML that we have to deal with in relation to the CSS right here.
+0:59
+So really, there's only a few rule sets until we get this wrapped up.
+1:02
+So what we'll do is we're gonna come down here and we're going to reference the UL testimonials, if I can spell that right.
+1:10
+And we're gonna say first thing, we're gonna say margin top three m units.
+1:15
+Now that probably doesn't make sense right now because it's all the way down here, but it will make sense shortly here.
+1:22
+So what we wanna do is reference our u l testimonials
+1:29
+l I.
+1:30
+And before I do that, if you recall a couple lessons ago, I mentioned that we were going to add in a couple properties on the image tag.
+1:38
+And I'm gonna add those right now because I want this right here to sit on top of that content.
+1:45
+And the way we can do that in the image tag is to say position, absolute, and then also z index negative one.
+1:55
+And here we go.
+1:56
+Now it's sitting on top and, of course, we have some pretty significant issues in terms of readability.
+2:01
+So we're gonna need to adjust and fix for that as well.
+2:05
+So I'm gonna move this free form editor over here just for now, and we're gonna focus right on this section.
+2:10
+So we need to address each of the l I elements in order to kinda wrap them into white cards in a sense.
+2:17
+So in order to do that, what we'll say is we're going to give it a background property of white.
+2:26
+Now we can really increase the contrast, maximum
+2:36
+do all around.
+2:39
+And we're also gonna say margin bottom will be one m unit to push them away from each other.
+2:44
+Text align will be center.
+2:49
+Alright.
+2:50
+And looks like I've definitely messed this up.
+2:53
+There was no way oh, I I forgot.
+2:55
+Right now, there is way too much padding because it's it's centered in here.
+2:59
+But we are going to make another adjustment in here, um, in a different selector, uh, that will fix this issue.
+3:05
+So right now, we're just gonna leave it at two m units, just knowing though that we're gonna fix that.
+3:10
+Uh, we're gonna use a box shadow property, and I'm gonna put ten pixels, ten pixels, uh, eighteen pixels for the blur radius and zero pixels RGBA will be zero zero zero, making it black, and then point zero nine.
+3:23
+So we're gonna have very subtle soft shadows right here, and we'll particularly be able to notice in these shadows when we get to the larger view ports.
+3:33
+So next up, our block quote and our block quote p, the paragraph inside of it, we're going to say margin zero.
+3:41
+And there we go.
+3:42
+That fixes the issues with the the excessive white space in the middle.
+3:46
+Now looking at this further, there's some issues with the visual hierarchy in terms of the author name or the person who said the quote, uh, and the quote itself.
+3:57
+It's just not separated at all.
+3:59
+It's right up against it.
+4:00
+There's also there's also issues with white space.
+4:03
+So what we'll do is we'll reference our, um, let's say, our footer, and we'll say font weight is bold.
+4:11
+So that's establishing a little bit of visual hierarchy there.
+4:14
+Display block, and we're gonna do margin top.
+4:18
+The display block won't show that the margin top will work.
+4:21
+So now we've separated things out.
+4:23
+I also want to reference real quickly the paragraph.
+4:27
+So the block quote p selector, and we're gonna say, uh, line height one point four e m just to make it a little bit spaced out and just a little bit easier to read from there.
+4:41
+Alright.
+4:41
+So now if we scroll all the way down and let me get this back in the center, and we're really looking at things.
+4:48
+Now things look a lot better.
+4:50
+The fact that, uh, this image kinda stops right here, I'm not worried about that really at all.
+4:57
+Everything still works here quite well.
+4:59
+So now, we're going to go into the next phase, which is getting into the actual responsive design.
+5:06
+And the whole point of this lesson here is is to show you that the UI design fundamentals that you've been learning about still apply no matter what viewport width that we go to.
+5:18
+And so we have to ask ourselves, what begins to break down or what what sort of doesn't make sense about this user interface as we expand the browser?
+5:29
+So we're going to use media queries and CSS in order to address some of these issues starting in the next lesson.

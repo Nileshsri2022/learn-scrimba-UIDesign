@@ -1,0 +1,61 @@
+Transcript
+0:00
+Alright.
+0:00
+Welcome to this brand new challenge here where you're gonna be tasked with creating a design.
+0:06
+Alright.
+0:06
+And we're gonna be using your media queries in order to start to make this, you know, in order to progressively enhance it.
+0:14
+Uh, so, you know, what you need to first consider is the navigation.
+0:19
+So I'm not gonna tell you at what break point you should be using in terms of, uh, the the actual pixel amount for the media query.
+0:28
+I'll leave that up to you.
+0:29
+But what you need to ask yourself is, you know, we have four links.
+0:33
+You know, this is the the width, you know, of each link in terms of, you know, it says browse, cart, contact.
+0:39
+Can we actually fit these in a more sensible approach, you know, here?
+0:45
+Definitely not.
+0:46
+We don't have enough space there.
+0:48
+Uh, what about over here?
+0:50
+You know, maybe prior right around here for sure.
+0:54
+And so you can specify and think about, you know, how you can then get rid of this hamburger menu just to show them all.
+1:01
+Outside of that, in whichever break point that you use in your media query, I also want you to make a change to other areas of this UI.
+1:11
+And I'll just give you some hints.
+1:12
+You know, for instance, uh, it seems like, you know, we're getting out here.
+1:16
+Like, this text is a little bit small.
+1:18
+Um, I'll show you a little trick, by the way, to just easily enlarge everything with one CSS property when I show you my solution.
+1:25
+Also, these buttons.
+1:27
+This look a little bit silly being so wide.
+1:29
+You could probably better utilize your space, uh, with these two elements.
+1:34
+And by the way, there is a wrapper around each of those two elements called button container.
+1:38
+So, you know, I'm just throwing that out there, um, just so that you can think about, you know, how you structure your CSS to restructure these buttons a little bit.
+1:48
+Um, it is up to you if you wanna change anything about the ferns, uh, and the these graphics right here.
+1:53
+I you could just leave them as they are.
+1:56
+Um, but, you know, again, that's up to you.
+1:59
+So I'm gonna go ahead and you can go ahead and pause this.
+2:02
+Um, I'll come back in the next lesson and show you my solution.

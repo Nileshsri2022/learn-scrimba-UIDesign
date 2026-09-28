@@ -1,0 +1,227 @@
+Transcript
+0:00
+Welcome to this lesson where we're going to continue on with the CSS.
+0:03
+And specifically, we're going to deal with the section right here, um, in down where we have these three different containers for the, uh, cabin previews, essentially.
+0:15
+So, again, we have to always go back to these UI design fundamentals.
+0:19
+What's wrong here in and of itself?
+0:21
+So first of all, off, we have this nav bar which is white, and then it doesn't really contrast with this part very well, this green.
+0:28
+And so that wasn't my intention.
+0:29
+If you recall at the first video, um, or the second video in this lesson, we basically have a background image, but we haven't yet put in.
+0:38
+So before we get to that part though, I want to add a real quick rule set.
+0:42
+Um, and we used this before just for showing our navigation.
+0:47
+And so when we get the, uh, JavaScript and all that stuff set up in fact, I think I'm gonna do that right now.
+0:53
+I wasn't planning on it, but I wanna get that done before I forget.
+0:56
+So we're gonna take our index dot j s.
+0:58
+I'm gonna paste this in.
+0:59
+This is all the same CSS that I have before or the JavaScript rather that I have before for opening up the Navar.
+1:05
+So if I save this and we make sure everything is good to go here, we can click on these and it'll not work.
+1:12
+Okay.
+1:12
+So now let's go ahead and focus on what I mentioned that we want to do with that background.
+1:18
+So, again, if we look at the HTML, we have a div class of forest hero that kind of wraps all the way from here down to here.
+1:26
+Okay.
+1:26
+So we're going to say forest hero.
+1:30
+We're gonna give it a background of URL
+1:34
+images, forest dot jpg.
+1:37
+Now if we look at this now, we can see we have a big sort of like forest graphic in the back, and it's dark.
+1:45
+So it contrasts well with this nav bar.
+1:47
+Alright.
+1:47
+So now what I'll do is go ahead and push this back over.
+1:51
+There's a couple other properties.
+1:52
+Background size is going to be cover, and then we're also gonna make the color white of everything inside of it because we need that contrast.
+2:00
+Right?
+2:00
+Yes.
+2:01
+It's one of the UI design fundamentals we've been focusing on.
+2:04
+Um, next up, inside of there, we have a wrapper in various areas of this UI, like right here, it's right here, and also down a few other times.
+2:13
+And so the the purpose of the wrapper is to give us some white space.
+2:17
+Right?
+2:18
+Uh, we want white space from this side of the browser.
+2:21
+So we're gonna say wrapper.
+2:23
+And again, on mobile, you don't need a lot of white space or or padding.
+2:26
+So we're we're just gonna do point five m units.
+2:30
+Now I don't want any white space around this element up here.
+2:35
+So what I'll do, because we added a no padding class, we're just gonna say padding zero.
+2:43
+Alright.
+2:43
+So now that is fixed up, and now we're getting somewhere.
+2:48
+So also, we're also going to add in our wrapper class text align center for mobile.
+2:56
+So we could see what that looks like.
+2:58
+Now things are starting to, you know, a little bit, you know, take form just a tad bit.
+3:02
+So, uh, let's continue on.
+3:04
+So now we're gonna have our subtitle, which is the forest vacations type right there.
+3:09
+So subtitle, we're going to have a padding on the top.
+3:13
+So this is pretty close together.
+3:16
+I mean, it's not smashed up against the the edge here as we could see, but we wanna push it down more.
+3:21
+So we're gonna say three m units at the top and then zero on the left and right and then just point five m units at the bottom.
+3:30
+That way there's not too much white space here, uh, but, you know, it really stands on its own, and it's also kind of framing things by having a lot of white space up here.
+3:38
+Alright.
+3:39
+So continuing on, we're going to have our h one span element.
+3:43
+Alright?
+3:44
+So each there's three different span elements inside of that h one.
+3:48
+So we're gonna say display block
+3:51
+just like that.
+3:52
+Now we're also going to add a clip path property, which was initially gonna hide it.
+3:58
+So if I just paste this in, it hides them all.
+4:01
+Um, but for now, I'm gonna comment that out, and we will work with that when we get to the animation section.
+4:10
+Right?
+4:10
+Because we're gonna animate these in a very interesting way using the clip path property with the help of GSAP.
+4:16
+Next up, we have the all rentals button.
+4:19
+This is gonna be a good spot for me to challenge you with yet another challenge.
+4:24
+I want you to take this all rentals if we could see it here.
+4:26
+It says it's it's the default purple.
+4:28
+Right?
+4:29
+So and it's right up against this picture right here.
+4:32
+I want you to focus just on styling a good call to action button.
+4:36
+Now we already do have a primary color right here, the screen.
+4:41
+So I want you to take, uh, um, that green and make a a nice solid button with, uh, where it says all rentals.
+4:48
+Alright.
+4:49
+So the class is CTA.
+4:52
+And go ahead and pause and create a good call to action.
+4:55
+Remember, remember your white space.
+4:57
+Remember your scale.
+4:59
+Remember the contrast.
+5:00
+All that good stuff.
+5:01
+So go ahead and pause and then come back.
+5:06
+Alright.
+5:06
+So hopefully you came up with something good.
+5:08
+Let me show you what I would do.
+5:09
+Let's get this back over here.
+5:11
+I'm gonna do a display of inline block,
+5:15
+and then we're gonna do a padding of one m units on the inside.
+5:19
+So that's gonna give us some good white space.
+5:22
+Margin.
+5:23
+Actually, let's go ahead and give it a background color right now.
+5:26
+It's gonna be that green.
+5:28
+What's wrong with it right now as it stands?
+5:31
+Alright.
+5:31
+So the purplish color, it's kinda hard to read.
+5:34
+Right?
+5:35
+So we're going to do two things to improve that specifically.
+5:39
+We're gonna do a font weight of bold.
+5:42
+Get this back over here on the side, and then we're gonna do a color of white.
+5:47
+Alright.
+5:48
+So now that's that's a lot better.
+5:49
+You could have gone black as well.
+5:51
+But what about white space with this image here and this image here?
+5:55
+So we wanna move things around just a tad bit.
+5:57
+We'll do margin bottom, up three m units.
+6:00
+So now we really pushed it down.
+6:03
+And I think we could add a little bit of margin over here, so I'm gonna go ahead and add a margin top
+6:10
+of one m units.
+6:13
+Now things are really, you know, pretty quite solid in this regard up here.
+6:18
+Alright.
+6:19
+So next up, we need to focus on our cabins.
+6:23
+Alright.
+6:23
+And I think it would be a good idea to go ahead and end this here because we're already at six and a half minutes.
+6:28
+And, uh, in the next lesson, we're gonna focus on really styling these up for mobile.
+6:34
+And perhaps, I'm gonna give you yet another surprise challenge, although it's not gonna be a surprise because I just told you.

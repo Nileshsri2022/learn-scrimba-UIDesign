@@ -1,0 +1,59 @@
+Transcript
+0:00
+The purpose of a navigation is to allow users to quickly and easily access important parts of a user interface or different pages entirely.
+0:07
+This we know.
+0:08
+Now in this chapter, we're going to work our way through a common pattern for establishing a navigation that works well on all devices and desktops.
+0:14
+But first, there are a few rules, if you will, that you should understand when constructing or refactoring a navigation for a website or an app.
+0:22
+So first off, prioritize your content.
+0:25
+Not all content is of equal importance.
+0:27
+For instance, your privacy policy isn't quite as important as a registration page or a product page.
+0:32
+So you could choose to link these less important pages and secondary navigations while designating primary navigations to the more important content.
+0:41
+Now you don't always need a hamburger menu.
+0:43
+A hamburger menu is usually seen on mobile devices, and its purpose is to serve as a button that opens up a navigation.
+0:49
+Now if you only have a few links, you don't need a hamburger menu because those links can be displayed in the full app.
+0:55
+This makes it easier on the user because it requires less action on their part.
+0:59
+One click is better than two clicks to access a page.
+1:02
+Now you probably don't need a hamburger menu on desktop.
+1:06
+I've seen a lot of designers needlessly place a hamburger menu on desktop resolutions.
+1:10
+And again, this is bad for the user because it requires them to click to access the navigation.
+1:15
+Only in rare cases is it justified to have a hamburger menu on desktop.
+1:20
+For instance, if you have a very content heavy site with many categories
+1:24
+have delegate the lesser important pages inside of a hamburger menu.
+1:28
+Now there are a wide variety of navigations.
+1:31
+When most of us think of navigations, we think of a horizontal list with links at the top and a pull out navigation on mobile.
+1:37
+But there are other navigations such as sidebar vertical navigations, tab menus, footer based tab menus, circular menus, and more.
+1:44
+Now which navigation you use depends on your specific project.
+1:48
+Button states in visual hierarchy.
+1:50
+It's helpful to give a visual cue that a certain page is the active page.
+1:55
+You can use various design fundamentals to reinforce this visual hierarchy in your menus.
+2:00
+You can make the link bold, change the link color, the background color, etcetera.
+2:04
+So it's sometimes helpful to designate which link is also currently hovered based on the CSS hover selector.
+2:11
+And with that said, let's cover a basic implementation of a responsive navigation.

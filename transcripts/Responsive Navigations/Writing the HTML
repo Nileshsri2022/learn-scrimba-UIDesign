@@ -1,0 +1,96 @@
+0:00
+So we're going to get started with our responsive navigation by writing out the HTML.
+0:04
+I think that's really important and necessary that we cover that from scratch so that you understand what's happening in terms of the front end development process.
+0:10
+Now, of course, we're also going to focus on the UI design fundamentals when we're creating this, but also, again, it makes sense so that you understand what's happening with the HTML, CSS and eventually the JavaScript to pull off this type of navigation.
+0:23
+So this type of navigation is the type of navigation that's the most frequent that you'll see where you have on a small device viewport, a hamburger menu, um, and then it will expand out into a full menu on tablet and desktop.
+0:35
+So let's go ahead and get started.
+0:37
+And again, this isn't going to be a full user interface.
+0:39
+It's just gonna be the header section with the logo and the menu.
+0:43
+And that way we can just focus on that alone.
+0:46
+Alright.
+0:46
+So we're gonna go and specify a header.
+0:50
+Alright.
+0:50
+This header element will allow us to give it sort of like a nav bar with a background.
+0:56
+And then also inside of here, we'll have an ahref, which will go nowhere.
+1:01
+And we're gonna give it a class of logo so we can reference it in CSS.
+1:05
+And then we will just name it company for now.
+1:09
+Alright.
+1:10
+Outside of that, normally, I would put an image tag here.
+1:13
+For instance, uh, an image source, like, maybe hamburger dot SVG for the actual hamburger menu.
+1:21
+But for some reason, I'm not able to specify the SVG file.
+1:24
+It won't work in the mini browser.
+1:25
+So instead, I'm just going to paste in the SVG code itself, which is right here.
+1:32
+One second.
+1:35
+Right there.
+1:36
+Now let me show the mini browser real quickly.
+1:39
+And if I refresh it, uh, we'll see right now we can't see it because the fill is white, but we'll see that here just in a bit.
+1:48
+So next up, we're also going to have a nav element, and this will hold the actual navigation.
+1:56
+So the navigation, first, we wanna have a nav ID, and we'll just call it nav here.
+2:02
+And we're giving this an ID because we wanna reference this in JavaScript, so you'll understand how that comes into play later.
+2:07
+And, again, right here, I'm also going to have an SVG file for an exit icon so they can close out of this sidebar navigation that kinda pulls out when somebody clicks on the hamburger icon menu.
+2:20
+Alright?
+2:21
+So next up after that, we're gonna have an unordered list, and that will hold all of our nav page link links to the different pages essentially that don't exist.
+2:31
+So inside of here, we're gonna say l I a h ref, and then we'll say home, and then close that l I out.
+2:40
+I'm gonna hit shift alt and the down arrow key a few times.
+2:43
+And we want one of these also to have a state.
+2:46
+Um, so we'll put it on the l I element, and we'll call it class active.
+2:52
+And because, uh, when it comes to interaction design, it's always nice to know which page you're currently on.
+2:57
+And we'll use this active class in order to change the a element in some way to designate that they're on that current link.
+3:04
+So, uh, this will be like about.
+3:07
+This will be services.
+3:10
+This will be FAQ.
+3:12
+We're almost done by the way.
+3:13
+And then this will be contact.
+3:15
+And that is it for the HTML.
+3:18
+As you can see, it's really simple.
+3:19
+Um, we we don't see much of anything.
+3:21
+There's a big empty space right here, but, really, that's probably a large exit icon from the SVG.
+3:27
+We've still yet to style all that stuff to make it look good.
+3:29
+So that's what we're gonna get focused on in the next lesson.

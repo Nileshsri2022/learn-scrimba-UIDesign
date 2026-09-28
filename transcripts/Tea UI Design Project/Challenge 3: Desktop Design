@@ -1,0 +1,33 @@
+Transcript
+0:00
+Hello, and welcome to this new lesson.
+0:02
+And this is a challenge, really.
+0:04
+And what you need to do is create, uh, just one more media query where we start to adjust the design out to around here because now we're getting to the point where, uh, this is really wide and we have a a lot of unused space where we could better utilize it much more.
+0:22
+So it'll be up to you to determine, you know, at what point that should be in terms of, you know, the amount of pixels for that second media query.
+0:29
+Um, and then also just, you know, try to determine how you're going to adjust this layout to make better use of the assets and the content that you have here available.
+0:39
+So I will give you a clue, though.
+0:41
+This element right here, this graphic, the PNG, uh, which happens to be plant dot PNG here in the files, is I I decided to personally show the whole thing, uh, because I have enough space, you know, getting out to around here.
+0:55
+Um, so I end up showing it, um, the whole graphic, and so I'm adjusting the CSS and overriding, uh, certain rule sets in, uh, in order to make this work.
+1:05
+Um, so that's all I'm gonna say.
+1:07
+Um, you can choose to to do, you know, basically do whatever you wish as long as, you know, once again, you're adhering to all of these design fundamentals based on whatever change you make.
+1:18
+And, also, you know, you know, if it helps, you can also you know, you can go back to your UI design application.
+1:24
+I got, like, the if if it's Figma, Sketch, or Adobe XD, and just design for it first for that desktop resolution.
+1:32
+That may be helpful for, uh, for some of you.
+1:34
+Alright.
+1:34
+So go ahead and you can pause at the end of this.
+1:37
+And in the next lesson, I'll present to you my solution.

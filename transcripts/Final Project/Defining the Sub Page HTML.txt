@@ -1,0 +1,147 @@
+Transcript
+0:00
+Alright.
+0:00
+Welcome to this challenge where for the first time in this course, we're going to do something a bit different, and that is we're actually going to create a secondary page of our user interface.
+0:10
+Alright?
+0:10
+Because that only makes sense.
+0:11
+I mean, usually when you're designing a user interface, you're gonna have multiple screens.
+0:15
+Right?
+0:15
+And so the whole idea is to try to make sure everything is applied consistently even if the layout may change differently.
+0:22
+So, you know, the same colors, the same type of spacing, the same typography, etcetera.
+0:28
+Alright.
+0:28
+So what we're gonna do is you can see I added a cabins dot HTML and a sub dot CSS.
+0:34
+So we're gonna take all of this, copy it, and just paste it in here.
+0:39
+Now, normally, if this is a real project, you would have some type of templating system so you don't have, you know, the same markup for the header and the footer and all that stuff.
+0:48
+Um, but for now, this is just a simple project for demonstration purposes.
+0:51
+We're gonna keep this all the same up here.
+0:54
+So what we wanna do is change this up.
+0:56
+First, I'm gonna take this shift alt down to replicate and change this to sub dot CSS.
+1:02
+So we're gonna have a CSS file specifically for the subpage.
+1:06
+And then we're going to change up here where it says forced hero.
+1:10
+I'm gonna change this to sub hero.
+1:12
+So for a subpages, we'll change this graphic right here, alright, to something else.
+1:18
+And then, um, we're also going to leave all that stuff the same.
+1:24
+And then inside of here, we're going to change up everything.
+1:27
+So for now, let me just completely get rid of all of this stuff.
+1:33
+There we go.
+1:35
+And I also wanna get rid of the whole u l uh, actually, I'm gonna leave those there.
+1:39
+Um, I forgot.
+1:40
+We're keeping those for now.
+1:42
+And, again, remember, this page is gonna be the cabins page.
+1:45
+So we're keeping this stuff, but we're gonna be displaying it differently if that makes sense.
+1:50
+Um, right here where it says flex, we don't need that.
+1:53
+So I can get rid of that, and then the closing tag down here will take everything and shift tab it in.
+2:01
+Right?
+2:02
+And we're also going to have, um, um, our main copy, we're just gonna get rid of this part.
+2:09
+And then we're going to start switching things up.
+2:11
+Okay, so I'm going to take all this stuff right here and delete it.
+2:18
+So we're gonna have a URL class of breadcrumbs, a breadcrumb navigation essentially, which is nice to have for UX purposes.
+2:29
+We're gonna have a list item, an ahref, going to index dot HTML,
+2:39
+home, and then we're gonna have an l I with our
+2:46
+cabins.
+2:47
+You're noting that this is the current page, so we don't have to make it a link.
+2:51
+Um, then we're gonna have an h one element, And we're gonna leave the span thing in even though we're only gonna have one of them.
+3:02
+And you see once we get to the animation section, you'll see how this, you know, becomes important.
+3:07
+Then I'm just gonna have just a paragraph of warmth.
+3:10
+It's in text, maybe talking about the cabins or something like that.
+3:13
+So we have a breadcrumb, we have our cabins, and then we have this section down here.
+3:18
+All this is gonna stay pretty much the same except I'm changing the arrows to arrows hyphen black because this is a black version of those little triangle arrows.
+3:28
+So I'm just gonna copy this, paste it there and there, and that's it.
+3:33
+So now I wanna have a bunch of cabins because obviously we're showing three here.
+3:37
+If we're gonna click on cabins, we're gonna presume there's more of them to show.
+3:40
+So what I'm gonna do is we're gonna take all the way from here to here,
+3:48
+paste it two times.
+3:49
+So we're gonna have nine cabins.
+3:50
+This is a big company, apparently.
+3:53
+And if we look and go to cabins, this is what it looks like now.
+4:00
+Pretty ugly indeed.
+4:03
+Alright.
+4:03
+So I'm gonna go to our sub dot CSS, and I want to change that sub hero,
+4:12
+show what the background is gonna look like.
+4:14
+So URL
+4:16
+images forest hyphen b g hyphen two dot j p g and also background size cover.
+4:26
+And I'm gonna do a height of seventy viewport heights on that specifically.
+4:30
+Um, let's make sure that this is actually working.
+4:34
+It's p g two.
+4:37
+Looks like it is not in here.
+4:38
+So let me figure this out.
+4:41
+Our background.
+4:41
+I'm gonna leave this in just because it's always helpful, um, to see these things.
+4:48
+There we go.
+4:49
+Alright.
+4:49
+I didn't save it properly.
+4:51
+So this is kind of like a nice, like, you know, sort of, like, early morning, uh, background photograph, essentially.
+4:58
+And so now that we have the HTML for this, I'm gonna go ahead and, um, we're gonna stop this lesson.
+5:05
+Then I'm gonna ask you to get this all looking good as a challenge in the next lesson.

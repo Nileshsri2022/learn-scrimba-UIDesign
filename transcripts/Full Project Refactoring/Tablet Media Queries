@@ -1,0 +1,113 @@
+Transcript
+0:00
+Alright.
+0:00
+Welcome to this challenge where we're going to continue on with the responsive design adjustments here with our CSS media queries.
+0:07
+So, again, just, uh, to overview what we have so far, um, this is our design by default without any media queries.
+0:13
+Um, this is our first media query right here where we're just, uh, taking these elements and making them fifty percent width so that they can not collapse rather, but start to, uh, condense on the same row.
+0:25
+We're looking at this area.
+0:26
+That's probably a little bit too wide right there, um, of a of an adjustment.
+0:31
+So we could probably bring that in.
+0:33
+And then coming out here, finally, in our last media query, uh, we took this, uh, right here and just made each one of them thirty three percent or so in terms of width.
+0:43
+So now what I want you to focus on is a single media query right around seven hundred and twenty pixels.
+0:49
+Because if you look down in this area, there's there's an issue here, especially with these lists right here.
+0:54
+There's just too much white space.
+0:56
+And I want you to think about how you can kinda condense this entire area, uh, in into just a better flow in terms of displaying the information while adhering to, you know, mainly white space and all that.
+1:10
+So, um, also, again, this right here, way too wide.
+1:13
+It it just doesn't look too, you know, good at all with this much width on this viewport.
+1:18
+So I wanna I want you to focus on those adjustments specifically within this media query that I have defined at seven hundred and twenty pixels.
+1:26
+Alright?
+1:27
+So go ahead and pause, and then do your your solution.
+1:30
+And then come back, and I'll show you what I would do.
+1:36
+Alright.
+1:37
+So if you recall, we're here.
+1:39
+Um, on our first media query, we set the padding at one m units.
+1:42
+Uh, and so I wanna just kind of follow along with that, and I'm going to specify body, padding.
+1:48
+This time, we'll bump it up one point five m units.
+1:51
+So here it is with point five, and then one then I one m unit and then one point five.
+1:57
+So we're just getting it slightly away.
+1:59
+Again, this is something you don't necessarily have to do, um, but it's something I'm choosing to do.
+2:04
+So then looking over here, what I think would make most sense, uh, when we're at this this media query right here in larger is to take this element right here, the monthly visitors and and this this text, and put it into its own column at about maybe fifty fifty percent width.
+2:22
+And then we take this information, and then we put it into a second column over here where they're still situated the same as they are now, except there won't be so much white space here and over here.
+2:33
+So we can really just condense the information that way.
+2:36
+So to do that, we're going to specify here columns, and we're gonna do display flex.
+2:44
+Alright.
+2:44
+So by default, that already gets us situated here in two columns, but, of course, it's, uh, way off in terms of the the design, so we need to fix that.
+2:52
+So, um, in each column or in the columns class rather, if we look at the HTML, we do have, uh, columns here, and then also each one is a call class for those columns.
+3:04
+So we'll go ahead and specify flex zero zero.
+3:09
+I'm gonna make it forty eight percent, not fifty, just so I have a little bit of white space, um, over here, which we'll we'll get to momentarily.
+3:17
+Right now there's none.
+3:18
+Um, and then we're going to say secondary, and that's for the second column.
+3:22
+We'll say margin left, three m units.
+3:25
+So that gets it away, so we have good white space right there.
+3:29
+Alright.
+3:29
+And then coming out as well, ul secondary.
+3:33
+We're gonna say margin top zero, and that was just a it had some default margin on it, so we're just putting the margin top back up there to zero.
+3:43
+And then finally, our nav, which is this element.
+3:47
+That looks pretty ridiculous.
+3:49
+Um, so what we wanna do, it's too large, take that, um, width down to, say, thirty percent or so.
+3:58
+Right there looks good.
+3:59
+So now, um, if we come here, I still think the width on this viewport, that could probably be fixed as well.
+4:06
+So what I'll say on this one is nav will say width maybe forty percent.
+4:14
+So now we have let me close this.
+4:20
+This is without any media queries,
+4:24
+And then this is our media query right here with the five hundred fifty pixels.
+4:28
+And then right here, it maintains the same width or so on our latest media query.
+4:35
+Alright.
+4:35
+So that is the solution that I've come up with so far.
+4:38
+And And then we're going to do one more of these, and I'm going to do one more media query based challenge or response to design based challenge when we get out to even here because when you get this large, this is hard to scan.
+4:51
+So we need to figure out what we can change, and I'll introduce that challenge here in the next lesson.

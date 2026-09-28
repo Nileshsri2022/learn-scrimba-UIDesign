@@ -1,0 +1,109 @@
+Transcript
+0:01
+Alright.
+0:02
+Welcome to this challenge where it's gonna be completely based on color.
+0:08
+So we could see this UI right here, and I intentionally made it all grayscale.
+0:13
+And we could also see a key down here where you can kind of think of this as your color palette.
+0:19
+These five colors are the only colors that you're allowed to use in order to give this UI design, this little contact form, a color scheme.
+0:30
+And one thing you may be wondering about is how do I know what color codes?
+0:33
+Don't worry, they're all in the CSS.
+0:35
+I'll show you in a second, um, but you can also when you choose your colors, you can go a light color scheme if you wish or a dark one.
+0:43
+In fact, I'm gonna show you three different solutions I came up by only using these five colors here.
+0:49
+So here's the HTML.
+0:51
+You can see we have that little, uh, uh, key legend area down here.
+0:55
+There's just a regular contact form inside of a container.
+0:58
+Nothing fancy's happening here.
+1:00
+In our index CSS, here's all the regular CSS.
+1:04
+And then we come down here to the bottom and your fixes go below here.
+1:09
+You I want you to use these color codes.
+1:11
+So you can see how there's a one next to each color code.
+1:14
+That's in reference to the one right here.
+1:16
+So the color code for number one would be right here.
+1:22
+Alright?
+1:23
+And so on and so forth through, uh, two through five.
+1:26
+And also, I'm giving you the selectors to use along with the properties that you can use.
+1:32
+Now you don't have to use all these selectors.
+1:35
+You don't have to use all the properties.
+1:36
+You can use more properties if you wish, but really, I just wanna focus on color.
+1:41
+So try to use only color properties and your CSS rule sets.
+1:46
+And so I'm going to we once again show you exactly what I came up with.
+1:51
+I'll have three different solutions, although you could potentially come up with more and they could be different and just as effective, uh, but I just wanted to give you some ideas here.
+1:59
+So go ahead and pause, use these color codes right here, and apply them to the different CSS properties right here to try and make this look good in terms of a given color.
+2:15
+Okay.
+2:16
+Great.
+2:16
+So hopefully you came up with something that worked well, and what I'm gonna do is paste in three different solutions that I came up with.
+2:23
+So here's the first one.
+2:28
+Okay.
+2:28
+So what I chose to do was go with a dark color background color here.
+2:33
+I'm using the number one color code.
+2:35
+We can we could see pretty much everything really works well.
+2:39
+We have good contrast.
+2:41
+Our call to action sticks out quite well.
+2:44
+I we even have I have a section where you when you focus on this form elements, that lights up, which is good for usability.
+2:52
+Uh, and yeah, this is the first solution that I came up with.
+2:56
+So let me show you, uh, another one which is slightly different.
+3:01
+I'll really change just two properties for this one.
+3:03
+And if for this one instead of going a real dark for number one, I chose number three for the dark color code and made the text backgrounds here this number one color code.
+3:14
+But as you can see, it still works.
+3:17
+It's still usable.
+3:19
+And for the last solution, I'm gonna show you one that is a light color scheme.
+3:25
+So I'm gonna paste this in.
+3:27
+And here we go, we can see this one here works pretty well.
+3:33
+Alright.
+3:33
+So hopefully you were able to come up with something that really uh, was pretty close to one of my options, although again, if you didn't, that's okay.
+3:42
+But really, the main thing to focus here is making sure that you're using, uh, colors that will contrast with each other very well, uh, especially given I already provided you the color schemes.
+3:53
+Now going on forward throughout the course, uh, these will get a little bit more challenging.
+3:57
+I may not provide you with any of the color options at all, uh, but, yeah, hopefully, you will get a good footing here in terms of color going forward.

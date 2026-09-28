@@ -1,0 +1,43 @@
+Transcript
+0:00
+When I first began designing user interfaces in the late nineties and the early two thousands, people loved using drop shadows.
+0:08
+Text had drop shadows.
+0:09
+Containers had drop shadows.
+0:11
+Borders had drop shadows.
+0:13
+The more drop shadows you had, the better.
+0:15
+Now this trend continued past the twenty tens after web two point o, and then we saw an abrupt halt to the usage of shadows when flat design became popular.
+0:26
+Now this was a really welcome trend because it reverted back to the mantra of KISS, keep it simple stupid.
+0:32
+But in the last couple years, we're seeing shadows come back, but they're implemented in much a better way.
+0:38
+See, there's nothing wrong with integrating drop shadows on your user interface.
+0:42
+You just have to know how to properly apply them.
+0:45
+A bad drop shadow is a recipe for UI disaster, and it's a sure way to make sure that your user interface looks amateur and dated.
+0:52
+So there's a few things that will result in a bad drop shadow.
+0:56
+First is contrast.
+0:58
+A drop shadow with too much contrast draws too much attention to itself, when in reality, the drop shadow should be something that's secondary in nature.
+1:06
+The purpose of a drop shadow is to give the illusion of depth, but the focus should always be on the content.
+1:12
+It shouldn't be on something like a shadow because it serves real no purpose to the user.
+1:18
+They're there for the content, not for your shadows.
+1:22
+Now second is color.
+1:24
+While it is possible to integrate effective colored shadows, I see many people getting this wrong, and it really kills a UI design.
+1:33
+And then third is knowing when to abstain from adding a drop shadow.
+1:37
+There are a few cases where you should absolutely not add a drop shadow, which I will cover going forward.

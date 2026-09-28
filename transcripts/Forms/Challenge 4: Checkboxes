@@ -1,0 +1,257 @@
+Transcript
+0:00
+Okay.
+0:00
+Welcome to this final lesson and challenge that's a part of this form design chapter.
+0:05
+And so far, everything's looking quite good here.
+0:08
+Everything is consistent in terms of design.
+0:10
+And now we're gonna have a third page, uh, which right now just doesn't go anywhere.
+0:16
+So let's fix that real quick.
+0:17
+We have a step two dot HTML, and we need this to go to step three.
+0:21
+There we go.
+0:22
+So if we go to step three, it's going to be blank because there's nothing in it.
+0:25
+So I'm gonna copy all of step two and just paste it in to step three.
+0:29
+And then we're going to cut out the details, uh, within our form section.
+0:34
+So the h two is going to change here to confirmation.
+0:39
+We'll also change this class of current into the third li element right here.
+0:45
+Okay.
+0:46
+And then we're going to get rid of all of this stuff here with exception to the next button.
+0:52
+We're gonna change this to complete sign up.
+0:56
+Alright?
+0:57
+And then alright.
+0:58
+So what we're gonna have here initially is a label or equals I will just call this TOS for terms of service.
+1:08
+And we're gonna give a class to margin top of extra just to push us away from the, um, element above it, the confirmation title.
+1:19
+And we're gonna need to say terms of service here.
+1:23
+And then we're gonna have a text area.
+1:26
+And I wanna give this a class two of extra height so we can really fill this out more
+1:33
+just like that.
+1:34
+And I'm gonna put in just some lorem ipsum filler text inside of it.
+1:40
+Right.
+1:41
+So this is what this looks like so far,
+1:45
+and let's continue on with more of the markup.
+1:49
+We're also going to have an input type equals checkbox, and name is going to be c b.
+1:58
+Oh, by the way, we need to do a, uh, an ID of cost for that to work.
+2:03
+Okay?
+2:03
+And then coming back here, we're gonna say an ID of c b.
+2:09
+Alright.
+2:09
+And then we're going to have a label for equals c b, and ID equals checkbox.
+2:19
+And we're going to put in, I agree to the terms of service
+2:28
+like that.
+2:30
+Of course, this is all broken and doesn't look good at all.
+2:35
+And that's all we're gonna have for the actual markup though.
+2:38
+So for this challenge, I want you to structure this so that it works well.
+2:42
+This button where I'm going to also make this a custom SVG based animated checkbox.
+2:49
+Now I'm not gonna require you to do something like that similar.
+2:53
+Um, you can if you wish, but, really, your result should your your your basically, your challenge should be to take this this element right here and make the I agree to terms of service, float it to the right of it, and give it good amount of white space between all the other elements around it.
+3:14
+Um, and when we come back, I'll go ahead and show you how to do that custom SVG based checkbox that even animates upon click.
+3:24
+So go ahead and pause and do that.
+3:29
+Okay.
+3:29
+So hopefully you're able to come up with something that worked well.
+3:32
+I'm gonna go ahead and show you what I would do.
+3:35
+Alright.
+3:35
+And it's just one such way of tackling.
+3:37
+It doesn't mean you have to do this for every checkbox.
+3:40
+Okay.
+3:41
+So what we're gonna do is we're gonna need to go into secondary CSS.
+3:44
+Let me get this out and get this in a mobile view just so we could see it over here.
+3:51
+And we're focusing on the checkbox right here.
+3:55
+And what we're going to do is first reference our extra height class that we added, And I'm gonna put min height of hundred fifty pixels.
+4:06
+So now that gives us this.
+4:09
+It's extended out more.
+4:10
+It looks a bit better.
+4:12
+Now we're gonna focus on the checkbox.
+4:15
+Alright.
+4:16
+So type equals checkbox.
+4:20
+And we're going to display none this and pointer events will be none as well.
+4:27
+And that gets rid of it.
+4:28
+We're gonna do a input type of checkbox again plus label.
+4:35
+We're gonna say cursor pointer, display grid.
+4:39
+Again, nothing we can really we can't really see it yet.
+4:42
+Grid template columns,
+4:48
+gonna be auto and three f r, fractional units.
+4:52
+And then we're going to take our input of type checkbox
+4:58
+checked plus label and the check inside of it, stroke hyphen dash offset, it's gonna be zero.
+5:07
+Now we don't have the markup for this yet, so let's it's probably a good idea to put that in there now.
+5:13
+So the markup for the for my solution, obviously, is gonna be a little bit different.
+5:16
+And I'm going to paste in an SVG element that I created
+5:24
+in Adobe Illustrator right here.
+5:27
+It's basically just like a check sort of graphic.
+5:30
+And I'm also placing in the I agree to the terms of service inside of a spam.
+5:37
+Alright?
+5:38
+So let's continue on.
+5:40
+We're gonna go back to our secondary CSS.
+5:42
+So now we're going to put and reference our SVG element.
+5:47
+We're gonna say width is two m units.
+5:51
+Stroke is one a zero zero four e, and stroke width will be five, and fill will be white.
+6:01
+Alright.
+6:01
+So now we could see it starting to come alive right here.
+6:05
+But still, the alignment's all off with the label, and, um, it doesn't work when you click on it.
+6:10
+So we need to fix that.
+6:12
+So our SVG so we're now we're gonna have a the box class.
+6:16
+The box is attached onto, uh, let me find it right here to this path.
+6:23
+Alright.
+6:24
+So we're gonna come back here.
+6:26
+We're gonna say stroke dash array is three twenty, and then stroke dash offset is gonna be zero, and then fill will be white.
+6:42
+And then we're gonna do transition
+6:45
+stroke dash offset three point three seconds rather in linear.
+6:51
+And we have two more role sets to make this work.
+6:54
+So we're also gonna reference the check graphic that's inside the SVG.
+6:59
+Stroke dash array is gonna be seventy.
+7:05
+Stroke dash offset
+7:08
+is going to be seventy as well.
+7:11
+Fill will be none.
+7:13
+And transition will be stroke dash offset point three seconds in linear as well.
+7:21
+Alright.
+7:22
+So now if we get this into view, we'll see when you click it, it actually animates a little custom checkbox.
+7:32
+Very, very fun and cool stuff.
+7:35
+So now this element right here needs fixed.
+7:37
+It's, uh, not properly aligned into the center here, so it just looks silly.
+7:43
+And so let's fix that.
+7:44
+So we're gonna say left call span, and we're gonna take our padding top point four EM.
+7:52
+Let's get this into view here.
+7:54
+But we've moved it down.
+7:55
+Now it's in the center.
+7:57
+We're gonna do a margin left of point five EM to push it over in a way and give ourselves some white space.
+8:04
+Font weight will be normal because we don't need it to be bold.
+8:07
+And then the color, we're gonna make our one b oops.
+8:12
+One eight rather.
+8:14
+What was that?
+8:14
+Yeah.
+8:15
+One a.
+8:15
+Sorry about that.
+8:16
+And now it's this, uh, purplish color.
+8:18
+So now if we view this, we'll see we have a nice checkbox that works here
+8:30
+and looks great at all view ports.
+8:34
+So just to reiterate, we have our error field.
+8:38
+We have our elements having active fields here.
+8:41
+A good solid call to action.
+8:43
+All our form fields are designed consistently,
+8:49
+and everything looks and works pretty well.
+8:52
+So, hopefully, that you're you're able to take away, uh, quite a bit from this chapter in terms of form design, in terms of both UI design practices and UX design practices.
+9:03
+You always wanna make sure that your forms in your form elements are designed consistently, and they're also accessible and easy to use.

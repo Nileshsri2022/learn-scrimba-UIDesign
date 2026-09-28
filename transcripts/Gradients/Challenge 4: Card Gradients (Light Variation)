@@ -1,0 +1,103 @@
+Transcript
+0:00
+Welcome to this new challenge.
+0:01
+We're gonna work with the same layout, except we're going to change up the background right here to see what happens when we do that and how we can fix it.
+0:09
+So the only thing I'm gonna change right here is the background, and we're going to a very light background gradient.
+0:16
+So it's going from white all the way down to this very light pink right here.
+0:20
+And now this just doesn't look that good, um, the way we have the background, uh, the drop shadow along with the gradients right here.
+0:29
+Um, To some people, this may look good, but we can definitely improve the aesthetic.
+0:35
+So one thing I think about this gradient right here, um, we're not pulling any colors, uh, from the current background.
+0:42
+So it looks a little bit too much.
+0:44
+It's too heavy.
+0:45
+Um, so I'm gonna ask you to fix this by changing this background color.
+0:50
+For now, we're gonna go ahead and just, uh, not have the box shadow right here.
+0:56
+And you can go ahead and if you wish, you may have to actually use a box shadow, um, to separate parts of the background out depending on what you choose for the gradient of the card.
+1:08
+But that's entirely up to you if you wanna do that.
+1:11
+So we're gonna assume right now that the background right here is white.
+1:16
+Alright.
+1:16
+And this is what we have to work with.
+1:18
+We could see this one has less contrast because it's white over here and light pink over here.
+1:23
+So these cards come out a little bit more.
+1:25
+Um, just keep that in mind.
+1:26
+Um, you want your contrast between the cards always to be a little bit visible.
+1:30
+Alright.
+1:31
+So go ahead and pause.
+1:32
+Come up with a gradient here for these cards, for the actual card element right here.
+1:37
+And also, if you wish, apply a, uh, sort of drop shadow in along with them.
+1:47
+Alright.
+1:47
+So hopefully you came up with something that worked.
+1:49
+I'm gonna show you what I would do.
+1:51
+So first, again, we're gonna pull out a color from the the, you know, the rest of the UI and it's sitting on this pink color.
+1:58
+Alright.
+1:58
+So we're going to change that to this value right here.
+2:04
+Right?
+2:04
+So it's it's almost basically the same color, just about the same value.
+2:09
+And then we run into an issue though where it kinda gets lost.
+2:12
+Like for instance, the Don here, it it the container blends in with the rest of the background completely.
+2:18
+And I'm not sure if I'm such a fan of that.
+2:21
+Um, especially over here, it gets a little bit weird.
+2:24
+Um, and it's just kinda hard to really place your focus with your eye, essentially.
+2:28
+So what we're gonna do is just add and utilize a very subtle drop shadow on this, and it's going to be a harder drop shadow, not something like real big and boisterous sometimes like we have.
+2:40
+So for that drop shadow, we're gonna go ahead and put in box shadow.
+2:46
+I'm going to put in zero here for the x value, two pixels, so it's gonna come down slightly.
+2:52
+Three pixels for the blur radius, RGBA.
+2:55
+We're going to pull in from the same hue, uh, that pink colors, which is sixty nine zero one twenty two.
+3:02
+And then we're gonna do zero point two.
+3:05
+Right.
+3:05
+So doing that gives us a very subtle, hard drop shadow right around it that really just helps separate those areas where in this design, you could see that they would otherwise be, you know, kind of just blending in together.
+3:20
+So that's one good way that you can use drop shadows, um, to to help with your UI designs.
+3:26
+Alright.
+3:27
+So that's it for the gradient section.
+3:30
+I when it comes to gradients, again, they're not as popular as they once used to be back earlier ten, fifteen years ago or so.
+3:37
+Uh, but still, there's definitely use cases for them, and I wanted to be sure you know how to use them.
+3:42
+So hopefully at this point, you're pretty confident Going forward.

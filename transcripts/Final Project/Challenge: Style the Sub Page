@@ -1,0 +1,239 @@
+Transcript
+0:00
+Welcome to this lesson where I'm going to ask you or challenge you rather to, uh, make this look good.
+0:05
+Now before we get to that point, we need to make a couple adjustments in the HTML.
+0:10
+We need to add a wrapper.
+0:12
+So I meant to do this before, but I didn't.
+0:14
+So I'm gonna call this bread wrapper.
+0:17
+This is specifically gonna be for my solution at least.
+0:19
+Um, oops.
+0:20
+We gotta close this up here.
+0:22
+So if and we'll just get that indented in.
+0:29
+And I also want to add a class specifically to this called sub description, the ESC.
+0:37
+And it doesn't change anything, of course.
+0:39
+And then we're gonna go back to our sub CSS, and I wanna get in that specific, uh, background that we're gonna be using.
+0:46
+So first, I'm gonna take the body, and I wanna make the background white here.
+0:53
+Um, and before we can get to that part, let's make sure this is linked up.
+0:56
+We have sub CSS.
+0:58
+There we go.
+0:59
+And then I also wanna get the image for this section.
+1:03
+Um, it's right here, sub hero.
+1:05
+So I'm gonna take sub hero,
+1:09
+and we're going to say background URL, the images forward slash forest b g two dot j p g.
+1:20
+And also background
+1:22
+size will be cover, and then height will be seventy, viewport height.
+1:26
+Okay.
+1:27
+So now this is what we're working with.
+1:29
+It's still not good, though.
+1:31
+Um, and, again, we need to worry about, you know, responsive mobile first.
+1:36
+So I'll ask you to add in a media query or two, uh, if you need to, if you think you need to, um, in order to get this all looking good at all sizes.
+1:45
+Okay?
+1:46
+So go ahead at this point and pause and come up with your solutions here in sub CSS and then come back.
+1:57
+Okay.
+1:57
+So hopefully you came up with something that worked well.
+1:59
+Now I'm gonna show you my solution.
+2:02
+So, um, let's go ahead and first focus on this, the bread crumbs.
+2:07
+So let's get this moved over to the side, and we're going to say bread wrapper, which is why I added this display grid, justify content here is gonna be center, and then margin is gonna be three e m zero and zero.
+2:23
+So now we're moving things away, um, and we're gonna take specifically our ul breadcrumbs.
+2:30
+Gonna display flex margin bottom of point five m units.
+2:37
+And then our ul breadcrumbs list items, we're going to actually list items a.
+2:44
+There we go.
+2:45
+We're going to have a color of black because that purple color looks silly.
+2:49
+Margin right of point five m units and then font weight of bold to signify this is the active page and establish that visual hierarchy and then font size of both point nine EM just to to scale that part down just a tad bit.
+3:03
+Um, actually, no.
+3:03
+We're gonna leave that off.
+3:04
+There we go.
+3:05
+Alright.
+3:06
+And then what we're going to focus on here so let's check this out so far.
+3:13
+Now this obviously alignment's way off right here.
+3:17
+We'll worry about that when we get to the responsive part.
+3:20
+So now what we'll take a look at fixing here next is the h one element.
+3:24
+There's too much space, I think, between those two.
+3:26
+So we're gonna take our h one margin top of zero.
+3:33
+Alright.
+3:33
+So there's not enough white space right here and here.
+3:38
+So let's reference our subDESC for description, and we're gonna do width of eighty percent.
+3:46
+And that makes that pushes it to the left.
+3:48
+So we're gonna do margin zero auto to center it.
+3:53
+Right.
+3:53
+Right there looks good.
+3:55
+Right.
+3:55
+Next, we're gonna have our featured cabins.
+3:57
+Alright?
+3:58
+So, um, our featured cabins are right here.
+4:02
+So our on our list featured
+4:07
+cabins, we're going to have a display grid.
+4:12
+Gonna use that cool technique, grid template columns that we used a little bit earlier in the course.
+4:17
+We're gonna repeat auto fit min max two hundred pixels and two hundred pixels instead of one f r like last time.
+4:25
+Alright?
+4:26
+And so
+4:29
+what that's going to do when we select this, it's automatically gonna make it responsive for us.
+4:36
+Still doesn't look good at all.
+4:38
+We have a lot of issues that we have to work on.
+4:40
+Um, we also have to add in here a width of a hundred percent.
+4:45
+Gonna place the content center in a margin top of four m units.
+4:51
+So if we look at this now, here it looks quite solid, except we can't see your link down here.
+4:58
+So we'll get that fixed momentarily.
+5:01
+We're also going to have our cabin CTA.
+5:05
+This is hidden.
+5:06
+So because it's white on white, and make this a color of black.
+5:13
+And finally, also, we have an underline that we can't see because it's white as well.
+5:17
+So cabin CTA after is gonna be background black.
+5:24
+Alright.
+5:24
+So this is what it looks like now.
+5:26
+Now I would say this is pretty solid here on our mobile view port.
+5:34
+Alright.
+5:34
+So what about though
+5:38
+on something larger?
+5:39
+So if we come out here, we have way too much white space up here.
+5:45
+So we need to fix that.
+5:48
+Um, and we also have, you know, this issue right here.
+5:52
+Everything's misaligned.
+5:54
+So let's focus on that part right here.
+5:56
+So we're gonna put at media, and this really starts to happen at min width ninety nine hundred pixels rather.
+6:04
+And we're going to have our hero.
+6:06
+I'll take our hero and say padding for m units.
+6:10
+Are you well featured cabins?
+6:14
+We're gonna place content flex start, So that kinda moves them just over.
+6:21
+And we're also going to say bread wrapper.
+6:27
+Display is gonna be unset.
+6:30
+Now that moves this over and moves everything up.
+6:34
+And then our subscription
+6:38
+currently, it's it's way it's not aligned correctly.
+6:41
+So we're just gonna say with hundred percent.
+6:46
+Alright.
+6:47
+So now this is what this looks like.
+6:50
+You don't really want this type to go all the way across, so you don't want that.
+6:54
+And now here we go.
+6:55
+This is actually looking real solid right here.
+6:58
+So checking out the responsiveness of it.
+7:03
+Very, very, very cool stuff.
+7:06
+Alright.
+7:06
+So hopefully you came up with something that was, you know, maybe somewhat similar.
+7:10
+And, again, there's multiple solutions that would be correct to probably any, like, almost innumerable in in terms of how many solutions could work.
+7:20
+But, again, they all need to to follow that solid UI design fundamentals.
+7:26
+Alright.
+7:26
+So here's the home page.
+7:29
+And then going to our cabins page, For some reason, that didn't stick for some reason.
+7:35
+I made a change there to make that active, but that's okay.
+7:38
+And there we go.
+7:39
+So now in the next lesson, let's focus on adding some animation just to this upper part.
+7:45
+And this will be in the form of, you guessed it, a challenge.

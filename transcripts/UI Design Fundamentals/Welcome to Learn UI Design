@@ -1,0 +1,51 @@
+Transcript
+0:00
+Hey there and welcome to this module, where you'll learn the basics of user interface design.
+0:05
+An important topic for front end developers, because remember, everything we build is ultimately for the user.
+0:11
+Our users expect not only functionality, but also a high level of quality and design when it comes to their apps and websites.
+0:18
+So in this module, you'll go through three sections.
+0:21
+We'll start with the fundamentals of UI design, specifically the seven core principles.
+0:25
+This includes essential elements like typography, colors, visual hierarchy, and white space.
+0:30
+These principles are not just design choices.
+0:33
+They're about making interfaces intuitive and accessible for users.
+0:36
+Then you'll move on to experimenting with a very simple layout.
+0:39
+This section will teach you how to get creative even with strict constraints.
+0:43
+As you design and build a simple article page, you'll be blown away by how much you could do even with just a few elements.
+0:50
+Finally, we'll tie it all together in a full project refactoring at the end of the module.
+0:54
+You'll get to apply the principles and patterns you've learned to an actual project, a stylish company dashboard.
+1:01
+Your teacher for this module is Gary Simon, who you might know from YouTube.
+1:05
+Gary is one of the most popular coding and design instructors with roughly one million followers.
+1:11
+With over twenty years of experience in the industry and having created over one hundred courses, Gary has distilled all of his knowledge
+1:28
+explore UI design, remember that certain patterns have become standard because they're effective.
+1:33
+Patterns like dark mode, card layouts, modal dialogues, shopping carts and more are more than just trends.
+1:39
+They've proven to be the best way to enable users to complete various tasks and enhance user experience.
+1:45
+So recognizing and drawing inspiration from these tried and tested patterns is a key step in understanding UI design.
+1:52
+The goal of this module is not only to introduce you to UI design concepts that will allow you to reason better about UI solutions, but also help you speak the design language more effectively, enabling productive conversations with designers.
+2:06
+And I'll also leave you with some of my favorite resources for this topic.
+2:09
+So keep these handy as you explore the world of UI design.
+2:13
+Alright.
+2:13
+With all that said, let's jump into it.

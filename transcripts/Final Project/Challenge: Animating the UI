@@ -1,0 +1,133 @@
+Transcript
+0:00
+Welcome to this final lesson here where I'm going to ask you to create an animation specifically just on these elements right here using GSAPP, which is the GreenSock animation platform.
+0:12
+You don't necessarily have to actually use that, by the way.
+0:15
+You could do it with just regular CSS if you're more comfortable with that.
+0:18
+But my solution will be using GZAP.
+0:21
+So, again, remember the animation fundamentals.
+0:24
+You don't wanna you don't wanna keep people waiting too long.
+0:28
+You don't wanna create animations that are very jarring or too slow.
+0:32
+Uh, and so just, you know, recall what those lessons were.
+0:35
+Maybe go back, um, and and look at that first lesson about UI or animation UI animation fundamentals.
+0:41
+And, um, and then just work on getting these elements to animate in somehow in a pleasant way.
+0:47
+So you can add those animations.
+0:50
+Um, and by the way, let's go to our index right here.
+0:53
+I'm gonna paste in a CDN to GSAP if you wish to use GSAP.
+0:58
+If you do by the way, let's add that to both, uh, the cabins as well so they can work through there.
+1:04
+Uh, if you do use, uh, the GSAP version, go to index dot j s and you can add your GSAP code here at the bottom.
+1:12
+Um, if you're not using that, you can just add in sub c s or as in or or index dot CSS for your animations or however you wish to add them.
+1:20
+So So go ahead and pause and do that, and then come back.
+1:27
+Alright.
+1:28
+So hopefully, you came up with something that was good.
+1:31
+And, uh, what we're gonna do now is I'm gonna show you what I would do.
+1:34
+Again, my solution is only four lines of JavaScript.
+1:38
+Very, very, very simple stuff.
+1:40
+So we're gonna go to our index JS, and we're gonna create a new instance of the timeline GSAP.
+1:49
+Defaults are duration.
+1:50
+We're gonna override to one second.
+1:53
+Alright?
+1:55
+Then we're going to create a from our main copy, which is basically a wrapper across our, uh, let's see right here, This element, this element, and this element.
+2:11
+And we're going to animate y fifty and opacity zero.
+2:18
+Now if I save this, refresh, you see it comes up like that.
+2:23
+Very simple.
+2:24
+We're also gonna do two h one spans.
+2:29
+So remember I was talking about the span elements and the heading.
+2:31
+Um, this is where we get to do this.
+2:33
+So we could put in clip path and and remember, when you're dealing with CSS property names in JavaScript, it has to be referenced especially if there are multiple words like clip path.
+2:44
+Uh, you admit the hyphen and change the next, uh, word to a pair, uh, uppercase.
+2:50
+So it's a camel case here.
+2:51
+So clip path.
+2:53
+And again, I didn't come up with these values, um, on my own.
+2:57
+I went to Google and type path generator to come up with these values right here.
+3:02
+And remember, they all have to have percentage values for this to work.
+3:06
+And then we're going to put negative equals point seven so that it kinda starts a little bit after the main animation starts.
+3:16
+Alright, so looking at this, let's go ahead and refresh that again.
+3:21
+Now that's going the opposite way.
+3:25
+Um, let me figure out why it would be doing that.
+3:28
+Oh, so the reason it's showing it initially is because I forgot if we go back to our index CSS, we need to find up here our h one span.
+3:38
+Remember, I I had that commented?
+3:41
+Now it's gonna work.
+3:42
+So I if we refresh, there we go.
+3:48
+Very, very cool the way we have that blind effect coming in.
+3:51
+And then for the final line, we're just gonna come to my, uh, where we at?
+3:56
+The index JS.
+3:57
+We're going to add a final from.
+4:00
+We're gonna animate the featured cabins list items, and we're gonna say y fifty.
+4:09
+Capacity is gonna be zero.
+4:11
+Stagger, because we're gonna create a stagger animation between each list item that we find.
+4:16
+And again, negative equals point seven.
+4:22
+Now look at that.
+4:24
+Look how great that looks.
+4:25
+Let's go ahead and increase this just a tad bit.
+4:31
+Very, very nice.
+4:32
+And so this will even work for our cabins as well.
+4:38
+Alright.
+4:39
+So hopefully you came up with something that was just as impressive, if not more, uh, for your project.
+4:45
+All right.
+4:46
+So hopefully, you know, throughout this entire course, you really learned a lot.
+4:51
+Uh, and in the next video, we'll go ahead and summarize everything.

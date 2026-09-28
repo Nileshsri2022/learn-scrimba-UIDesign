@@ -1,0 +1,151 @@
+Transcript
+0:00
+Welcome to this new challenge where I'm going to show you a really cool and sort of modern way to use shadows.
+0:06
+And that is to help define containers where the container background is the same color as the actual background of whatever, you know, element it's sitting on.
+0:16
+In this case, it's the it's the body element.
+0:19
+They're both white now.
+0:20
+So the card was white, then it changed the body to white.
+0:23
+And so let's say, for instance, you had multiple cards or whatever, and you really wanted to to really just, you know, create containers out of them, and you wanted to show the edge of the card and actually have a card because right now this is not a card.
+0:37
+So one way you can do this if they're both the same background color is to use a shadow of some sort.
+0:42
+So I'm gonna show you a couple different ways that you can use them.
+0:46
+But first, using what I taught you so far about box shadows and shadows in general, I'm gonna go ahead and ask you to come up with your own solution, uh, in terms of applying a shadow here.
+0:56
+So, of course, there's a lot of subjectivity.
+0:58
+There's a lot of things that you can do.
+1:00
+There's a lot of values that you can you can use that would be perfectly fine, and you'll see that in my solution.
+1:05
+I'll give you several solutions.
+1:06
+So just have fun with it.
+1:07
+It's a quick challenge.
+1:09
+Use the box shadow property again over here, uh, and come up with something that you think looks good and you'll see if it matches any of my solutions.
+1:20
+Alright.
+1:21
+So hopefully, you came up with something that worked well.
+1:23
+I'm gonna show you a couple ways that I would handle this.
+1:26
+And, really, you can use a medium size shadow in terms of softness.
+1:30
+You can you can use, uh, a, uh, more of like a a hard shadow.
+1:34
+And you can also use a really large shadow, um, which I think really looks good.
+1:38
+So I'll show you how this works.
+1:40
+So I let's go ahead with just taking these default values right here, and we'll see what this looks like.
+1:48
+So this use case, don't do that.
+1:50
+Like, again, like I mentioned before, you know, this is fifty percent of opacity or point five.
+1:55
+It's just way, way too much.
+1:58
+Um, so if we drop that down to say point one, it's better.
+2:02
+But I still kind of don't like it because you can't see the other side of, you know, the two sides of this card.
+2:09
+All right.
+2:09
+So what you could do to remedy that is you could take zero maybe on the x axis.
+2:16
+And now we can start seeing at least three of the sides.
+2:19
+So that works a little bit better.
+2:21
+And we could also make it more of a hard shadow.
+2:24
+Again, the way we do that, we can take this down maybe to about four.
+2:28
+Then it's kinda coming down a little bit too far, so maybe we'll take it this down to three or so like we had before.
+2:34
+Um, and we'll bump this up to point two.
+2:37
+This works well.
+2:38
+You know, you could see clearly it is a card container.
+2:41
+Yeah.
+2:41
+This is this is great.
+2:42
+It works.
+2:43
+Now you can also use a really large soft shadow, which I think looks pretty good, honestly.
+2:50
+So what we can do is say, we'll do ten pixels here on the x.
+2:53
+We'll do ten pixels on the y.
+2:56
+Um, for the blur radius, let's do, um, let's try to do twenty.
+3:03
+And let's see what this looks like by default.
+3:07
+Alright.
+3:07
+So we could see here, we could just see the edges now of this container.
+3:12
+And so it really gives you kind of a a full, really soft, almost has that neumorphic effect that's applied to it that everybody's been going crazy about, um, in in it and it definitely works.
+3:23
+Uh, as you can see, we're using about twenty percent opacity.
+3:26
+We can use fifteen to make it even more subtle.
+3:30
+And if you wanna make it a little bit larger, you can probably bump it up to thirty.
+3:34
+And then you really have a a a much wider area that you can use.
+3:38
+And so this is more of a modern approach.
+3:40
+It works just fine.
+3:42
+You can try to utilize it with, you know, different color backgrounds.
+3:46
+For instance, come out here.
+3:49
+We'll change the color here.
+3:50
+So we'll change the background to this color, as you can see right here.
+3:54
+And we'll also change the card to that color as well.
+3:58
+So we'll say background there.
+4:02
+Alright.
+4:02
+And really, it works in much the same way.
+4:06
+And one thing that helps in terms of, uh, making the shadow seem a little bit more natural, because right now it's black, we can actually use a hue of, uh, this greenish color, uh, instead and also make it more saturated.
+4:19
+I'm using a hex to RGB converter.
+4:22
+Um, you could just type that in on Google.
+4:24
+And the values I came up with are forty nine, eighty one, and zero.
+4:31
+Alright.
+4:32
+So forty nine eighty one and zero, and then we'll make sure we have that comma there.
+4:37
+And now it seems like it has a little bit more color associated with the background that it's on.
+4:42
+You probably take this down to point one for ten percent.
+4:45
+And now we could just barely see a very soft shadow.
+4:48
+It may have a little bit too much color in it, but you probably want to desaturated that a little bit more.
+4:53
+But that's another way to tackle colored backgrounds that have the same color of container versus the background it's set sitting on.

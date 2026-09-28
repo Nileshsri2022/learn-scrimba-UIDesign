@@ -1,0 +1,47 @@
+Transcript
+0:00
+So just a real quick tip here in this lesson where I wanted to show you that you can actually have layered shadows to create a more unique aesthetic on your drop shadows that you use.
+0:09
+Now there's a site that allows you to generate this with a variety of tools, um, and and as you can see in this UI elements over here.
+0:17
+Um, and it's at h t t p s colon slash slash brum dot a f forward slash shadows as you could see here in the URL.
+0:25
+And you can go there in a new tab, for instance, and you can take these sliders and create, you know, really unique shadows that give you more of a a a realistic perspective of what a shadow might look like on such a container.
+0:40
+And you can just copy the code that's inside of that container.
+0:44
+So for instance, uh, on the example that we've been working with right here, um, we have the same background color.
+0:51
+You can you can really apply these in in any context.
+0:54
+Um, but let's say, for instance, uh, we had a box shadow property of zero pixels and then ten pixels just to push it down, a ten pixel blur radius, and then uh, RGBA zero zero zero and then maybe point one for instance.
+1:09
+So it just gives us a nice, you know, soft shadow that we have here.
+1:13
+That's fine.
+1:14
+And then let's say, for instance, we wanted to have, like, a hover effect over this.
+1:18
+So we'll take our card, we'll hover it, and then maybe we could paste in a result from that resource.
+1:23
+And as you could see, all it is is just generating the box shadow property for you.
+1:28
+And you can comma separate each of these values to create layered shadows, uh, with different properties in each one.
+1:36
+And so if we try this out now
+1:41
+and hover over it, we could see that it gives us kind of an interesting aesthetic on it.
+1:47
+So I just wanna do a quick video just demonstrating, you know, from the front end development perspective that the CSS box shadow property will allow you to create layered shadows.
+1:56
+Now to summarize this chapter, in the end, it's all about whether or not you know how to apply shadows.
+2:04
+And if you do, hopefully, you do now that you've watched this chapter and you're watching this course, then it just becomes a matter of subjectivity.
+2:12
+If we're trying to answer the question, should I add a shadow onto this element?
+2:17
+And so really, if you don't really know how to work with shadows and you're not confident, then don't do it.
+2:25
+Um, if you do, then really, like I said, it becomes a mad, a matter of subjective preference simply because if you know how to work with shadows, then you'll know that they should they should really not interfere at all with the user interface, uh, in terms of the content the user is trying to access.
+2:44
+So hopefully I was able to clear that up, and you now are pretty solid and confident in working with shadows.

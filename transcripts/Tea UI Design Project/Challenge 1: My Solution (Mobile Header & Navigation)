@@ -1,0 +1,255 @@
+Transcript
+0:00
+Okay.
+0:00
+Welcome to this lesson.
+0:01
+Hopefully, you were able to come up with something that adhered to all the good UI design fundamentals that were listed here.
+0:09
+Um, you know, again, when it comes to these UI design fundamentals, you need to make sure that you're considering each and every one of them for every decision you make, for every UI element.
+0:19
+Uh, so what we're gonna do now is I'm gonna start showing you what I would have done.
+0:24
+I'm giving that little, you know, brief project brief with the the wireframe and the color scheme.
+0:29
+One thing that I want you to remember though, there's many ways to have used that project brief to come up with many designs that would be just as effective as all the others.
+0:41
+So I'm just gonna be showing you one such way of doing it using, you know, a a certain way of using that color scheme.
+0:48
+So don't be discouraged, like, if what you came up with isn't as good as mine or if it's just different.
+0:54
+The whole goal that I want you to remember is that, you know, you're understanding how to apply these UI design fundamentals.
+1:01
+Alright.
+1:01
+So let's go ahead and get started.
+1:03
+Um, the first thing I'm gonna do is just reference the body tag alone, and we're gonna give it that background color.
+1:08
+I did mention in the first lesson of this chapter that I was gonna use the light green color.
+1:14
+Now, you could have used something different, um, like maybe the the darker green or maybe the brown or the white or black.
+1:21
+Um, but I'm choosing just to use this one.
+1:24
+Alright?
+1:25
+Next up, I'm also going to specify the font family as Montserrat.
+1:28
+As you can see, I have imported it at the top here.
+1:32
+And then also height is gonna be hundred viewport height on just this main element, which right now there's a lot of scroll just because of this large image.
+1:41
+It's not yet responsive.
+1:43
+Next up, we're going to also reference I I normally just gonna put the fern here, um, the fern graphic, but, uh, we're gonna do that a little bit later.
+1:53
+Um, what we're gonna do now is gonna just gonna focus from top to bottom.
+1:56
+So, um, this right here, we need to get this working.
+2:00
+So that logo yeah.
+2:02
+Also, before we get to that specifically, we're gonna style just all the links in general, um, just some global CSS, essentially.
+2:09
+So we're gonna give it this color code right here.
+2:14
+Alright.
+2:14
+And by the way, I have to put the hash sign here.
+2:17
+Alright.
+2:18
+So I'm choosing to make the links, uh, it is up here brown.
+2:21
+Okay?
+2:22
+Um, these are gonna be overwritten in this a different color.
+2:25
+Um, text decoration, none.
+2:28
+And also font weight will be bold.
+2:31
+Alright?
+2:32
+Okay.
+2:33
+So let's reference that logo specifically right here.
+2:37
+So I'm going to say logo because it has a class of logo on it.
+2:40
+And text transform is upper case.
+2:44
+I'm just deciding to do that.
+2:45
+That's just a subjective thing.
+2:47
+You don't have to do that.
+2:49
+And then also our header.
+2:50
+So our header is the HTML element that wraps around both the logo and the navigation.
+2:56
+So as I've mentioned in the previous lesson that I we're going to make this a a flex element, a padding.
+3:06
+Oh, before you add the padding, I just want to add, uh, one comment here.
+3:10
+So we have this, um, the it's now display flex.
+3:13
+So these two elements are, you know, right next to each other.
+3:17
+So there's an issue.
+3:19
+Uh, we have a lack of what in terms of UI design fundamentals?
+3:22
+A lack of white space.
+3:23
+Right?
+3:23
+You don't want your elements right up against the device, you know, viewport.
+3:28
+So we have to give it padding.
+3:30
+So padding on the inside, just one m unit, and we've now pushed it away.
+3:36
+Now it has a little bit of room to breathe.
+3:38
+Great.
+3:39
+So we also want to specify justify content and space hyphen between.
+3:45
+And that will just push this over here.
+3:47
+And And the next thing we need to wonder consider is like, okay, we have an issue here with scale.
+3:54
+You know, this is way too large as an issue with visual hierarchy.
+3:57
+This right here isn't that important, so we need to scale it down.
+4:00
+So now we'll go ahead and we'll say menu because that's the class that's on the SVG element.
+4:06
+We'll say width is one point five m u m units.
+4:10
+We'll do cursor pointer as well.
+4:13
+And also, this right here, this navigation shouldn't be showing up.
+4:17
+That's why this isn't all the way to the right because this is in the way.
+4:20
+So what we'll go ahead and do is get this now situated, uh, and and working correctly.
+4:27
+So we're gonna style this right now.
+4:30
+So what we're gonna do is we're gonna reference our u element.
+4:33
+We're gonna do position fixed on this.
+4:36
+And you're gonna see it's gonna start to change up quite a bit.
+4:39
+Um, we'll come back to that after a few properties.
+4:42
+We're gonna do top zero, left zero.
+4:45
+Alright.
+4:46
+And you can see that now it's moved up over here.
+4:48
+This time, we're for our our mobile navigation, we're gonna do a full screen navigation, essentially.
+4:54
+Uh, before we were doing, like, sixty percent width or so, but I just wanna change it up because you can do multiple things here.
+5:01
+So we're gonna do height, hundred viewport height.
+5:04
+Width will be hundred percent width as well.
+5:07
+And we'll do padding zero and margin zero.
+5:11
+So now we're left with this for our mo nav.
+5:15
+Uh, so next up, we're not done just yet here for margin.
+5:20
+Uh, we have our margin.
+5:21
+We're also gonna do list style none to get rid of those bullet points.
+5:26
+Uh, we're gonna do a display grid and place content center.
+5:34
+Alright.
+5:35
+So now that centers it in the view port, uh, no matter the height and all that, and also the width.
+5:42
+Alright.
+5:42
+So next up, I do want to specify z index of one because in the future, we'll have some other elements.
+5:49
+And if we didn't specify that, we would see those elements on top of here.
+5:52
+We want this on top of the entire UI when a person clicks on the hamburger menu.
+5:56
+We're also going to specify ul l I a just to target the link specifically.
+6:02
+I'm gonna make them black because remember we could use black based on the color screen.
+6:08
+Padding two m units, but in order to make that work, we have to do display block.
+6:14
+Alright.
+6:14
+So this is what we have so far.
+6:15
+Design wise, this is a little bit weird alignment like this over here on its own sort of column and then this.
+6:22
+So we definitely have to fix that.
+6:24
+Um, let's do font size though before we get to that.
+6:27
+One point four.
+6:28
+We'll do rem units here.
+6:29
+So we're making these pretty big, easy to use on a smartphone device or so.
+6:35
+And margin left, we're gonna take those all over by, like, uh, negative four just to push them over a bit.
+6:42
+Now let's also focus on the SVG, the exit SVG graphic.
+6:47
+So exit SVG.
+6:49
+We're gonna say width, really scale that down a decent amount, and I misspelled exit.
+6:56
+There we go.
+6:57
+So this is what this looks like so far.
+6:58
+The alignment is completely off here though because this is just kinda hanging here in the center.
+7:02
+So it would make more sense to put this up over here in this section.
+7:06
+So what we'll do is specify position absolute, and then we'll also do top.
+7:13
+And we'll do, uh, let's see.
+7:15
+One m from the top, and then right, we'll do two m, uh, from there, and then cursor pointer.
+7:23
+There we go.
+7:25
+Alright.
+7:26
+So looking at that, I we want to do one more rule set before we're done.
+7:32
+Active a.
+7:34
+I'm gonna specify color, and we're going to make it two one seven, and then c four f, which is the kind of like the darker green color based on the background color that we had that's behind here right now.
+7:51
+Alright.
+7:52
+So now what I wanna do now that this is styled up how I I I like it to be, what I'm going to do is now change this from display grid to none.
+8:02
+Alright.
+8:03
+So now we've all obviously only focused on, uh, just the background and the header up here, but we're already into eight minutes.
+8:10
+Um, and we also obviously styled our responsive navigation.
+8:14
+But in the next lesson, I'm gonna continue on with my solution because, obviously, we have quite a bit more here to do, although it's not too much in terms of coding.
+8:23
+So I'll see you then.

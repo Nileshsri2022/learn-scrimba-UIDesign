@@ -1,0 +1,163 @@
+Transcript
+0:00
+Welcome to this lesson where we're going to start writing out the CSS to make this look good here specifically on mobile.
+0:07
+Alright.
+0:07
+So what I'm gonna do is just move this over here.
+0:10
+We're gonna get into a nice kind of like a mobile view, and we're gonna begin writing the h or the CSS rather.
+0:16
+So, um, I'm gonna paste in just some, um, a couple of fonts.
+0:19
+We're gonna use Monsterat again along with Playfair Display.
+0:23
+I really like that combination.
+0:25
+It'll work well for this type of, uh, this project.
+0:28
+We're gonna have HTML and body.
+0:29
+We're gonna say margin zero
+0:33
+and padding zero.
+0:35
+We're also going to have our body element, and we're gonna give this a background color.
+0:39
+And this is gonna be sort of like a desaturated earthy green as you will see right here.
+0:46
+Okay?
+0:47
+Um, we're also gonna have a font family, which will be Montserrat by default, and then we're gonna apply a few of the elements, specifically the, uh, the testimonial quotes, um, in the Playfair display.
+1:00
+Also, style up some of the links to get that working.
+1:03
+Text decoration will be none.
+1:08
+Um, our unordered lists, we don't want any list styles, so we're gonna say none.
+1:12
+Get rid of any padding and margin.
+1:16
+Alright.
+1:17
+So now, also because we have big scroll bars here, um, we can take our images and make them all responsive with width hundred percent.
+1:28
+Now that even further screws up situations.
+1:30
+But don't worry.
+1:31
+We're gonna focus on the header part and the nav bar right now.
+1:35
+So the header, we're going to take and we're gonna say display flex, which will automatically left align everything.
+1:42
+Let's get this back over there.
+1:45
+And then we're going to justify the content with space between.
+1:50
+And so we're really just looking at this element, the logo, and then the actual hamburger menu and the menu itself.
+1:56
+Um, we're gonna give it a background color of six e's essentially.
+2:00
+So
+2:02
+there, which is basically just like a a kind of like a very light gray.
+2:07
+Um, and we're also gonna have a padding of point five m units just to give it a little bit of, uh, white space on the smaller device sizes.
+2:16
+We're gonna take our logo and we're going to make the color black and font weight bold.
+2:23
+Right?
+2:24
+After that, we're gonna take our menu or do a cursor pointer.
+2:32
+And we're also going to reference our nav ul element.
+2:37
+We're going to say for now, um, I'm actually gonna comment these out, but then I'll uncomment them after we're done because we wanna get the mobile nav working.
+2:46
+So I'm gonna say visibility hidden and then also opacity zero.
+2:52
+So, again, these are just gonna be commented out.
+2:55
+Alright.
+2:55
+So we're gonna have position fixed.
+2:58
+Right?
+2:58
+We're gonna do width of a hundred percent.
+3:01
+We're going to say a top of zero, a left of zero, background of a specific more vibrant green color.
+3:10
+It's gonna be your call to action color.
+3:12
+Basically, one of our primary colors.
+3:15
+Alright.
+3:15
+We're also gonna have a height of hundred viewport height, padding of top five m units just to move things around.
+3:23
+And we'll do a z index, uh, something high just to make sure it sits on top of everything, especially once we add animation here.
+3:31
+Alright.
+3:32
+Now coming down, I think this is going to be a really good challenge, a point where we're going to give you a surprise challenge, um, to cry, try to come up with, um, um, a good design here for the mobile navigation.
+3:47
+So, um, you're gonna have to target this element.
+3:49
+And, again, this has a class of exit hyphen exit in a.
+3:55
+So if we look at the HTML, where are we?
+3:57
+Let's go all the way up to the top and find this.
+4:01
+We're gonna see that this is, um, a list item of class exit, and it has the a and then the image inside of it.
+4:08
+Just so you know how, you know, the selectors that you need target to get this obviously much smaller and just come up with a real simple way of displaying the navigation.
+4:17
+So go ahead and pause if you wanna do that and then come back.
+4:24
+Alright.
+4:24
+So hopefully you came up with something good.
+4:27
+Um, let's go ahead and do this.
+4:29
+Again, it could be simple, and that's what we're gonna do.
+4:32
+So I'm going to have here after this unordered list, we're gonna say nav ul li a, and then we're gonna make the color black.
+4:40
+Let's get this over here.
+4:42
+There we go.
+4:43
+And then we're going to give it a font size of larger, one point five m units.
+4:48
+Font weight will be bold, and we're gonna do padding of one m units, and we'll do a display block here.
+4:58
+Then we're going to take our exit a, which is the SVG x graphic.
+5:03
+Give it a width of thirty pixels,
+5:07
+height of thirty pixels, do a position absolute,
+5:13
+and we'll do a top zero and a right zero.
+5:17
+That's it.
+5:18
+Look how simple that is.
+5:21
+Alright.
+5:21
+So hopefully, you came up with something that worked.
+5:23
+You know, again, it's all about the UI design fundamentals.
+5:26
+We have the, uh, good white space around elements.
+5:30
+It's all equal around it, and you can just easily be able to use this, uh, really this this full sort of screen pop up.
+5:38
+Alright.
+5:38
+So now what we can do that we now that we have that done, we can uncomment visibility right here, and we can get back to our regular design.
+5:46
+So now in the next section, we're gonna go ahead and focus on the hero section beneath this part, uh, and really focus on getting all this looking good.

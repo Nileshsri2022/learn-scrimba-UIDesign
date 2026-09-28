@@ -1,0 +1,169 @@
+Transcript
+0:00
+Welcome to the first challenge of this chapter.
+0:03
+And I'm going to ask you to use what you've learned in the previous couple of lesson videos to create a very basic layout just using these couple elements.
+0:13
+Now this one is just a tad bit trickier than the previous two lessons that I showed you because in this example, in the HTML, you could see we have a div container.
+0:21
+That's the same.
+0:22
+We also have an h one element, but we do have also a third element that is contextually different, which is this one thirty PM, and it's wrapped in a span tag.
+0:33
+Alright?
+0:33
+So one thing I want you to do outside of just trying to create a very simple layout, you know, minding all of your UI design fundamentals, is to create visual hierarchy or a separation between this one thirty PM and the client meeting.
+0:48
+They really shouldn't be styled exactly the same.
+0:51
+So use your UI design fundamentals to create some sort of visual separation between client meeting and one thirty PM.
+0:58
+And I'll give you a hint.
+0:59
+What is the most important element here?
+1:01
+It's client meeting, not necessarily the time.
+1:04
+So the title is more important.
+1:05
+So we need to reinforce that using what you've learned.
+1:09
+And so go ahead and pause right now, create a basic simple layout using what you learned in the past couple lessons, and also create that visual hierarchy.
+1:18
+And then go ahead and hit play, and I'll show you some of the things that I would do in this case.
+1:26
+Okay.
+1:27
+So hopefully you came up with something that worked quite well.
+1:30
+I'm gonna show you just a few of the things that I would do.
+1:33
+So just to keep things as absolutely simple as possible, uh, we're gonna start here in the index CSS.
+1:40
+And I'm gonna say I'm I'm gonna take our container, and I'm just going to say padding four e m right away.
+1:46
+What that does is gives us a nice amount of white space around this block right here, which is just basically these three elements.
+1:55
+Alright.
+1:55
+So next, I'm gonna say maybe span.
+1:58
+We'll say font size point five e m.
+2:01
+And the span, of course, is in reference to the time.
+2:04
+And there we go.
+2:05
+I mean, that's pretty much the most simple example that I could come up with.
+2:09
+But, of course, we can take it further, and it doesn't always have to be this extremely simple and monochromatic in terms of black and white colors.
+2:16
+So what else would I do?
+2:18
+Um, let's go ahead.
+2:19
+I'm gonna take my, uh, container here.
+2:22
+Or our h one element rather.
+2:23
+And I'm going to say, we're gonna give it a color.
+2:26
+And I'm going to give it a specific hex color code here.
+2:30
+And it's this blue color.
+2:32
+Alright.
+2:32
+So that's nice.
+2:33
+Now we've created a further degree of separation between the title and the text beneath it.
+2:40
+Right?
+2:40
+So now let's do something to even create a further separation or to reinforce the visual hierarchy between the client meeting and this one thirty PM text here.
+2:50
+So what I'll do is I'll take our spam, which is already up here, and I'm going to give it a background color.
+2:57
+It's gonna be very light gray.
+2:59
+This happens to be d e d e d e.
+3:01
+And so I'm gonna show you what's happening here.
+3:04
+I'm gonna go in free form float mode just so you can see what I'm doing in real time.
+3:09
+And we're gonna make the color black.
+3:12
+Alright.
+3:13
+And then we're gonna make the padding point two e m, point four e m because it's its own container.
+3:19
+So it it needs to have white space in and of itself in terms of the container that's around it.
+3:24
+Border radius, we'll make one e m.
+3:29
+And then we'll say display inline block.
+3:33
+And then I'm also gonna take the font size down just a tad bit more.
+3:38
+Alright.
+3:39
+So let's check this one out.
+3:42
+So now we've really created three degrees of separation between these three elements, which works quite well.
+3:48
+So let's even do something a little bit more with this.
+3:53
+So what I'm going to do now, I'm gonna take our HTML body selectors up here and say overflow hidden, which that does nothing right now.
+4:02
+What I wanna do now is take the h one.
+4:05
+We're gonna take the font size up to three e m.
+4:08
+So now we've made it quite a bit larger just to fill out the area more.
+4:13
+I'm gonna take a, uh, paragraph selector which we haven't created yet.
+4:17
+I'm gonna say font size one point three e m because it was a little small in relation to the new newly increased size over here.
+4:25
+Alright.
+4:26
+So now what I wanna do is for this next one, I'm just gonna paste in this rule set because there's quite a bit of properties.
+4:33
+But we're gonna take our span and use the after selector or the before selector rather right here.
+4:40
+And we could see that I put a nice watermark in here based on the one thirty PM type that we already had, and it's just slightly offset.
+4:47
+And so you can do this because if you understand contrast, you know that if there's a very light amount of contrast, you could do things like watermarks with, uh, type and also photographs.
+4:58
+So even going perhaps one step further, we can take it and, uh, let's take our paragraph and I'm going to say padding left to e m and then border left.
+5:12
+We'll say four pixel solid, not forty three, sorry.
+5:15
+Four pixel solid gray.
+5:17
+So what we've just done here is we've created this little indentation and a signifier right here, which still allows us to do so because it's on the same column here.
+5:29
+So it really frames it still.
+5:30
+Without this little border, this might look a little bit strange.
+5:34
+Alright.
+5:34
+So I'm also going to go ahead and we're gonna change two things up here just to take this one final step further.
+5:44
+I'm gonna take our container, replace container with height hundred view port height, and also add a before selector.
+5:51
+So what I've done here is add just basically another watermark behind this.
+5:55
+And now we're almost getting a little bit too cluttered.
+5:57
+So what I would probably do is take our span before element and remove that, and there we go.
+6:03
+So now we have a nice little, uh, layout here constructed with just these few elements.
+6:11
+So you can see there's so much you can do.
+6:13
+And the important thing is to realize if you came up with something much different, that's okay because there's a million different variations that you could create out of this with different colors, uh, different columns even.
+6:26
+And it would still be just as effective as long as you maintain a a real thoughtful approach to all these UI design fundamentals listed here.

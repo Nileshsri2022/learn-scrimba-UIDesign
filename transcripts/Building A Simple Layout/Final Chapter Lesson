@@ -1,0 +1,223 @@
+Transcript
+0:00
+Alright.
+0:00
+Welcome to the final chapter lesson.
+0:03
+And this time, this is what we have to work with.
+0:05
+Let's just step over real quick to the index HTML, and I'm gonna show you that we have simply just another div class container with an h one element for a title and also a description or a subheading right here in a paragraph element.
+0:19
+So, again, we're keeping things extremely simple at this point in time.
+0:23
+So what I want you to do this time is to kill two birds with one stone.
+0:28
+Or in other words, you have two objectives.
+0:30
+You have to create a very simple layout framed sort of in this sort of width for a viewport.
+0:38
+So it's kind of like a desktop or so.
+0:41
+And, also, at the same time, I want you to use a photograph or integrate a photograph of some sort.
+0:46
+It could either be just a background.
+0:48
+It could be a watermark photograph background.
+0:52
+It could be in its own column, the the the actual photograph or in its own row.
+0:58
+And I just want you to come up with something that adheres to all of these fundamentals listed here in the index dot CSS right here.
+1:07
+So every element that you work with, this title, this element right here, the paragraph, make sure that these are all applying, especially visual hierarchy and everything as a whole.
+1:21
+Alright.
+1:21
+So I'm gonna go ahead and have you pause this, come up with your solution.
+1:26
+And in terms of using a photograph, these are the two photographs I'm gonna use.
+1:30
+You could use those if you wish, but I would also suggest going to unsplash dot com, and you can use any of those images for free.
+1:38
+And you can link to them, uh, and and you can simply just use that in your CSS if you wish, um, in order to make this all work.
+1:46
+So go ahead and pause, and then I'll show you, uh, just what I would come up with.
+1:52
+Alright.
+1:52
+So hopefully you came up with something that worked.
+1:55
+So what I'm going to do is I we're gonna start here with the body property.
+2:01
+So I'm going to paste this in, and we can see we have this stop sign.
+2:06
+This is actually the stop dot j p g that's listed right here.
+2:11
+And right, for starters, okay, we have a photograph based background, but still it's not very good because we have no white space, no alignment here with the these type elements, so we have to fix that.
+2:24
+So the first way I'll fix that is I'm going to reference the container and just give it some padding.
+2:30
+So it gives it seven EM padding on the top and then four EM from the left, and that really just helps frame things well.
+2:37
+So the size of these, in terms of this current viewport width, it's not very large.
+2:43
+I think we can make this a little bit bigger just to fill out situations here.
+2:48
+Now, of course, we probably don't wanna make the this text right here go into the stop sign because there's a lot of contrast here, and then it would make it hard to read.
+2:56
+So we have to pay attention to that.
+2:58
+So I'm gonna say h one.
+3:00
+Font size, we'll say three em.
+3:04
+Alright.
+3:04
+That's good.
+3:05
+So now that we increase the font size, a lot of times you'll find that it also pushes down.
+3:09
+It creates white space, sometimes too much.
+3:11
+So we can fix that with perhaps margin bottom, make it zero.
+3:16
+And now it just moved that up.
+3:18
+And this is pretty solid.
+3:20
+It's a lot better now and a lot more filled out than what we had before.
+3:23
+Finally, I would say this font size in relation to this font size and how the fact that it's bold, probably too small.
+3:29
+So we can increase that font size perhaps to one point three m units.
+3:36
+And this is good.
+3:37
+I mean, it's this is effective.
+3:39
+Uh, there's nothing wrong with this.
+3:40
+It hits the nail on the head in terms of all of these fundamentals.
+3:44
+So let's go ahead and try to use a different
+3:50
+picture right here, red light dot j p g.
+3:53
+Alright.
+3:54
+So now this one is quite different.
+3:56
+This photograph has a lot of dark values or dark areas, and there's also a lot of bright areas as well.
+4:03
+And this is one that's a little bit more difficult.
+4:06
+And this is the type of picture that I would suggest either doing one of two things.
+4:10
+Either if you're gonna use this for sure, this picture, make it a watermark, So bring it into another application, or you could even do it in CSS, darken it a lot to squash everything so it's really low contrast in relation to the type elements that sitting on top of it.
+4:25
+Um, or you can actually just create a column or a row, uh, that is sitting in itself so that you have your type elements, uh, in a different column or row.
+4:35
+So I think that's the the, uh, the strategy that I'm gonna take with this one.
+4:40
+So what we can do is just give the container element its own background, uh, color.
+4:44
+So what we'll do, I'll just add background white.
+4:49
+Alright.
+4:50
+And now we have to make our color.
+4:53
+We can just remove this.
+4:54
+By default, it's black.
+4:56
+Alright.
+4:56
+And then we can also make a couple more adjustments.
+4:59
+I'm just gonna overwrite these rule sets.
+5:02
+And there we go.
+5:02
+So this, you know, not very exciting, but it works.
+5:06
+It's a relevant photograph, a stop sign.
+5:08
+You can probably use CSS positioning to, um, position us a little bit better.
+5:12
+But, nonetheless, this is just a two call approach.
+5:15
+It's very simple, but it still works in terms of the all you the UI design fundamentals.
+5:20
+Now I'm going to really step it up a notch, and we're gonna do two columns instead instead of two rows.
+5:26
+So what we'll do is I'm going to take our body element and paste this all in here.
+5:33
+And I'm also going to paste in some rule sets here, a rule set here for container.
+5:38
+And these are all the the properties, by the way.
+5:41
+You can analyze them yourself if you're interested to see how I created this.
+5:44
+Nothing too crazy is happening.
+5:46
+All right.
+5:46
+So basically we have two columns now.
+5:48
+And this time, the stop sign, we can see it much better.
+5:51
+It's in its own right column.
+5:52
+It's forty percent width.
+5:53
+This is sixty percent width.
+5:55
+And I'm also going to increase the font size for the h one to really fill out this section more because you can see there's a little bit of white space underneath here.
+6:04
+So we're gonna take our h one.
+6:06
+I'm gonna make a font size of five e m and a line height of one, position relative because we're also gonna use the before selector as well shortly here.
+6:17
+So just gonna get this lined up here.
+6:21
+And then what I'm going to do is we can do something interesting.
+6:24
+Remember, we can use the before element, and we can add in certain interesting elements here, like, kind of like an underline to say for hap perhaps rule is really important in this title.
+6:36
+So we're gonna underline it.
+6:37
+And I'm also using a color from the actual photograph.
+6:42
+So furthermore, we could take our paragraph element.
+6:46
+We could see the paragraph is really it's kinda a little bit too small in relation to the size of this type, and it's also too close here.
+6:53
+So we're gonna fix that,
+6:57
+alright, with those properties.
+7:00
+Alright.
+7:00
+So now it's pushed down, and it's also made larger.
+7:03
+And it really just fills out this area quite well.
+7:06
+And then finally, you know, if we want to, we also have access to the after selector as well on the h one if we want.
+7:13
+And so here, I just made a stroked circle.
+7:16
+So it says roll.
+7:17
+I decide, okay, we'll have, like, a circle there.
+7:19
+That could work just fine.
+7:23
+And, of course, if we got here to mobile, that doesn't work at all.
+7:27
+But, of course, we are going to get into responsive design.
+7:29
+But first, we need to crawl before we can walk, and that's what we're really focused on in this point.
+7:35
+So, hopefully, you can now understand that we can really get very far with all of our HTML elements or CSS selectors with just few HTML elements.
+7:46
+So, hopefully, now you're starting to get some ideas in terms of how you can start constructing layouts, which is the entire purpose of this particular chapter.

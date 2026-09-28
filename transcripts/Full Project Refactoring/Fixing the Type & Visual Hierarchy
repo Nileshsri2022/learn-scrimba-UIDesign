@@ -1,0 +1,193 @@
+Transcript
+0:00
+Alright.
+0:00
+Welcome to this challenge where we're gonna focus on fixing the type and the visual hierarchy.
+0:04
+Okay?
+0:05
+So, really, the main elements that I want you to to focus on here is, like I mentioned before, all the type elements like the h one element.
+0:13
+We have these h three label elements, um, the value elements right here, even this paragraph, and also this right here, like the alignment, the line height, and all of those different things.
+0:25
+I also want you to do something with this border right here.
+0:29
+I'm not gonna tell you what, but we need to do to we we need to really address it.
+0:34
+And I'll show you exactly, of course, what I would do with this in this case.
+0:37
+So font size, for instance, uh, we're gonna wanna focus on that a lot in really in order to establish that visual hierarchy.
+0:44
+Because right now, there's not much visual hierarchy.
+0:47
+You're really not sure where to look because so so many of these elements are styled the same in terms of font size.
+0:53
+So we have this headline, and then we have the h three elements, which are just simple labels, have the same size as the headline and also practically the same size as the value.
+1:03
+So you really need to focus on those elements and fixing uh, the the actual scale so you can reinforce that visual hierarchy.
+1:11
+And also the font family.
+1:14
+Uh, ninety nine of a hundred times, if you have a project like this, like, or or it's like a a dashboard of some sort for stats or analytics, you're gonna wanna go with a sans serif font, not the serif type of font.
+1:26
+So on the body property, you're gonna want to adjust and change the font family property as well.
+1:32
+Okay?
+1:33
+So go ahead and pause.
+1:35
+Again, we're gonna come all the way down here to your fixes below, and go ahead and specify your changes.
+1:42
+And then, um, go ahead and unpause and come back.
+1:45
+So go ahead and pause.
+1:50
+Okay.
+1:50
+So hopefully you came up with something that worked well.
+1:53
+And now I'm gonna show you what I would have done in order to fix things.
+1:57
+So first off, the very, very first thing I wanna change because it's just so annoying to me is this border right here.
+2:04
+Now I told you to do something with it, and what I would do personally is get rid of it.
+2:08
+So when it comes to borders like this, borders is a really old school, late nineties, early two thousands.
+2:15
+Everything had borders on them, and, really, it just adds unnecessary clutter to your design.
+2:20
+So to really open it up, you can go ahead and just simply get rid of it.
+2:25
+So that happens to be placed on the main element.
+2:29
+So border unset.
+2:30
+And so next up, I wanna fix the font.
+2:32
+So just fixing the font alone is gonna make this look so much better.
+2:36
+So what I'll do is change the font family to I did the one one of the two that I've been using a lot, which is Nunito.
+2:43
+I already have it imported all the way up at the top here, so that probably gave you an indication.
+2:48
+Um, but as long as you chose something that, you know, was a a sans serif font, uh, then you're golden.
+2:55
+So already, I mean, this looks so much better.
+2:58
+So next up, uh, we can see we have a a couple underlines here with the this dashboard text and this text.
+3:05
+Again, when it comes to a border is kind of like or an underline is kind of like a border.
+3:10
+It adds, for the most part, unnecessary, uh, clutter.
+3:14
+So what we'll do is just specify a and then text decoration
+3:20
+none.
+3:20
+Alright.
+3:21
+So now we've simplified things even further.
+3:24
+We're actually getting somewhere, finally.
+3:26
+Um, and next up, I want to adjust, uh, just looking at this area.
+3:32
+This is kind of cramped together.
+3:34
+We can also see that same sort of thing right here.
+3:36
+Um, so we'll adjust the line height of the paragraph element.
+3:41
+So simply reference our p.
+3:43
+We're gonna say line height one point four m units.
+3:48
+And it just spaces things out a little bit more, and it looks a lot better.
+3:51
+So alright.
+3:53
+Now next up, I wanna fix this dashboard.
+3:56
+I mean, this this size of this font is way too small.
+4:00
+So we wanna get this roughly around the same size as the logo text.
+4:05
+So to specify that, we'll go ahead and say a dot c t a hyphen v t n, and we'll say font size point nine m units.
+4:17
+Alright.
+4:18
+So that's gonna beef that up quite a bit.
+4:21
+And now though, we want to also adjust the padding that's inside of it, because now this button's just too big.
+4:29
+It's taking way, way too much.
+4:30
+It's throwing off the flow of the company, uh, type and also this hamburger menu.
+4:36
+They're of similar height, but then we have this large thing over here.
+4:39
+So real quickly, I will adjust that.
+4:41
+I know I mentioned just focus on, you know, the the text.
+4:45
+Uh, but right now we're gonna deal with reducing the white space inside of that container right here.
+4:53
+Alright.
+4:54
+So that's a lot better.
+4:56
+And now let's focus on this area right here.
+4:58
+There's quite a bit happening.
+5:00
+So the first thing I will do is we're gonna take a look at this settings right here in our nav, uh, ul or unordered list list items a elements.
+5:12
+This is where these are residing.
+5:14
+And I'm gonna change the font size.
+5:19
+I'm gonna adjust the font size here to one point two m units.
+5:24
+Alright.
+5:25
+So now they're quite a bit smaller.
+5:27
+They were way unnecessarily just too large.
+5:31
+Um, we're going to fix some other things about this in another uh, lesson here, challenge coming up.
+5:37
+But for now, just the font size, adjusting that, uh, is pretty good.
+5:41
+Um, next up, we're going to take a look at our h three elements.
+5:46
+So our h three elements are actually these labels.
+5:50
+They're way too big.
+5:51
+It's just a label.
+5:52
+It's not that important.
+5:53
+So what we can do to reinforce that lack of importance or that visual hierarchy is shouldn't really to say h three.
+6:01
+And we're gonna say font size unset.
+6:05
+So now it's back down pretty small, and that's about the size that it should be realistically.
+6:11
+Um, the the important part in terms of UX would be the value here, not just the label.
+6:19
+Next up, coming back to our nav, um, aligning this here to the center doesn't quite make sense.
+6:26
+So what I'm gonna do is say nav, we'll say text align and left.
+6:32
+Alright.
+6:33
+So we have an issue with, uh, white space, but we're gonna deal with that in a lesson coming up here.
+6:38
+We're in for another challenge.
+6:39
+Uh, but for now, this is what we have going so far, and we've really improved and came quite far away from the actual, uh, the original version.
+6:49
+But we're not done yet.
+6:50
+Uh, we have a bunch of more challenges in order to get this, you know, really working well and responsive.

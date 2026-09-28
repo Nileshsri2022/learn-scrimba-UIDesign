@@ -1,0 +1,93 @@
+Transcript
+0:00
+Right.
+0:00
+Hello.
+0:00
+Welcome to this lesson, and we're going to focus on color and contrast here specifically for our first challenge.
+0:07
+So your challenge is to improve the color and contrast here in what you see.
+0:12
+And I know that sounds open ended, but don't worry.
+0:15
+I'm going to give you some very specific parameters.
+0:18
+Um, first, I will tell you that my solution for this, which I will show you shortly, only involves changing two background colors, and that's it.
+0:27
+So two CSS properties in two different rule sets, and that's it.
+0:32
+And so I'm gonna give you a couple hints about, you know, what I did.
+0:36
+Um, first, I I changed no font colors.
+0:39
+So the color property in CSS, I did not use.
+0:42
+Um, I did not change this color, this panel.
+0:45
+That is not changed.
+0:46
+Alright.
+0:47
+So if we take take a look at, um, this area, we can see, um, based on this background color, this does not contrast enough.
+0:55
+So you're probably gonna wanna change this background color of this panel, and you're probably going to want to change the color of this panel here.
+1:02
+Now if you're having a hard time, you know, determining what type of color you would use, again, you can get out the inspector or the dev console depending on whether you're using Chrome or Firefox.
+1:15
+And you can use the selector, uh, quick selector, the DOM selector, and you can pinpoint the background here, and then you can change the colors right there in the color picker option.
+1:27
+And so it'll give you a good idea of which color code you could then copy and then specify in your fixes below here.
+1:35
+So in your CSS, I want you to specify the selector of which element you wanna change in order to fix the color and contrast, uh, and just specify it right here for those two different rule sets.
+1:47
+And then, you know, after you pause for a little bit and you work on it, come back, and I'll show you what I would have done.
+1:58
+Alright.
+1:58
+So hopefully, you came up with something good, and I'm gonna show you what I did.
+2:02
+So the body background color is the one that I changed here the most.
+2:07
+So, basically, I we could see that, you know, it's it's a pretty bright blue.
+2:14
+And in particular, this text right here doesn't really contrast well.
+2:20
+And so if I were to change this, the background color, I would wanna make it darker so that this element in particular and this kinda contrasts more so.
+2:28
+And also so it doesn't contrast quite a much quite as much with this color.
+2:33
+Because this is just a kind of a panel background, and it doesn't need to be of high contrast like it is currently against the body background.
+2:40
+So to fix that, I'm just going to specify a body and a background, and I'm going to specify a specific color code here.
+2:50
+And this is it.
+2:51
+This is the color the background color that I've ended up with.
+2:55
+Now, of course, everything still looks really ugly because we have so many other things to fix about this.
+2:59
+Uh, but that is it for the background color.
+3:02
+Now I also wanna change this color.
+3:04
+Again, we have contrast issues with this text being so close and not enough contrast essentially with this background.
+3:12
+So in order to fix that, I wanna take our nav element, and we're going to say background.
+3:19
+And I'm going to specify another unique color code, and this one will be darker.
+3:24
+And there we go.
+3:26
+So it's just slightly darker than this background just so that the user can see, you know, it's a it's a different background.
+3:31
+It's on the same exact background color.
+3:33
+But, again, it's not it's just it's slightly different.
+3:36
+And this contrast here is now good enough, uh, for people to be able to read everything.
+3:42
+And that's all I did.
+3:43
+So that's going forward, that's all we are adjusting for the colors of this project.
+3:48
+Now, of course, because there's so many other UI UI design fundamentals that we have to work with, it still doesn't look good, and we will certainly address those going forward.

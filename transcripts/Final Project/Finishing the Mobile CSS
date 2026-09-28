@@ -1,0 +1,251 @@
+Transcript
+0:00
+Welcome to this lesson where we're going to finish off the CSS.
+0:03
+Alright.
+0:04
+So, um, or at least the CSS for, uh, the mobile v port here.
+0:09
+Alright.
+0:09
+So this is where this is a section we really wanna focus on.
+0:13
+Um, we have a quote here.
+0:14
+We're calling it the main quote.
+0:15
+Um, I seriously wasn't expecting this beauty along with, um, the author or the person who said it.
+0:22
+Um, we also have we serve excellence.
+0:23
+This part is actually not bad looking at all right here.
+0:26
+Um, and then we have, uh, a few more testimonials that needs work.
+0:31
+Alright.
+0:31
+So we're gonna probably gonna work in a a couple challenges here.
+0:34
+So for the first challenge, I want you to really focus on this area right here in relation to this area.
+0:42
+This part right here, we really want it to be a main quote that really stands on its own.
+0:46
+It stands out.
+0:47
+So we have an issue of, uh, a couple issues, really.
+0:50
+We have an issue of a lack of white space.
+0:52
+There's a lot of text in this area.
+0:54
+Right?
+0:55
+Um, and we also wanna establish the visual hierarchy because we're saying this is very important.
+1:01
+We want this to really stand out over the stuff beneath it.
+1:05
+Alright?
+1:06
+So let's check out the HTML for that section.
+1:09
+And so we have a block quote of a class main quote, so you can just use the main quote class to reference this actual quote.
+1:16
+And then we also have a site.
+1:18
+We wanna use main site class to reference this element right here.
+1:22
+So go in your eight your your index at CSS rather.
+1:25
+And down here, just go ahead and work with those two selectors to really make this part good.
+1:30
+Now remember, we do have a second font that we're using, Playfair Display that we've imported.
+1:35
+I'll just leave that as a hint.
+1:37
+So go ahead and pause and work on that now.
+1:42
+Alright.
+1:42
+So hopefully you came up with something good as always, and I'm gonna go ahead and show you what I would do.
+1:48
+Alright.
+1:48
+So we're gonna have a main quote here, and we're gonna say font family is Playfair Display.
+1:59
+Now that's a serif font.
+2:00
+We can see how it changed it already.
+2:03
+Just makes it look more official, really, with the serif font, um, and elegant.
+2:07
+So font size, we're gonna really bump this up two point two m units.
+2:14
+Alright.
+2:14
+So look how nice that looks.
+2:16
+Let's also just put this to the side, and let's also do a font style of italic.
+2:24
+Now this is just a subjective preference.
+2:26
+You don't have to do this.
+2:28
+Um, if it is a quote, people are used to seeing things in italics.
+2:32
+So that's just a note for you, um, to just to remember.
+2:36
+And, also, we're gonna do a margin bottom of point five m units just to bring that up slightly.
+2:42
+This was pushed down quite a bit.
+2:45
+And then we're also going to have
+2:48
+a site, and we're gonna say margin bottom three m units.
+2:54
+And we will have a display of block to make that even work.
+2:59
+Now we have good white space from the top of this container.
+3:02
+It looks like it's even from the bottom of this type to the this container.
+3:06
+So really, you know, you wanna be consistent when you're working with containers in your user interface and, you know, your white space or your padding inside of it.
+3:14
+So this looks pretty consistent here.
+3:16
+And we've also moved this down beneath this area.
+3:19
+So this is really framed well and has a lot of room to breathe, a lot of white space.
+3:23
+Um, so next up after this, this part, as far as I'm concerned, is good.
+3:29
+It doesn't really need changed at all.
+3:32
+So what we're gonna do now is focus on these testimonial sections.
+3:36
+Alright?
+3:37
+Um, and I think it would be a good spot here.
+3:40
+We'll have yet another challenge.
+3:42
+I want you to make this look good.
+3:44
+Alright?
+3:45
+Right now, it doesn't.
+3:46
+We have these way too large, uh, images right here of the person who's quoting.
+3:51
+We have the quote right here, and then we have the person's name.
+3:54
+So let's check out the HTML real quick.
+3:57
+We have a URL testimonials a class, a list item.
+4:01
+We have a person.
+4:03
+Class is test image.
+4:04
+You can use that, um, to style that better because it is too big.
+4:08
+We're gonna have a paragraph with a test hyphen description or DESC and a test auth for the person's name.
+4:14
+So go ahead and pause now.
+4:16
+Go in your CSS down here and try to make this section just look good.
+4:25
+Alright.
+4:26
+So hopefully you came up with something good as always, and so let's continue.
+4:29
+So I'm gonna take our UL testimonials, and we're gonna give it a margin of three EM on the top and bottom.
+4:36
+So that's gonna give it some room to breathe from this, you know, bottom section right here.
+4:43
+Alright.
+4:43
+So next up, we're going to have our list item,
+4:52
+and we're going to say margin bottom three m units.
+4:56
+So that's really gonna push things away, um, from each other, each list item itself.
+5:03
+Alright.
+5:04
+After that, we're gonna take our test image, and this is where a big change is going to occur.
+5:10
+We're going to have a order radius of fifty percent, a width of fifty pixels, and a height of fifty pixels.
+5:20
+That changes a lot.
+5:23
+There we go.
+5:24
+And then we're gonna have our paragraph of test description.
+5:29
+So paragraph test hyphen d e s e.
+5:32
+Oops.
+5:32
+I misspelled that.
+5:35
+We're gonna have right here font family of Playfair display and also serif, font style of italic.
+5:47
+Right.
+5:48
+So that's what this did so far.
+5:51
+Then I'm going to have right here, um, our test auth.
+5:57
+Font weight will be bold, and font size will be shrunken down.
+6:03
+Eight five eight five m units.
+6:06
+And that's pretty much it for this section right here.
+6:12
+Now I do wanna have one more thing.
+6:15
+We have right here a last container.
+6:19
+Right?
+6:20
+The reason I added that is because I wanna make that a position relative.
+6:24
+So I'm gonna go last container.
+6:27
+You'll see why in a second.
+6:28
+Put position relative, and that doesn't do anything.
+6:30
+Then we're gonna take this firm graphic.
+6:32
+Right?
+6:32
+It just looks silly hanging out down here.
+6:34
+We're gonna make it a watermark that goes behind everything.
+6:37
+So then we're gonna say fern position absolute.
+6:43
+We're gonna do bottom zero.
+6:45
+Let's go ahead and get this off to the side so you could see it.
+6:49
+Do a left of zero.
+6:52
+I'm gonna do a z index of one and a width of eighty percent or so and an opacity of point one.
+7:01
+There we go.
+7:01
+So now we have a nice looking fern in the background there.
+7:07
+And that is it for the actual mobile CSS.
+7:10
+So if we look at this coming down, it's really important to look at everything you've done to make sure everything's pretty symmetrical in terms of being consistent with your UI design fundamentals.
+7:23
+And, yeah, I would say this definitely passes the test.
+7:26
+Okay.
+7:27
+So going forward, now we're getting into the fun stuff of responsive design.
+7:31
+As you can see, it really starts to break down as we get out further.

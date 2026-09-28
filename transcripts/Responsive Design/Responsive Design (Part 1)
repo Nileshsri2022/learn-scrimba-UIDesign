@@ -1,0 +1,103 @@
+Transcript
+0:00
+Okay.
+0:00
+So this is where we're at so far, and we have our user interface looking good here just on this smaller mobile view port.
+0:07
+So what we wanna do now is start progressively enhancing this.
+0:11
+And before we get to that section, I want to just show you that we have this little count here.
+0:16
+When I adjust the width of the browser, the the view port here, it's gonna show us what the width is in terms of pixels.
+0:24
+Now you get this if you're using Firefox to develop on or also Chrome in their respective developer tools.
+0:31
+And this is gonna help us kinda know at what point should we be adjusting and, uh, adjusting the UI design in terms of our media queries.
+0:41
+So just to let you know, I simply added in order to make that work a span here and then also in the JavaScript.
+0:48
+This is the JavaScript right here that I'm using to show the value of the width of the, uh, the browser essentially.
+0:56
+And then also in our index dot CSS, I added these two rule sets to make this work as well.
+1:03
+Okay.
+1:04
+So the first thing that we're going to do is when you're you're developing, you're working with a design, you have to just ask yourself, how should the design change as we're expanding out into the bigger devices, like, into larger phones and into tablet space?
+1:21
+So the first thing I'm looking at is the the top elements here.
+1:25
+And what I think makes sense is once we get out to right around here, and this will be approximately at around three hundred ninety or so pixels, we have enough room to take these three menu elements and right align them to the logo.
+1:43
+Because right now, it doesn't make sense just to have them sit there, and this is pushing valuable content down further unnecessarily.
+1:50
+Alright.
+1:51
+So that's gonna be the first change I wanna make, and it's gonna be right around the area of, like, four hundred or so pixels.
+1:57
+So let's go ahead and make that adjustment.
+2:00
+And so if you never work with media queries, here's how we set them up.
+2:04
+We put the at media, and we're going to say in parenthesis minimum width, and we'll say around three hundred ninety pixels.
+2:13
+So now what that means is anything contained within this media query as it's called, any rule sets, they're going to overwrite any of the rule sets here, and they're only going to apply when the viewport minimum width is three hundred ninety pixels and greater.
+2:30
+Okay.
+2:30
+So hopefully that makes sense.
+2:32
+So make to make this work, in order to make these two elements on the same float on the same sort of horizontal row, what we do is we're gonna reference our header element because remember, we have a header.
+2:47
+And then we have two elements inside of it, the logo and the nav.
+2:50
+So all we have to do is we reference our header selector, and we say display flex, and then also justify content will be space hyphen between.
+3:04
+Alright.
+3:05
+So now we don't see that because we're not quite there yet.
+3:08
+So now that's right when it happens right there.
+3:12
+Now we have an issue though in terms of our UI design fundamentals, and that is alignment.
+3:17
+We can see clearly that this Tasty Bites logo is up higher, and this is kind of just down lower.
+3:24
+And it just doesn't look very good because it's not on the same row.
+3:29
+Really, ideally, the the home, about, and contact text should be vertically or in line with the tasty bites text as well.
+3:38
+So we need to adjust for that.
+3:40
+And I'll move this over.
+3:42
+And I'll go ahead and say inside of here, nav ul margin top will be like point two m units.
+3:50
+And let's expand this just a little bit.
+3:53
+There we go.
+3:54
+Now that's much better.
+3:55
+And then finally, because each of these elements, the l I elements of the nav u l, are have a they have a margin right.
+4:03
+So our third one shouldn't have that margin right because we could see we have an unnecessary uneven amount of white space between these elements.
+4:11
+So what we'll do is say nav u l l I nth of type third or three.
+4:18
+So that will select just the contact, And we'll say margin right zero.
+4:24
+So now getting this center aligned again, we can see clearly that now it looks so much better.
+4:30
+So we can see now we're at the smallest sort of device width, really small here, and it works well.
+4:35
+And then coming out, we'll see now we have enough space.
+4:39
+So therefore, we're taking the the navigation element and right aligning it, and that looks really quite good.
+4:45
+So in the next lesson, we're gonna continue on with this sort of method all methodology of making things a little bit better.
+4:52
+But it is going to be in the form of a challenge.
+4:56
+And I'm going to challenge you to make improvements to this layout as you expand at a certain point.
+5:03
+So I'll introduce that challenge in the next lesson.

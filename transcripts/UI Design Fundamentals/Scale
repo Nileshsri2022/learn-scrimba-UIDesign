@@ -1,0 +1,115 @@
+Transcript
+0:01
+So just as with alignment, white space, contrast, and the other fundamentals, the size or the scale of every UI element must be carefully considered when you're designing.
+0:11
+So just to show you an example.
+0:14
+So we have this mini browser here and we're gonna go ahead and get this centered up.
+0:19
+And there are a number of issues with this layout in terms of scale alone.
+0:25
+Everything else seems to be pretty solid in terms of the other UI design fundamentals.
+0:30
+There's good contrast, color, white space for the most part, But the scale of several areas is what we need to work on.
+0:38
+So one area that we see that's quite lacking is this big open space over here.
+0:43
+So the size or the scale of these cards is simply just too small for this given layout.
+0:50
+We also see that there is not very much difference between the headline, our colors, and the sub headline beneath it.
+0:59
+And we can also see that we can probably improve the scale, the size of the elements inside here, specifically referencing the type based elements.
+1:10
+So let's go ahead and see how much we can improve just the overall appearance and look of this design through adjusting scale alone.
+1:18
+So first, we'll take a look at the, uh, index dot HTML.
+1:22
+It's very simple.
+1:23
+We just have a color container class, and we're using the CSS grid to align these elements.
+1:30
+And these are all the same essentially right here.
+1:33
+So in the index dot CSS, all the regular HTML is right here.
+1:37
+And then we're just gonna go ahead and override just a couple areas.
+1:41
+And in fact, it's only three rule sets to get this looking better.
+1:46
+So the first thing we'll take a look at is fixing this big area over here by adjusting the scale of the three cards on each row.
+1:54
+So to do that, color container
+2:00
+and grid template columns.
+2:03
+And this is a property that we're overriding.
+2:05
+It's defined up here, right here in this section.
+2:09
+In fact, I'll go ahead and copy that and just paste it in.
+2:13
+And we could see we have a repeat function of three columns at a hundred fifty pixels.
+2:19
+So this doesn't really make sense.
+2:21
+I don't think many people would do this, but I did just wanna illustrate that sometimes people aren't using or won't use utilize the entire space that's available, uh, in a given layout.
+2:32
+So we're gonna change that simply to auto.
+2:36
+So when we make that change, we can now see it's much more filled out and it just looks so much better.
+2:44
+But we can still make some other improvements.
+2:45
+For instance, the h one element.
+2:48
+There's not much of a difference, like I said before, between these two elements.
+2:51
+And so what's really suffering here is visual hierarchy.
+2:56
+And we haven't covered visual hierarchy just yet, but we will.
+3:00
+But you'll find out exactly how crucial scale is in terms of determining effective visual hierarchy.
+3:07
+So let's fix the scale or the size of the h one element.
+3:11
+Font size, we'll do two point two e m.
+3:15
+Whereas before, it was at one point two.
+3:18
+So we're increased it by one m unit.
+3:22
+And look at that.
+3:23
+That just looks so much better.
+3:24
+And don't worry.
+3:25
+At the end, I'll show you the before and then the after with our code so you can see the real differ difference between these two.
+3:32
+Now let's also fix the scale of this element right here.
+3:35
+I think this could definitely be improved.
+3:37
+So let's come over here.
+3:40
+The selector for that is p code, as in a color code.
+3:44
+And it's font size, one point five e m.
+3:49
+Let's save that.
+3:51
+So already we've made this larger, and it just looks a lot better.
+3:55
+And let's also make it to Boulder.
+4:01
+And look at that.
+4:02
+So now this layout really looks quite a bit better compared to what it looked like before.
+4:08
+So let me show you the before, simply removing these role sets.
+4:15
+This is the before, and here is the after.
+4:20
+It just looks so much better.
+4:22
+And that's with the help of understanding and applying effective scale.

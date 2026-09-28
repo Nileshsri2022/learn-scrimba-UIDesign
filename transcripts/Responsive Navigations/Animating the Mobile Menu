@@ -1,0 +1,79 @@
+Transcript
+0:00
+Okay.
+0:00
+Welcome to this lesson where we're going to finish up our responsive navigation.
+0:03
+We're going to add some, uh, animation basically.
+0:07
+Basically, when this ends up coming in, it will fade in and slide in from off the, uh, the device over here to where it sits currently.
+0:15
+And then when they click x, it will just reverse the animation.
+0:18
+We will use CSS transitions to achieve this.
+0:22
+So what we'll do is we're gonna go here to our CSS.
+0:25
+And in our nav element, we're going to specify transform, translate x, and we'll say fifty percent.
+0:35
+Now we can't see what that does, but if we click this, uh, again, we don't see really any oh, it says five zero five.
+0:42
+Sorry about that.
+0:43
+That's supposed to be fifty percent.
+0:44
+We could see it offsets it here.
+0:47
+Alright?
+0:48
+And that's obviously not what we want in the end.
+0:50
+We wanted to start from here.
+0:52
+You could push this all the way off the screen at a hundred percent, which case you don't see it at all now.
+0:58
+It's just pretty much up to you.
+1:00
+But for me, I'm going to leave it at fifty.
+1:02
+I'm I'm also gonna set the opacity here to zero.
+1:05
+This will allow us to also fade in the opacity.
+1:08
+And we will then specify transition all for point three seconds.
+1:15
+Alright.
+1:15
+So right now, nothing happens.
+1:17
+It's broke.
+1:17
+It doesn't work, so we need to fix that.
+1:20
+Okay.
+1:21
+So next up, uh, when the actual nav button is clicked, it adds on this class right here, open nav.
+1:29
+So all we need to do now is specify, uh, not visibility.
+1:34
+Sorry about that.
+1:34
+Opacity, we're gonna set that to one.
+1:37
+And then we're also going to specify transform translate x zero.
+1:43
+You can see it even animates in here.
+1:45
+So so now when we click this, this now works.
+1:52
+Now there's gonna be a problem here.
+1:54
+So say for instance, we come out here.
+2:00
+We can now see that there's no navigation at this point.
+2:04
+So we need to fix that.
+2:05
+And so what we'll do is right here in our nav element, we're going to set the opacity to one, And we're also going to specify transform translate x back to zero.
+2:20
+So now, if we check this out, it works.

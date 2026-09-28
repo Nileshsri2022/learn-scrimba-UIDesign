@@ -1,0 +1,79 @@
+Transcript
+0:00
+Alright.
+0:00
+Welcome to this lesson where we're going to have our very first challenge.
+0:04
+So I'm gonna go over these slides real quickly and also revert back to the HTML that we wrote just so that you understand what's happening, and I will give you some pointers in order to make this work as best as possible.
+0:15
+So right here on this slide, we can see this is a very loose wireframe where we have a logo in a menu.
+0:20
+So in the HTML, the, uh, this is all defined right here in this header section.
+0:26
+So the header is, you know, is pretty lengthy, but, really, we only have a couple elements inside of it.
+0:31
+We have the logo, which currently is right here, roughly where it needs to be.
+0:36
+Um, and then we also have this nav element.
+0:39
+Alright?
+0:39
+So you have two elements inside of the header element.
+0:43
+So you could use the flex box or grid on the header element.
+0:48
+I personally use, uh, you know, display flex on this and then, uh, justify content space between in order to get those two elements, the logo and the menu, the hamburger icon menu, you know, the space between them.
+1:01
+This was right aligned, and this is left.
+1:04
+Um, so then also, uh, we also have down here, uh, our main section, which has all of our content, which is in relation to this section.
+1:14
+So you can decide, you know, however you wanna style that up, you can do so.
+1:19
+And also, we do have our plant graphic.
+1:23
+And the graphics, of course, are right here.
+1:25
+So the plant, you need to figure out where you're gonna put this and this fern as well to try to, you know, adhere to your UI design fundamentals to try to make these work.
+1:35
+Alright?
+1:36
+Um, also the color schemes.
+1:38
+So, uh, these color codes right here, um, a a d f c five, um, also four seven nine four six e, and etcetera.
+1:47
+They're all right here.
+1:48
+So you can just click on the, uh, the slides right here to get those color codes.
+1:54
+And so I yeah.
+1:56
+Basically, what I want you to do, uh, uh, if you haven't yet, is to create a mock up that really makes things easier so you can just hop into something like Figma and just create you know, get out a mobile artboard and create a quick design of how you envision you're going to use, uh, and set everything up.
+2:12
+Alright.
+2:13
+So once you do that, you can hop into our index.
+2:16
+Css.
+2:17
+As you can see, it's pretty much empty.
+2:19
+Um, I'm gonna use the font Montserrat, so I'll probably import it here when I show you my, uh, solution afterwards, uh, in the next lesson.
+2:27
+Uh, but, yeah, you can go ahead and structure everything just for mobile right here.
+2:32
+And, yes, that also will require making the navigation work and creating a design for the nav the mobile navigation that pops up.
+2:42
+So we already did a couple of those.
+2:43
+I did a chapter specifically on, uh, responsive navigations, uh, and also a project or two that integrated responsive navigation.
+2:52
+So you can always go back and look at that code if you're not sure how to set those up, though it is pretty easy.
+2:56
+Uh, and I'll show you, of course, everything that I'm gonna do, um, that I would do in this type of project, of course, uh, in the next lesson.
+3:04
+So go ahead.
+3:04
+At this point, you can go ahead and pause if you wish.
+3:07
+Uh, and then when you come up with your solution, uh, you can go ahead and watch the next lesson where I will show you mine where we're gonna focus on the mobile first CSS in order to get this structured a lot better.

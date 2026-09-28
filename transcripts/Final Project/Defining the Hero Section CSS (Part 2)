@@ -1,0 +1,195 @@
+Transcript
+0:00
+Alright.
+0:00
+Welcome to yet another video in this project.
+0:02
+So the part we're gonna focus on now is this section.
+0:06
+So we have an unordered list, and there's three of these elements right here.
+0:10
+In fact, let's make each of those I unique because I do have a cabin one, two, and three.
+0:16
+There we go.
+0:17
+So let's go ahead and save that.
+0:18
+Now we have some different cabins to look at here while we work on this.
+0:22
+So the first thing that I see about that these are pretty large.
+0:26
+And on a phone, that's gonna take up a lot of, uh, vertical space, a lot of scrolling.
+0:30
+So I wanna kinda just scale these down.
+0:32
+Alright?
+0:33
+I don't wanna float them less left of each other because at this, you view port, you don't have enough room, especially when we have content and basically cards out of each one of them.
+0:41
+So we're gonna go back to our index CSS, and we're going to target our UL featured cabins.
+0:48
+And we're just gonna do a width of sixty percent.
+0:51
+So now that end up really moving things, uh, condensing them in quite a bit.
+0:56
+But now we need to center this because we want good alignment.
+0:59
+Right?
+0:59
+If this is centered line, the rest of the content down here should ideally be centered aligned as well, especially in this context because we have a lot of empty white space.
+1:08
+So let's go ahead and just simply space specify a margin of zero auto here, and that'll get things centered up.
+1:16
+Alright.
+1:16
+So next up, we're gonna have the list items in each one of these, and that's going to be a margin bottom of three m units.
+1:27
+Right?
+1:28
+So each one of these will push the other one down, and we have this real large graphic.
+1:34
+It was kinda throwing things off, which we will fix here momentarily.
+1:38
+Um, for now, I'm gonna do the cabin image.
+1:41
+Slide to the actual image of the cabin, and we're going to add a box shadow.
+1:47
+And pixels, ten pixels, ten pixels, RGBA zero zero zero and then point two.
+1:55
+And it just gives us a slight background, and this isn't so much for the mobile viewport.
+2:01
+When we this gets larger, it's gonna help more because this background image actually has, um, some lighter areas to it.
+2:10
+And so it it gives it a nice look.
+2:12
+Right now, you can't really tell that, um, at this point.
+2:15
+So next up after that, uh, we have we are going to put in our cabin title.
+2:24
+Alright?
+2:24
+So right here, we have our cabin title, whispering willows, and then we have a description underneath it.
+2:30
+Now what's the problem about these two elements right here?
+2:35
+Remember, your UI design fundamentals.
+2:39
+The problem is a lack of visual hierarchy.
+2:42
+Right?
+2:44
+So this is gonna be yet another challenge that I spring on you to try to finish this section right here.
+2:52
+So we have essentially three elements.
+2:55
+We have the the the subtitle, and then we have the paragraph, and then we have a call to action that says cabin info along with a little, um, arrow right here.
+3:05
+So those what this looks like in the HTML is this right here, cabin title class, cabin description class, and then we have this href with a class of cabin CTA and then a span and then the image.
+3:21
+So this is like a a right arrow that will just kinda help, you know, users recognize the fact that this is a button.
+3:28
+You click it, um, to to gain more information.
+3:31
+So I want you to style these elements in the CSS starting right here, uh, in order to make this look like a solid cohesive design in that section.
+3:41
+So go ahead and pause and then come back.
+3:46
+Alright.
+3:47
+So hopefully you came up with something good.
+3:48
+I'm gonna show you what I would do.
+3:49
+So like I mentioned before, we have a visual hierarchy issue.
+3:52
+We wanna make this this title is more important than the description underneath it.
+3:56
+This is the name of the cabin.
+3:58
+So we're going to use boldness in order to make that better as long as well as font size.
+4:05
+So let's move this over, and we're going to say cabin title, font weight bold,
+4:13
+and font size one point three m units.
+4:16
+So now we've really separated visually and given it more importance than this element down here in this type.
+4:23
+So next up, let's bring this back to the side.
+4:26
+We're going to take in our cabin description.
+4:29
+Now there's gonna be other selectors that use the same type, uh, properties that we're about to add.
+4:34
+So I'm gonna add ul features l I p and then left p.
+4:39
+Alright.
+4:40
+So now we're going to give it a line height of one point nine m units.
+4:45
+We're going to font size, scale it down quite a bit to even further establish that difference of visual hierarchy and then a margin bottom to m units.
+4:55
+Right.
+4:56
+So this is what we look like so far.
+5:00
+And trust me, it's gonna look so much better once this silly large graphic gets scaled down.
+5:04
+So now what we're gonna have after that is our cabin CTA.
+5:10
+We're gonna display flex that, and then we're gonna justify the content space between.
+5:18
+Then we're gonna also have position relative.
+5:21
+I'm gonna add an extra element, um, as well.
+5:25
+Let's get that
+5:27
+image scaled down right now.
+5:29
+So we're gonna do IMG after that, and we're gonna make that a width of just ten pixels.
+5:37
+Here we go.
+5:38
+It looks so much better now.
+5:41
+Alright.
+5:41
+So, obviously, we have an issue here.
+5:43
+So let's get, uh, that all squared away.
+5:47
+That's gonna be the cabin CTA span.
+5:50
+It's going to be let's get this back over here.
+5:52
+It's gonna be a color of white and a font weight of bold.
+5:57
+And that helps establish the visual separation hierarchy between this type and itself right here because this is not bold.
+6:04
+Now I'm also gonna add kind of like an underline under each underneath each one of these.
+6:09
+So I'm gonna take our cabin hyphen c t a, and then we're gonna use after to be position absolute.
+6:18
+And we will also have content empty.
+6:21
+We will also put in bottom negative twelve pixels.
+6:26
+Get this so we can start seeing what's happening.
+6:28
+Uh, we're gonna do a background of white.
+6:31
+Can't see it yet.
+6:32
+We need a width of a hundred percent and a height of one pixel, and that's it.
+6:39
+So now we just kind of frame the separation between these, um, you know, these these three different elements.
+6:45
+And so this will even be more clear when we get to the responsive desktop versions.
+6:51
+Alright.
+6:52
+So this looks pretty solid.
+6:53
+A good spot to stop because now we have the hero section on the mobile view port done.
+7:01
+And then in the next section, we're gonna start focusing on this area right here.

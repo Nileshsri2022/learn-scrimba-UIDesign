@@ -1,0 +1,255 @@
+Transcript
+0:00
+Alright.
+0:00
+Hello, and welcome to this new challenge.
+0:02
+And this is going to be a big challenge.
+0:04
+It's gonna be a lengthy one.
+0:06
+Um, I'm gonna get one media query in there before we get to that part.
+0:10
+Um, so it's probably gonna be right around here where we can start condensing this, the feature container into, you know, three columns.
+0:18
+Um, and then we're gonna focus on a big challenge for, you know, what should this look like on a desktop.
+0:24
+Alright.
+0:25
+So I'm gonna come down here.
+0:26
+We're gonna take our media min width of six hundred fifty pixels, and we're gonna take our u all features, the width of ninety percent, display grid.
+0:39
+Actually, we're pretty much using, as I just realized, all the same exact, CSS right here.
+0:46
+So if we check that out, there we go.
+0:48
+We've just saved ourself, um, a little bit of typing there.
+0:52
+Alright.
+0:52
+So now when we come out, ask yourself, you know, how should we be changing this resolution given the fact that we know we have this content here?
+1:04
+We have these three elements.
+1:06
+Our HTML markup is structured in such a way so that there's a wrapper on both of these so so that we could probably create two columns.
+1:13
+Right?
+1:13
+We have this on one side, and then this stuff on the other side.
+1:18
+Alright.
+1:18
+Um, and then also start thinking about how we can condense this as well, because we have the same situation where it says we serve excellence.
+1:26
+There's also markup, um, for a wrapper around both of these.
+1:31
+This is could be one column.
+1:33
+This could be another column as well.
+1:36
+So go ahead and your go to your CSS and come up this time with your own point at which you think the media query should be specified.
+1:45
+So if I type media min width,
+1:49
+it's gonna be like this.
+1:51
+You know, what pixels should you have this start for desktop?
+1:55
+And then create the rest of your rule sets, uh, to make this look good.
+1:58
+And I just remember remember your UI design fundamentals.
+2:05
+Alright.
+2:06
+So hopefully, you came up with something that worked well.
+2:08
+Again, always share, you know, what you guys come up with, uh, in the community as well.
+2:13
+Alright.
+2:14
+So the first thing that I think we're gonna do for this is, um, we're gonna text align left everything inside of the wrapper class.
+2:21
+If you recall, that actually has text align center and everything.
+2:25
+So we're going to oh, and I decided to put this right around nine hundred pixels.
+2:30
+If you had came up with something else, not a big deal.
+2:33
+Alright.
+2:33
+So we're gonna do wrapper, text align left.
+2:39
+And so now that's moving everything to the left.
+2:42
+Things are now moved to the left over here.
+2:46
+It kinda breaks a lot of things, but that's okay.
+2:48
+We'll fix it.
+2:49
+Our flex class, we haven't used that yet.
+2:51
+We're gonna do display flex right there.
+2:53
+Okay.
+2:54
+So that immediately gets us to this four column approach right here.
+3:00
+We could also see it put this into its own column and this over here in its own column as well.
+3:05
+Again, still breaking things.
+3:07
+Things are not looking great at this point.
+3:10
+Um, so we also have a hero class that's been attached to this wrapper specifically right here.
+3:17
+And the reason I did that is so that we can create some white space.
+3:21
+Because if we look at this, no white space.
+3:24
+It looks really bad.
+3:25
+We need room to breathe here.
+3:27
+So we're gonna take our hero.
+3:31
+We're gonna say padding eight m units on the top and bottom and four e m on the left and right.
+3:37
+Right?
+3:37
+So that's gonna give things more room to breathe all around.
+3:41
+Right?
+3:43
+So next up, what we're gonna do is we're also going to focus on here.
+3:48
+So we have a lack of white space on the left and the right.
+3:53
+And so we do also have a helper class for that called last container right here.
+4:00
+So we're going to reference last container,
+4:08
+And that will be padding of zero and four m units on the right and left.
+4:14
+Alright.
+4:15
+Still quite a bit to do though.
+4:16
+So next up, we're gonna take our main copy.
+4:22
+We're gonna say width of forty percent.
+4:25
+So main copy was a a class that's attached around these three elements right here.
+4:32
+Alright.
+4:32
+So we just called that main copy.
+4:34
+And before, this was right up against, uh, uh, the element over here.
+4:38
+So we need a white space to separate them out to so we enlarged this block right here.
+4:45
+We're also going to specify our forest vacations, and this is a class of subtitle.
+4:52
+Um, it's kind of weird being pushed down like this.
+4:54
+And it's also pretty far down from here.
+4:56
+So we're gonna take that and say, subtitle margin is zero on the top and bottom on the right and then one AM on the bottom specifically.
+5:08
+Alright.
+5:09
+And I did that work or not?
+5:11
+Margin right.
+5:12
+Oh, we're gonna do padding zero as well.
+5:16
+Alright.
+5:16
+So now it's aligned to the top basically of these, uh, different areas.
+5:21
+Our h one, let's go ahead and reference the h one element.
+5:26
+Font size three m units and margin top will be zero.
+5:30
+We're making it bigger, of course.
+5:34
+And now we don't have a lot of white space between here, although it will increase as we go out.
+5:40
+And we're also going to say, in order to fix the lack of white space right here because you don't want that, we're going to say you l featured cabins, a width of seventy percent.
+5:54
+Now that moves things over.
+5:56
+It also scales them down a little bit, but that's okay.
+5:58
+You can still see them, and they're all still looking good right there.
+6:03
+So you wanna make sure at your break points, right at the smallest point at the break point, you wanna make sure everything's still looking solid.
+6:08
+Okay?
+6:09
+Alright.
+6:10
+So next up, we're going to switch the emphasis, um, down here.
+6:17
+This still looks good.
+6:19
+I have no problem with this section.
+6:21
+What What doesn't really look good is this part where it says, um, the quote and the person's name.
+6:26
+So let's focus on that.
+6:28
+I'm gonna say main quote.
+6:32
+Font size will be three m units, and margin bottom will be three m units.
+6:39
+Or the font size, I'm sorry, which should be one point five m units.
+6:42
+Nope.
+6:44
+I am messing up.
+6:45
+I'm looking at, uh, different things that it shouldn't be.
+6:47
+There we go.
+6:48
+So now now we have this really you know, we have a lot of, uh, we really wanna emphasize this, so we're increasing, uh, that size considerably.
+6:57
+And we're also gonna take our main site,
+7:01
+and we're going to say font size one point five.
+7:04
+We're gonna increase that and margin bottom will be three m units.
+7:10
+Right.
+7:11
+So that's what we have there, uh, in this section.
+7:15
+And we also wanna take both of those and make sure they're text align center.
+7:19
+So I'm gonna come up here, main quote, main site, and we'll do text align center.
+7:29
+Now that's looking a little bit better, although I think I yeah.
+7:33
+I screwed that up.
+7:35
+Boy, I had a really tough time for this one.
+7:37
+This is margin top, which should be two m units.
+7:41
+There we go.
+7:41
+Now these are looking a lot better.
+7:44
+And, of course, this fern is getting way in the way.
+7:46
+We're gonna fix that in a little bit.
+7:49
+Okay.
+7:49
+So coming down here, we need to fix this area as well.
+7:54
+And I think this would be a good spot just to stop, I because we'll use this as an opportunity for a challenge to get this section right here looking good in the next lesson.

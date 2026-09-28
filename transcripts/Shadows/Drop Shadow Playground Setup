@@ -1,0 +1,129 @@
+Transcript
+0:00
+Alright.
+0:00
+Welcome to this lesson where we're going to focus on setting up sort of like a playground project where I'm going to demonstrate in future lessons exactly how to work with shadows in a different amount of use cases and different, you know, backgrounds, uh, colors, and all of that.
+0:17
+So I wanna make sure we're all on the same page in terms of what's happening with HTML, which is gonna be very simple.
+0:23
+Um, so I'm just gonna go ahead and get started here.
+0:25
+We're gonna say div class is card and then close that off.
+0:29
+The body is actually going to be just a, um, a display grid container, taking this single element here, this card, and centering it with the place content center property and value.
+0:41
+Alright.
+0:42
+So inside of here, we're just gonna have a a paragraph of class title, and then we'll say my card here, close that off.
+0:49
+We'll also have another paragraph, and that will be a description.
+0:54
+And I'm just gonna paste in some quick lorem ipsum text right here, and then we'll close that.
+1:01
+And then we will also put in an ahref going nowhere, call to action.
+1:08
+And this here is all our markup is.
+1:10
+And, you know, it's just a simple container that will allow us to demonstrate the shadows.
+1:15
+So now let's head on over to the CSS to set this up real quickly.
+1:19
+I'm gonna go ahead and show the mini browser.
+1:21
+And this is I'm just gonna go ahead and put it off to the side.
+1:25
+Um, it's not too important that you to see everything, but it's just gonna be right around here.
+1:30
+Then that way, you'll be able to see exactly what's happening when we change up the various properties here.
+1:35
+So for the body, we're gonna set the height to a hundred viewport height, which is something we have to do um, if we wanna do this place content center with the display grid.
+1:43
+So display grid, then we're going to say place content is going to be center.
+1:49
+And then we will also specify a light gray background, and that's gonna be the first one that we demonstrate shadows with.
+1:57
+And then we're gonna go ahead and take our card element.
+2:00
+We're gonna say width is gonna be around sixty percent, if I can type.
+2:05
+And then we'll do margin zero auto, get that in the center.
+2:09
+Um, we'll also do padding here of two m units on the inside of our container.
+2:15
+Um, let's go ahead and also make the background white.
+2:22
+Alright.
+2:22
+And then we'll also do border radius
+2:26
+of point four m units.
+2:28
+Let me fix that spelling.
+2:30
+There we go.
+2:31
+And then also, we'll do text align center.
+2:35
+Alright.
+2:36
+And then we'll have our title, which is the the paragraph title class.
+2:40
+Font weight, we'll just make it bold.
+2:42
+Now even though I'm not talking about UI design fundamentals and this isn't the purpose of this particular, uh, chapter and lesson, Again, if we have any type of design, we're always minding our UI design fundamentals.
+2:55
+We have a title, which is the most important element.
+2:57
+So we're gonna we're gonna separate it from the other text, uh, by using font weight bold.
+3:02
+A bigger font size as well would help.
+3:05
+Alright.
+3:06
+And then I'm also going to get rid of the default margin top.
+3:10
+In that way, we can have even amount of white space all around.
+3:14
+Um, also, we'll have our description, which is also another paragraph of our lorem ipsum text.
+3:20
+And right now, the default line height that we have set up here, it's a little bit crammed.
+3:25
+So I'm gonna go ahead and change that as well.
+3:28
+So we're gonna say line height, one point seven m units to point nine m units, just to make it a little bit smaller.
+3:36
+And then color, this is a dark gray, so it's four c four c four c.
+3:43
+Alright.
+3:43
+And then we'll come and also reference, which is going to be our final element, which is the a tag.
+3:52
+And we're gonna do text decoration,
+3:56
+none.
+3:57
+We'll do background.
+3:59
+And I'm gonna give this a specific color code that I'll copy off screen.
+4:03
+Alright.
+4:04
+It's just a nice blue color.
+4:05
+And then we'll have color white inside so that it contrasts well.
+4:09
+We'll do display inline block.
+4:12
+We'll also do padding of point seven at the top and two m units on the right and left.
+4:17
+We'll do a border radius, uh, just two m, just so it's like a pill button.
+4:22
+And then a margin top will be one m units just to put us push it away a little bit more.
+4:27
+And that's it for our setup here.
+4:28
+So, uh, let's get this here into full view.
+4:33
+Um, Yeah.
+4:34
+Not much happening, but this container alone, you know, when I apply it in a variety of different scenarios based on its color, also the background color, will go ahead and allow us really to demonstrate how to properly utilize shadows.

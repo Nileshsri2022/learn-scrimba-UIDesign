@@ -1,0 +1,193 @@
+Transcript
+0:00
+Okay.
+0:00
+Welcome to the very first challenge of this chapter.
+0:03
+And I'm going to challenge you to work at a very specific media query, and it's right at around six hundred pixels.
+0:12
+And at six hundred pixels, I want you to change something about this layout.
+0:18
+And, really, it's just one specific area.
+0:20
+I'm not gonna tell you where it's at.
+0:22
+But keeping in mind UI design fundamentals and and readability, I I decided to change something about this, and I think it ends up me making a a more positive impact.
+0:34
+And it makes sense to change this particular element, uh, in such a way that makes it a little bit more easy to read and follow.
+0:42
+And so I'm going to give you the actual media query to go ahead and change.
+0:47
+And so we're gonna come right down here.
+0:50
+I'm simply just gonna copy this real quick.
+0:52
+We'll paste this.
+0:53
+I'm gonna change this to six hundred pixels and make the rest empty.
+0:57
+And I want you to work right in here within this area in order to define your specific media queries.
+1:04
+Now having said that, you may change a lot.
+1:08
+And who knows?
+1:09
+Maybe some of those changes or all of those changes would be perfectly fine in terms of your UI design fundamentals.
+1:15
+So don't get discouraged if when I tell you to pause and you do it and then you come back and you play, if I do something entirely different.
+1:22
+Because chances are they are going to be different very likely, and most people probably won't do the same thing as me.
+1:29
+Uh, but this is just to give you, uh, some some experience trying to think in these terms of responsive design and also just to see what one designer would do in order just to improve one aspect of this layout.
+1:43
+Alright.
+1:44
+For me, there's only four rule sets that I end up changing.
+1:47
+So that can give you a little bit of a hint, but that's up to you.
+1:50
+Okay?
+1:50
+So go ahead and pause, and then hit play when you're ready to come back.
+2:00
+Okay.
+2:00
+So hopefully, you came up with something that is good and, you know, adhered to all these various UI design fundamentals.
+2:08
+Um, so what I really think once we get out to this this viewport, these testimonial boxes start to get quite wide.
+2:17
+And, really, with the amount of text that's inside of them, we can actually begin to condense these into the same call or the same row rather.
+2:25
+But still, at this width right here, there's not enough room to have all three of them side by side, but there is enough room to have two of them side by side.
+2:33
+So we can have one that's, you know, long like this all the way, and then we can have these two that are left aligned.
+2:39
+That would work perfectly fine.
+2:41
+Even still, if you decide to leave these alone, I mean, these are still fine.
+2:45
+I mean, it's not like it's really bad.
+2:46
+Like, if you get out to here, that's quite bad.
+2:49
+But if you decided to leave this alone and as it is, that's completely fine.
+2:53
+Maybe you change something else.
+2:54
+Maybe, uh, you made this text a little bit bigger or the button bigger or something like that, and that's completely fine.
+3:00
+But, uh, what I'm deciding to do is use the CSS grid to structure these, uh, so that there's one here, one here, and then one at the bottom.
+3:09
+So that's the main change that we're gonna make.
+3:11
+So inside of this CSS media query, what I will do is, uh, specifically reference the UL testimonials container, and we're gonna display grid.
+3:21
+We'll go ahead and say grid template columns or repeat function, two of them auto.
+3:27
+So that's gonna make them the same width.
+3:30
+We're going to say grid template rows, we'll say repeat two auto.
+3:36
+And then also we'll give it a grip gap of one m units.
+3:40
+So let me fix that.
+3:42
+I said grid graph by accident.
+3:44
+Now that's not gonna change anything.
+3:46
+We still have to, uh, do a couple more rule sets in order for this to work
+3:52
+specifically.
+3:53
+Although, I may not be out.
+3:54
+There we go.
+3:55
+Sorry about that.
+3:55
+I wasn't out too far enough.
+3:57
+So now we have this, but we need to make this third element right here span all the way across.
+4:03
+And also, we have an uneven amount of white space between the vertical distance between these as opposed to the horizontal distance between those two elements.
+4:13
+So let's go ahead and fix that.
+4:15
+We'll just say ul testimonials l I.
+4:19
+We're gonna say margin zero to get rid of that, and that fixes that uneven amount of white space.
+4:25
+And then we will reference our u l testimonials
+4:31
+l I.
+4:32
+We're gonna do enter type again, and we'll say three.
+4:36
+So the last one, this is gonna select this one down here.
+4:40
+So we'll simply use the grid, the CSS grid area property, which is a shorthand property for defining the grid column start, grid column end, and grid row start, and grid row end.
+4:52
+So the way it works is the first value defines the grid row start.
+4:58
+So if you think about this as a box, we have two columns, and we have also two rows.
+5:05
+So the first grid line that we're gonna reference is starting at row two because this is the second row right here.
+5:14
+And then we use a forward slash here.
+5:18
+Next one is the grid column start, and that's at the very first column.
+5:24
+Alright.
+5:24
+So we have both of our starts, and then we do grid row end.
+5:28
+We want this to end at the the second row still.
+5:33
+So it's staying on that row.
+5:34
+So it's two.
+5:35
+And then the grid column end is three.
+5:39
+Alright.
+5:39
+So we're thinking about lines.
+5:41
+We have a line here, here, and the third one's over there.
+5:44
+So we'll say three, and that fixes us up just like that.
+5:50
+So let's go ahead and take take a look at the, uh, what this looks like.
+5:53
+So this is right now without any media queries.
+5:56
+We get to around four hundred and the menu changes.
+6:00
+And then we get out to here around six hundred, and now they condense automatically right there.
+6:07
+Now one of the thing I wanna change, we have this huge area.
+6:10
+This is just kind of a matter of personal preference.
+6:12
+I'm gonna go ahead and use our image.
+6:14
+We're gonna reference that.
+6:15
+And I'm going to use the clip path property, which basically allows us to cut off certain parts of an element.
+6:22
+I used a clip path generator.
+6:23
+If you go to Google, you can you type in clip path, uh, generator, you'll be able to find these.
+6:28
+Uh, it's to help generate this type of code based on how you want it to clip.
+6:33
+And we could see that it just kinda clips the bottom off
+6:37
+of this image.
+6:39
+That way it's not, uh, just extending so far down.
+6:43
+All right.
+6:44
+So in the next lesson, we're going to continue on making this responsive.

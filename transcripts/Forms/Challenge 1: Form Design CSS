@@ -1,0 +1,279 @@
+Transcript
+0:00
+Okay.
+0:00
+Welcome to this new lesson where we're going to continue on with the CSS, and we're also going to have a challenge worked in here.
+0:07
+So now what we're gonna do is focus on this part beneath, uh, what we just finished in the previous lesson.
+0:13
+And so looking at this in terms of UI design fundamentals, clearly, there's a lot wrong here.
+0:18
+But, uh, where it says account setup, this is actually in the HTML wrapped in a main element as you can see.
+0:25
+So account setup, then we have a class of left column, which will come into play when we get a larger, um, resolutions.
+0:31
+But then we have this main element.
+0:32
+And so I wanna take the main element and give it its own background color.
+0:37
+Um, so we're gonna say background or main rather, background white.
+0:42
+It's an adder that helps helps just immediately separate this main section from this header area up here.
+0:50
+Um, let's go ahead and just move this over here, um, and get it out of the way just so we can see what's happening the whole time we work with it.
+0:59
+So what we'll go ahead to do now inside of main is putting a padding of one m just to give it some white space inside of it.
+1:08
+We're also going to put text align left in here.
+1:13
+And then we will also put in a margin top of two m units to push things away a little bit and a margin of bottom from two m m units as well.
+1:25
+Okay.
+1:25
+So now that we've kind of encased the actual form section, uh, visually.
+1:29
+So now we're going to focus on the h two.
+1:32
+We're going to make the font size one point three m units to make it a little bit bigger.
+1:36
+Otherwise, it was kinda competing for, like, equal space.
+1:38
+So there was a lack of visual hierarchies between this element here, the to become a member and then account setup.
+1:44
+Um, we're also going to put in a position of relative and a margin of bottom of one point five and we need to push things away just a little bit more.
+1:54
+It's a position relative because we're going to add a little border, uh, onto it.
+1:59
+And we've done this a number of times already throughout the course.
+2:02
+So we're gonna put h two before.
+2:04
+We're going to put in content is empty.
+2:08
+So we've already done this.
+2:09
+Um, you should be familiar with this process already.
+2:12
+Uh, it's just a nice way to kinda denote that this is a, um, a title section.
+2:17
+So height will be five pixels, width or width rather, sorry, repeating myself, is gonna be thirty pixels.
+2:25
+Um, background, we're gonna introduce a new primary vibrant color.
+2:29
+Our call to action will use the same color as well.
+2:32
+So it's this purple as we can see right here.
+2:35
+Um, it's also going to have, um, let's see, a left of zero and a top of negative seven pixels just to push it away a little bit, and then a border radius of one m units to round out the corners.
+2:49
+Right.
+2:49
+There we go.
+2:50
+That's looking pretty solid right there.
+2:54
+Okay.
+2:54
+So let's continue on.
+2:56
+Normally, this is where I'd start styling all of this stuff.
+3:00
+And that's actually going to be the challenge.
+3:03
+So this is the challenge here.
+3:05
+Um, we're gonna take a look at this real quickly.
+3:07
+And what I want you to do is to style up this form the best way that you know how.
+3:14
+Um, I know, you know, I've already discussed a little bit of the fundamentals a couple chapters ago or a couple lessons ago with the the intro to this chapter.
+3:23
+Um, and just do your best to target the the various elements, the HTML elements that comprise, like, the label, um, the text the input text right here.
+3:34
+Also style this so that you actually indicate that this is an error field.
+3:39
+So we're gonna assume that the first name, there was an error on it and try to indicate that in some way visually that this is error.
+3:46
+And also, you know, focus on the last name, the e the email address.
+3:50
+Those should naturally be styled once you style, um, this over here, these ones as well.
+3:55
+And so just try to make it look as good and function as good as possible just by focusing on the CSS rule sets for this section alone.
+4:03
+Go ahead and pause, and then I'll show you what I would do.
+4:08
+Alright.
+4:09
+So hopefully you came up with something good.
+4:11
+Uh, first of all, we want everything to stack on top of each other.
+4:14
+These left align, um, elements, they just don't work, and they're they're harder for people to use.
+4:20
+So what we're gonna do is pick our label and do a display of block, then a let me go ahead and bring this out here.
+4:31
+So things looks already a lot better when we made them block elements.
+4:34
+We're gonna font weight bold, and we're gonna do a margin top, uh, about a one point five m units.
+4:42
+That way it spaces them out a little bit further.
+4:44
+And also a margin bottom, just around point five m units to push the label away to give some white space.
+4:52
+Next up, we're gonna say input type is text equals text.
+4:56
+And then we're also going to add in select because we're in the future, we're gonna have a select menu and a text area.
+5:02
+And they'll all share this right here.
+5:05
+So we want these to go to a hundred percent width right here on mobile, and then we're gonna give it a padding of one m unit inside.
+5:13
+Alright?
+5:13
+So it's going to, uh, uh, really fill this up and give us a lot of a good amount of white space.
+5:19
+We're also going to put in a border radius of point two m units and also a border of one pixel solid, AC AC AC.
+5:32
+Right.
+5:32
+So it's just a gray color still.
+5:34
+And then color, we're gonna give it this color code right here.
+5:38
+It's kind of like a darker desaturated version of this purple, so what we type in there.
+5:44
+Now right now, they're extending outside of the container.
+5:47
+So to fix that, we can go ahead and put in a rule set.
+5:50
+I'll just put it up at the top because this is just a general global rule set, um, asterisk all box sizing border box.
+5:57
+So that fixed that issue there.
+5:59
+So let's just take a look at this.
+6:01
+Now this looks so much better than what it did.
+6:03
+Let's do a real quick before and after, um, just by taking those two rule sets out.
+6:09
+I mean, look at that.
+6:11
+So, of course, you could achieve a lot with with CSS, um, like that.
+6:15
+So now let's go ahead and continue on, and we're going to, um, also focus on, uh, when these input elements are focused.
+6:25
+So we're going to say input type equals text, and then we put in a colon focus and also text area focus, even though we don't have the text area done yet.
+6:38
+Um, and then we're going to specify outline, and it will be three pixels solid and then a c a c a c.
+6:46
+So now when we use this, we'll see that it is giving us this active element.
+6:54
+Alright.
+6:54
+Next up after that, we're gonna go ahead and make our error field work.
+7:00
+So this is not a good error field because it's it it just doesn't it just looks the same.
+7:05
+It's not recognizable.
+7:07
+So we want we would definitely wanna change that.
+7:10
+So we're gonna say left call error field.
+7:14
+We're gonna say border three pixel solid, and we're going to make it a
+7:22
+color code at red, but not like a very saturated red.
+7:27
+So this is a red, but it's lighter.
+7:29
+If it's too red, it just breaks the design, essentially.
+7:31
+It doesn't look good.
+7:33
+Um, I noticed I also, by accident, placed it on here, this email.
+7:37
+There we go.
+7:39
+So going back here to our CSS, we'll go back and save this.
+7:43
+There we go.
+7:44
+This isn't enough, though.
+7:46
+Sorry.
+7:46
+This field is required.
+7:47
+That doesn't it just seems out of place.
+7:49
+So let's go back to the CSS, and we're going to say error.
+7:55
+And that's the paragraph.
+7:57
+Background beat will be the same color as this right here.
+8:01
+Right?
+8:02
+But there's not a lot a lot of white space, and we can definitely improve this still.
+8:07
+So we're going to let me real quickly move this over here.
+8:12
+For the background, we're going to say, uh, we already did that.
+8:16
+We'll do the display inline block so it doesn't go all the way out.
+8:20
+And then we'll also do padding on the top point three e m and bottom, right and left point five e m.
+8:27
+We'll also give it a font size of point eight five em units.
+8:35
+And font weight, we'll go ahead and make it bold.
+8:40
+And then we'll do a margin top of negative point one m, and that gets it situated right up with here.
+8:48
+So it makes it look like it's just part of the form element.
+8:51
+Alright.
+8:51
+So now looking at this, this is the form that we have so far.
+8:57
+Let's go ahead.
+8:58
+Finally, I'll do the call to action, which just looks like a simple link right now.
+9:02
+We definitely need to make that much more noticeable.
+9:05
+Your call to action should always stick out as much as possible.
+9:09
+But while doing so, I you know, still looking good.
+9:12
+So we'll do a display block, a width of a hundred percent.
+9:16
+We'll do a padding here of one m.
+9:20
+Let's also do a let's see here.
+9:24
+Um, a text align of center.
+9:28
+Do text decoration of none.
+9:31
+We'll also do a color of white.
+9:33
+So now we can't see it.
+9:35
+Lower background of our primary color, which is right here.
+9:40
+Now it's too close to the above text field, so we're gonna do a margin top of one point five m units.
+9:46
+And then we will also do a font weight of bold and a font size slightly larger, one point two m units.
+9:54
+And finally, a border radius of point two m units.
+10:00
+Alright.
+10:01
+There we go.
+10:01
+So looking at this, we've really come, you know, a long way.
+10:06
+And in the next lesson, we're going to focus on responsive design.
+10:12
+And this will be a challenge.

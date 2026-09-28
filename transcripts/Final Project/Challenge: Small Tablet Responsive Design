@@ -1,0 +1,213 @@
+Transcript
+0:00
+Alright.
+0:00
+Welcome to yet another video where we're going to start working on the responsive design of our element or of our project rather that we have here.
+0:09
+So what we wanna do now is we're gonna come out here to around a specific viewport, and we're gonna start I'm gonna ask you for this challenge to change anything that you think makes sense to change when we get out to right around five hundred and fifty pixels.
+0:25
+So I'm gonna add that media query right here for you to start adding in changes.
+0:31
+Alright.
+0:32
+So I when you make your changes, remember, think about, you know, what makes sense to change right around five hundred fifty.
+0:41
+Um, just to give you an idea of where that's at, I'm gonna I'm gonna go ahead and take our logo, color red, just for now.
+0:47
+Just so you can see, like, what point is five fifty.
+0:50
+It's right here where it changes to red.
+0:52
+Okay?
+0:53
+So ask yourself, you know, how much space do we now have available to us in terms of the width of the device in order to make changes that may make more sense?
+1:04
+Alright?
+1:05
+And it would be easier for the user to actually use and navigate through it with.
+1:09
+Alright?
+1:10
+So remember your navigation.
+1:12
+Um, remember that we're dealing with unordered lists in in several areas that we might be able to to condense.
+1:18
+We might not, you know, either.
+1:20
+I'm not gonna really help you that much this time because we're at the end of the course.
+1:23
+Hopefully, you can come up with some decisions that make sense.
+1:26
+But just remember, like I've said a million times, it's all about the UI design fundamentals.
+1:32
+As long as you knock those all out, you're gonna be golden.
+1:34
+So go ahead and pause, work on this, and come back.
+1:41
+Alright.
+1:43
+Once again, as always, I hope you came up with something that you're proud of and works as well.
+1:49
+So alright.
+1:50
+The very first thing we're going to knock out is a navigation.
+1:53
+So we have a home cabins FAQ and or frequently asked questions for those of you who wonder why I keep saying that and reservations.
+2:01
+We have enough space here to list those all four out right here.
+2:06
+Alright.
+2:06
+So that's the first thing that we're gonna change.
+2:08
+We're gonna change a few other things, but that's the first.
+2:11
+So let's move this over to the side.
+2:14
+Let's get rid of this color red right here.
+2:17
+And we're going to take our menu and our exit button, and we're gonna display none.
+2:23
+Alright?
+2:24
+So that's the first thing we're gonna do.
+2:27
+And, of course, we don't see it now because this is collapsed beneath.
+2:31
+So I'm going to have to toggle back and forth as I make these changes.
+2:36
+And we're going to have a header.
+2:40
+We're gonna increase the padding of the header to one m units.
+2:43
+So if we go from here to here, now we have a little bit more space.
+2:47
+We can increase that just a bit.
+2:49
+Um, we're also gonna take our ul nav.
+2:52
+Now this is where we really have a lot of work to do, and you'll see in a second.
+2:56
+Visibility, we're gonna say is unset, and opacity will be one.
+3:00
+Alright.
+3:01
+So we have to take this overlay.
+3:03
+We have to transform it into a design that fits into that top nav bar.
+3:08
+Right?
+3:09
+Right.
+3:09
+So we're gonna take our background, set it to none.
+3:14
+And then we're also gonna take our display.
+3:17
+We're gonna say flex, and that's gonna put them all left aligned of each other.
+3:23
+We're also gonna take our margin and say zero.
+3:26
+Padding will be zero as well.
+3:29
+And position will be unset because it was set initially, and then the height will be auto.
+3:36
+Alright.
+3:36
+Still not looking great.
+3:39
+Of course.
+3:40
+Uh, it's they're way too large, and there's a lot a lot of padding.
+3:43
+So we have to target those selectors.
+3:45
+So we're gonna say ul nav l I a.
+3:49
+Font size will be point nine m units.
+3:51
+Padding will be zero on the top and bottom, one m units on the right and left, and then font weight will be normal.
+4:00
+Now we're getting somewhere.
+4:01
+Now when you add on the l I l a elements like we just did, we added padding on the right and left.
+4:08
+We need to target this last one so it doesn't add any padding to the right.
+4:12
+So what we can do is u l nav l I last child a, padding right of zero.
+4:23
+Right.
+4:23
+So now go over there like it should be.
+4:25
+Now remember, we did add a couple classes.
+4:27
+Um, we have an active class over here, and we also have a class of dot r e s for res for reservations because we wanted to make this kind of like a call to action that stuck out.
+4:37
+So we're gonna say ul nav active a.
+4:42
+That's simply gonna be a font weight of bold.
+4:45
+Alright.
+4:45
+So that's a visual hierarchy thing.
+4:46
+We're saying this is the active page, and we wanna let you know that it's the active page.
+4:51
+And we we're choosing to do it in this sense by just font weight, and it really established and it makes it stick out more.
+4:57
+So that's a visual hierarchy.
+4:58
+You could do other ways.
+4:59
+You can also change the background of this portion or you could, um, change the color, do multiple things, really.
+5:07
+So next up, we're gonna take our ulnav res a, and we're gonna give it our primary call to action color of green right there and then font white bold.
+5:19
+Now it's really gonna stick out probably the most because this right here is is our primary call to action color, and it's bold.
+5:27
+Alright.
+5:27
+So what else could change here?
+5:29
+Alright.
+5:30
+So we would say at this viewport right here, we have enough room to put all three of these next to each other.
+5:40
+So let's do that.
+5:42
+So we're gonna say ul featured cabins.
+5:46
+I'll do a width of ninety percent.
+5:49
+And we're gonna display a grid.
+5:52
+And we're gonna do grid template columns or repeat three of auto, and then give it a grid gap of three m units.
+6:03
+Right.
+6:04
+So now we have enough room, like, on a small tablet or so where people will be able to see a nice sized image along with the content and all of the, uh, call to actions here at the at the bottom.
+6:17
+And so now that looks quite solid.
+6:21
+And it looks you know, still works as we get out larger.
+6:24
+Now looking at this break point right when it occur occurs, you know, do we wanna condense this into three sections over here?
+6:32
+Well, you could, but it's gonna be really condensed.
+6:35
+We have a lot of text here, so it's gonna look a little bit silly.
+6:39
+So I'm choosing to leave it like this.
+6:41
+Now if you didn't, that's okay.
+6:43
+Um, coming down here, this is all still looking really good.
+6:49
+This looks fine.
+6:51
+And these as well, if you decided to condense those at this viewport, that's fine, but I'm simply choosing not to.
+6:59
+Um, so, really, there's a bit of subjectivity, um, in terms of the decisions that you're making.
+7:04
+So in the next lesson, we're gonna go ahead and focus on even more of the responsive design considerations as we get larger and larger.

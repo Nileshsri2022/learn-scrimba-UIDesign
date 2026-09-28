@@ -1,0 +1,105 @@
+Transcript
+0:00
+Welcome to this lesson where we're going to talk about the first UI design fundamental, which is white space.
+0:06
+Now before we begin, I wanted to note that there isn't one UI design fundamental that's more important than the other.
+0:12
+I'm just arbitrarily choosing to start to talk about white space here.
+0:16
+So white space, sometimes referred to as negative space, is the empty space between the elements in your user interface.
+0:24
+It's very simple.
+0:24
+It's just basically a void of space, but that's really what gives your layout structure.
+0:30
+So coming over here, we have two examples.
+0:34
+We have two cards, and right now, they're designed exactly the same.
+0:38
+And there's something wrong with them, and that is, you guessed it, white space or negative space.
+0:44
+Now we could see white space all over the place in the absent areas of these cards.
+0:50
+This would be referred to as white space.
+0:52
+And in fact, if we're just looking at this layout with two cards here in the mini browser, there is good amount of white space between these elements.
+1:00
+But what about inside?
+1:03
+So we see this very little white space between the text elements and this container and also between the title and the paragraph.
+1:13
+So actually there's three areas where we're going to improve the white space, and you're going to see just how much better this ends up looking.
+1:22
+So that's why white space is so important.
+1:24
+So just taking a quick look at the HTML, uh, there's nothing fancy happening here.
+1:28
+We have two cards.
+1:29
+One of them has a secondary class so that I can target specifically in CSS.
+1:34
+So let's hop on over to our index dot CSS here.
+1:38
+And all this right here, this CSS, we're not gonna worry about.
+1:41
+We're gonna come down here and I'm going to target that secondary class in order to improve this card over here in terms of the white space.
+1:50
+So the first thing I want to do is to increase the white space that's inside of this container.
+1:57
+So I'm going to say secondary and that will target the card itself.
+2:03
+And we're going to say padding.
+2:05
+Now when it comes to defining white space and CSS, the primary properties in this type of context would be padding and margin.
+2:14
+Now there's other ways to define white space using CSS, but we'll get to those later.
+2:20
+But for now, it's gonna be padding because that's the inside of the element.
+2:24
+So what if I just say padding one e m?
+2:28
+Alright.
+2:29
+By the way, the m unit is what I suggest using in this type of context for padding.
+2:37
+I as you could see we'll see in the future that the font size that's set on the body property, which by default is sixteen pixels, when it comes to responsive design, we can simply reset that font size property and all of our margin using m units and padding and any other element that has the m unit will grow in relation to it.
+3:00
+So it is a flexible unit.
+3:02
+So we have padding one m unit, and we can already see it looks quite a bit better.
+3:09
+It may not be perfect, but really, I think we can bump it up a notch even in this context of the mini browser.
+3:16
+So we can bump it up to one point five.
+3:19
+That's looking pretty good right there.
+3:22
+I would say that's probably around the sweet spot.
+3:24
+So I want you to realize that there is a lot of subjectivity in terms of the choices you make in your UI design fundamentals, and certainly that's the case with our white space.
+3:37
+But there's also objectivity.
+3:38
+This would be, you know, zero e m would be objectively horrible.
+3:44
+I I would say this right here, if we choose to go one point three all the way up to perhaps one point nine, that's a sweet spot.
+3:54
+And let's go ahead also in improve secondary.
+3:58
+We'll take our h one element.
+4:00
+And so let's do margin bottom, and we'll say point five e m.
+4:06
+Alright.
+4:06
+So we've also increased the white space and improved it between the title and the paragraph, which looks so much better.
+4:14
+Now there's also white space between the lines of the text, and this is called leading.
+4:19
+And the CSS property for that will target the p element would be line height.
+4:27
+Now, by default, we can put at one EM, but we need to increase this maybe by about one point five.
+4:34
+So now overall, this card right here looks so much better.
+4:38
+And the only UI design fundamental that we changed is white space.

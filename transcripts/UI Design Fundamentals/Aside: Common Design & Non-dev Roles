@@ -1,0 +1,75 @@
+Transcript
+0:00
+Hey, it's Gil from Scrimba.
+0:01
+Let's spend some time talking about common design roles in tech, and how these roles contribute to the development process.
+0:08
+Also, the tools used in these roles and how the roles interact with developers.
+0:13
+As you'll learn, understanding these dynamics is key to successful project outcomes, even job interviews, whether you're a junior or senior developer.
+0:21
+As you've learned in this module and just about any project, design plays an important role.
+0:26
+But design isn't just about making things look good.
+0:29
+It's a multifaceted process involving user research, user experience or UX design, and UI design.
+0:36
+So let's break down these roles.
+0:38
+First up is the user researcher.
+0:40
+They focus on understanding user behaviors, needs, and motivations through observation and feedback.
+0:46
+They gather and analyze user data using a variety of tools like surveys, interviews, and usability testing.
+0:52
+The insights gathered by user researchers are invaluable for other designers and developers.
+0:58
+They help in creating products that truly resonate with the users and solve their real world problems.
+1:03
+Alright.
+1:03
+Next, we have the UX designers.
+1:05
+They're responsible for the overall feel of the product, focusing on how the user will interact with it.
+1:11
+UX designers often work with wireframing tools like Balsamiq or prototyping tools like Figma or Adobe XD, which help create designs that are both intuitive and functional.
+1:21
+These wireframes are studied by other designers and developers serving as a roadmap for creating the product.
+1:27
+Now a critical phase in design is turning design briefs into mock ups.
+1:31
+So UI designers focus on designing the user interfaces of a product or site, including the layout, visual elements, typography, everything that makes a product visually appealing.
+1:42
+They interpret requirements using all the learnings from the user researchers and UX designers to create detailed interactive mock ups that developers can closely follow using design tools like Figma.
+1:54
+Alright.
+1:54
+Finally, let's talk a little more about user research and testing.
+1:57
+Specifically, where they test the designs and sites for usability
+2:07
+spend their time, and what people actually do on the website or app.
+2:11
+Methods here might include what's called AB testing, heat maps, and user behavior analytics using tools like Optimizely for AB testing or Hotjar for heat map analytics.
+2:22
+And all the data gathered here will be fed back into both the design and development process, refining and validating the user experience.
+2:30
+As you'll experience, the collaboration between designers and developers is important in the tech industry.
+2:36
+So understanding these roles can help you in your interview process and ultimately enhance the quality of your projects.
+2:42
+And hey, you've already done some work around interpreting design brief requirements.
+2:46
+For example, when working on solo projects in this path, you're often tasked to interpret requirements from a slide or a Figma spec to build a complete project.
+2:54
+So you are well on your way.
+2:56
+Now, there are other roles such as graphic and product designers who also play a key part.
+3:01
+And if you're keen on exploring more, I'll drop some links here for further reading.
+3:05
+These resources will help provide more in-depth knowledge about some of these roles and also best practices in design and development collaboration.
+3:12
+Alright, so hopefully this insight helps bridge the gap between design and development.
+3:16
+Let's keep going.

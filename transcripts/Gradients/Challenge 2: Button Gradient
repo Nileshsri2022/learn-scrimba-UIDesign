@@ -1,0 +1,187 @@
+Transcript
+0:00
+Right.
+0:00
+Welcome to this new challenge where we're going to switch the emphasis from the background here and onto an actual UI element such as this button right here.
+0:10
+And so sometimes it'd be common place for you to add a gradient on a on a button background.
+0:15
+In this case, you certainly don't have to.
+0:18
+I mean, all the UI design fundamentals are there for for the if we're talking about the bat the actual background of the button and the button itself.
+0:25
+It's good white space, good contrast already, and contrast in color is really the primary point here that I'm trying to make.
+0:32
+So you don't have to add a gradient on here.
+0:35
+And I some would argue that if you added a gradient, then that'd be kind of more of like the old school approach as mentioned before.
+0:42
+But still, you may have somebody who wants to have a gradient, and gradients are certainly coming back.
+0:47
+You might have an employer or a client.
+0:48
+And so the task here is to add a gradient onto this this button without changing any other of the other colors.
+0:54
+I don't want you changing anything else.
+0:56
+The only property I want you to adjust is the background property using a linear gradient.
+1:01
+And so you can use that, uh, CSS or the CSS gradient dot I o, um, to help you coming up to come up with an actual, uh, you know, gradient that will work here.
+1:12
+So just remember, it all comes down to the UI design fundamentals.
+1:15
+Um, and and specifically, if we're talking about gradients, we're talking about color and contrast.
+1:20
+Make sure that the text contrast well, and make sure that the background of the button is contrasting well with the background that it's sitting on.
+1:29
+Alright.
+1:30
+So I'm gonna go ahead and ask you to pause this and adjust this color right here for the call to action.
+1:43
+Alright.
+1:43
+So hopefully, you came up with something that worked well.
+1:47
+And I'm gonna show you, um, what I would come up with here and just my thought process along with a a couple of other examples, um, going forward.
+1:55
+So what I would do with this, because we want this is a call to actions, because we want it to stick out well, we want it to to be light.
+2:04
+So even though we're going to have a gradient on it, we need it to be something that contrasts well with this background.
+2:09
+So I wouldn't use like a dark purple here, but I would pull out a color either from the blue or the purple down here.
+2:17
+Probably the more the purple because that's what it's sitting on.
+2:19
+And I would add it very lightly.
+2:23
+In other words, it would be in this hue, but the lightness would be quite up there so that it's not extremely noticeable.
+2:32
+So let me show you the property that I was able to come up with the help of the gradient tool.
+2:40
+All right.
+2:41
+And that's it.
+2:42
+So it goes from white to very light purple.
+2:46
+And we can see the difference.
+2:48
+It may be hard because it's so subtle, which is, you know, what it should be in this context.
+2:53
+If I move it over here and I just take this and I remove it and paste it a couple of times, you can see there is definitely an actual
+3:04
+change there.
+3:07
+And we can see.
+3:08
+So it is a gradient, um, but it still works.
+3:11
+I you know, all the other design fundamentals are there.
+3:14
+One thing that I don't want to see you do, I ninety nine out of a hundred times, there may be some reason, maybe the client's requiring it or something.
+3:23
+But I wouldn't want you to do something like this.
+3:27
+So let me just take this is ahead.
+3:31
+So let me get this into full view about what I did here.
+3:34
+Now, essentially, this is a glossy gradient.
+3:38
+Alright.
+3:38
+And this is something, like I mentioned before, that was really, really used overused back during the web two point o era about ten years or ten ish years ago or so.
+3:51
+And it just got used so much to death.
+3:53
+Um, even large companies were using it that, you know, you just don't see it these days because, um, people who were back then, it just it just brings you back to that that certain time when everybody was doing it.
+4:06
+Now in terms of UI design fundamentals, there's not a problem with this.
+4:11
+You know, the contrast still good.
+4:13
+It's it's not very noticeable.
+4:15
+You know, it works.
+4:17
+So we're just talking about trends here.
+4:19
+And I hate to say never do it, um, but it's just something that we don't see often at this current point in time.
+4:27
+So just keep that in mind.
+4:28
+And I want to do one more really quick challenge here, and I'm gonna change things up.
+4:34
+I'm gonna change the background here to a actual light background.
+4:40
+So let me go ahead real quickly and make a couple adjustments, and I will change this here and change the color here to black.
+4:54
+I give it an opacity of point two on the image.
+4:59
+It's much more of a watermark.
+5:02
+And then, also, we'll go ahead and change the color here to white of this element.
+5:08
+And, actually, I won't do that right now.
+5:10
+This is gonna be the point at which I ask you, um, for another challenge real real quick.
+5:16
+So, um, bringing this back into view, I I want you to create another gradient.
+5:22
+It again, I don't want it to be a glossy gradient like this.
+5:25
+So just scrap this one.
+5:26
+But let's just say this is white for now.
+5:30
+Let's take this off.
+5:31
+I want you to make a gradient that works here, um, for this.
+5:35
+And so really think about what you wanna do this time.
+5:38
+Um, I definitely wouldn't use the, you know, the the same gradient that you did in that I showed you in the first time, um, just because if you use this color here and it's going from this color to this color, the button's gonna get lost.
+5:51
+So there won't be enough contrast.
+5:52
+So this time, you know, we want contrast and we want a gradient.
+5:56
+Okay?
+5:56
+So go ahead and pause and then come back and I'll show you what I would have done.
+6:03
+Alright.
+6:04
+So because we want a lot of contrast in this button, I think we need to go dark.
+6:09
+We need to go dark for the button background, and then the color of the text needs to go white.
+6:14
+So I'm gonna change the color to white here.
+6:17
+And as you could see, if we change this to black, this will give us a call to action that really stands out quite well.
+6:25
+Um, but, again, we wanted a linear gradient.
+6:28
+So there's many ways that you could do this.
+6:30
+Um, you could have gone like a, uh, like a dark gray to a black or so or something like that, but I choose to go this route.
+6:40
+Right.
+6:41
+I I really do think that this is kinda it speaks to older design.
+6:45
+But nonetheless, if we're talking about UI design fundamentals, it's all there.
+6:49
+So we're pulling out colors as purple color from here.
+6:52
+It's just going from that hue to a darker version up here.
+6:55
+Good contrast in the middle.
+6:57
+Good contrast with the background.
+6:59
+Um, so this would definitely work and probably along with many other examples.
+7:03
+So, hopefully, you're you're starting to get a feeling for, you know, how to work with gradients.
+7:08
+And again, it just goes back to all those UI design fundamentals.

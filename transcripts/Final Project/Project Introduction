@@ -1,0 +1,36 @@
+0:00
+Welcome to the very final project, and congratulations on making it to this far in the course.
+0:05
+So this is gonna give us another opportunity to solidify the UI design fundamentals that we've learned and also much of everything else that we've learned in this course.
+0:14
+And so the project that we're going to be tackling is just a fictional project for a company that rents, like, cabins in the woods, something like that.
+0:23
+Alright.
+0:23
+So it's gonna be multipage.
+0:25
+We want it to be responsive, and then it's going to serve initially as a landing page, and we're even gonna do a subpage as well to help you kind of, uh, learn how to apply these UI design fundamentals in such a way that it's consistent throughout multiple pages.
+0:39
+So the features are responsive navigation.
+0:42
+We're gonna have a responsive design from all elements all the way from mobile to desktop.
+0:47
+We want a strict adherence to UI design fundamentals, so I'll be talking about that a lot, trying to really build that muscle memory in as much as possible.
+0:55
+And we're also gonna have UI animations with the help of g help of GSAPP, which is the GreenSock animation platform that we touched on lightly, uh, before.
+1:02
+So this ultimately, like I said, it's it's going to as much as possible, it's gonna be the final push for me to try to help you understand how to bring all this together to to create one single cohesive project.
+1:14
+Alright?
+1:14
+So it sprinkle throughout, of course, we are going to have, uh, various challenges.
+1:20
+Initially, we're going to have to write out the HTML.
+1:23
+I'm also going to, you know, import all the images that we have because I'm gonna, you know, provide all this, you know, for us to use.
+1:30
+Um, then we'll write some initial CSS, and then we're gonna start getting into the challenges as we start to build this out more and more.
+1:36
+Alright.
+1:37
+So I'll see you in the next lesson.

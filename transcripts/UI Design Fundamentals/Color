@@ -1,0 +1,145 @@
+Transcript
+0:02
+The first UI design fundamental that really shapes a user's experience is color.
+0:07
+Just think about it.
+0:08
+When you visit a website or an app or, you know, a user interface of any sort, before you even are able to process and read any type of heading, for example, really, your eye is is exposed to color.
+0:23
+And so color, in terms of the UI design fundamental, is extremely important.
+0:29
+So for instance, let's talk about color psychology very briefly.
+0:34
+Each color elicits a certain meaning to a certain group of people.
+0:39
+Uh, green, for instance, can usually be associated with wealth, nature, and growth, whereas black can be used to be associated with luxury, sophistication, and elegance.
+0:52
+Uh, but one thing that's very important to understand is that depending on the company or that you're building a UI for, who their target audience is, you know, where did they come from?
+1:03
+Because certain colors can mean different things to to different cultures.
+1:07
+So you just need to be aware of exactly what it is that your business wants to project in terms of eliciting emotions and who your target demo is for this particular app.
+1:19
+So next up, one thing that you want to avoid is using a bunch of colors in your UI design.
+1:26
+That's one thing that's a sure way to really just make a UI design that's otherwise in terms of all the other UI design fundamentals is great.
+1:34
+Color will just too many colors will really destroy the quality.
+1:39
+So here's an example where we have a blue background with this this color that doesn't very work well with this particular blue, this pink.
+1:46
+It doesn't contrast great, kind of hurts your eyes.
+1:49
+Then we have a different color here in my card title.
+1:52
+We have another different color here for the tags.
+1:54
+It's just all over the place.
+1:56
+For free were to improve this, you can see how much better this is on the eyes.
+2:03
+And, of course, we're going to get into many examples that will help you develop develop this ability to create good color.
+2:10
+Another thing you want to avoid is using colors that don't really work well or complement each other well.
+2:16
+These colors here, these three on the side, do not work well or contrast well with the colors here on the right.
+2:22
+But if we keep the same three right here, we can certainly find different colors and lightnesses and darknesses of those colors that work well, just like here.
+2:33
+As you can see, if we go back and forth, it just looks so much better to the eye.
+2:38
+And then finally, we can also use slight variances of the same hue in terms of darknesses and lightness values values to really reinforce different blocks of our layout.
+2:55
+Okay.
+2:55
+So with that said, I wanted to show you an example here where we can use your CSS properties to make this particular very ugly design a lot better.
+3:07
+So as we can see, this where it says know your code, I mean, there's there's colors all over the place.
+3:15
+Otherwise, it's pretty strong in terms of the UI design fundamentals.
+3:19
+There's good white space.
+3:20
+There's good scale.
+3:21
+There's good visual hierarchy.
+3:22
+There's good alignment.
+3:24
+Uh, there but there's not great contrast, and there's not great color.
+3:28
+That's the main thing that we need to fix.
+3:30
+So with that said, let's go ahead and see what it would take just to make this look a thousand times better.
+3:36
+And remember, when it comes to color, there are millions of colors.
+3:39
+Right?
+3:40
+I mean, there's there's so many different variations, so there's not just one way to do it.
+3:44
+I'm gonna I'm gonna show you one of many ways that you could approach this, and eventually, you will develop that eye.
+3:51
+So I'm gonna come here in the index dot HTML.
+3:53
+We can see it's fairly simple.
+3:54
+We just have a header element.
+3:56
+We have a container and a footer.
+3:58
+Uh, so we're gonna go to our index dot CSS.
+4:01
+Here's all the regular, uh, CSS rule sets used to create exactly what you see here right now.
+4:07
+Uh, so what we'll do here in overrides is fix all this.
+4:10
+So the first thing we're we're gonna change up here is this color right here.
+4:15
+That's really killing a lot.
+4:16
+So what we'll do is change our container to background,
+4:22
+and the color I'm gonna use is three c one.
+4:26
+We can see it right there.
+4:27
+Five.
+4:28
+Yeah.
+4:29
+It's three c one five eight one.
+4:31
+Already looking a lot better just by changing one color.
+4:34
+Um, also, we'll make our h one element and paragraph element both white.
+4:44
+And there we go.
+4:45
+I mean, it's starting to look so much better.
+4:47
+And finally, because there's these these colors right here don't really work well.
+4:50
+We can see the start coating.
+4:52
+It doesn't really contrast well enough with the background.
+4:55
+We'll choose a color that more complements this purple way more and really will make that call to action stand out much better.
+5:03
+So we'll make our a background,
+5:09
+f e e d zero zero.
+5:12
+It's basically a vibrant yellow.
+5:14
+And there we go.
+5:15
+So with just three rule sets and a few properties, we've gone from this
+5:22
+here to this.
+5:26
+And I'll show you just here, off the side in a free form version.
+5:31
+We went from this to this.
+5:35
+And that, my friends, is the importance of understanding good color.

@@ -1,0 +1,123 @@
+Transcript
+0:00
+Welcome to your very first challenge.
+0:03
+So in the previous lessons, we discussed white space and alignment.
+0:07
+So in this challenge, I'm going to ask you to improve the white space and alignment issues that are presented within these cards.
+0:15
+So going to the CSS here, at the bottom, you can see we have this comment here.
+0:19
+Use the following properties to fix the alignment and white space issues on the rule sets below this comment.
+0:25
+So here's a few of the suggested CSS properties that you can use to fix the issues that are present right here in this mini browser.
+0:34
+And below are a few role sets that you can choose to apply some of these properties to in order to fix the issues.
+0:43
+So what I'll ask you to do is go ahead and pause right now and then come up with your solution.
+0:49
+And then hit play, and I'll show you what I would do.
+0:56
+Okay.
+0:57
+So hopefully, you were able to come up with something that fixed these issues.
+1:01
+So I'm gonna provide you with what I would have done.
+1:04
+And just remember, you don't have to do exactly what I do.
+1:10
+As long as you are fixing these issues and you're as somewhat close and you're adhering to good white space and alignment fundamentals, then you're good to go.
+1:20
+So the first issue I wanna address is lack of white space on the left and right of the mini browser.
+1:26
+There is none at all.
+1:28
+So that's something that we definitely wanna fix because the browser itself is a container.
+1:34
+So it's inside of the body content that we need to add the padding.
+1:38
+So we're going to use padding here.
+1:40
+So we'll say 2em.
+1:43
+And we could see it's done a good job.
+1:47
+Now the content.
+1:48
+The content is applied.
+1:50
+The content class is applied to this white container right here.
+1:54
+Alright.
+1:55
+So there's a lack of white space inside of that.
+1:57
+So we'll use padding to fix that.
+2:01
+Padding one e m should work pretty well.
+2:04
+Alright.
+2:06
+Now we also have some alignment issues.
+2:08
+We could see that these two elements are left aligned, but this element right here is centered.
+2:14
+Now you have two options.
+2:16
+You could choose to center the awesome title in the description right here, or you can left align both of these.
+2:22
+So I'm gonna choose to left align the date right here.
+2:28
+Text align left.
+2:32
+Alright.
+2:32
+That looks good.
+2:33
+Now we still have quite a bit of white space between these elements and I think we can get rid of a little bit of the white space between the awesome title and the date.
+2:42
+So on the date selector, we're just gonna say margin zero.
+2:48
+Alright.
+2:48
+That's looking, in my opinion, a little bit better.
+2:51
+And one issue.
+2:54
+We could see the amount of white space that's present from the top of the date and beneath the little thumbnail here and also to the left.
+3:01
+It's equal.
+3:02
+But look at the amount of white space beneath the description and at the bottom of the container.
+3:08
+So there's a lot here, but not very much up here.
+3:13
+So one thing that you want to pay attention to is to try to add equal white space inside your containers.
+3:21
+So I'm going to take the paragraph description selector and I'm simply going to add margin bottom zero.
+3:30
+So now everything is lined up much better.
+3:34
+So this is where I ended up again.
+3:38
+You don't have to look exactly like this.
+3:40
+You could have chose to text align center these and you could have changed up the white space, maybe had more, a little bit more, maybe had a little bit less.
+3:48
+But as long as you overall improved it and you got somewhere in my neighborhood, then you will have done well.
+3:55
+Now if you didn't, don't stress.
+3:57
+This is the very first coding challenge.
+3:59
+We're at the beginning of the course.
+4:00
+We're gonna go through so many more of these, and you're really going to start developing that eye.
+4:06
+So, again, this is where we ended up.
+4:07
+This is where we came from.
+4:10
+If I just delete these selectors, you can see how it's just so ugly.
+4:14
+Gonna add these selectors back and now it looks much better.

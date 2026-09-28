@@ -1,0 +1,297 @@
+Transcript
+0:00
+Alright.
+0:00
+Welcome to this lesson where I'm going to continue on showing my solution here for the mobile design of our fictional project, He Place.
+0:08
+So right now we have the mobile nav working.
+0:11
+Although if you click on it, it doesn't work.
+0:13
+In order to fix that, I'm just gonna specify our open nav class.
+0:17
+This is something the JavaScript references to add it onto based on click.
+0:21
+So now if we click on it, it'll show our mobile navigation.
+0:25
+So we're gonna focus on this part and also just finishing off the rest of the design and integrating those two graphics, which I'm sure you're probably curious about how I personally handled that problem.
+0:35
+So right here in the middle, we're gonna come here, and I'm gonna need to reference our main element.
+0:42
+Alright?
+0:42
+So first, what is wrong about this part right here?
+0:46
+We already finished this stuff.
+0:47
+We we have, you know, the padding and the white space up top.
+0:51
+Well, you can see we're clearly lacking the padding, uh, and the white space essentially over here in the rest of the design.
+0:57
+So the main element is what's containing the all this right here, the main content.
+1:03
+So we're gonna say padding, give it equal white space.
+1:06
+So it was one m unit that we used up top.
+1:08
+We'll use it there as well.
+1:09
+And now it already looks so much better.
+1:11
+I mean, that's the importance of understanding white space especially and as well as all the other design fundamentals.
+1:18
+Uh, we're also going to put text align center.
+1:21
+So on mobile, on these smaller viewport resolutions, uh, you don't always have to text align center, but I'm choosing to do it here.
+1:30
+It just, uh, it works pretty well.
+1:32
+And then also our h one element.
+1:35
+So the h one element, we're thinking about our UI design fundamentals.
+1:40
+What's wrong with this one?
+1:41
+I would say it's probably a little bit too big.
+1:44
+So we're gonna scale that down.
+1:45
+So we're gonna say font size one point five.
+1:48
+Uh, run units there.
+1:50
+So now it fits on all one lines, easy to read.
+1:53
+It's a good uh, scale.
+1:55
+Uh, the the difference in terms of the scale, um, between these two tie two lines really helps establish the visual hierarchy between the two.
+2:03
+But I'm also going to put in a position relative, and that's because I'm going to add a little kind of like a a border on the top as you'll see.
+2:15
+And, also, we're gonna put in margin top
+2:20
+three m units, and that's gonna push things down quite a bit.
+2:25
+And then I'm going to put h one to before selector, and we're gonna say content.
+2:32
+So we've done this earlier in a couple different, um, examples, And I'm gonna do it again here.
+2:38
+Uh, sorry.
+2:39
+This is supposed to be absolute.
+2:40
+And then we're gonna do width thirty percent or so.
+2:44
+You'll see what this looks like in a bit.
+2:46
+Height will make us about seven pixels.
+2:48
+Background of this little element is gonna be black.
+2:51
+Um, the top will be negative twenty pixels.
+2:53
+The left will be, uh, around thirty three percent.
+2:57
+And then background color actually, no.
+3:00
+We don't need a background color.
+3:02
+Uh, yeah.
+3:02
+The background black was wrong.
+3:04
+Sorry about that.
+3:05
+We're gonna make this the brown color right here.
+3:09
+Alright.
+3:10
+So let me go ahead and put that.
+3:12
+And that's just kinda adding a subtle graphic design element just to to to draw attention to this title right here.
+3:19
+If you didn't do that, it's not a big deal.
+3:21
+If you only left it something like this, uh, that's not a big deal either.
+3:24
+As you I just noticed I have a typo there.
+3:27
+So gonna go ahead and fix that really quick, the ultimate.
+3:31
+That was probably annoying a lot of people.
+3:33
+Okay.
+3:33
+So going back here, I now what can we focus on?
+3:37
+Uh, how about the paragraph right here?
+3:39
+This seems a little bit jammed together.
+3:41
+So, uh, we're going to specify after our h one element, our paragraphs.
+3:47
+We only have one paragraph tag, so I'm not using a class.
+3:51
+So I'm gonna scale it down just a bit to point nine rem units.
+3:55
+And it is jumbled up, so I'm also going to put in line height one point four m units.
+4:02
+So that really starts to push it down a little bit.
+4:05
+It wasn't so crammed.
+4:07
+And then also, I'm gonna do, uh, a width of ninety percent and then also margin zero auto, which will center it up again, and then put two m units here on the bottom to push this information away.
+4:22
+So now things are really starting to come together quite a bit more.
+4:26
+And then also after this are called action buttons, uh, which are looking quite ugly beneath them.
+4:31
+This is obviously really bad.
+4:33
+So our call to action buttons will say display block.
+4:37
+We're gonna do a padding of point seven m units on the inside.
+4:42
+We're gonna do a margin bottom of one m units to really reinforce our white space between the two elements.
+4:50
+And then we're also going to say background color.
+4:54
+And I'm gonna use brown just for the top one initially.
+4:59
+And then also, we're gonna say color is white so that the text on top of it really contrasts well enough.
+5:08
+And in white space, we're gonna say no wrap, and that's gonna be important for later on down the road.
+5:13
+Now they're both styled the same, and you have two call to actions.
+5:16
+You really don't want them to be both styled the same.
+5:19
+You we really need to prioritize your content.
+5:21
+Which one do you want people to click the most?
+5:23
+Make that one stick out the most and contrast the most through the use of scale, color, etcetera.
+5:28
+Uh, so for this one, the secondary, we have an outline class applied to that second button.
+5:34
+And so that's going to be background none.
+5:38
+We'll do a border of two pixels solid and, let's say, four.
+5:43
+I don't yet have that here in the options.
+5:45
+So let me just paste that in.
+5:48
+Alright.
+5:49
+And then color, we'll make this black.
+5:53
+Alright.
+5:54
+So now that looks pretty solid.
+5:56
+I'm gonna change up the type here because they both say the same thing.
+6:00
+So for this one, I'm simply gonna change that up to say buy now.
+6:04
+Alright.
+6:05
+So now this is looking a lot more solid.
+6:08
+Now we have to start worrying about this element right here and also the firm graphic because that was a requirement.
+6:13
+So let's go back here.
+6:16
+And I'm going to specify
+6:19
+our plant container class.
+6:23
+And that's going to be overflow hidden, position absolute, because this this is a development, and inside of it is the image of the PNG.
+6:33
+The bottom will be zero, and then we'll do right zero.
+6:37
+And then width will be hundred percent, height will be hundred, viewport height, and z index will be negative one.
+6:45
+Now for now, this is all this does.
+6:47
+This would be a really bad decision.
+6:48
+So, hopefully, you guys didn't do that as is because you can't there's not enough contrast here.
+6:52
+Right?
+6:53
+So next up, we're gonna take our plant class, which is the actual image element, and we will say width.
+6:59
+I'm gonna give it around three hundred fifty, uh, You could make it fluid, but when you're dealing with responsive design, it can really make it difficult to position.
+7:07
+So I'm just gonna make it a, uh, fixed sort of a unit here.
+7:11
+And then position absolute.
+7:15
+And then we're gonna say right.
+7:18
+And I'm just gonna do, like, negative one percent, and then also bottom negative twenty eight percent.
+7:26
+Alright.
+7:27
+So what that does here is it just adds kind of like this element at the bottom where, obviously if you had a real smaller device, this might become problematic, in which case you could just fill us in with the background color.
+7:41
+Same here.
+7:43
+But for most devices, you're kinda right around here at at this width at least, and that's what I'm choosing to do essentially.
+7:51
+Okay.
+7:52
+And we also have the fern graphic, and I'll go ahead and specify that.
+7:56
+This is gonna be our last element here in the last requirement, really.
+8:00
+And I had a fern class.
+8:03
+And I'm gonna say background is URL fern dot SVG and no repeat it.
+8:11
+We're not gonna see it yet though.
+8:13
+So we have to get a height of fifty viewport heights.
+8:17
+The width will be uh, seventy percent or so.
+8:21
+And we're gonna do position absolute.
+8:24
+Alright.
+8:24
+So now we could see that it's kinda sitting on top.
+8:27
+It really looks bad.
+8:28
+But don't worry.
+8:29
+We'll fix that up.
+8:30
+Uh, we'll do top thirty percent to push it down.
+8:34
+Uh, we will also do left zero, which is pretty much default.
+8:38
+The opacity is where I'm gonna change things.
+8:40
+Uh, but first, we're gonna put things behind here.
+8:43
+So z index negative one.
+8:47
+And this is a problem because obviously, uh, the graphic is black, so we need to use opacity to really make it a watermark instead.
+8:55
+So we'll say opacity zero point one.
+9:00
+Alright.
+9:01
+And this is my solution that I came up with.
+9:03
+I as you can see, we have the Fern graphic.
+9:05
+It's it's more of an afterthought, but it can be seen.
+9:08
+You can still read the text.
+9:10
+And it even starts to work, you know, when you come out here pretty far, things are looking still pretty good.
+9:16
+So in the next lesson, I'm gonna go ahead and I introduce another challenge so to we can start to make this more responsive.

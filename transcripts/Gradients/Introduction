@@ -1,0 +1,33 @@
+Transcript
+0:00
+Welcome to this new chapter where we're going to discuss a very important topic, which is the use of gradients in your UI designs.
+0:06
+Now similar to shadows, gradients were really prevalent during the web two point o era of UI design.
+0:13
+For instance, this older landing page for Skype shows gradients in the nav bar.
+0:18
+It also shows a gradient here in the button and also these icons.
+0:21
+Everything had gradients, really.
+0:23
+And once flat design came around, we saw an abrupt halt to the usage of most gradients.
+0:28
+Now in the last few years, however, people are starting to break away of pure flat design and minimalism, and we're seeing gradients being used in different ways.
+0:37
+Now simply put, a gradient is a gradual transition between two or more different color values.
+0:42
+These color values could be the same in terms of hue, except different darknesses.
+0:47
+They could be different hues entirely.
+0:49
+They can be grayscale.
+0:51
+Uh, you can also have ones with multiple color stops and even these type of color, hard color stops, which create a glossy effect.
+1:00
+And by the way, the gloss effect is a very web two point o aesthetic.
+1:03
+So I would advise in most cases to stay away from that.
+1:06
+So So with that said, I'm going to show you how to properly utilize gradients in a variety of scenarios.
+1:12
+Because as with shadows, your decision to use a gradient in a part of your UI becomes a subjective choice as long as you know how to apply them.

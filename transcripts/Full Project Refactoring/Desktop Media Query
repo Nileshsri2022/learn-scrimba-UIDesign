@@ -1,0 +1,237 @@
+Transcript
+0:00
+Alright.
+0:00
+Welcome to the very final lesson or or challenge rather that's a part of this chapter in this project.
+0:07
+So just to get some perspective, let's go ahead and just see how far we've actually come from the original design.
+0:14
+So what I'm going to do is I'm going to take all of our, uh, CSS that we've adjusted here so far and get rid of it.
+0:25
+And just so we can see what this, um, looks has you know, really where we came from.
+0:30
+So this is where we've came from since the very beginning of the chapter.
+0:37
+And, of course, if we go back, we can see how much better and how far we've come just by minding our UI design fundamentals.
+0:46
+Alright.
+0:46
+So for this final challenge, what I want you to do is somewhere around here, we can see there's just so much white space right here, here, and here, and it makes it hard to scan and and read this content in a in a nice and easy manner.
+1:01
+Um, of course, you get out further, it becomes really exaggerated.
+1:05
+So you need to find a media query, uh, in terms of the width, um, something that would look and work well.
+1:12
+I, um, I'm gonna give you a hint.
+1:14
+It's probably around eight twenty to nine fifty or so to where you can start to readjust this layout.
+1:21
+So I'm going to give you a clue, a clue about what I would have done and what I will show you.
+1:29
+Remember when I talked about, uh, when it comes to these navigation, these hamburger menus?
+1:35
+Um, we have enough space to show this content without people having to click it.
+1:42
+Alright.
+1:43
+So that's all I'm gonna say.
+1:45
+And, you know, again, you know, if you don't get it right, don't worry.
+1:49
+Um, I'm gonna show you exactly how I would approach it.
+1:52
+And, of course, as we progress through this course, you're gonna get better and better at this.
+1:56
+So I'm gonna ask you at this point to go ahead and pause and specify, you know, that width where you want this media query to work and then your CSS rule sets for readjusting this layout.
+2:09
+Alright.
+2:09
+Go ahead and pause.
+2:13
+Okay.
+2:13
+So hopefully, you came up with something that worked well.
+2:17
+And if you didn't, like I said, don't kill yourself over it.
+2:20
+I mean, this is this is hard, and it takes a while to get used to.
+2:24
+So here's what I would do.
+2:26
+Coming out around eight fifty or so, we have all this space, we can really kinda just take this whole section and move it over and make room for this sidebar, which will be permanently shown right here.
+2:40
+So let's go ahead and do that with our media queries here.
+2:45
+So the first thing I'm going to do is I'm going to target the body element.
+2:50
+And if you look at the body element here, inside of it, we have you can ignore this just just for showing the width.
+2:57
+We have one element here, which is the nav.
+3:00
+Then we have the header, and then we have our main section beneath everything.
+3:04
+So we have three elements, really.
+3:06
+And this would be a great way to use the grid.
+3:09
+So we'll make the body a grid, and then we'll go ahead and structure this with grid template columns.
+3:18
+And then we need to figure out, you know, a a rough width or so for that sidebar for the first column.
+3:24
+So I'm just gonna put two hundred pixels and then auto, which will just fill in the rest of the space.
+3:28
+We can see what this does or by the way.
+3:30
+Of course, it's completely broken right now.
+3:32
+And then we're going to specify grid template rows.
+3:36
+So the top row is gonna be for the header.
+3:40
+So any it only needs to be, like, seventy pixels or so, then maybe auto.
+3:45
+And, of course, it's still broken, but don't worry.
+3:47
+We're gonna fix that.
+3:49
+So then we're gonna say grid template areas.
+3:53
+And I will come out here and we'll define our first column is gonna be a sidebar because the sidebar is gonna go all the way up, um, through both rows that we just established on the first column.
+4:05
+And then we're gonna have the header, and then we're gonna have, again, the sidebar, and then we're going to have the main content.
+4:12
+Now if you're confused about this, don't worry.
+4:14
+You'll kinda start to see how this actually works here in a second.
+4:18
+So right now it's not working because we haven't named, uh, these various, uh, elements like the main class or the main element rather, and the header element and the nav.
+4:29
+So let's do that so we can get it tied up.
+4:32
+So, um, first thing, I'm also going to specify a padding of zero, I forgot about that, on the body element.
+4:40
+And the reason I'm doing this is so that the sidebar won't have any, uh, padding or margin away from it from the edge of the viewport.
+4:48
+So now I'm gonna come and say, uh, we're gonna say the header
+4:53
+main.
+4:54
+I'm gonna take the padding and put at one point five m units to push it away from the browser because we set this to zero.
+5:00
+And then I'm going to have our nav element, and the grid area is going to be the sidebar.
+5:06
+Alright.
+5:07
+So it's still not ready and working yet.
+5:09
+This has to be pushed over there.
+5:10
+Um, I think what it will also do is specify our header.
+5:17
+Grid area will be, the header, of course.
+5:21
+And then also we'll have main.
+5:24
+The grid area there will be main.
+5:27
+So now we have it structured and situated.
+5:31
+Of course, this is all not correct, and we'll fix that.
+5:34
+Um, but now we have room for this sidebar, uh, coming out.
+5:38
+Now, of course, I wanna specify this, eight fifty.
+5:42
+There we go.
+5:42
+So now come out.
+5:46
+Right around there is where we're making this adjustment for the sidebar to show up.
+5:50
+Alright.
+5:50
+So let's go back to our nav element here.
+5:53
+And by default, we want it to show.
+5:55
+So we're gonna say opacity one because it was set at zero before, and then visibility unset.
+6:02
+Alright.
+6:03
+So let me fix that typo.
+6:05
+There we go.
+6:06
+So now we can start to see it, but of course, we also have the transform, um, you know, pushing it off screen.
+6:12
+So we're gonna do transform translate x zero.
+6:17
+So it's starting to come into play, but because of the width and such, we need to fix that.
+6:21
+So the width, we're gonna specify twenty percent.
+6:28
+Alright.
+6:29
+So we're starting to get somewhere.
+6:32
+And, also, I'm going to put position on set.
+6:36
+Here we go.
+6:38
+And, actually, if I do position on set, I'm gonna put, uh, the width at a hundred percent.
+6:44
+There we go.
+6:44
+Now it fills up that that section nicely.
+6:47
+Okay.
+6:48
+So finally, um, I also want to specify there's too much almost a little bit too much white space here.
+6:55
+And so what I wanna do is specify our a logo and say margin zero.
+7:04
+Alright.
+7:04
+And then we don't need this hamburger icon menu anymore.
+7:07
+Neither do we need this back button.
+7:09
+So we can just hide those.
+7:11
+So what I'll do is say SVG.
+7:14
+They're both SVG files.
+7:15
+Display none.
+7:18
+And there we go.
+7:20
+Alright.
+7:21
+So looking at this now, uh, let's come down.
+7:26
+This is where we're coming from, uh, from without any CSS media queries.
+7:31
+We had a little padding, and then we float a couple elements because we have enough room to do so.
+7:37
+And then we do that one more time.
+7:41
+And then finally, we condense these two rows into two columns.
+7:48
+And then finally, because we have enough room, we can actually show this, which is better for UX.
+7:54
+Uh, and that way, people don't have to click a hamburger icon menu just to bring it up.
+7:58
+So So whenever possible, you definitely wanna do that.
+8:01
+So you could go even further, uh, into larger media queries, maybe around eleven hundred or twelve hundred, to further adjust this information because we do have quite a bit of white space right here.
+8:12
+But for now, I'd say this is pretty good.
+8:14
+One last time, we'll go ahead and check out uh, where we came from, which is all this CSS that we, uh, added.
+8:22
+So if we take all this, get rid of it.
+8:26
+Yeah.
+8:26
+Uh, as you can see, we came, well, you know, very far, and we're really able to to structure this design and make it just look so much better.

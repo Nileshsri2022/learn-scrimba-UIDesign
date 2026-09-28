@@ -1,0 +1,119 @@
+Transcript
+0:00
+Okay.
+0:00
+So welcome to this lesson where we're going to make a dark layout as opposed to this light layout.
+0:07
+And we're also going to spice things up a little bit more by targeting the time and space span elements.
+0:14
+So when it comes to creating a dark mode out of your layout, which we will get into more with other examples, it's pretty simple, but it's not exactly as straight forward as just inverting your colors.
+0:28
+So let's go ahead and do that.
+0:30
+We're gonna stop into our index dot CSS.
+0:33
+And the first thing I'm I'm going to do, our background is white.
+0:37
+So you would figure we'll make the background in this case black.
+0:41
+So background, we'll say black.
+0:44
+And then our also, we'll specify our color elements as white.
+0:49
+So looking at this, this is fine.
+0:52
+But one thing that you should avoid when building out and dealing with the color in your layout is to avoid absolute black, especially when you have white text on it because it can actually cause eye strain.
+1:04
+So I'm going to use a different color code for our background property and that will simply be one c one c one c.
+1:15
+Alright.
+1:15
+So that gives us this color and you could see it's a little bit easier on the eyes and it doesn't contrast so much that it can actually hurt people's eyes.
+1:26
+Alright.
+1:26
+So next up, I want to focus on our span elements.
+1:31
+Now going back to the index HTML, there's a span here for time and a span for space.
+1:38
+And those are there so that I can target those words specifically.
+1:42
+Alright.
+1:43
+So what could we do with those?
+1:45
+Well, just at a glance, we could change the color.
+1:48
+We can make them stand out more.
+1:50
+And this will further add a little bit more complexity to the UI even though it is still simple.
+1:56
+So let's go ahead and we'll target our span.
+2:01
+And we'll just say color, and I'm going to give it a specific color code that I have off screen, and this is a green color code.
+2:10
+And this works.
+2:11
+I if you contrast it and look at, you know, your UI design fundamental of color and contrast, which is what we're looking at in this case because we didn't change anything else, It does indeed contrast well enough with the background, and, also, it's complimentary in that it works well and contrasts well with the white.
+2:29
+And you'll find that most colors will with white.
+2:31
+But always check, especially when you're a new UI designer, check with your WCAG two point o color contrast or tools.
+2:40
+And, again, I mentioned it before, there's browser plugins and there's, uh, UI design plug ins to make sure that you are adhering to at least double a of the WCAG two point o specs.
+2:51
+But you know what?
+2:52
+We can also do something a little bit more interesting than just making these different color.
+2:57
+So that's what I'm going to do.
+2:59
+So right here, I'm going to get rid of the color property, and I'm going to target the before selector on the span element.
+3:10
+And this will allow us to do interesting things with the time and space span inside of it.
+3:17
+So let me just show you.
+3:19
+First, when I do this sort of effect, I change on the parent container, which happens to be span, I change it to position relative, because this element will be set to position absolute.
+3:32
+And we can position this before selector in relation in relative in relativity to the parent span.
+3:41
+Alright.
+3:41
+So what I'm gonna do is put content is empty, and we're gonna say height will just be between two m units.
+3:49
+Width will be eighty percent of the span element.
+3:53
+And we'll say bottom will be from point one m unit.
+3:59
+Z index will be negative one, so it hides behind the text.
+4:04
+And background will be that color code that we used before.
+4:08
+So if we look at it now, we've just created our own custom underline, which is slightly offset just to give it a different sort of aesthetic, and it looks and works quite well.
+4:19
+So, again, it's not large enough to where the contrast becomes an issue because it's almost at the very bottom of the type, and it's very interesting looking.
+4:29
+One thing I might wanna do as well that you could also do, uh, the label, today's article, we could do, for instance, on the p element, which is its selector.
+4:39
+Text transform, we could do upper case.
+4:44
+Alright.
+4:45
+And that looks pretty good still.
+4:48
+Now we can also take this a step further, and we could target the body element, specifically the background element, and we can create a color stop based gradient.
+4:59
+So there's a lot of different gradient tools that you can use.
+5:02
+Uh, you can of course just use your editor to type out the values, but there are a lot of UI based gradient generators if you just go to Google and type that.
+5:11
+CSS gradient dot io is what I used for this next effect.
+5:15
+So if I go to body here and our background property, I'm going to get rid of that.
+5:20
+All I'm going to do now is just paste in a property here that was generated from CSS gradient dot io, and look at this.
+5:30
+So now we've kind of created more of a structured layout that still works just fine with everything that you see here.
+5:38
+But we've gone from something that's absolutely really simple to something now that has a little bit more, uh, complexity, but still very simple and works quite well.

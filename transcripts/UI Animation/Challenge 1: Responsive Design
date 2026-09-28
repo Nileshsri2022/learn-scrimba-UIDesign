@@ -1,0 +1,301 @@
+Transcript
+0:00
+Alright.
+0:00
+Welcome to this lesson where we're going to introduce a challenge here for you, and you've done this a couple times already, um, in terms of trying to make an existing design that looks good on mobile and making it responsive.
+0:12
+Alright?
+0:13
+So, uh, what we're gonna do is we have three different rule sets over here.
+0:18
+So we have one at four hundred pixels, one at eight hundred fifty pixels, and then one at twelve hundred.
+0:24
+And you don't have to use these.
+0:26
+You could change them up if you wish.
+0:28
+Uh, it's, uh, it's entirely up to you.
+0:29
+These are the ones that I use though.
+0:31
+Um, and I'll give you a hint.
+0:33
+This one has the most rule sets.
+0:35
+The other ones only have one or two rule sets in them, just a change of slightly.
+0:40
+And so I don't expect anybody to get exactly what I did, but just try to mind your fundamentals as I've taught them so far.
+0:46
+So, you know, ask yourself this right here.
+0:48
+We know this is this is solid in terms of what we want, um, but if we, you know, extend this out, you know, at what point should we be making some some decisions in terms of designs part you know, perhaps at the four hundred pixel uh, view port here.
+1:04
+And then when we get out to here, you know, do we have enough space to collapse things?
+1:09
+Of course, I already gave you a hint in terms of the the HTML.
+1:12
+We have a left and right column.
+1:14
+So just think about how you wanna structure this.
+1:16
+I'm gonna go ahead and ask you to pause right now.
+1:18
+And then when you're done, you can come back and see my solution.
+1:26
+Alright.
+1:26
+So hopefully you came up with something that worked well.
+1:28
+I I'm gonna show you what I would have done.
+1:30
+So at the four hundred pixel viewport, which is very close to what we're at now, I don't like how the edge of analytics here on next to the a and the end of the the r and four is right up against the edge of this little SVG graphic.
+1:48
+It just you know, it it that's not a good design.
+1:52
+Uh, you want things to extend out, uh, and we do we can definitely do that because there's this is a very low contrast area behind it.
+2:00
+You know, we already have a light gray.
+2:02
+We have a white, and this is black text essentially.
+2:05
+So I it just looks a little strange being up against the edge.
+2:09
+So what I wanna do is go ahead and take that, and we're gonna change that h one element.
+2:15
+And let me get this tabbed up correctly.
+2:18
+Here we go.
+2:19
+We're gonna say font size two point five m units just to make it a little bit bigger.
+2:23
+And we're gonna do a width of ninety percent to draw it in just a or draw it out a little bit further.
+2:30
+So now we're going from this to this.
+2:34
+And it just looks better, extends outside the bounds of this, you know, this watermark base little, um, very abstract version of a cell phone.
+2:42
+Um, I'm also go gonna go ahead and change, uh, the background position.
+2:47
+You can see this little bar graph which represents, uh, basically analytics data, like traffic's data.
+2:53
+I want it to be down a little bit further, so I'm gonna take our body.
+2:58
+And we're gonna say in here, background position is zero and then thirty percent, which pushes it down just a tad bit.
+3:07
+And then also background size, we're gonna go from hundred fifty percent to hundred thirty percent.
+3:13
+Alright.
+3:13
+So that's what that looks like now.
+3:17
+Alright.
+3:17
+Next up, that's all the rule sets I have for four hundred pixels.
+3:21
+So once we get to eight fifty around here, we have enough room to start collapsing, uh, or not collapsing rather, but the opposite, which is to to have two columns in one row.
+3:31
+So we have this information to the left, and then we have these blips over here to the right.
+3:39
+Okay.
+3:40
+So right here, we're gonna take our body element and we're gonna text align left everything.
+3:46
+Because I'm a big fan when you have two columns on the same row.
+3:50
+I don't like the look personally of text align center where they're both centered.
+3:56
+I just think it looks better just let align them left or right.
+3:59
+So we're aligning it left.
+4:00
+We're also gonna have a height of a hundred view port height.
+4:04
+We're gonna display grid and place the content center.
+4:08
+Now the body element only has one child element, which is the wrapper element.
+4:12
+So this is going to allow us to and you can't really quite see it here.
+4:16
+Everything's a little bit screwed up still because we're not finished yet.
+4:19
+It's gonna allow the design, um, to really stay in the center when we change it vertically as well as horizontally.
+4:27
+Alright.
+4:27
+So, also, we're also gonna change the background position
+4:32
+to zero and eighty percent this time, and background size will be a hundred percent from one thirty in the previous, uh, media query.
+4:41
+So it just kinda makes it a little bit larger.
+4:43
+Again, everything's broken right now, but don't worry.
+4:46
+We will fix that.
+4:48
+We're gonna target our wrapper phone.
+4:50
+I'm gonna say top is one point seven m units just to push it down.
+4:55
+Again, everything's messed up.
+4:57
+We'll give it contacts when we start, uh, writing out more.
+5:00
+So our wrapper contains our call left and right class.
+5:06
+And we're gonna display flex that so that they are now going to be situated left and right of each other.
+5:12
+So things are starting to make a tad bit more sense, but they're still really ugly, and that's okay.
+5:17
+Um, in our wrapper, we'll also say padding two m units.
+5:21
+We're gonna push things and give ourselves some white space from the edges.
+5:24
+And we'll also say a width of ninety percent and margin zero auto.
+5:32
+Alright.
+5:32
+So things are kinda coming along, but they're still really bad looking.
+5:37
+Alright.
+5:38
+So next up, we're gonna take our phone.
+5:42
+We're gonna say left is ten percent.
+5:44
+Because right now it's centered.
+5:46
+Alright?
+5:46
+And we're gonna get this fixed in a second.
+5:48
+And we're gonna say top five m units, and then margin is gonna be unset.
+5:54
+Now it's kinda pushed over here, but it's still way up there.
+5:58
+And this is way too high, and this is way down there, so we need to fix that.
+6:01
+Uh, we're gonna take our h one element, and right now we can see our h one is kinda indented in.
+6:08
+We need to fix that.
+6:10
+So we're gonna say margin left is zero, and width will be a hundred percent because we had the width set at something else, uh, in the default rule sets for mobile.
+6:21
+So now it's starting to come together over in this section a little bit better.
+6:25
+We're also gonna take I let's see what else we have our left column.
+6:32
+In our left column, we're going to say width of seventy five percent.
+6:37
+And we're also going to have a padding of three m units.
+6:42
+And then in our right column, do well for the unordered list.
+6:46
+We'll do a width of a hundred percent because it was something less earlier.
+6:52
+Alright?
+6:53
+And then we're also going to say, I will have our,
+6:58
+uh, right right here.
+7:02
+We're gonna say margin top is gonna be zero, and then padding will be three m units.
+7:10
+Alright.
+7:10
+So things are starting to get their way just a tad bit.
+7:15
+And then we're also gonna take our right unordered list list item with a display grid.
+7:22
+So this is in reference to this information right here.
+7:26
+And what I'm gonna do is take our grid template columns
+7:33
+and repeat to auto.
+7:35
+So now that's gonna float these to the left of each other, but there's no white space between them and kinda hard to read.
+7:43
+So what we'll do now is align items,
+7:47
+center, grid gap is gonna be point seven m units.
+7:52
+We're also going to do a background.
+7:55
+Background, I thought initially I was gonna make white, but that kinda competes.
+8:00
+The white competes with this white over over here, and there's a lack of visual hierarchy.
+8:04
+So I decided to make it a color or a shade that's just barely darker than the background color it's sitting on.
+8:14
+So this is what that looks like.
+8:15
+But, of course, this looks bad because there's no white space inside of this container.
+8:19
+So we still have a few more rule sets.
+8:22
+We're gonna do a padding of one m unit, which is gonna help a lot.
+8:28
+And then we'll also do a quarter radius of point five m units.
+8:35
+Fill, there's a lot there's way too much white space up top as opposed to left and right.
+8:40
+So we wanna get that working as well.
+8:44
+But we're gonna say l I p, all the paragraphs, is gonna be a margin of zero.
+8:49
+That sort of fixes it, but not quite just yet.
+8:53
+We need to move our quote down as well.
+8:56
+So we're gonna say font weight, though, is gonna be three hundred.
+9:00
+We're gonna do a that white space fix with our auth.
+9:05
+We're gonna say margin top is one m units, and then also font size will be point eight m units.
+9:12
+So now if we look at it, we've established visual hierarchy between these two hours, the quote and the person's name right here.
+9:21
+And then, also, we're going to change just a couple things.
+9:26
+We have two more rule sets.
+9:28
+We're gonna say li nth of type one.
+9:31
+So our first testimonials essentially transform translate x, negative thirty pixels.
+9:40
+So that's gonna push it over to the left.
+9:43
+And then we're gonna go ahead and take this, copy it at the type two.
+9:51
+And then this one, we're just gonna push it the opposite direction.
+9:55
+Alright.
+9:55
+So this is gonna be kind of like a staggered approach just to give it a little bit more of a unique layout.
+10:03
+Alright.
+10:04
+And so if we look at this now,
+10:09
+we'll see that we're able to really, uh, define something that looks pretty good here.
+10:14
+So one thing is I could probably stand to push this section down the background because it's a little bit too close and a little bit cluttered here.
+10:23
+So we could stand to push that down a bit.
+10:25
+But for the most part, this is pretty much what I like.
+10:28
+Now if we get out to around twelve hundred pixels, I did have one rule set, which is body.
+10:33
+We're gonna say font size.
+10:34
+We're gonna pick it up just a notch.
+10:37
+Changing the font size from default, I believe, which is sixteen to seventeen, will automatically scale anything with the m units.
+10:45
+Alright.
+10:45
+So if we come down here not sure if we could see it because I can't extend beyond this amount, um, because I was working initially on a four k resolution maximized here.
+10:56
+But I still this is, uh, looking pretty solid here.
+10:59
+So what we're going to do in the next lesson is start to focus on the actual purpose of this, which is the animation.

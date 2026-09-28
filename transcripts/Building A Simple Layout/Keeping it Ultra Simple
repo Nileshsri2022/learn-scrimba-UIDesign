@@ -1,0 +1,145 @@
+Transcript
+0:00
+In this lesson, we are going to keep things ultra simple.
+0:03
+So we can see here we have today's article and the headline, A Place in Time and Space.
+0:10
+And let's take a look real quick at the HTML.
+0:13
+I have a div class container simply wrapping around these elements so that we can easily place them and position them here in the mini browser.
+0:22
+And let's take a look at the index CSS.
+0:25
+So all I'm doing is importing a font of Montserrat, which I haven't yet declared or used here.
+0:30
+And by default, in Scrimba, with the new index at CSS, it just has HTML body with margin zero and padding zero.
+0:39
+So our question is, when it comes to creating a layout, what content and what elements do we have to work with?
+0:49
+Well, in this case, we have a very simple objective, which is to create a layout with just this little label and this headline.
+0:58
+And so I would ask myself, okay, how would I position this in the layout?
+1:04
+And there are many different options.
+1:08
+It is very subjective.
+1:10
+So instead of thinking about all the ways that you can make this work or make it not work, instead, go back to your fundamentals.
+1:20
+White space, color, contrast, scale, alignment, topography, and visual hierarchy.
+1:26
+Everything that we learned about in the previous lesson.
+1:29
+If we can nail all of these, then whatever we produce should be good.
+1:34
+You're gonna need to see you can probably come up with a thousand different ways to make this effectively good, and they can each be different.
+1:42
+Alright.
+1:43
+So what I would do is first, because we have all this white space, how can we fill this out just with these two elements and make it work really well in terms of alignment in our white space?
+1:56
+So what I would first do, we'll just target the body element down here.
+2:00
+I would say, alright.
+2:01
+First, I wanna get my font.
+2:02
+So the font that they're currently using, the default, it's a sans serif font.
+2:07
+I have no problem with, but I personally like using Montserrat.
+2:12
+Alright.
+2:13
+I also would display grid because going back to our index dot HTML, there's only one element here, which is the container element inside of the body element.
+2:24
+So I could display grid and do place content center.
+2:29
+So if I save that and we go back here, we could see it's now placed in the center.
+2:34
+Now place content center should center things both horizontally and vertically, but it's not doing it vertically right now because we have to go back to this up here and just say height hundred v h or viewport height units.
+2:49
+Alright.
+2:50
+So that you know what?
+2:51
+Is not actually looking too bad.
+2:53
+We could see that they're both aligned along this left column, and there's a good amount of white space between these two elements as a container in and of themselves and the rest of the mini browser.
+3:06
+And so that works.
+3:08
+We could even do something like this, text align center.
+3:13
+And we could center them as well.
+3:15
+So this works because there's only two elements.
+3:18
+We don't have a clearly defined column right here.
+3:22
+So this is perfectly fine.
+3:24
+Now for me personally, a subjective preference that I would have is to take the h one element, and we're gonna do margin top zero just to get these two elements a little bit closer together.
+3:38
+And also, I wanna make the font size just a little bit bigger, two point four m units.
+3:44
+Alright.
+3:44
+So things are starting to fill out a little bit more.
+3:47
+And then also, our paragraph element, I think we'll make that a little bit bigger too.
+3:53
+Just a little bit.
+3:54
+So paragraph, we'll make the font size one point two e m units.
+4:01
+And now it's slightly larger.
+4:03
+So this actually works quite well.
+4:07
+And personally, I think I want to left align this, so I'm gonna take the text align there.
+4:12
+And and, again, notice I said personally.
+4:14
+Now there's one final area that I'm looking at now that I think there's just a little bit too much white space.
+4:20
+And, again, this is sort of in the realm of subjectivity.
+4:23
+I'm gonna say margin bottom point five m units.
+4:27
+It's gonna get it a little bit closer than what it was before.
+4:31
+So right here, we actually have a well structured layout that nails all of those fundamentals.
+4:38
+So for instance, if we move this off to the side, we could see that white spaced, very good white space all around as we could see.
+4:47
+Our color, we're just using monochromatic.
+4:50
+We're white and black.
+4:51
+That works.
+4:52
+In some cases, that would work perfectly fine depending on the branding and the visual identity of the business.
+4:58
+Contrast, we have maximum contrast.
+5:01
+Scale, we can read today's article.
+5:03
+This is a nice size.
+5:04
+That's no problem.
+5:05
+Alignment, it's aligned perfectly here in the mini browser.
+5:11
+We have typography.
+5:12
+This is a good solid font that I love personally.
+5:15
+And visual hierarchy.
+5:17
+We've established that visual hierarchy right here, uh, noticing that the most important piece of type is a place in time and space.
+5:25
+And then secondary to that would be today's article, which is why it's not bold and it's also a lot smaller in size.
+5:33
+Okay.
+5:33
+So for the next lesson, we're gonna step it up a notch by targeting some of our span elements and changing the background.

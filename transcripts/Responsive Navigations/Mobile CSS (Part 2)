@@ -1,0 +1,99 @@
+Transcript
+0:00
+Okay.
+0:00
+So this is where we left off with our menu.
+0:02
+We really need to fix up these list items for the mobile navigation that pops up when you click on the hamburger icon menu.
+0:09
+So let's go ahead and focus on that real quickly.
+0:12
+Go back here.
+0:13
+So we're gonna specify an l I a.
+0:16
+So we get, uh, just the links inside of our list item and we're going to give that a specific color.
+0:21
+I'm choosing not to make it absolutely white just because it's a little bit overbearing.
+0:26
+So it changes it.
+0:27
+Uh, basically, it's the same hue as this except that it's a much lighter version of it.
+0:32
+Then we want to go ahead and specify text decoration, none.
+0:37
+We'll also put in display block, which will allow us to apply padding on the link elements here.
+0:42
+So point five m units on the top and bottom and one on the right left.
+0:47
+And so now we've spaced it out.
+0:50
+So in terms of alignment, everything's good here, left aligned against this column.
+0:55
+Also have a good amount of white space here.
+0:58
+Our color and contrast is good, and everything is pretty solid right here for the most part.
+1:03
+So, also, we have a another, uh, element here.
+1:08
+At this point, we're gonna go ahead and hide this with visibility
+1:14
+hidden.
+1:15
+So now we don't see that anymore.
+1:17
+And so we gave this element a class of open, which is the hamburger icon menu.
+1:23
+And so let's go ahead and reference that.
+1:25
+So we're going to say open, and we will say cursor pointer, and then also margin point five m units.
+1:36
+Now what that does is it really gives it a nice consistent amount of white space from inside of the header container.
+1:44
+So now everything is lined up quite well to where it needs to be.
+1:48
+Alright.
+1:48
+So next up, we're going to reference our active class, which is applied onto one of our l I elements on the about page just to signify what the design looks like when they're on the active page.
+2:01
+So we're going to say active a, and then we will specify its own unique color here.
+2:08
+And, again, once again, I'll go ahead and paste that off.
+2:11
+So right there.
+2:13
+And then we will also specify font weight bold for that.
+2:16
+Right now, we can't see it because that navigation isn't open.
+2:19
+Again, if I just temporarily adjust that, we can see what that looks like.
+2:24
+So it's just basically, uh, again, it's in in the same hue as this, except there's a lot more, uh, saturation to it and it's brighter.
+2:32
+So it really sticks out quite well.
+2:34
+Alright.
+2:35
+So let's undo that change right there.
+2:39
+And then also, we're going to do hover elements.
+2:43
+So l I a hover.
+2:45
+So we'll go ahead and specify a background for that as well.
+2:50
+And it's just going to be slightly offset from the background color that it's on.
+2:53
+Once again, to show you,
+2:57
+these now give us nice hover elements right here.
+3:01
+Okay.
+3:01
+So coming back here,
+3:05
+I would say right now, this is ideal, uh, in terms of just design.
+3:10
+Now, of course, when we expand out, we definitely have enough room, uh, even less than this to show those five links in the same row as company.
+3:21
+So we're gonna have to use CSS media queries to start adjusting this design, uh, and we'll get to that point here in the next lesson.

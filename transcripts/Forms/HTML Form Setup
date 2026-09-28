@@ -1,0 +1,197 @@
+Transcript
+0:00
+Welcome to this lesson where we're going to start on the HTML.
+0:03
+But before we get to that point, I want to introduce just basically what we'll be creating going forward.
+0:09
+So this is gonna be a form project for just a fictional membership form.
+0:13
+And our requirements are to include a first and last name text field along with an email address text field, um, a way to select a country, which would be just a select menu, a gender radio button with male and female, a biography text area where they can specify a biography, and as well as a terms of service agreement text area along with a checkbox that allows them to say, yes, I've read this.
+0:40
+Um, so several of these elements will be custom elements, such as a custom radio button and a custom checkbox and custom select menu.
+0:49
+Um, but most importantly, all of them need to really adhere to good UI design fundamentals and and also good UX fundamentals as they pertain to forms.
+1:00
+Alright?
+1:00
+So in this first lesson, we're gonna go ahead and start with the HTML.
+1:04
+We are gonna have actually three different HTML files, and we're going to separate all this stuff right here, all the form elements into three different sections because there's quite a bit here.
+1:14
+You know, it would make a lot more sense.
+1:16
+It'd be easier for the user just to have a multi step form to follow.
+1:20
+Alright.
+1:20
+So we're gonna go ahead and take this right here, both of these, and just delete them.
+1:26
+And I'm going to put in a div class
+1:29
+of wrapper.
+1:31
+And this will just allow us to define some overall padding at different view ports and such.
+1:36
+And we're also going to have inside of here just an h one at the top, uh, become a member.
+1:44
+Right?
+1:44
+So that's our title, letting people know, you know, what this form is all about, which is important for UX.
+1:50
+And then we're also going to have a progress section.
+1:53
+So we're gonna say ul class is progress.
+1:55
+I'm gonna put this in an unordered list because it's a list of three different steps, essentially.
+2:01
+So we're gonna have a first l I element with a class of current, and that's gonna indicate that this is the default starting position number one, step one.
+2:10
+And inside of here, close that up, we're going to have, uh, it'll be clickable.
+2:16
+So ahref, and this will go to index dot HTML just as self for now.
+2:21
+And inside of the link will be two other HTML elements.
+2:26
+First is gonna be a div class equals circle.
+2:30
+And inside of it, we simply say one to denote that this is step one.
+2:34
+And then also, we'll have a span element underneath.
+2:37
+You could also use other elements like a paragraph element, um, that says account.
+2:41
+So this is the account section of our three step form, essentially.
+2:46
+So now what we'll do is take this.
+2:48
+We'll copy it.
+2:49
+We'll get rid of the class of current here.
+2:52
+We're gonna put right here step two dot HTML.
+2:56
+We'll make this two, and then we'll specify details.
+3:00
+We'll take this and copy it because it lacks the, um, class of current.
+3:05
+And then we'll put step three dot HTML three here, and then this will just be confirmation.
+3:11
+Alright.
+3:11
+So that's all that we have up here for URL progress.
+3:15
+And after our closing URL element, by the way, we can save this and kinda see what's happening here.
+3:20
+I'll just kinda situate this to the side for now.
+3:23
+Um, go ahead and move this over here.
+3:27
+And, of course, when we get to the section for CSS, we'll be doing mobile first as always.
+3:32
+So we'll just put it over here.
+3:34
+And underneath this is we're gonna have a main element.
+3:37
+This is where our main form, uh, all the markup for that will go.
+3:42
+And we'll go ahead and say, we're gonna have a div class of left col for left column.
+3:49
+So we're gonna have two columns here.
+3:52
+And, of course, on mobile to be stacked, so give class over here will be right call.
+3:59
+Right column is going to include just general lorem ipsum text.
+4:02
+Sometimes you need some explanation in terms of the form and what they're doing.
+4:07
+Um, and so in here, in our left column, that's where we're going to put our actual form element.
+4:12
+So we're gonna have a subtitle of account setup, an h two element.
+4:17
+We're also gonna have our first form element of label, four equals f name for four first name rather.
+4:25
+First name, close that label, and then we're gonna have our input of type text.
+4:30
+Sorry about that.
+4:35
+And this will say ID is f name.
+4:38
+So you want your four element, whatever this is bound to, f name.
+4:43
+You want the ID here to be f name as well so that when they click on the label, for instance, it will automatically put the focus on this input.
+4:51
+So we're saying name right here is f name.
+4:53
+And then we're also going to give this one a class of error field just to denote a design that shows what it in input form or the form element looks like when there's been an error on it.
+5:06
+So we'll have it placed on this one by default.
+5:08
+So we'll also put a p class, a paragraph of
+5:13
+error, and then say, sorry.
+5:16
+This field is required.
+5:18
+So some type of generic error, uh, message.
+5:21
+And normally, if you're, you know, the front end developer or you're the UI designer, you would, uh, provide them with, you know, the actual design.
+5:28
+So this is why we're including it just to show, like, what an error should look like.
+5:32
+Next up, we're going to simply copy these two lines, and I'm gonna paste them.
+5:37
+This would be the last name, except this one is gonna show what a field looks like when it's not in error.
+5:43
+And then we will also have another one for email address.
+5:48
+So we're gonna say email address here.
+5:51
+And then we can also put input type here of email you normally wanna do.
+5:56
+I'm just gonna leave that at text, and we're gonna say for, um, we wanna make sure these two are adjusted as well.
+6:05
+So four is l name for last name,
+6:09
+then this one is email.
+6:13
+And right there is good.
+6:15
+So, also, we're just about done.
+6:17
+We're gonna have a call to action in the form of a just a link.
+6:21
+So if you're using something like a a JavaScript, front end framework like React or Vue or Angular, you can get away with using just a link, um, instead of, like, an actual input submit form.
+6:32
+So we're just gonna do this.
+6:33
+It's not actually gonna work or submit, um, but we're still just gonna be able to design this.
+6:38
+I'm gonna put right here step two, by the way.
+6:44
+Right?
+6:44
+And then a class of CTA for call to action and then next.
+6:49
+Alright.
+6:50
+And then inside of right column, we're going to simply have just some lorem ipsum text.
+6:54
+So I'm gonna put in a paragraph.
+6:57
+We're almost done here, by the way.
+7:00
+I'm going to paste in
+7:03
+off screen here this markup.
+7:05
+So it has just a and we're making note bold and then lorem ipsum.
+7:10
+And then maybe just a little bit more.
+7:12
+So So a couple more maybe one more sentence or two or so right here of lorem ipsum.
+7:18
+So this is what it looks like so far.
+7:21
+Clearly, we have, um, a lot of work to do, but this is all the markup for just the first page.
+7:27
+And now it's gonna be up to us in the next lessons to really make this, uh, look and also function very well.

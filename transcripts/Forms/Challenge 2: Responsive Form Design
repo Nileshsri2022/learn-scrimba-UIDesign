@@ -1,0 +1,183 @@
+Transcript
+0:00
+Welcome to this new challenge where I'm going to challenge you to make this form responsive.
+0:06
+So if I drag this out, we'll see that we have these really long input fields, and they just don't look good along with this button.
+0:15
+Um, and so we need to fix that.
+0:17
+And so we're gonna tackle, um, two different media queries, um, where we go from this to adjusting it even more, and then finally, slightly more out to around here.
+0:29
+And so I'm gonna challenge you to come up with those media query break points, um, and also the rule sets to make this structured well.
+0:37
+So before we do that, I'm just gonna take a look at the the HTML structure just to go over it again.
+0:43
+We have a main element here, And this is really where I want you to focus on.
+0:48
+We don't need to adjust this top header section.
+0:51
+Um, so just focus here in the main element.
+0:54
+Inside of the main element, we see we have a left column and then a right column.
+0:59
+And then so also inside of here, you can see, you know, we have our form elements and then also this section.
+1:05
+Real quickly, I just want to adjust one thing.
+1:08
+I think we wanna push this note section down just a tad bit more.
+1:12
+Um, so I'm gonna do that real quickly.
+1:14
+So it's right call.
+1:16
+We're gonna say margin
+1:20
+top will be two m units.
+1:22
+Then we're gonna do line height, one point five m units.
+1:26
+And then color for the text will be this value right here.
+1:33
+Right.
+1:33
+So this is what we've just changed it to.
+1:36
+Alright.
+1:37
+So go ahead and down here is where I want you to specify your media queries.
+1:42
+So, again, it looks like at media min width.
+1:45
+I'll just put zero pixels.
+1:47
+Of course, you're gonna have to change that.
+1:48
+And then all your rule sets will go in here and then also in here.
+1:52
+So go ahead and pause and come back.
+1:58
+Okay.
+1:58
+So hopefully, you were able to come up with something that worked well.
+2:02
+Alright?
+2:02
+So remember, um, you know, everything I taught you before, uh, when you get out to these larger view ports in terms like a large phone or tablets, think about how you can better use utilize the space.
+2:13
+We have a left column and a right column.
+2:16
+So naturally, hopefully, you got the hint that the right column should be over here at a certain break point.
+2:21
+Alright.
+2:22
+So let's go ahead and do that.
+2:24
+So I'm gonna put my first breakpoint at six hundred fifty pixels.
+2:29
+And then inside of here, we're gonna take our main element and display flex and also put padding two m units.
+2:36
+Alright.
+2:37
+So we're increasing the padding a bit.
+2:39
+So when we come out, we could see what happens.
+2:42
+Alright.
+2:42
+So our padding increases and this element and this element, this left and right column now flow left.
+2:49
+Now, of course, this is way too squashed, and we have issues with white space, so we need to fix that.
+2:53
+Um, so we're going to target our left column, and we're going to say real quickly, uh, flex zero zero and then sixty five percent.
+3:05
+That's gonna push over this column here to where we need it to be.
+3:10
+And then we're also going to say margin right two m units, just to give us that needed white space between these elements.
+3:18
+So we're going from here to here, and it looks pretty solid.
+3:22
+Still some, uh, couple other rule sets.
+3:24
+Our right column, we had a margin top.
+3:26
+We We wanna reset that to zero, so it pushes an inline right here, so we have good alignment.
+3:32
+And then we're also going to say our call to action.
+3:35
+We're gonna change this to display.
+3:37
+Let me just show you what it looks like currently.
+3:39
+I it's kind of real long, so I just wanna change that to display inline hyphen block.
+3:46
+And then we're also going to put width of unset.
+3:50
+We're gonna float right and then padding one m unit top and bottom, four m units on the right and left.
+3:57
+So that gives us this.
+3:58
+It's a nice button.
+3:59
+It's a little bit better to use just like that.
+4:03
+Now for our other media query right here, I'm choosing to put this at nine hundred fifty pixels.
+4:08
+So three hundred more pixels out.
+4:11
+We're gonna change our main here.
+4:14
+We're gonna sit still say we're gonna say padding two m units, uh, width.
+4:19
+We're gonna give it a width of actually nine hundred pixels, so it'd be fixed width.
+4:23
+It won't be fluid anymore.
+4:25
+And then a margin of two m in auto.
+4:28
+Alright.
+4:29
+So what's gonna happen, we get out to this point, it's gonna stop growing unnecessarily.
+4:35
+Alright.
+4:35
+And it just stays centered at that point.
+4:38
+We can also stand to, uh, increase this element.
+4:42
+It's it's a little bit just too close in terms of appearance to the labels.
+4:47
+So I wanna separate that visually just by taking your h two element and saying font size one point seven m units.
+4:55
+Alright.
+4:56
+So now it's larger, and everything just looks a lot better here.
+5:00
+So
+5:02
+real quickly, just to go over this again.
+5:05
+We're coming out to this.
+5:07
+Viewport still the same still the same.
+5:08
+And then we hit six fifty.
+5:10
+And now we have enough room to to bring in the left and right column.
+5:15
+Our button changes.
+5:16
+Everything is pretty nice and big to be able to type into.
+5:21
+Coming out, we just change up the font size, and we stop it from growing.
+5:28
+And that was my solution.
+5:29
+So hopefully you came up with something that worked.
+5:31
+Maybe you did something different that did work.
+5:33
+Remember, as long as you adhere to this various UI design fundamentals, you will be solid.
+5:39
+Okay.
+5:39
+So in the next lesson, we're going to work on our step two details page, which will include a actual select menu that we're going to have to style along with custom radio buttons and a text area.

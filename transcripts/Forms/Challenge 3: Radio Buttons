@@ -1,0 +1,315 @@
+Transcript
+0:00
+Okay.
+0:00
+So in this lesson, we're gonna go ahead and focus on what the step two details page is going to look like.
+0:06
+And so when we click next, it will take us to that page.
+0:09
+Right now it's just empty.
+0:11
+I did create a step two dot HTML.
+0:13
+Again, it's empty and also a step three for the future.
+0:16
+And a secondary CSS.
+0:18
+And you'll see how these all come into play.
+0:20
+So what we're gonna do is just we're gonna take all of our index HTML and just paste it right into step two dot HTML.
+0:28
+Now, of course, if this were a real project, you know, maybe you'd be using something like React or Vue or Angular or something like where you would be able to have template includes.
+0:37
+But so we're not gonna do that.
+0:38
+So we'll have just some, you know, verbose HTML throughout.
+0:41
+We're not gonna have to change it much.
+0:43
+Uh, for step two, though, for this to work, uh, as we see, we click on step two.
+0:48
+It just looks the same.
+0:49
+We wanna make sure that this is the current active element.
+0:52
+So I'm gonna change, uh, our class of current, remove it from there, and just put it in step two.
+0:58
+There we go.
+0:59
+Works automatically.
+1:00
+We'll also change up, uh, some of the other content here.
+1:04
+So this is going to say instead of account setup, it's going to say details.
+1:09
+We're also going to change these form elements right here.
+1:12
+So the first form element that we're going to have is a country select menu just for users to select their country.
+1:20
+So we're gonna say label four equals loc for location, and then we're gonna put in country.
+1:26
+And then we're going to have a select menu.
+1:29
+The ID will be loc.
+1:32
+And inside of here, we're just gonna have a few different options.
+1:36
+So, uh, we're gonna have a value of US, and we're gonna say United States.
+1:44
+And then we will replicate that a few times like that.
+1:48
+If you wish, you can go ahead and, you know, change these up, but it's unnecessary for the purpose of this tutorial.
+1:54
+So after that, we're also going to have a label, which is not gonna go anywhere.
+2:01
+It's just gonna say gender here.
+2:03
+And then we're gonna have two radio buttons.
+2:06
+So we're gonna first put the radio button form element.
+2:09
+So type is radio.
+2:11
+ID, this one will be male.
+2:14
+The name is gonna need to be gender, and this one will be checked initially.
+2:20
+And we're going to put label four equals male.
+2:25
+Class is gonna be left label, and
+2:31
+the label is gonna be male.
+2:32
+And we'll close that out.
+2:34
+We'll go ahead and copy this.
+2:36
+We'll paste this.
+2:38
+This is gonna change the female.
+2:40
+This will be female as well.
+2:45
+Alright.
+2:46
+And then finally, we are also gonna have one more form element, uh, which is gonna be a label for called bio for biography, um, class.
+2:55
+We're gonna put n t extra as in margin top extra because we're I'm gonna need to add that later on.
+3:03
+Close that out.
+3:04
+And then finally, a text area like this.
+3:08
+So a text area, of course, we're gonna save this.
+3:12
+We'll see what things look like.
+3:13
+So the text area is just a draggable area where this is meant to have, you know, more characters than usual.
+3:19
+So this is what things look like right now, and we might as well enter a design challenge right here.
+3:29
+So by default, you know, this this right here, unfortunately, I must have screwed up something that oh, yes.
+3:39
+Options.
+3:40
+This is option.
+3:41
+There we go.
+3:42
+Sorry about that.
+3:43
+Let me just go ahead and remove that.
+3:45
+I was wondering why that wasn't working.
+3:47
+There we go.
+3:48
+So now we could see, uh, uh, the actual form design here looks pretty good.
+3:53
+Um, we could see though where it says gender, and it says male and female.
+3:57
+This was completely broken.
+3:59
+So for this challenge, I want you to fix that specifically.
+4:03
+And my solution will involve completely changing these actual radio buttons and replacing the native radio buttons with a custom solution.
+4:14
+You don't necessarily have to do that.
+4:17
+Um, in fact, that might be a little bit difficult if you've never done that sort of thing.
+4:20
+You can go to CodePen and, you know, or go to Google and type in custom, uh, CSS radio buttons if you wish.
+4:27
+Um, but you don't have to do that.
+4:29
+But I do want you to fix where it just says gender, and then there's a blank, uh, you know, where it says male, which male should probably be to the right of it, for instance.
+4:39
+Same thing with female.
+4:40
+So this is all broken.
+4:41
+So that's what I want you to fix, you know, while adhering to all the good UI design fundamentals or white space, alignment and such, and and and make it look good.
+4:51
+So go ahead and pause, and then I will come back Or you come you can come back, and I'll show you what I would do.
+5:01
+Alright.
+5:01
+So hopefully, you're able to come up with something.
+5:03
+Um, I'm gonna choose I forgot to link up here, uh, a secondary CSS just so we can keep this CSS outside of our, you know, already lengthy index CSS.
+5:14
+So in secondary CSS, this is where I'm gonna specify that information.
+5:19
+Um, before we get to that part, though, there was one other area that was bothering me, and that is right here.
+5:26
+See this dropdown icon?
+5:28
+It's like we're pushed over here way to the right.
+5:30
+And it's it's not good white space.
+5:32
+Like, we have white space over here.
+5:34
+So we can actually fix that.
+5:36
+Alright.
+5:36
+So this I'm gonna go ahead and put this in, and I'm going to simply paste in this series of rules because there's a lot of them to get this fixed up.
+5:49
+And so we could see we have a custom background here pointing to this PNG element.
+5:54
+So if we save this and we go to our step two and make sure that's saved as well, now we have a nice, uh, drop down menu with the icon that's actually positioned correctly.
+6:06
+So, um, you can save that in you know, if you've saved anywhere of your snippets just to be able to to to fix a custom select menu.
+6:14
+Alright.
+6:14
+Also, um, so what we're gonna say here is, um, we're gonna say our input pipe is radio.
+6:25
+And inside of here,
+6:29
+we're going to put in
+6:33
+series of you know, they're they're they're quite lengthy.
+6:36
+But we're gonna put appearance,
+6:41
+none.
+6:42
+And by default, we also need to let me make sure that I have oh, we also need to put in the vendor prefixes for this as well.
+6:51
+So I put in this, and this is gonna get rid of the actual
+6:59
+element.
+7:00
+We're not gonna see it anymore, the radio button.
+7:02
+Um, so let me just move this off the side so we can see the changes as they happen.
+7:06
+So the reason I'm changing this because the the native design, the aesthetic of the radio button doesn't really match our design.
+7:12
+And so we can make something custom that will look a lot better.
+7:17
+So display in line block.
+7:19
+We're gonna do position relative because we're gonna have an element inside of it that we wanna position.
+7:23
+That's gonna be absolute.
+7:25
+Two pixels solid, uh, for the border and c six c six c six.
+7:30
+I put an extra seven in there.
+7:33
+Alright.
+7:33
+And we can see tiny, like, this this there's something happening there, but not yet.
+7:37
+Um, the color we're gonna say is six six six, and we're gonna say top is ten pixels.
+7:45
+And the height will be thirty pixels.
+7:48
+The width will be thirty pixels.
+7:50
+The border radius will be fifty pixels.
+7:55
+And then we're also going to have a cursor.
+7:57
+We're gonna say pointer.
+7:59
+And then a margin right will be seven pixels.
+8:04
+And then also in outline, it's gonna say none.
+8:09
+Alright?
+8:09
+So right now if you click it, nothing happens.
+8:12
+Right?
+8:12
+They're nice big radio buttons.
+8:14
+They're easy to use, uh, but now nothing happens when you click it.
+8:17
+So we're gonna say input type equals radio
+8:21
+checked and before.
+8:24
+Alright.
+8:24
+So we're targeting the before element.
+8:26
+So content is gonna be empty.
+8:29
+Position will be absolute.
+8:31
+We're gonna say top five pixels.
+8:34
+Left will be five pixels.
+8:36
+Um, we're gonna give it a background color here of eight o and then four zero f f.
+8:44
+Then we also need to give it a width of sixteen pixels and a height of sixteen pixels.
+8:50
+And finally, a border radius of fifty percent.
+8:54
+And there we go.
+8:55
+So we have our male and female situation working there.
+9:00
+Um, we're also gonna target a left label.
+9:04
+Display is gonna be unset, and also font weight will be normal.
+9:11
+And a margin right be two m units to push it away from each other.
+9:17
+Alright.
+9:18
+And that right there looks pretty solid.
+9:20
+Remember, we had it also in empty extra class.
+9:24
+So empty extra gonna be margin top of two m units.
+9:31
+Alright.
+9:32
+So now we push things out, and now we have a custom select here that works pretty well.
+9:39
+So if we go back to step one right here, let's get this into, um, the correct view.
+9:46
+And then we click next.
+9:48
+The form elements really look like they just are all consistent in terms of design, which is why we've overwritten some of the default silings.
+9:58
+If you recall before, we had, um, our select menu was also custom styled, at least this initial appearance here, uh, in the index dot CSS when we were initially setting that up.
+10:08
+Um, so if we were to take that off, for instance, if we come up here where it says select and text area and take those things off, look what they look like now.
+10:19
+I mean, just obviously really bad.
+10:21
+Um, so leaving those back there.
+10:23
+There we go.
+10:24
+Very solid.
+10:25
+So now in the next lesson, we're gonna go ahead and focus on the final section, which is the confirmation.

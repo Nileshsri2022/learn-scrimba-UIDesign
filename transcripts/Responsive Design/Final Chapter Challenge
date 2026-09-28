@@ -1,0 +1,165 @@
+Transcript
+0:00
+Alright.
+0:00
+Hello, and welcome to the final chapter challenge here, where I'm going to ask you to make this responsive.
+0:08
+So as you can see, as we drag this out, it just maintains the exact same layout as we see here, which works pretty well at this mobile device.
+0:17
+But then as we expand out, it's really just getting out of hand, uh, extremely long button for instance, really long text, which is hard to scan.
+0:27
+You wanna avoid that.
+0:28
+And so what I'm going to ask you to do is to to fix that.
+0:31
+And so let's go ahead first check out the eight the HTML over here so that you understand what's happening.
+0:36
+Um, this right here is just the, um, little element up here in upper right to show you the viewport width.
+0:43
+So you don't have to worry about that.
+0:45
+And, of course, we have, uh, a single class of card which holds all this information.
+0:50
+We have a span element which holds this little, uh, avatar.
+0:55
+And then we have a class that holds our three different elements, The h one, the paragraph, and the link here.
+1:04
+So coming down here to the index dot CSS, here's all the regular CSS that we have going.
+1:11
+And right here at, uh, media min width five hundred pixels, I provided you with the, uh, the break points essentially.
+1:19
+The the media queries where I want you to change something about the layout to make it a little bit better as we expand the viewport width in the amount of space that we have available to us.
+1:33
+So five hundred would be right around here.
+1:36
+So I'm asking to make a change right around here somehow, and I'm gonna tell you what the change is just to make it a little bit more easy, but still you're gonna have to mind good UI design fundamentals when you're constructing your CSS properties.
+1:49
+And so what I decided to do because we have this card element, there's two child elements inside of it, which is the span element and then the content, uh, container element right here.
+1:59
+And now that we have this much width, try to configure this in such a way so that the avatar is left aligned over here somewhere, and this content is all right aligned inside of this card.
+2:12
+And then also, if we get out to around a thousand, we can even make another adjustment to kinda fill out the content a little bit more.
+2:23
+And so I'm not expecting anybody to do exactly what I did.
+2:26
+I'm giving you the actual, uh, selectors that I used, but you don't have to use them.
+2:31
+You can use whatever you want.
+2:32
+I used the CSS grid.
+2:33
+Again, you don't have to use the CSS grid.
+2:36
+So I'll go ahead and ask you to pause to try to come up with a solution here, and then go ahead and click play when you're done, and I will show you what I came up with.
+2:47
+Alright.
+2:47
+So hopefully you came up with something that was good, and I'm gonna show you what I would do.
+2:53
+So as I mentioned before, right around five hundred, I decide to take this and create basically a two column layout inside of the card container because we have enough room to do so.
+3:03
+So what I'll do here is I in our card, I'm going to paste some of the I'm not gonna type these all up by hand.
+3:12
+That way we can save a little bit of time.
+3:15
+Alright.
+3:15
+So we have card.
+3:17
+We have a display grid.
+3:18
+We have a grid template columns.
+3:19
+We have two of those columns, um, just because we're gonna have a two column layout in there.
+3:24
+And I used grid template areas to name the different sections, avatar and content.
+3:30
+So in order to get that work real quickly, I'm gonna take our span and change that up.
+3:36
+So now that pushes it over here, but again, we have some, uh, issues with the UI design fundamentals.
+3:42
+This element right here is way too close to there.
+3:45
+Doesn't look good, so we're gonna need to fix that.
+3:48
+I'm gonna paste in a couple other properties.
+3:53
+Alright.
+3:53
+So that fixes that white space area by adding margin left.
+3:59
+And then finally, for the link, it is it's not too bad.
+4:04
+It's a little bit long, but I'm choosing here to add display inline block.
+4:08
+And And so it becomes just, you know, a a more smaller simple button.
+4:11
+So we're going from this to this.
+4:17
+Alright.
+4:17
+Great.
+4:18
+So now coming out to around a thousand pixels, let's take a look at that.
+4:24
+So this would be right around a thousand.
+4:27
+We can further adjust this so that this text right here, which is getting kinda long, it's not too bad really, but we could take this and create a third column and start the text over here and then bump the visit profile button up to underneath the name.
+4:43
+So it's just another take that we can do, uh, in order just to fill out the available space even more so.
+4:49
+So to do that, I adjust the grid properties here.
+4:54
+So I'm going to paste that in.
+4:57
+And then which let's check check that out real quick.
+5:00
+We can see we have some issues here.
+5:01
+We can't leave it like this.
+5:02
+First, we have an issue with a lack of white space between these two elements and also alignment.
+5:08
+This line right here starts we can see it clearly starts right at the top of the g.
+5:12
+We want the this text to start up there as well.
+5:16
+So let's go ahead and fix those.
+5:19
+So we're gonna name this a grid area of name.
+5:23
+Our paragraph we're going to specify this information which now it's we've addressed both of those issues.
+5:31
+Now the visit profile, this isn't good alignment.
+5:34
+It's pretty far down.
+5:35
+It's also quite large so I wanted to fix that as well.
+5:38
+So there'd be about five properties here to add in.
+5:42
+Alright.
+5:44
+And there we go.
+5:45
+So now we can see the whole thing in action.
+5:49
+So here's a mobile.
+5:52
+Get to perhaps around a small tablet.
+5:55
+And then finally around desktop.
+5:58
+And you see how, uh, just how great it works.
+6:02
+So hopefully, you're able to come up maybe with something similar.
+6:04
+Maybe you did something, uh, different.
+6:06
+But again, it's all about I can't stress this enough.
+6:09
+It's all about the UI design fundamentals.
+6:11
+As long as what you're doing adheres to those fundamentals, then you'll be great.
+6:17
+Uh, so that's really what I want to stress as much as possible.

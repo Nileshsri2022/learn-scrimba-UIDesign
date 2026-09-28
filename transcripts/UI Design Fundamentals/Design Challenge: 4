@@ -1,0 +1,147 @@
+Transcript
+0:01
+Alright.
+0:02
+Welcome to the visual hierarchy challenge here.
+0:05
+So in front of us here is a simple card design that you might find on a layout and there's issues with the visual hierarchy within this card design and even outside of it.
+0:17
+And it's gonna be your job in this challenge to improve the visual hierarchy using the CSS properties and rule sets that I've outlined in index dot CSS.
+0:26
+But before we get to that, here's the HTML file.
+0:29
+I I'm just using inline h or c s v g rather, uh, for this element right here, this little down arrow.
+0:36
+Then beneath that we simply have the rest of the content, and nothing special is happening here, so we'll go to the index dot CSS.
+0:44
+Here's all the regular rule sets and properties to achieve what we see here.
+0:48
+And then at the bottom, you need to fix the visual hierarchy by using these rule sets.
+0:54
+You can use others if you wish.
+0:56
+And also these properties, you can use others as well, although this is what I chose for the solution that I'm going to show you in terms of what I came up with after you work on yours.
+1:08
+So at this point, you can go ahead and pause, come up with your solution, just changing these auto properties, uh, to whichever values you think will improve the overall visual hierarchy using what you've learned, uh, in the visual hierarchy lesson.
+1:24
+Go ahead and pause now and then come back.
+1:31
+Alright.
+1:32
+So hopefully, you are able to come up with something good.
+1:35
+Now I'm going to show you what I personally would have done based on this current design that we have here.
+1:42
+So the first thing that I want to address is, you know, let's say for instance this is like on a mobile resolution, uh, there's not much white space between the container and the side of the device.
+1:53
+So I want to increase the padding on the body element.
+1:58
+Just to perhaps around one point five em and that's looking pretty good right there.
+2:04
+Now the SVG element, you have to ask yourselves, for every UI element you have, compare it in terms of its importance in relation to the other elements.
+2:15
+Now an icon this is really grabbing our intention the most.
+2:18
+Just down arrow icon.
+2:20
+That's not the most important element here that we have in this design.
+2:24
+The most important element, I would say, is the headline, the h one element, pay your debts.
+2:29
+And that's kinda just lost.
+2:31
+So there's no visual hierarchy there that's really emphasizing the importance of that element.
+2:36
+So the SVG, I think we could definitely shrink that down.
+2:40
+So we're gonna take our SVG from five m units here to two point seven or so.
+2:47
+Alright.
+2:48
+So that's a lot better, but still, we're not quite there yet.
+2:51
+You're still not really sure where we should be looking.
+2:54
+So next up, we'll take a look at this pay your debts.
+2:56
+Like I said before, that's the most important element and we need to increase the size and we can even make the font weight bold.
+3:04
+So the font size I'm gonna change to one point two m units.
+3:09
+Alright, that looks pretty good there.
+3:12
+And then the font weight will further signify the importance of that element by making it bold.
+3:19
+Alright.
+3:19
+So on to the next element, which is the paragraph.
+3:21
+Now this paragraph, it looks pretty good.
+3:24
+Uh, we can already see that it's not quite black, so that means it's less important, so it's establishing that visual hierarchy.
+3:33
+When it comes to changing up the colors and the contrast of your type elements, always make sure though that you don't go too light.
+3:41
+This right here would still be dark enough and contrast enough to meet that WCAG two point o contrast guidelines.
+3:49
+So one thing I think that's a little bit bad in terms of typography, typography, this isn't really an issue with visual hierarchy.
+3:57
+This text is a little bit crammed together, so I always like to increase that line height just a bit.
+4:02
+So we'll go ahead and increase that to the line height will be one point nine m units.
+4:11
+Alright.
+4:11
+So that's looking pretty good there.
+4:13
+And looking at the font size, it actually looks pretty good.
+4:16
+So I chose not to adjust the font size right here.
+4:20
+So I can just get rid of that.
+4:22
+And then finally, the one element which is very important, so this Find out How button, this is a call to action because it's a link.
+4:30
+And so we want to try to signify a little bit more that it's an important element, that it's a button, And we could do that by changing the color of this text, uh, or we could also give it a button background container.
+4:44
+So that's what I'm choosing to do.
+4:46
+So the background, I'm gonna make a color code of e nine e nine e nine.
+4:51
+And that's just a really light color off the background.
+4:54
+You can't see it yet because we have to adjust the padding.
+4:56
+So we need good white space inside that button.
+4:59
+So point seven e m on the top and two e m on the right and left.
+5:03
+Alright.
+5:06
+There we go.
+5:06
+Now that's looking a lot better already.
+5:10
+And optionally, I wanted to put a little bit of margin top on just a little bit of it, so I could push it down just a bit more.
+5:18
+So now this looks so much better.
+5:22
+Now you could have taken this in a lot of directions, for instance you could have taken this button, made the background green, or you could have increased the font size on the find out how and just made that green.
+5:33
+There's a lot of variations that would have worked, but always remember, as long as you adhere to good UI design fundamentals that you've learned so far, then you really just can't go wrong.
+5:43
+So there's a lot of subjectivity here, so hopefully whatever you produced, it will have turned out well.
+5:49
+So let's take a look at the before and after as I like to do.
+5:53
+Uh, so let's remove this.
+5:58
+This is what we had before,
+6:01
+and this is what we had after.
+6:03
+Let me go ahead and move this over just so we can see in real time these changes here.
+6:11
+So this is our before and this is the after.
+6:15
+As you can see, it just looks so much easier to read and it flows a lot better.

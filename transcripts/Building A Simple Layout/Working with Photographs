@@ -1,0 +1,117 @@
+Transcript
+0:00
+This is where we left off in the previous lesson.
+0:02
+And now we're going to experiment with using photographs for the background.
+0:07
+So I'm gonna come back here and for the body selector in the background property, I'm going to reference one of the files that I have here so we could see how this will really make it look much more interesting.
+0:25
+Okay.
+0:25
+So the first thing that's a little bit strange, I want to change real quickly or add rather a background
+0:34
+size property of cover.
+0:36
+And that way we'll really get to see the whole image.
+0:40
+And this looks really interesting.
+0:42
+One thing I wanna change though is it looks a little bit small over here, so we can probably change up, uh, the container width from forty to fifty percent.
+0:52
+And then also, we can make the font size a little bit bigger from two point four m to three m units.
+1:00
+And that looks really good.
+1:03
+Let's experiment with yet another photo.
+1:06
+So we're gonna change this here to sky sky two.
+1:11
+Alright.
+1:12
+So this is a very cool photo because it kind of fills in this empty space with this sort of arc that's happening here.
+1:19
+But one thing that doesn't really work well anymore is the color of the underlines.
+1:25
+It doesn't really contrast well with the background sitting behind it.
+1:30
+So let's go ahead and I'm going to change that background color to a different property.
+1:35
+And one of the tricks here when you're using photographs, you can sort of take or color pick it depending on which application you have access to, like Photoshop, and get a color value, um, from one of the colors that's prominent in the photograph.
+1:51
+So I'm going to take our span before element in the background and simply change it to to this color code right here.
+1:58
+Alright.
+1:59
+So this one works a little bit better.
+2:01
+Uh, we could see that we have this orange and this orange is found in this area over here.
+2:07
+Um, but one thing that's still slightly lacking here is contrast.
+2:12
+Good contrast still with these underlines and also a little bit of contrast with with the space, uh, the white space right here and this lighter hue that you can see.
+2:22
+So what I would suggest in this case, if you still wanna use this type of background, is to make it a little bit darker using something like Photoshop or any other graphic application.
+2:32
+So we're gonna change the body here to underscore dark dot JPEG.
+2:38
+And now we can see there's a lot more contrast.
+2:41
+So let me just move this over to the side so that you can see the immediate effect here.
+2:46
+So we went from this here to this.
+2:52
+Alright.
+2:53
+And you could see this just overall better, and it's just slightly darkens the background so that we can increase the foreground contrast, which is very important.
+3:01
+So let's try yet another example.
+3:04
+So I'm gonna come back here, and we're gonna change this here to moon dot j p g.
+3:12
+Now ask yourself, does this work?
+3:16
+Hopefully, you answered no.
+3:18
+And that's because this photo has way too many contrasting elements.
+3:23
+It's very difficult it's pretty much impossible, if you didn't already know what it said, to read today's article, um, in this this title right here, A Place in Time and Space.
+3:33
+So one of the things that you can do to correct this issue is what we need to do is increase the contrast.
+3:39
+So what we can do is take this photograph.
+3:41
+You could take it into a graphic app application and really make it much, much, much darker because our foreground elements are white or light.
+3:51
+So what we can do is change this here to dark.
+3:56
+So what I did when I took this into Photoshop, I desaturated it, and then I also put a dark, almost black layer behind it and then took the opacity down on the actual photograph.
+4:08
+And this looks very good.
+4:10
+You can still see what it is.
+4:11
+It's a watermark photograph essentially now.
+4:14
+And it works quite well.
+4:16
+Now one final thing I wanted to show you is what if we wanted to have really true truly two different columns of content here?
+4:25
+Well, we have two elements right here.
+4:28
+Uh, we have our today's article, and we have our headline.
+4:30
+So what if we put this here in its own column, and then to the right, we have a place and space and time over here?
+4:38
+So instead of showing you exactly, uh, what I would do in in in terms of the CSS code to produce that because there's quite a few changes, I'm just gonna paste in, uh, all of the CSS to completely change it up.
+4:57
+Alright.
+4:57
+Now take a look at this.
+5:00
+So hopefully, you could see now that with just small changes, you can really come up with a lot.
+5:08
+And I mean, a ton of different varieties in terms of just having literally a headline and just a label.
+5:16
+So hopefully, you know, throughout this chapter, you've been able to see there's many, many subjective choices that you can make, all that work.
+5:26
+And they all work as long as you're minding your solid UI design fundamentals.

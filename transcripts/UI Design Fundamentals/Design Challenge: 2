@@ -1,0 +1,193 @@
+Transcript
+0:01
+Welcome to the second design code challenge.
+0:05
+So we can see this monstrosity in front of us in the mini browser.
+0:09
+And, yes, it is very, very ugly.
+0:11
+In fact, it's the most ugly thing I've presented to you so far, and that's because we're gonna be reviewing the UI design fundamentals that we've covered so far, and there's four of them.
+0:21
+So white space, alignment, contrast, and scale.
+0:25
+And that's what I want you to use in order to improve this and make it look a thousand times better.
+0:32
+It's sort of hard to imagine that we could make this much better, but with CSS properties, we certainly can and we will.
+0:41
+So I want to take a look at the HTML first just to describe what's happening.
+0:45
+We have a div class of container, and that is a CSS grid just to get our cards uh, organized here.
+0:53
+We have a grid gap in here.
+0:55
+And then we have our div class card.
+0:57
+Uh, all this HTML is repeated twice right here.
+1:00
+It's exactly the same.
+1:02
+And the card itself is also a CSS grid with two columns, a span, which is in reference to this fake avatar right here, and also the div class content, which is the second column right here.
+1:15
+So looking at the index CSS, this is all the regular CSS rule sets and properties to achieve what you see here.
+1:22
+And then down at the bottom is where I want your solution to go.
+1:26
+So in the comment, you can see your fixes will go in here.
+1:30
+You don't have to use all of these rule sets.
+1:32
+You can use more or less if you wish.
+1:34
+But this is what my solution used essentially.
+1:38
+And my solution also included using the following properties of width, background, padding, margin, text transform, font size, letter spacing, and color.
+1:47
+Now a couple of those, like letter spacing and text transform, I that's just a personal sort of preference that I added.
+1:54
+You don't have to add that.
+1:56
+And, also, one thing that's very important to understand is that when it comes to design in general and UI design, certainly, there is a degree of subjectivity.
+2:06
+So your result may look different than mine, but it still may be effective UI design.
+2:12
+So hopefully, you understand that.
+2:14
+We're just focused on getting the objective criteria correct across those four UI design fundamentals.
+2:20
+So go ahead and pause and come up with here using these role sets and others if you wish with a way to make this look better in terms of those four UI design fundamentals and then come back.
+2:38
+Okay.
+2:39
+So, hopefully, you were able to come up with something that was pretty good.
+2:44
+And what I'm gonna do is show you what I personally would have done.
+2:49
+And, again, there's a million ways to pull this off effectively, and I'm just gonna show you one such way.
+2:55
+Okay.
+2:56
+So the first thing I really want to address is the lack of white space around the container here in these cards.
+3:04
+So the containing element is a container rule set here.
+3:08
+So we're gonna give it a width of ninety percent.
+3:12
+Again, you could probably use padding for that.
+3:14
+All you wanna make sure is that you actually have space around your elements here.
+3:19
+So that achieved that.
+3:21
+Next up are the cards.
+3:23
+The cards are lacking in white space with the foreground elements and the text on top of it.
+3:29
+So we have a couple options.
+3:31
+We could take the text and make it white, and that would certainly increase the contrast.
+3:38
+But we could also, instead of that, we could dim out this background container significantly.
+3:45
+See, when it comes to contrast, you want a lot of contrast on important elements that a person has to interact with or use or read, like type here.
+3:54
+But when it comes to other elements, like this container element, you don't have that requirement.
+3:59
+So you can have very little contrast, and it would still look good and be effective.
+4:03
+So what I'm gonna do is I'm gonna place in a background property and we're gonna give it a specific color code of two c three zero three one.
+4:12
+So let's look at it now and see what happens.
+4:15
+Alright.
+4:15
+So that looks pretty good although overall it's still bad because we have other areas that we have to adjust.
+4:20
+Next up, I wanna adjust the padding or the white space inside of the container.
+4:24
+There's none essentially.
+4:25
+So let's fix that inside of the card.
+4:29
+So we have padding, and I'll do have my caps lock.
+4:33
+Padding of one point five e m.
+4:36
+So let's check that out.
+4:38
+Now that looks much, much better already.
+4:41
+And next up, we have our date right here.
+4:45
+I just wanna make a few adjustments on that.
+4:47
+And these are kind of personal preferences.
+4:51
+So I'm gonna change the text transform to upper case.
+4:56
+And I'm gonna change the font size to point seven five em to make it a little bit smaller.
+5:02
+Letter spacing at point one em to space them out further.
+5:05
+Let's check it out so far.
+5:08
+Alright.
+5:08
+There we go.
+5:09
+And also, we'll do color.
+5:13
+And I'm gonna do seven a eight five eight seven.
+5:20
+And by the way, you may be wondering where am I pulling these values from?
+5:24
+Well, essentially, when I'm preparing this lesson and other lessons, I do have a UI design application, Adobe XD or Adobe Experience Design, and I'm able to grab those values out.
+5:35
+Let's also add a margin bottom of point four e m here.
+5:43
+Alright.
+5:43
+So it pushes it down slightly.
+5:45
+Now the next up, we have an issue with alignment.
+5:47
+So we have these three elements in the same column, but it's pushed over this title.
+5:51
+So it's really throwing off the flow of the design.
+5:54
+So let's take our h three element, and let's do margin.
+5:58
+Zero on the top, zero on the right and left, and then point three e m on the bottom.
+6:07
+There we go.
+6:08
+And then also, I wanna change the color here to something brighter.
+6:14
+B six e a f f works.
+6:18
+There it goes.
+6:20
+And then finally, we're gonna do a font size
+6:24
+of one point eight e m.
+6:28
+Alright.
+6:29
+So look at that.
+6:31
+It looks pretty solid right now, and that's because we addressed those four UI design fundamentals.
+6:38
+So let's show I'm gonna show you the before and then this after again so you can really see the difference.
+6:45
+So I'm going to simply remove all this.
+6:49
+This is what it looked like.
+6:53
+And this is what it looks like now.
+6:54
+It is a massive difference.
+6:56
+Let me do that one more time so that we can take this into free mode so that you can see what's happening here in real time as we adjust these.
+7:07
+It's going from that to this.
+7:11
+So much better.

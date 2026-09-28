@@ -1,0 +1,131 @@
+Transcript
+0:00
+Right.
+0:00
+Welcome to this lesson where we're going to start defining the HTML for a fictional landing page for, you know, just a fake service, uh, basically a SaaS service.
+0:10
+And so initially, throughout, you know, this, you know, first half of this chapter even more so, we're not gonna be touching animation because I wanna build out the project first because we still have to have something that looks well in terms of being responsive design and works well before we could start to add the animation.
+0:28
+So you should always get the actual design looking great statically without animation before you get to that point.
+0:34
+And it's also gonna give us another opportunity to really help solidify, yeah, the the UI design fundamentals because the only way you're gonna get good at UI design is there's repetition, essentially.
+0:46
+You're not just gonna walk this you know, watch this course and then be able to produce great design unless you practice it.
+0:52
+So that's what we're doing here initially.
+0:54
+So let's go ahead and get rid of these two elements,
+0:59
+And we'll go ahead and specify just a wrapper
+1:03
+right here.
+1:06
+And there's not a lot of HTML.
+1:08
+We'll breeze through this pretty quickly.
+1:10
+Um, you can see we have a few SVG files that I've prepared.
+1:14
+There's just, like, a simple phone SVG.
+1:16
+We're gonna add this, and I'm gonna use that as a background element.
+1:21
+Um, I'll probably, you know, create some sort of challenge, uh, for you to implement this correctly.
+1:28
+And then we're also gonna have a a div class of, um, call and then left.
+1:33
+So we're gonna have basically on desktop at least, it's gonna be a left and right column, so a two column layout.
+1:41
+Inside of left, we're going to have another div class to act like a wrapper called inner content.
+1:50
+You'll see the purpose of this, uh, in terms of my solutions at least.
+1:53
+Um, a paragraph, a class of subheading.
+1:57
+Subheading is gonna go on top this time.
+2:00
+This is gonna say the most comprehensive.
+2:03
+There we go.
+2:04
+And then we're gonna have an h one,
+2:08
+analytics data
+2:11
+for your apps.
+2:13
+This would be some type of service that provides analytics data based on traffic and usage and all that stuff.
+2:20
+Then we're gonna have a, uh, a link called an action button.
+2:26
+Give it a shot.
+2:29
+Alright.
+2:29
+That's good.
+2:30
+And then after this second closing div tag, we're gonna have a div class of call, column, and write.
+2:40
+Out of here, we're gonna have simply an unordered list, which will contain three different testimonials.
+2:47
+And that will be right aligned on desktop.
+2:48
+Of course, it's gonna collapse at the bottom on mobile.
+2:51
+So we're gonna have a list item.
+2:55
+Inside of here, inside of the list item, we're gonna have an image source person dot j p g.
+3:02
+We're also gonna have a div class, and this will be a quote.
+3:08
+And this is just some warm ipsum text.
+3:11
+So I'm gonna copy this off the side of the screen and then paste it in here.
+3:17
+Right?
+3:17
+And then we'll also have a paragraph, a class auth for the author.
+3:23
+We'll just put my name, Gary Simon.
+3:24
+You could put John Doe, whatever.
+3:27
+And then we'll go ahead and consider that part done.
+3:31
+Alright?
+3:31
+Uh, before we get to that though, I think I, yeah, I left I left that one div tag.
+3:36
+Div class equals info.
+3:38
+So we're we're creating a wrapper around all of this as well.
+3:42
+So let's go ahead and do that.
+3:47
+Alright.
+3:47
+So, uh, we have our div class, then we have our paragraph.
+3:54
+This is actually supposed to be a paragraph.
+3:56
+There we go.
+3:57
+So two paragraphs and that div right here.
+4:01
+Okay.
+4:01
+So now we'll just take this, that list item, and just paste it, uh, twice.
+4:08
+So we have three of them.
+4:09
+And that's it.
+4:10
+Alright.
+4:11
+So let's go ahead and save this.
+4:12
+Of course, it's gonna look very messed up for now, but that's okay.
+4:17
+It's expected.
+4:19
+And in the next lesson, we're gonna go ahead and start defining the structure of this in terms of CSS.

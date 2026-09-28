@@ -1,0 +1,85 @@
+Transcript
+0:01
+Contrast is defined as being in a strikingly different state from something else.
+0:06
+Every element in a user interface by nature has a certain amount of contrast based on the background that's behind it.
+0:12
+So this is true for button text that's positioned on a button background.
+0:16
+It's true for the button background that's positioned on a card, and it's true for the card that's positioned on a layout.
+0:23
+Now the WCAG, which is an acronym for Web Content Accessibility Guidelines, two point o color contrast guidelines are there to ensure that your type based elements on your layout are accessible to those with vision impairment issues.
+0:40
+So there are two variations, the minimum and then the enhanced.
+0:43
+The minimum is referred to as double a, and it's simply the visual presentation of text and images of text has a contrast ratio of at least four point five to one, except for large text, which should have a contrast ratio of at least three to one.
+0:58
+The enhanced version is the same exact thing, except the baseline contrast ratio should be seven to one instead of the previous four point five to one, and large text should be at least four point five to one instead of the three point o to one previously.
+1:14
+So you may be wondering, how do I know how my elements are contrasting?
+1:20
+Well, there are browser plugins for Chrome and Firefox.
+1:23
+If you simply just search for WCAG contrast plugin or something like that, you'll find them.
+1:29
+There are websites where you can place in the different values.
+1:32
+And then there's, uh, UI design application plug ins such as Sketch and Figma and Adobe Experience Design.
+1:40
+So let's go ahead and check out an example.
+1:43
+In the mini browser, we can see that we have this very simple layout with this hero section with a headline, sub headline in the button.
+1:54
+So there's hardly any contrast with this element right here.
+1:59
+It's quite a bit harder to read than up here.
+2:02
+And also, there's not enough contrast in the Explore Now button.
+2:06
+In fact, I checked out what the color contrast ratios were between these two elements.
+2:11
+In the sub headline right here where it says come and witness our amazing mountain views is only one point eight two to one color contrast ratio.
+2:20
+Remember, we need to get that to four point five to one at least.
+2:24
+And the button here is only two point four six to one, and we need to get that as well to four point five.
+2:31
+So here's our index dot CSS, and I'm gonna come down here and override just a couple elements.
+2:38
+So first, we're going to target the paragraph element, which is in relation to this right here.
+2:46
+And we're going to change that to a different color.
+2:50
+Now if we want a maximum contrast, we would simply change it to black because this is a light background.
+2:57
+But you don't always have to use black.
+2:59
+I'm gonna use this color code, zero zero two a four e.
+3:06
+I'll go ahead and save this.
+3:10
+And now we can see it's coming out a lot better.
+3:14
+Now what about the back background and foreground elements of the button itself?
+3:19
+So we'll target a, which is the selector for it.
+3:24
+Background, we'll say this is zero zero six b c six.
+3:32
+Now let's go ahead and save that.
+3:33
+We could see now the button background now contrasts much better based on this background image here.
+3:41
+And then still we have an issue with the foreground element of the the button label text, so we'll use the color property.
+3:48
+We'll just make this white.
+3:50
+So now it contrasts much, much, much better.
+3:55
+So in fact, after checking the color contrast, the sub headline up here is now a seven point six to one color contrast ratio, which is great.
+4:04
+And the button now is five point three to one color contrast ratio, which is above the baseline four point five one double a rating.
+4:14
+So contrast comes into play in more than just type elements.
+4:18
+So as we proceed throughout this course, you're going to get a lot more experience with setting contrast.

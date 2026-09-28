@@ -1,0 +1,173 @@
+Transcript
+0:00
+Alright.
+0:00
+Welcome to this lesson where we're going to have a few challenges embedded within.
+0:04
+Specifically, there's going to be two challenges, and that's really just because we have the time.
+0:08
+We're only dealing with one CSS property.
+0:10
+So the challenge here, the very first challenge in this lesson, is to add a soft shadow onto this card element.
+0:19
+Alright?
+0:19
+Specifically around this white container.
+0:22
+Now first, before I get to more of the specifics about what I want you to do, I want you to realize in this case, if you had a card like this and this entire design in this background, you don't have to add a shadow.
+0:35
+The important part to realize is that you could get along with this this flat, minimalistic design just fine.
+0:41
+And your decision to add a shadow onto it would be a subjective decision as long as you know how to apply them, which is the whole point of this chapter anyhow.
+0:51
+So I want you to add a soft shadow.
+0:53
+So a soft shadow is one with using the box shadow property where you have a good amount of blur radius.
+1:00
+Alright?
+1:01
+So I'm gonna show you the CSS.
+1:03
+So it is this card element here in the CSS that is responsible for this background property right here and this this whole container.
+1:11
+And you can see I have two comments here.
+1:13
+Um, the first comment is the box shadow property.
+1:15
+That's we're gonna use to add the shadow.
+1:17
+Um, and then I'm just outlining the few different parameters that make up this box shadow property.
+1:24
+There's others, but I just wanna focus on these four.
+1:27
+So the first one, uh, is the horizontal.
+1:30
+Alright?
+1:30
+And so that's, like, how far horse like, horizontal on a row or whatever that is going to push, uh, the shadow out.
+1:36
+So this is here's an example of ten pixels.
+1:39
+Vertical is ten pixels.
+1:40
+Blur is ten pixels, for instance.
+1:43
+And then for the color, I find that using RGBA, uh, and a stands for alpha.
+1:49
+And that's where you can uh, specify, you know, how how much contrast, uh, is in the shadow.
+1:56
+Zero zero zero is, uh, black, which pretty much works well for a shadow, of course.
+2:01
+So if I were to uncomment or just, uh, for instance, I'm gonna copy this whole section right here.
+2:08
+I'm gonna get rid of that.
+2:10
+And I ordered so take this example right here, paste it in.
+2:14
+We'll see that it produce it produces this type of shadow.
+2:18
+Alright?
+2:19
+So I want you to use these values here, and I pretty much want you to stick with the the ten pixels by ten pixels by ten pixels right now.
+2:28
+But I want you to adjust this value right here, the opacity value, uh, so that it works well.
+2:35
+And then, uh, after you pause and you do that, you'll come back and watch what I would do.
+2:41
+And I'm gonna give you a certain rule in terms of an alpha percentage, for a soft shadow.
+2:47
+So go ahead and pause now.
+2:52
+Alright.
+2:53
+So hopefully, you came up with something that was good.
+2:56
+So, you know, remembering going back to the very first lesson in this chapter, I mentioned the very important part about shadows where the shadow should be an afterthought.
+3:07
+Alright.
+3:08
+It shouldn't really draw too much attention to itself.
+3:11
+And that's what's happening here in the case of this shadow, which happens to be at fifty or point five, you know, fifty percent or point five of opacity.
+3:20
+And so you wanna go a lot further down.
+3:23
+You don't want this much contrast in this type of context, uh, where we have a soft shadow and a white container and a light background.
+3:32
+So what I want you to do is we need to go no more than around, I would say, twelve percent.
+3:41
+So point one two would probably be the most contrast that I want you to add with a soft shadow in this type of context here.
+3:49
+Alright.
+3:50
+If we go like I mentioned, if we go up above maybe even to twenty percent, it just starts to to stick out a little bit too much for my liking.
+3:59
+Now, of course, it's not horrible.
+4:01
+It's not like fifty percent or eighty percent.
+4:03
+Um, but nonetheless, I think a a good maximum threshold is prior rate around twelve percent.
+4:10
+Uh, for me, I like point one at ten percent, and it's just very, very subtle.
+4:15
+It's not something that you just sticks out at you and I you know, your your your attention is still on the the content.
+4:21
+My card, you know, this this section right here and the call to action, of course.
+4:26
+So for this second challenge, I'm gonna ask you to create a hard shadow.
+4:33
+Alright.
+4:34
+So a hard shadow would be one where this element right here or this parameter, the blur parameter, would be, uh, brought down quite a bit from ten pixels.
+4:43
+Alright?
+4:43
+And so go ahead and pause, and I'm going to show you my thoughts about what to do when you're dealing with a hard shadow or if you want the hard shadow aesthetic on a given UI element.
+4:54
+So go ahead and pause now.
+4:59
+Okay.
+4:59
+So hopefully you're able to come up with something that works well.
+5:03
+I Here's what I would basically do.
+5:05
+Um, for this one, I'm gonna take zero pixels because you can do that on the horizontal axis.
+5:11
+So it's gonna be even on the left and right.
+5:13
+I'm also going to take the vertical parameter, and we're gonna just make this four pixels.
+5:18
+So when it comes to hard shadows, generally, I like to get them a little bit closer to the element.
+5:22
+So these are gonna be lesser in value.
+5:25
+And then for this value right here, I'm just gonna make it three pixels.
+5:29
+Alright.
+5:30
+So looking at it now, it creates a real subtle, really nice shadow.
+5:36
+I if you went higher, you know, perhaps to, like, twenty percent, that's the maximum that I would do.
+5:43
+So the role sort of sort of changes.
+5:45
+When it comes to a soft a big soft shadow and and and, really, if you have a really big soft shadow, you would probably wanna go less than twelve percent.
+5:53
+Um, but when it comes to the to the previous example, I said don't go more than twelve percent.
+5:58
+Well, this one, we have a little bit more legroom to increase the, uh, uh, the the contrast of the shadow because there's less shadow there.
+6:07
+There's less to distract the eye.
+6:08
+It's not as big.
+6:10
+Alright.
+6:10
+So hopefully you you understand what I mean.
+6:13
+So I wanna go more than twenty percent because if we go up to say, you know, forty percent, that's taking, you know, quite quite a bit of attention to the eye, and it's unnecessary, uh, in in in the context of a shadow.
+6:27
+So, uh, maybe you could do something like this if you had a hover and yet a a bunch of cards, that would be fine.
+6:33
+Uh, but, really, I would would not go more than twenty, uh, like, right here, and that looks like it would work out quite well.
